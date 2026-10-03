@@ -1,6 +1,6 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **16** 个 fork，上游合计约 **981,958** star。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **16** 个 fork，上游合计约 **981,979** star。
 > 最后更新：2026-10-02。本文只做归档与说明，版权与所有权归各自上游作者。
 
 ## 一句话概览
@@ -15,13 +15,13 @@
 
 #### [OpenMontage](https://github.com/Hua2026-ai/OpenMontage)
 
-- **上游**：[calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) · ⭐ 62,540 · 语言 Python · [官网/主页](https://www.openmontage.video/) · fork 于 2026-10-02
+- **上游**：[calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) · ⭐ 62,541 · 语言 Python · [官网/主页](https://www.openmontage.video/) · fork 于 2026-10-02
 - **作用**：开源的「Agentic 视频制作系统」，内置 12 条生产流水线、100+ 工具、700+ Agent 技能与制作知识文件，目标是把 AI 编码助手扩展成一整套视频工作室。
 - **官方描述**：World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.
 
 #### [VoiceStudio](https://github.com/Hua2026-ai/VoiceStudio)
 
-- **上游**：[debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) · ⭐ 52,139 · 语言 Python · [官网/主页](https://voicestudio.sh) · fork 于 2026-09-27
+- **上游**：[debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) · ⭐ 52,142 · 语言 Python · [官网/主页](https://voicestudio.sh) · fork 于 2026-09-27
 - **作用**：完全本地运行的语音工作台：声音克隆、语音设计、视频配音、听写、转写、有声书制作，官方称支持 646 种语言。可以理解为 ElevenLabs 的开源自托管替代品。
 - **官方描述**：VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
 
@@ -33,7 +33,7 @@
 
 #### [goutoujunshi](https://github.com/Hua2026-ai/goutoujunshi)
 
-- **上游**：[shengjidaguai-china/goutoujunshi](https://github.com/shengjidaguai-china/goutoujunshi) · ⭐ 6,684 · 语言 Python · fork 于 2026-10-03
+- **上游**：[shengjidaguai-china/goutoujunshi](https://github.com/shengjidaguai-china/goutoujunshi) · ⭐ 6,686 · 语言 Python · fork 于 2026-10-03
 - **作用**：「狗头军师」：一个先接住情绪、再分析关系并给出可执行策略的 AI 恋爱/关系军师，内置心理、法律、社会、人文、哲学、婚姻家庭与性学知识库，支持多元关系。fork 自 shengjidaguai-china/goutoujunshi（上游约 6.7k★）。
 - **官方描述**：一个先接住情绪、再分析关系并给出可执行策略的 Codex 恋爱军师，内置心理、法律、社会、人文、哲学、婚姻家庭与性学知识库，支持多元关系。
 
@@ -53,7 +53,7 @@
 
 #### [clash](https://github.com/Hua2026-ai/clash)
 
-- **上游**：[clashbk/clash](https://github.com/clashbk/clash) · ⭐ 9,164 · 语言 - · [官网/主页](https://github.com/clashbk/clash) · fork 于 2026-09-27
+- **上游**：[clashbk/clash](https://github.com/clashbk/clash) · ⭐ 9,165 · 语言 - · [官网/主页](https://github.com/clashbk/clash) · fork 于 2026-09-27
 - **作用**：Clash 官网各版本的下载地址与备份下载地址汇总（一个资源索引仓库，不是内核源码）。
 - **官方描述**：Clash官网各版本Clash下载地址及备份下载地址
 
@@ -61,7 +61,7 @@
 
 #### [awesome](https://github.com/Hua2026-ai/awesome)
 
-- **上游**：[sindresorhus/awesome](https://github.com/sindresorhus/awesome) · ⭐ 513,862 · 语言 - · fork 于 2026-07-25
+- **上游**：[sindresorhus/awesome](https://github.com/sindresorhus/awesome) · ⭐ 513,863 · 语言 - · fork 于 2026-07-25
 - **作用**：Awesome 系列清单的总索引，几乎所有「xxx awesome list」都能从这里顺藤摸瓜找到。
 - **官方描述**：😎 Awesome lists about all kinds of interesting topics
 
@@ -79,7 +79,7 @@
 
 #### [HowToLiveBetter](https://github.com/Hua2026-ai/HowToLiveBetter)
 
-- **上游**：[eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) · ⭐ 36,181 · 语言 HTML · [官网/主页](https://eternity4719.github.io/HowToLiveBetter/) · fork 于 2026-09-24
+- **上游**：[eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) · ⭐ 36,192 · 语言 HTML · [官网/主页](https://eternity4719.github.io/HowToLiveBetter/) · fork 于 2026-09-24
 - **作用**：按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业工伤、医保社保、恋爱婚育、怀孕育儿、创业合规、出国与技能。每条都标注成本、收益、证据等级和原始出处，只引用期刊论文与官方文件。
 - **官方描述**：按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。
 
@@ -87,7 +87,7 @@
 
 #### [DiPlay](https://github.com/Hua2026-ai/DiPlay)
 
-- **上游**：[shihabal3amri/DiPlay](https://github.com/shihabal3amri/DiPlay) · ⭐ 2,724 · 语言 Kotlin · [官网/主页](https://shihabal3amri.github.io/DiPlay/) · fork 于 2026-09-29
+- **上游**：[shihabal3amri/DiPlay](https://github.com/shihabal3amri/DiPlay) · ⭐ 2,726 · 语言 Kotlin · [官网/主页](https://shihabal3amri.github.io/DiPlay/) · fork 于 2026-09-29
 - **作用**：面向 Android 车机的独立 CarPlay 接收器，支持有线与无线（公开预览版）。
 - **官方描述**：Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview.
 
@@ -120,27 +120,27 @@
 
 | 仓库 | 上游 | ⭐ | 语言 | 分类 |
 | --- | --- | --- | --- | --- |
-| [awesome](https://github.com/Hua2026-ai/awesome) | [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 513,862 | - | 学习 / 资源索引 |
+| [awesome](https://github.com/Hua2026-ai/awesome) | [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 513,863 | - | 学习 / 资源索引 |
 | [HelloGitHub](https://github.com/Hua2026-ai/HelloGitHub) | [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) | 179,810 | Python | 学习 / 资源索引 |
 | [ChinaTextbook](https://github.com/Hua2026-ai/ChinaTextbook) | [TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook) | 82,507 | Roff | 学习 / 资源索引 |
-| [OpenMontage](https://github.com/Hua2026-ai/OpenMontage) | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | 62,540 | Python | AI / 语音与视频生成 |
-| [VoiceStudio](https://github.com/Hua2026-ai/VoiceStudio) | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 52,139 | Python | AI / 语音与视频生成 |
-| [HowToLiveBetter](https://github.com/Hua2026-ai/HowToLiveBetter) | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | 36,181 | HTML | 学习 / 资源索引 |
+| [OpenMontage](https://github.com/Hua2026-ai/OpenMontage) | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | 62,541 | Python | AI / 语音与视频生成 |
+| [VoiceStudio](https://github.com/Hua2026-ai/VoiceStudio) | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 52,142 | Python | AI / 语音与视频生成 |
+| [HowToLiveBetter](https://github.com/Hua2026-ai/HowToLiveBetter) | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | 36,192 | HTML | 学习 / 资源索引 |
 | [patent-disclosure-skill](https://github.com/Hua2026-ai/patent-disclosure-skill) | [handsomestWei/patent-disclosure-skill](https://github.com/handsomestWei/patent-disclosure-skill) | 10,931 | Python | AI / 语音与视频生成 |
 | [rectg](https://github.com/Hua2026-ai/rectg) | [rooktwo/rectg](https://github.com/rooktwo/rectg) | 9,302 | Python | Telegram 导航 |
-| [clash](https://github.com/Hua2026-ai/clash) | [clashbk/clash](https://github.com/clashbk/clash) | 9,164 | - | 网络工具 / 代理客户端 |
-| [goutoujunshi](https://github.com/Hua2026-ai/goutoujunshi) | [shengjidaguai-china/goutoujunshi](https://github.com/shengjidaguai-china/goutoujunshi) | 6,684 | Python | AI / 语音与视频生成 |
+| [clash](https://github.com/Hua2026-ai/clash) | [clashbk/clash](https://github.com/clashbk/clash) | 9,165 | - | 网络工具 / 代理客户端 |
+| [goutoujunshi](https://github.com/Hua2026-ai/goutoujunshi) | [shengjidaguai-china/goutoujunshi](https://github.com/shengjidaguai-china/goutoujunshi) | 6,686 | Python | AI / 语音与视频生成 |
 | [TelegramGroup](https://github.com/Hua2026-ai/TelegramGroup) | [itgoyo/TelegramGroup](https://github.com/itgoyo/TelegramGroup) | 5,853 | - | Telegram 导航 |
 | [SenseNova-Skills](https://github.com/Hua2026-ai/SenseNova-Skills) | [OpenSenseNova/SenseNova-Skills](https://github.com/OpenSenseNova/SenseNova-Skills) | 5,736 | JavaScript | AI / 语音与视频生成 |
 | [jianying-headless](https://github.com/Hua2026-ai/jianying-headless) | [mcncarl/jianying-headless](https://github.com/mcncarl/jianying-headless) | 2,951 | Python | AI / 语音与视频生成 |
-| [DiPlay](https://github.com/Hua2026-ai/DiPlay) | [shihabal3amri/DiPlay](https://github.com/shihabal3amri/DiPlay) | 2,724 | Kotlin | 车机 / 3D 与设计 |
+| [DiPlay](https://github.com/Hua2026-ai/DiPlay) | [shihabal3amri/DiPlay](https://github.com/shihabal3amri/DiPlay) | 2,726 | Kotlin | 车机 / 3D 与设计 |
 | [floorplan-3d](https://github.com/Hua2026-ai/floorplan-3d) | [wy51ai/floorplan-3d](https://github.com/wy51ai/floorplan-3d) | 1,343 | HTML | 车机 / 3D 与设计 |
 | [playport](https://github.com/Hua2026-ai/playport) | [youcci/playport](https://github.com/youcci/playport) | 231 | Kotlin | 车机 / 3D 与设计 |
 
 ## 说明
 
 - 这些都是 fork（备份/收藏性质），不是我本人的原创项目，本账号下唯一的自建仓库是私有的 `test-ai`。
-- **待删除**：以下 13 个 fork 已从本清单移除，仓库本身仍在删除流程中：`CMWTAT_Digital_Edition`、`ClashMetaForAndroid`、`TVBox`、`Telegram-Media-Downloader`、`awesome-zhuiju-free`、`clash-verge-rev`、`deepseek-harness-desktop`、`deepseek-harness-orange-book`、`dsh-desktop`、`free-vpn-anti-rkn`、`last30days-skill`、`search-plugins`、`xray-onexray-reality`。
+- 已清理掉一批不再需要的 fork（代理客户端、影视下载、部分 AI 资料类、系统工具等），本表为清理后的最新状态。
 - 网络代理类项目仅作技术资料归档，实际使用请遵守所在地法律法规与服务商条款，请勿用于任何违法用途。
 - 星标数取自上游仓库，会随时间变化；本表是 2026-10-02 的快照。
 
