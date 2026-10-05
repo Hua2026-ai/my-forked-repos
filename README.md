@@ -1,6 +1,6 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **24** 个 fork，上游合计约 **1,028,327** star。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **24** 个 fork，上游合计约 **1,028,337** star。
 > 最后更新：2026-10-02。本文只做归档与说明，版权与所有权归各自上游作者。
 
 ## 一句话概览
@@ -59,7 +59,7 @@
 
 #### [Octop](https://github.com/Hua2026-ai/Octop)
 
-- **上游**：[TencentCloud/Octop](https://github.com/TencentCloud/Octop) · ⭐ 6,761 · 语言 Python · [官网/主页](https://octop.cloud) · fork 于 2026-10-04
+- **上游**：[TencentCloud/Octop](https://github.com/TencentCloud/Octop) · ⭐ 6,763 · 语言 Python · [官网/主页](https://octop.cloud) · fork 于 2026-10-04
 - **作用**：腾讯云出品的**自托管 AI 助手**，支持多用户、多智能体（multi-agent）架构，可私有化部署。fork 自 TencentCloud/Octop（上游约 6.8k★）。
 - **官方描述**：A smarter, self-hosted AI assistant — multi-user, multi-agent.
 
@@ -77,7 +77,7 @@
 - **作用**：一个用于追踪地理位置或手机号的 OSINT（开源情报）/信息收集工具，Python 编写，菜单含 IP Tracker 等。注意：① 仓库**无许可证**（保留所有权利），使用与再分发请自行评估风险；② 此类工具属双用途，仅可用于合法授权的自查、授权渗透测试或学习研究，遵守所在地法律法规，切勿用于未经同意追踪他人等侵权/违法用途。fork 自 HunxByts/GhostTrack（上游约 17k★）。
 - **官方描述**：Useful tool to track location or mobile number
 
-#### [Ghosttrack-1](https://github.com/Hua2026-ai/Ghosttrack-1)
+#### [Ghosttrack-scanner](https://github.com/Hua2026-ai/Ghosttrack-scanner)
 
 - **上游**：[NexNoir/Ghosttrack](https://github.com/NexNoir/Ghosttrack) · ⭐ 11 · 语言 Python · fork 于 2026-10-05
 - **作用**：一个面向道德黑客/开发者/自动化玩家的终端式 Python 工具集，用于扫描网站、收集系统信息（“像幽灵一样追踪、转换、控制系统”）。注意：① 仓库**无许可证**（保留所有权利），使用与再分发请自行评估风险；② 仅可用于合法授权的授权测试/学习研究，遵守所在地法律法规，勿用于未授权扫描等侵权/违法用途。fork 自 NexNoir/Ghosttrack（上游约 11★）。
@@ -114,7 +114,7 @@
 
 #### [awesome](https://github.com/Hua2026-ai/awesome)
 
-- **上游**：[sindresorhus/awesome](https://github.com/sindresorhus/awesome) · ⭐ 514,721 · 语言 - · fork 于 2026-07-25
+- **上游**：[sindresorhus/awesome](https://github.com/sindresorhus/awesome) · ⭐ 514,722 · 语言 - · fork 于 2026-07-25
 - **作用**：Awesome 系列清单的总索引，几乎所有「xxx awesome list」都能从这里顺藤摸瓜找到。
 - **官方描述**：😎 Awesome lists about all kinds of interesting topics
 
@@ -132,7 +132,7 @@
 
 #### [HowToLiveBetter](https://github.com/Hua2026-ai/HowToLiveBetter)
 
-- **上游**：[eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) · ⭐ 40,794 · 语言 HTML · [官网/主页](https://eternity4719.github.io/HowToLiveBetter/) · fork 于 2026-09-24
+- **上游**：[eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) · ⭐ 40,799 · 语言 HTML · [官网/主页](https://eternity4719.github.io/HowToLiveBetter/) · fork 于 2026-09-24
 - **作用**：按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业工伤、医保社保、恋爱婚育、怀孕育儿、创业合规、出国与技能。每条都标注成本、收益、证据等级和原始出处，只引用期刊论文与官方文件。
 - **官方描述**：按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。
 
@@ -140,13 +140,13 @@
 
 #### [DiPlay](https://github.com/Hua2026-ai/DiPlay)
 
-- **上游**：[shihabal3amri/DiPlay](https://github.com/shihabal3amri/DiPlay) · ⭐ 3,951 · 语言 Kotlin · [官网/主页](https://shihabal3amri.github.io/DiPlay/) · fork 于 2026-09-29
+- **上游**：[shihabal3amri/DiPlay](https://github.com/shihabal3amri/DiPlay) · ⭐ 3,952 · 语言 Kotlin · [官网/主页](https://shihabal3amri.github.io/DiPlay/) · fork 于 2026-09-29
 - **作用**：面向 Android 车机的独立 CarPlay 接收器，支持有线与无线（公开预览版）。
 - **官方描述**：Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview.
 
 #### [floorplan-3d](https://github.com/Hua2026-ai/floorplan-3d)
 
-- **上游**：[wy51ai/floorplan-3d](https://github.com/wy51ai/floorplan-3d) · ⭐ 1,391 · 语言 HTML · fork 于 2026-09-29
+- **上游**：[wy51ai/floorplan-3d](https://github.com/wy51ai/floorplan-3d) · ⭐ 1,392 · 语言 HTML · fork 于 2026-09-29
 - **作用**：纯前端的户型装修设计工具：2D 平面图上摆家具、拆改墙体、量尺寸，一键切到 Three.js 3D 场景，可鸟瞰也可第一人称漫游；整个应用只有一个 index.html，无需构建。上游 README 无描述，此说明依据其 README 整理。
 
 #### [playport](https://github.com/Hua2026-ai/playport)
@@ -173,30 +173,30 @@
 
 | 仓库 | 上游 | ⭐ | 语言 | 分类 |
 | --- | --- | --- | --- | --- |
-| [awesome](https://github.com/Hua2026-ai/awesome) | [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 514,721 | - | 学习 / 资源索引 |
+| [awesome](https://github.com/Hua2026-ai/awesome) | [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 514,722 | - | 学习 / 资源索引 |
 | [HelloGitHub](https://github.com/Hua2026-ai/HelloGitHub) | [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) | 180,128 | Python | 学习 / 资源索引 |
 | [ChinaTextbook](https://github.com/Hua2026-ai/ChinaTextbook) | [TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook) | 82,556 | Roff | 学习 / 资源索引 |
 | [OpenMontage](https://github.com/Hua2026-ai/OpenMontage) | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | 63,269 | Python | AI / 语音与视频生成 |
 | [VoiceStudio](https://github.com/Hua2026-ai/VoiceStudio) | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 53,206 | Python | AI / 语音与视频生成 |
-| [HowToLiveBetter](https://github.com/Hua2026-ai/HowToLiveBetter) | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | 40,794 | HTML | 学习 / 资源索引 |
+| [HowToLiveBetter](https://github.com/Hua2026-ai/HowToLiveBetter) | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | 40,799 | HTML | 学习 / 资源索引 |
 | [GhostTrack](https://github.com/Hua2026-ai/GhostTrack) | [HunxByts/GhostTrack](https://github.com/HunxByts/GhostTrack) | 17,025 | Python | 安全 / OSINT 工具 |
 | [patent-disclosure-skill](https://github.com/Hua2026-ai/patent-disclosure-skill) | [handsomestWei/patent-disclosure-skill](https://github.com/handsomestWei/patent-disclosure-skill) | 10,989 | Python | AI / 语音与视频生成 |
 | [Wan2GP](https://github.com/Hua2026-ai/Wan2GP) | [deepbeepmeep/Wan2GP](https://github.com/deepbeepmeep/Wan2GP) | 9,988 | Python | AI / 语音与视频生成 |
 | [rectg](https://github.com/Hua2026-ai/rectg) | [rooktwo/rectg](https://github.com/rooktwo/rectg) | 9,310 | Python | Telegram 导航 |
 | [clash](https://github.com/Hua2026-ai/clash) | [clashbk/clash](https://github.com/clashbk/clash) | 9,214 | - | 网络工具 / 代理客户端 |
 | [goutoujunshi](https://github.com/Hua2026-ai/goutoujunshi) | [shengjidaguai-china/goutoujunshi](https://github.com/shengjidaguai-china/goutoujunshi) | 6,842 | Python | AI / 语音与视频生成 |
-| [Octop](https://github.com/Hua2026-ai/Octop) | [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 6,761 | Python | AI / 工具与 MCP |
+| [Octop](https://github.com/Hua2026-ai/Octop) | [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 6,763 | Python | AI / 工具与 MCP |
 | [TelegramGroup](https://github.com/Hua2026-ai/TelegramGroup) | [itgoyo/TelegramGroup](https://github.com/itgoyo/TelegramGroup) | 5,857 | - | Telegram 导航 |
 | [SenseNova-Skills](https://github.com/Hua2026-ai/SenseNova-Skills) | [OpenSenseNova/SenseNova-Skills](https://github.com/OpenSenseNova/SenseNova-Skills) | 5,741 | JavaScript | AI / 语音与视频生成 |
-| [DiPlay](https://github.com/Hua2026-ai/DiPlay) | [shihabal3amri/DiPlay](https://github.com/shihabal3amri/DiPlay) | 3,951 | Kotlin | 车机 / 3D 与设计 |
+| [DiPlay](https://github.com/Hua2026-ai/DiPlay) | [shihabal3amri/DiPlay](https://github.com/shihabal3amri/DiPlay) | 3,952 | Kotlin | 车机 / 3D 与设计 |
 | [jianying-headless](https://github.com/Hua2026-ai/jianying-headless) | [mcncarl/jianying-headless](https://github.com/mcncarl/jianying-headless) | 2,968 | Python | AI / 语音与视频生成 |
 | [12306-mcp](https://github.com/Hua2026-ai/12306-mcp) | [Joooook/12306-mcp](https://github.com/Joooook/12306-mcp) | 1,788 | JavaScript | AI / 工具与 MCP |
-| [floorplan-3d](https://github.com/Hua2026-ai/floorplan-3d) | [wy51ai/floorplan-3d](https://github.com/wy51ai/floorplan-3d) | 1,391 | HTML | 车机 / 3D 与设计 |
+| [floorplan-3d](https://github.com/Hua2026-ai/floorplan-3d) | [wy51ai/floorplan-3d](https://github.com/wy51ai/floorplan-3d) | 1,392 | HTML | 车机 / 3D 与设计 |
 | [myDV](https://github.com/Hua2026-ai/myDV) | [mytv-android/myDV](https://github.com/mytv-android/myDV) | 1,316 | - | 影音 / 下载 |
 | [hideck](https://github.com/Hua2026-ai/hideck) | [yibaiba/hideck](https://github.com/yibaiba/hideck) | 245 | Go | 网络工具 / 代理客户端 |
 | [playport](https://github.com/Hua2026-ai/playport) | [youcci/playport](https://github.com/youcci/playport) | 242 | Kotlin | 车机 / 3D 与设计 |
 | [net-test-kit](https://github.com/Hua2026-ai/net-test-kit) | [feiyuaq/net-test-kit](https://github.com/feiyuaq/net-test-kit) | 14 | - | 网络工具 / 代理客户端 |
-| [Ghosttrack-1](https://github.com/Hua2026-ai/Ghosttrack-1) | [NexNoir/Ghosttrack](https://github.com/NexNoir/Ghosttrack) | 11 | Python | 安全 / OSINT 工具 |
+| [Ghosttrack-scanner](https://github.com/Hua2026-ai/Ghosttrack-scanner) | [NexNoir/Ghosttrack](https://github.com/NexNoir/Ghosttrack) | 11 | Python | 安全 / OSINT 工具 |
 
 ## 说明
 
