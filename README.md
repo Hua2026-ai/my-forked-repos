@@ -1,6 +1,6 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **50** 个 fork，上游合计约 **1,485,040** star。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **50** 个 fork，上游合计约 **1,485,111** star。
 > 最后更新：2026-10-10。本文只做归档与说明，版权与所有权归各自上游作者。
 
 ## 一句话概览
@@ -21,7 +21,7 @@
 
 #### [VoiceStudio](https://github.com/Hua2026-ai/VoiceStudio)
 
-- **上游**：[debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) · ⭐ 56,387 · 语言 Python · [官网/主页](https://voicestudio.sh) · fork 于 2026-09-27
+- **上游**：[debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) · ⭐ 56,388 · 语言 Python · [官网/主页](https://voicestudio.sh) · fork 于 2026-09-27
 - **作用**：完全本地运行的语音工作台：声音克隆、语音设计、视频配音、听写、转写、有声书制作，官方称支持 646 种语言。可以理解为 ElevenLabs 的开源自托管替代品。
 - **官方描述**：VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
 
@@ -33,7 +33,7 @@
 
 #### [patent-disclosure-skill](https://github.com/Hua2026-ai/patent-disclosure-skill)
 
-- **上游**：[handsomestWei/patent-disclosure-skill](https://github.com/handsomestWei/patent-disclosure-skill) · ⭐ 11,217 · 语言 Python · [官网/主页](https://skillhub.cn/skills/patent-disclosure-skill) · fork 于 2026-10-02
+- **上游**：[handsomestWei/patent-disclosure-skill](https://github.com/handsomestWei/patent-disclosure-skill) · ⭐ 11,219 · 语言 Python · [官网/主页](https://skillhub.cn/skills/patent-disclosure-skill) · fork 于 2026-10-02
 - **作用**：中文专利技能包：专利点挖掘、发明/实用新型/外观设计三种交底书撰写、专利通俗解读、政策动向跟踪、审查意见答复辅助。主页 skillhub.cn。
 - **官方描述**：中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。
 
@@ -67,23 +67,23 @@
 - **作用**：「唇语输入」工具：按住按键、默念字词，文字就出现在光标处；完全本地运行于 Mac。fork 自 amywork777/lipflow（上游约 538★）。
 - **官方描述**：Wispr Flow for your lips: hold a key, silently mouth words, and they're typed at your cursor. Runs locally on your Mac.
 
-### AI / 工具与 MCP（11）
+### AI / 工具与 MCP（12）
 
 #### [Agent-Reach](https://github.com/Hua2026-ai/Agent-Reach)
 
-- **上游**：[Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) · ⭐ 94,954 · 语言 Python · fork 于 2026-10-08
+- **上游**：[Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) · ⭐ 94,956 · 语言 Python · fork 于 2026-10-08
 - **作用**：给 AI 智能体装上一双「看遍全网」的眼睛：一个 CLI 即可免 API 费用地阅读与搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书等。fork 自 Panniantong/Agent-Reach（上游约 93k★）。
 - **官方描述**：Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
 
 #### [rea](https://github.com/Hua2026-ai/rea)
 
-- **上游**：[morluto/rea](https://github.com/morluto/rea) · ⭐ 48,635 · 语言 TypeScript · [官网/主页](https://rea.tools) · fork 于 2026-10-09
+- **上游**：[morluto/rea](https://github.com/morluto/rea) · ⭐ 48,688 · 语言 TypeScript · [官网/主页](https://rea.tools) · fork 于 2026-10-09
 - **作用**：借助智能体对任意目标做逆向工程：从应用行为一路追到原生二进制层。fork 自 morluto/rea（上游约 35k★）。
 - **官方描述**：Reverse engineer anything with agents, from app behavior down to native binaries.
 
 #### [freellmapi](https://github.com/Hua2026-ai/freellmapi)
 
-- **上游**：[tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) · ⭐ 32,570 · 语言 TypeScript · [官网/主页](https://freellmapi.co) · fork 于 2026-10-07
+- **上游**：[tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) · ⭐ 32,571 · 语言 TypeScript · [官网/主页](https://freellmapi.co) · fork 于 2026-10-07
 - **作用**：免费 LLM API 聚合网关：每月 74 亿 token、34 家免费供应商、635 个免费模型端点，统一走一个 /v1 接口，支持自定义 OpenAI 兼容端点、智能路由与自动故障转移；作者声明仅供个人实验。fork 自 tashfeenahmed/freellmapi（上游约 31.7k★）。
 - **官方描述**：7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.
 
@@ -101,15 +101,21 @@
 
 #### [moli](https://github.com/Hua2026-ai/moli)
 
-- **上游**：[lexmount/moli](https://github.com/lexmount/moli) · ⭐ 14,917 · 语言 Rust · [官网/主页](https://browser.lexmount.com) · fork 于 2026-10-06
+- **上游**：[lexmount/moli](https://github.com/lexmount/moli) · ⭐ 14,920 · 语言 Rust · [官网/主页](https://browser.lexmount.com) · fork 于 2026-10-06
 - **作用**：为 AI 智能体打造的**无头浏览器**：轻量、快速、高兼容，Rust 编写，主页 browser.lexmount.com。fork 自 lexmount/moli（上游约 12.6k★）。
 - **官方描述**：Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust
 
 #### [Octop](https://github.com/Hua2026-ai/Octop)
 
-- **上游**：[TencentCloud/Octop](https://github.com/TencentCloud/Octop) · ⭐ 8,278 · 语言 Python · [官网/主页](https://octop.cloud) · fork 于 2026-10-04
+- **上游**：[TencentCloud/Octop](https://github.com/TencentCloud/Octop) · ⭐ 8,279 · 语言 Python · [官网/主页](https://octop.cloud) · fork 于 2026-10-04
 - **作用**：腾讯云出品的**自托管 AI 助手**，支持多用户、多智能体（multi-agent）架构，可私有化部署。fork 自 TencentCloud/Octop（上游约 6.8k★）。
 - **官方描述**：A smarter, self-hosted AI assistant — multi-user, multi-agent.
+
+#### [Open-Source-Face-Recognition-SDK](https://github.com/Hua2026-ai/Open-Source-Face-Recognition-SDK)
+
+- **上游**：[Faceplugin-ltd/Open-Source-Face-Recognition-SDK](https://github.com/Faceplugin-ltd/Open-Source-Face-Recognition-SDK) · ⭐ 2,387 · 语言 Python · [官网/主页](https://faceplugin.com/) · fork 于 2026-10-10
+- **作用**：开源人脸识别 SDK：覆盖人脸检测、活体检测、防伪（anti-spoofing）、人脸识别等能力，Python 实现，可作为本地生物识别方案的开发底座。注意：人脸识别属生物识别信息，在中国受《个人信息保护法》(PIPL)、在欧盟受 GDPR 严格规制；仅可用于合法授权场景（如本人设备解锁、经同意的门禁/核验），务必做好数据最小化与告知同意，切勿用于未授权采集或监控。fork 自 Faceplugin-ltd/Open-Source-Face-Recognition-SDK（上游约 2.4k★）。
+- **官方描述**：Face Recognition, Face Liveness Detection, Face Anti-Spoofing, Face Detection, Face Landmarks, Face Compare, Face Matching, Face Pose, Face Expression, Face Attributes, Face Templates Extraction, Face Landmarks
 
 #### [12306-mcp](https://github.com/Hua2026-ai/12306-mcp)
 
@@ -158,7 +164,7 @@
 
 #### [UFI-TOOLS](https://github.com/Hua2026-ai/UFI-TOOLS)
 
-- **上游**：[kanoqwq/UFI-TOOLS](https://github.com/kanoqwq/UFI-TOOLS) · ⭐ 2,630 · 语言 JavaScript · fork 于 2026-10-06
+- **上游**：[kanoqwq/UFI-TOOLS](https://github.com/kanoqwq/UFI-TOOLS) · ⭐ 2,631 · 语言 JavaScript · fork 于 2026-10-06
 - **作用**：针对 ZTE 随身 WiFi 设备（F50 / U30 Air 等）的第三方功能工具集。fork 自 kanoqwq/UFI-TOOLS（上游约 2.6k★）。
 - **官方描述**：A functional tools for z*e devices (F50 | U30 Air)
 
@@ -197,7 +203,7 @@
 
 #### [awesome](https://github.com/Hua2026-ai/awesome)
 
-- **上游**：[sindresorhus/awesome](https://github.com/sindresorhus/awesome) · ⭐ 516,821 · 语言 - · fork 于 2026-07-25
+- **上游**：[sindresorhus/awesome](https://github.com/sindresorhus/awesome) · ⭐ 516,822 · 语言 - · fork 于 2026-07-25
 - **作用**：Awesome 系列清单的总索引，几乎所有「xxx awesome list」都能从这里顺藤摸瓜找到。
 - **官方描述**：😎 Awesome lists about all kinds of interesting topics
 
@@ -215,7 +221,7 @@
 
 #### [HowToLiveBetter](https://github.com/Hua2026-ai/HowToLiveBetter)
 
-- **上游**：[eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) · ⭐ 57,238 · 语言 HTML · [官网/主页](https://eternity4719.github.io/HowToLiveBetter/) · fork 于 2026-09-24
+- **上游**：[eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) · ⭐ 57,242 · 语言 HTML · [官网/主页](https://eternity4719.github.io/HowToLiveBetter/) · fork 于 2026-09-24
 - **作用**：按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业工伤、医保社保、恋爱婚育、怀孕育儿、创业合规、出国与技能。每条都标注成本、收益、证据等级和原始出处，只引用期刊论文与官方文件。
 - **官方描述**：按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。
 
@@ -320,38 +326,34 @@
 - **作用**：微软奖励（Microsoft Rewards）自动脚本，在他人脚本基础上做了中文环境本地化。fork 自 chiihero/Microsoft-Rewards-Script（上游约 503★）。
 - **官方描述**：微软奖励脚本，基于他人脚本实现中文环境的本地化
 
-### 其他
-
-- [Open-Source-Face-Recognition-SDK](https://github.com/Hua2026-ai/Open-Source-Face-Recognition-SDK) —— 上游 [Faceplugin-ltd/Open-Source-Face-Recognition-SDK](https://github.com/Faceplugin-ltd/Open-Source-Face-Recognition-SDK)
-
 ## 总表
 
 | 仓库 | 上游 | ⭐ | 语言 | 分类 |
 | --- | --- | --- | --- | --- |
-| [awesome](https://github.com/Hua2026-ai/awesome) | [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 516,821 | - | 学习 / 资源索引 |
+| [awesome](https://github.com/Hua2026-ai/awesome) | [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 516,822 | - | 学习 / 资源索引 |
 | [HelloGitHub](https://github.com/Hua2026-ai/HelloGitHub) | [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) | 180,944 | Python | 学习 / 资源索引 |
-| [Agent-Reach](https://github.com/Hua2026-ai/Agent-Reach) | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 94,954 | Python | AI / 工具与 MCP |
+| [Agent-Reach](https://github.com/Hua2026-ai/Agent-Reach) | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 94,956 | Python | AI / 工具与 MCP |
 | [ChinaTextbook](https://github.com/Hua2026-ai/ChinaTextbook) | [TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook) | 82,692 | Roff | 学习 / 资源索引 |
 | [OpenMontage](https://github.com/Hua2026-ai/OpenMontage) | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | 65,874 | Python | AI / 语音与视频生成 |
 | [Win11Debloat](https://github.com/Hua2026-ai/Win11Debloat) | [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) | 58,916 | PowerShell | 系统工具 |
-| [HowToLiveBetter](https://github.com/Hua2026-ai/HowToLiveBetter) | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | 57,238 | HTML | 学习 / 资源索引 |
-| [VoiceStudio](https://github.com/Hua2026-ai/VoiceStudio) | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 56,387 | Python | AI / 语音与视频生成 |
-| [rea](https://github.com/Hua2026-ai/rea) | [morluto/rea](https://github.com/morluto/rea) | 48,635 | TypeScript | AI / 工具与 MCP |
+| [HowToLiveBetter](https://github.com/Hua2026-ai/HowToLiveBetter) | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | 57,242 | HTML | 学习 / 资源索引 |
+| [VoiceStudio](https://github.com/Hua2026-ai/VoiceStudio) | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 56,388 | Python | AI / 语音与视频生成 |
+| [rea](https://github.com/Hua2026-ai/rea) | [morluto/rea](https://github.com/morluto/rea) | 48,688 | TypeScript | AI / 工具与 MCP |
 | [cobalt](https://github.com/Hua2026-ai/cobalt) | [imputnet/cobalt](https://github.com/imputnet/cobalt) | 44,807 | Svelte | 影音 / 下载 |
-| [freellmapi](https://github.com/Hua2026-ai/freellmapi) | [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) | 32,570 | TypeScript | AI / 工具与 MCP |
+| [freellmapi](https://github.com/Hua2026-ai/freellmapi) | [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) | 32,571 | TypeScript | AI / 工具与 MCP |
 | [knowledge-work-plugins](https://github.com/Hua2026-ai/knowledge-work-plugins) | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | 28,312 | Python | AI / 工具与 MCP |
 | [hypit](https://github.com/Hua2026-ai/hypit) | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 20,604 | TypeScript | AI / 工具与 MCP |
 | [GhostTrack](https://github.com/Hua2026-ai/GhostTrack) | [HunxByts/GhostTrack](https://github.com/HunxByts/GhostTrack) | 17,879 | Python | 安全 / OSINT 工具 |
 | [lingbot-map](https://github.com/Hua2026-ai/lingbot-map) | [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map) | 17,741 | Python | 车机 / 3D 与设计 |
 | [vibe-coding-cn](https://github.com/Hua2026-ai/vibe-coding-cn) | [tradecatlabs/vibe-coding-cn](https://github.com/tradecatlabs/vibe-coding-cn) | 17,364 | Python | 学习 / 资源索引 |
 | [huobao-drama](https://github.com/Hua2026-ai/huobao-drama) | [chatfire-AI/huobao-drama](https://github.com/chatfire-AI/huobao-drama) | 15,921 | Vue | AI / 语音与视频生成 |
-| [moli](https://github.com/Hua2026-ai/moli) | [lexmount/moli](https://github.com/lexmount/moli) | 14,917 | Rust | AI / 工具与 MCP |
-| [patent-disclosure-skill](https://github.com/Hua2026-ai/patent-disclosure-skill) | [handsomestWei/patent-disclosure-skill](https://github.com/handsomestWei/patent-disclosure-skill) | 11,217 | Python | AI / 语音与视频生成 |
+| [moli](https://github.com/Hua2026-ai/moli) | [lexmount/moli](https://github.com/lexmount/moli) | 14,920 | Rust | AI / 工具与 MCP |
+| [patent-disclosure-skill](https://github.com/Hua2026-ai/patent-disclosure-skill) | [handsomestWei/patent-disclosure-skill](https://github.com/handsomestWei/patent-disclosure-skill) | 11,219 | Python | AI / 语音与视频生成 |
 | [Wan2GP](https://github.com/Hua2026-ai/Wan2GP) | [deepbeepmeep/Wan2GP](https://github.com/deepbeepmeep/Wan2GP) | 10,258 | Python | AI / 语音与视频生成 |
 | [clash](https://github.com/Hua2026-ai/clash) | [clashbk/clash](https://github.com/clashbk/clash) | 9,458 | - | 网络工具 / 代理客户端 |
 | [rectg](https://github.com/Hua2026-ai/rectg) | [rooktwo/rectg](https://github.com/rooktwo/rectg) | 9,319 | Python | Telegram 导航 |
 | [DiPlay](https://github.com/Hua2026-ai/DiPlay) | [shihabal3amri/DiPlay](https://github.com/shihabal3amri/DiPlay) | 8,364 | Kotlin | 车机 / 3D 与设计 |
-| [Octop](https://github.com/Hua2026-ai/Octop) | [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 8,278 | Python | AI / 工具与 MCP |
+| [Octop](https://github.com/Hua2026-ai/Octop) | [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 8,279 | Python | AI / 工具与 MCP |
 | [goutoujunshi](https://github.com/Hua2026-ai/goutoujunshi) | [shengjidaguai-china/goutoujunshi](https://github.com/shengjidaguai-china/goutoujunshi) | 7,500 | Python | AI / 语音与视频生成 |
 | [TelegramGroup](https://github.com/Hua2026-ai/TelegramGroup) | [itgoyo/TelegramGroup](https://github.com/itgoyo/TelegramGroup) | 5,875 | - | Telegram 导航 |
 | [qingjian](https://github.com/Hua2026-ai/qingjian) | [qingjian-team/qingjian](https://github.com/qingjian-team/qingjian) | 5,833 | Rust | 系统工具 |
@@ -359,8 +361,8 @@
 | [OpenNOW](https://github.com/Hua2026-ai/OpenNOW) | [OpenCloudGaming/OpenNOW](https://github.com/OpenCloudGaming/OpenNOW) | 3,352 | Rust | 系统工具 |
 | [chinese-poetry-api](https://github.com/Hua2026-ai/chinese-poetry-api) | [palemoky/chinese-poetry-api](https://github.com/palemoky/chinese-poetry-api) | 3,254 | Go | 学习 / 资源索引 |
 | [jianying-headless](https://github.com/Hua2026-ai/jianying-headless) | [mcncarl/jianying-headless](https://github.com/mcncarl/jianying-headless) | 3,025 | Python | AI / 语音与视频生成 |
-| [UFI-TOOLS](https://github.com/Hua2026-ai/UFI-TOOLS) | [kanoqwq/UFI-TOOLS](https://github.com/kanoqwq/UFI-TOOLS) | 2,630 | JavaScript | 网络工具 / 代理客户端 |
-| [Open-Source-Face-Recognition-SDK](https://github.com/Hua2026-ai/Open-Source-Face-Recognition-SDK) | [Faceplugin-ltd/Open-Source-Face-Recognition-SDK](https://github.com/Faceplugin-ltd/Open-Source-Face-Recognition-SDK) | 2,385 | Python | 其他 |
+| [UFI-TOOLS](https://github.com/Hua2026-ai/UFI-TOOLS) | [kanoqwq/UFI-TOOLS](https://github.com/kanoqwq/UFI-TOOLS) | 2,631 | JavaScript | 网络工具 / 代理客户端 |
+| [Open-Source-Face-Recognition-SDK](https://github.com/Hua2026-ai/Open-Source-Face-Recognition-SDK) | [Faceplugin-ltd/Open-Source-Face-Recognition-SDK](https://github.com/Faceplugin-ltd/Open-Source-Face-Recognition-SDK) | 2,387 | Python | AI / 工具与 MCP |
 | [12306-mcp](https://github.com/Hua2026-ai/12306-mcp) | [Joooook/12306-mcp](https://github.com/Joooook/12306-mcp) | 2,330 | JavaScript | AI / 工具与 MCP |
 | [floorplan-3d](https://github.com/Hua2026-ai/floorplan-3d) | [wy51ai/floorplan-3d](https://github.com/wy51ai/floorplan-3d) | 2,015 | HTML | 车机 / 3D 与设计 |
 | [nvidia-macos-driver](https://github.com/Hua2026-ai/nvidia-macos-driver) | [nullmoth/nvidia-macos-driver](https://github.com/nullmoth/nvidia-macos-driver) | 1,915 | Rust | 系统工具 |
