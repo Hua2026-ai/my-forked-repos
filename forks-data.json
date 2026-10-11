@@ -713,5 +713,18 @@
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "what_it_does": "《血源诅咒》在 Windows 10/11 上原生运行的社区启动器：支持 13 种语言、DLSS、FSR 3.1/4、解锁帧率、作弊与模组功能及一键更新。⚠️ 注意：该项目属于未授权的移植/破解性质，涉及 Sony 与 FromSoftware 的版权与主机平台独占协议问题；此处仅作技术资料归档，实际使用请务必遵守游戏厂商服务条款与相关版权法规，风险自负。fork 自 Supermedo/bloodborne_pc（上游约 1.7k★）。",
     "forked_at": "2026-10-10"
+  },
+  {
+    "repo": "Hua2026-ai/mobile-mcp",
+    "url": "https://github.com/Hua2026-ai/mobile-mcp",
+    "upstream": "mobile-next/mobile-mcp",
+    "upstream_url": "https://github.com/mobile-next/mobile-mcp",
+    "stars": 8959,
+    "language": "TypeScript",
+    "homepage": "",
+    "category": "AI / 工具与 MCP",
+    "description": "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)",
+    "what_it_does": "基于 Model Context Protocol (MCP) 的移动端自动化与抓取服务器：支持 iOS、Android、模拟器、仿真器与真机，让大模型可以操控手机完成自动化与数据采集任务。fork 自 mobile-next/mobile-mcp（上游约 8.96k★）。",
+    "forked_at": "2026-10-11"
   }
 ]

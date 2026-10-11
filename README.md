@@ -1,11 +1,11 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **55** 个 fork，上游合计约 **1,750,572** star。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **56** 个 fork，上游合计约 **1,759,531** star。
 > 最后更新：2026-10-11。本文只做归档与说明，版权与所有权归各自上游作者。
 
 ## 一句话概览
 
-剩下这 55 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
+剩下这 56 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
 其次是**中文学习与资源索引**、**车机 CarPlay 与 3D 设计**、**Telegram 导航**，
 另有少量代理客户端与影视资源相关的归档。
 
@@ -67,7 +67,7 @@
 - **作用**：「唇语输入」工具：按住按键、默念字词，文字就出现在光标处；完全本地运行于 Mac。fork 自 amywork777/lipflow（上游约 538★）。
 - **官方描述**：Wispr Flow for your lips: hold a key, silently mouth words, and they're typed at your cursor. Runs locally on your Mac.
 
-### AI / 工具与 MCP（12）
+### AI / 工具与 MCP（13）
 
 #### [Agent-Reach](https://github.com/Hua2026-ai/Agent-Reach)
 
@@ -104,6 +104,12 @@
 - **上游**：[lexmount/moli](https://github.com/lexmount/moli) · ⭐ 14,958 · 语言 Rust · [官网/主页](https://browser.lexmount.com) · fork 于 2026-10-06
 - **作用**：为 AI 智能体打造的**无头浏览器**：轻量、快速、高兼容，Rust 编写，主页 browser.lexmount.com。fork 自 lexmount/moli（上游约 12.6k★）。
 - **官方描述**：Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust
+
+#### [mobile-mcp](https://github.com/Hua2026-ai/mobile-mcp)
+
+- **上游**：[mobile-next/mobile-mcp](https://github.com/mobile-next/mobile-mcp) · ⭐ 8,959 · 语言 TypeScript · fork 于 2026-10-11
+- **作用**：基于 Model Context Protocol (MCP) 的移动端自动化与抓取服务器：支持 iOS、Android、模拟器、仿真器与真机，让大模型可以操控手机完成自动化与数据采集任务。fork 自 mobile-next/mobile-mcp（上游约 8.96k★）。
+- **官方描述**：Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)
 
 #### [Octop](https://github.com/Hua2026-ai/Octop)
 
@@ -383,6 +389,7 @@
 | [vibe-coding-cn](https://github.com/Hua2026-ai/vibe-coding-cn) | [tradecatlabs/vibe-coding-cn](https://github.com/tradecatlabs/vibe-coding-cn) | 17,369 | Python | 学习 / 资源索引 |
 | [huobao-drama](https://github.com/Hua2026-ai/huobao-drama) | [chatfire-AI/huobao-drama](https://github.com/chatfire-AI/huobao-drama) | 15,923 | Vue | AI / 语音与视频生成 |
 | [moli](https://github.com/Hua2026-ai/moli) | [lexmount/moli](https://github.com/lexmount/moli) | 14,958 | Rust | AI / 工具与 MCP |
+| [mobile-mcp](https://github.com/Hua2026-ai/mobile-mcp) | [mobile-next/mobile-mcp](https://github.com/mobile-next/mobile-mcp) | 8,959 | TypeScript | AI / 工具与 MCP |
 | [patent-disclosure-skill](https://github.com/Hua2026-ai/patent-disclosure-skill) | [handsomestWei/patent-disclosure-skill](https://github.com/handsomestWei/patent-disclosure-skill) | 11,222 | Python | AI / 语音与视频生成 |
 | [Wan2GP](https://github.com/Hua2026-ai/Wan2GP) | [deepbeepmeep/Wan2GP](https://github.com/deepbeepmeep/Wan2GP) | 10,259 | Python | AI / 语音与视频生成 |
 | [clash](https://github.com/Hua2026-ai/clash) | [clashbk/clash](https://github.com/clashbk/clash) | 9,462 | - | 网络工具 / 代理客户端 |
