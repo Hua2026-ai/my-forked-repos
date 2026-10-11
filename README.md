@@ -1,7 +1,7 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **54** 个 fork，上游合计约 **1,748,858** star。
-> 最后更新：2026-10-10。本文只做归档与说明，版权与所有权归各自上游作者。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **55** 个 fork，上游合计约 **1,750,572** star。
+> 最后更新：2026-10-11。本文只做归档与说明，版权与所有权归各自上游作者。
 
 ## 一句话概览
 
@@ -300,7 +300,7 @@
 - **作用**：上万条 Telegram 群组 / 频道的导航合集，附带各类机器人推荐，站点 tg10000.com。
 - **官方描述**：2026最新悄咪咪收集的10000+个Telegram群合集、tg导航，附全网最有趣好用的机器人BOT🤖【tg10000.com】
 
-### 系统工具（8）
+### 系统工具（9）
 
 #### [Win11Debloat](https://github.com/Hua2026-ai/Win11Debloat)
 
@@ -325,6 +325,12 @@
 - **上游**：[nullmoth/nvidia-macos-driver](https://github.com/nullmoth/nvidia-macos-driver) · ⭐ 1,942 · 语言 Rust · [官网/主页](https://nullmothsystems.com) · fork 于 2026-10-08
 - **作用**：在 macOS 15 Sequoia（Intel / OpenCore）上为 NVIDIA GeForce RTX 卡提供 Metal 驱动，含源码、免费。注意：许可证为 **NOASSERTION（未明确标准许可证）**，使用前请自行评估。fork 自 nullmoth/nvidia-macos-driver（上游约 1.6k★）。
 - **官方描述**：Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included.
+
+#### [bloodborne_pc](https://github.com/Hua2026-ai/bloodborne_pc)
+
+- **上游**：[Supermedo/bloodborne_pc](https://github.com/Supermedo/bloodborne_pc) · ⭐ 1,714 · 语言 C++ · fork 于 2026-10-10
+- **作用**：《血源诅咒》在 Windows 10/11 上原生运行的社区启动器：支持 13 种语言、DLSS、FSR 3.1/4、解锁帧率、作弊与模组功能及一键更新。⚠️ 注意：该项目属于未授权的移植/破解性质，涉及 Sony 与 FromSoftware 的版权与主机平台独占协议问题；此处仅作技术资料归档，实际使用请务必遵守游戏厂商服务条款与相关版权法规，风险自负。fork 自 Supermedo/bloodborne_pc（上游约 1.7k★）。
+- **官方描述**：Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.
 
 #### [playgta5](https://github.com/Hua2026-ai/playgta5)
 
@@ -397,6 +403,7 @@
 | [nvidia-macos-driver](https://github.com/Hua2026-ai/nvidia-macos-driver) | [nullmoth/nvidia-macos-driver](https://github.com/nullmoth/nvidia-macos-driver) | 1,942 | Rust | 系统工具 |
 | [videdown](https://github.com/Hua2026-ai/videdown) | [cshuangyy/videdown](https://github.com/cshuangyy/videdown) | 1,837 | TypeScript | 影音 / 下载 |
 | [dsh-im](https://github.com/Hua2026-ai/dsh-im) | [xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) | 1,756 | JavaScript | AI / 工具与 MCP |
+| [bloodborne_pc](https://github.com/Hua2026-ai/bloodborne_pc) | [Supermedo/bloodborne_pc](https://github.com/Supermedo/bloodborne_pc) | 1,714 | C++ | 系统工具 |
 | [playgta5](https://github.com/Hua2026-ai/playgta5) | [shadany7824/playgta5](https://github.com/shadany7824/playgta5) | 1,026 | JavaScript | 系统工具 |
 | [MacCheck](https://github.com/Hua2026-ai/MacCheck) | [andyhuo520/MacCheck](https://github.com/andyhuo520/MacCheck) | 701 | Swift | 系统工具 |
 | [Atria-Dawn-Preview](https://github.com/Hua2026-ai/Atria-Dawn-Preview) | [atria-asi/Atria-Dawn-Preview](https://github.com/atria-asi/Atria-Dawn-Preview) | 585 | - | AI / 工具与 MCP |

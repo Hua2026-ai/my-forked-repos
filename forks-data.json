@@ -700,5 +700,18 @@
     "description": "Useful tool to track location or mobile number",
     "what_it_does": "一个用于追踪地理位置或手机号的 OSINT（开源情报）/信息收集工具，Python 编写，菜单含 IP Tracker 等。注意：① 仓库**无许可证**（保留所有权利），使用与再分发请自行评估风险；② 此类工具属双用途，仅可用于合法授权的自查、授权渗透测试或学习研究，遵守所在地法律法规，切勿用于未经同意追踪他人等侵权/违法用途。fork 自 HunxByts/GhostTrack（上游约 17k★）。",
     "forked_at": "2026-10-05"
+  },
+  {
+    "repo": "Hua2026-ai/bloodborne_pc",
+    "url": "https://github.com/Hua2026-ai/bloodborne_pc",
+    "upstream": "Supermedo/bloodborne_pc",
+    "upstream_url": "https://github.com/Supermedo/bloodborne_pc",
+    "stars": 1714,
+    "language": "C++",
+    "homepage": "",
+    "category": "系统工具",
+    "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
+    "what_it_does": "《血源诅咒》在 Windows 10/11 上原生运行的社区启动器：支持 13 种语言、DLSS、FSR 3.1/4、解锁帧率、作弊与模组功能及一键更新。⚠️ 注意：该项目属于未授权的移植/破解性质，涉及 Sony 与 FromSoftware 的版权与主机平台独占协议问题；此处仅作技术资料归档，实际使用请务必遵守游戏厂商服务条款与相关版权法规，风险自负。fork 自 Supermedo/bloodborne_pc（上游约 1.7k★）。",
+    "forked_at": "2026-10-10"
   }
 ]
