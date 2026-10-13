@@ -726,5 +726,18 @@
     "description": "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)",
     "what_it_does": "基于 Model Context Protocol (MCP) 的移动端自动化与抓取服务器：支持 iOS、Android、模拟器、仿真器与真机，让大模型可以操控手机完成自动化与数据采集任务。fork 自 mobile-next/mobile-mcp（上游约 8.96k★）。",
     "forked_at": "2026-10-11"
+  },
+  {
+    "repo": "Hua2026-ai/ai-website-cloner-template",
+    "url": "https://github.com/Hua2026-ai/ai-website-cloner-template",
+    "upstream": "JCodesMore/ai-website-cloner-template",
+    "upstream_url": "https://github.com/JCodesMore/ai-website-cloner-template",
+    "stars": 36596,
+    "language": "TypeScript",
+    "homepage": "",
+    "category": "AI / 工具与 MCP",
+    "description": "Clone any website with one command using AI coding agents",
+    "what_it_does": "用 AI 编码智能体，一条命令复刻任意网站（AI Website Cloner）：把目标站点交给智能体，自动生成可运行的前端复刻。fork 自 JCodesMore/ai-website-cloner-template（上游约 36.6k★，MIT 许可）。",
+    "forked_at": "2026-10-12"
   }
 ]

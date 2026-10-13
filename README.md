@@ -1,11 +1,11 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **56** 个 fork，上游合计约 **1,759,531** star。
-> 最后更新：2026-10-11。本文只做归档与说明，版权与所有权归各自上游作者。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **57** 个 fork，上游合计约 **1,796,127** star。
+> 最后更新：2026-10-13。本文只做归档与说明，版权与所有权归各自上游作者。
 
 ## 一句话概览
 
-剩下这 56 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
+剩下这 57 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
 其次是**中文学习与资源索引**、**车机 CarPlay 与 3D 设计**、**Telegram 导航**，
 另有少量代理客户端与影视资源相关的归档。
 
@@ -67,7 +67,7 @@
 - **作用**：「唇语输入」工具：按住按键、默念字词，文字就出现在光标处；完全本地运行于 Mac。fork 自 amywork777/lipflow（上游约 538★）。
 - **官方描述**：Wispr Flow for your lips: hold a key, silently mouth words, and they're typed at your cursor. Runs locally on your Mac.
 
-### AI / 工具与 MCP（13）
+### AI / 工具与 MCP（14）
 
 #### [Agent-Reach](https://github.com/Hua2026-ai/Agent-Reach)
 
@@ -86,6 +86,12 @@
 - **上游**：[tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) · ⭐ 32,582 · 语言 TypeScript · [官网/主页](https://freellmapi.co) · fork 于 2026-10-07
 - **作用**：免费 LLM API 聚合网关：每月 74 亿 token、34 家免费供应商、635 个免费模型端点，统一走一个 /v1 接口，支持自定义 OpenAI 兼容端点、智能路由与自动故障转移；作者声明仅供个人实验。fork 自 tashfeenahmed/freellmapi（上游约 31.7k★）。
 - **官方描述**：7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.
+
+#### [ai-website-cloner-template](https://github.com/Hua2026-ai/ai-website-cloner-template)
+
+- **上游**：[JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) · ⭐ 36,596 · 语言 TypeScript · fork 于 2026-10-12
+- **作用**：用 AI 编码智能体，一条命令复刻任意网站（AI Website Cloner）：把目标站点交给智能体，自动生成可运行的前端复刻。fork 自 JCodesMore/ai-website-cloner-template（上游约 36.6k★，MIT 许可）。
+- **官方描述**：Clone any website with one command using AI coding agents
 
 #### [knowledge-work-plugins](https://github.com/Hua2026-ai/knowledge-work-plugins)
 
@@ -381,6 +387,7 @@
 | [everyone-can-use-english](https://github.com/Hua2026-ai/everyone-can-use-english) | [ZuodaoTech/everyone-can-use-english](https://github.com/ZuodaoTech/everyone-can-use-english) | 38,658 | TypeScript | 学习 / 资源索引 |
 | [HowToLiveLonger](https://github.com/Hua2026-ai/HowToLiveLonger) | [geekan/HowToLiveLonger](https://github.com/geekan/HowToLiveLonger) | 35,725 | - | 学习 / 资源索引 |
 | [freellmapi](https://github.com/Hua2026-ai/freellmapi) | [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) | 32,582 | TypeScript | AI / 工具与 MCP |
+| [ai-website-cloner-template](https://github.com/Hua2026-ai/ai-website-cloner-template) | [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) | 36,596 | TypeScript | AI / 工具与 MCP |
 | [knowledge-work-plugins](https://github.com/Hua2026-ai/knowledge-work-plugins) | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | 28,328 | Python | AI / 工具与 MCP |
 | [hypit](https://github.com/Hua2026-ai/hypit) | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 20,613 | TypeScript | AI / 工具与 MCP |
 | [reverse-interview-zh](https://github.com/Hua2026-ai/reverse-interview-zh) | [perkfly/reverse-interview-zh](https://github.com/perkfly/reverse-interview-zh) | 18,520 | - | 学习 / 资源索引 |
@@ -423,12 +430,29 @@
 | [net-test-kit](https://github.com/Hua2026-ai/net-test-kit) | [feiyuaq/net-test-kit](https://github.com/feiyuaq/net-test-kit) | 15 | - | 网络工具 / 代理客户端 |
 | [Ghosttrack-scanner](https://github.com/Hua2026-ai/Ghosttrack-scanner) | [NexNoir/Ghosttrack](https://github.com/NexNoir/Ghosttrack) | 11 | Python | 安全 / OSINT 工具 |
 
+## 自建仓库（2，非 fork）
+
+> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 57 个 fork 的统计。
+
+#### [Hua2026-ai.github.io](https://github.com/Hua2026-ai/Hua2026-ai.github.io)
+
+- **类型**：GitHub Pages 个人站点（Hexo 8.1.2 静态博客），已发布于 https://hua2026-ai.github.io/
+- **标题**：野记山（副标题「我的个人博客」），作者标识 yejishan
+- **作用**：个人博客，规划中的独立域名为 yejishan.com；目前仅有开博占位文章《你好，世界》（2026-10-07），预告将写技术学习笔记、生活随笔与好玩的东西分享。**这是本账号唯一一个真正部署上线的网站**，不属于任何 fork。
+
+#### [my-knowledge-base](https://github.com/Hua2026-ai/my-knowledge-base)
+
+- **类型**：公开知识库仓库
+- **作用**：日常资源收藏知识库：文本阅读、音视频、软件工具与 AI/Agent 资源索引（中文）。个人资源索引，非 fork。
+
+> 另有两个私有仓库不在此公开清单中列出：`workbuddy-sync`（WorkBuddy 跨机同步：记忆/技能库/MCP 配置）、`test-ai`（测试仓库）。本清单仓库 `my-forked-repos` 自身即文档本身，不重复列为条目。
+
 ## 说明
 
-- 这些都是 fork（备份/收藏性质），不是我本人的原创项目，本账号下唯一的自建仓库是私有的 `test-ai`。
+- 上方清单均为 fork（备份/收藏性质），并非本人原创项目。本账号另有**自建仓库**，见上方「自建仓库」小节（`Hua2026-ai.github.io` 个人站点、`my-knowledge-base` 知识库），以及两个私有仓库 `workbuddy-sync`、`test-ai`。
 - 已清理掉一批不再需要的 fork（代理客户端、影视下载、部分 AI 资料类、系统工具等），本表为清理后的最新状态。
 - 网络代理类项目仅作技术资料归档，实际使用请遵守所在地法律法规与服务商条款，请勿用于任何违法用途。
-- 星标数取自上游仓库，会随时间变化；本表是 2026-10-10 的快照。
+- 星标数取自上游仓库，会随时间变化；fork 部分为本账号 2026-10-10 的快照，自建仓库小节于 2026-10-13 补充。
 
 ## 同步上游
 
