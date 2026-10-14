@@ -1,11 +1,11 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **57** 个 fork，上游合计约 **1,796,127** star。
-> 最后更新：2026-10-13。本文只做归档与说明，版权与所有权归各自上游作者。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **65** 个 fork，上游合计约 **1,922,188** star。
+> 最后更新：2026-10-14。本文只做归档与说明，版权与所有权归各自上游作者。
 
 ## 一句话概览
 
-剩下这 57 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
+剩下这 65 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
 其次是**中文学习与资源索引**、**车机 CarPlay 与 3D 设计**、**Telegram 导航**，
 另有少量代理客户端与影视资源相关的归档。
 
@@ -67,7 +67,13 @@
 - **作用**：「唇语输入」工具：按住按键、默念字词，文字就出现在光标处；完全本地运行于 Mac。fork 自 amywork777/lipflow（上游约 538★）。
 - **官方描述**：Wispr Flow for your lips: hold a key, silently mouth words, and they're typed at your cursor. Runs locally on your Mac.
 
-### AI / 工具与 MCP（14）
+### AI / 工具与 MCP（18）
+
+#### [claude-mem](https://github.com/Hua2026-ai/claude-mem)
+
+- **上游**：[thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) · ⭐ 100,444 · 语言 TypeScript · fork 于 2026-10-14
+- **作用**：为各类 AI 智能体提供跨会话的持久化上下文：自动记录智能体在每次会话中的操作，用 AI 压缩，并在未来会话中把相关上下文注入回来。支持 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等。fork 自 thedotmack/claude-mem（上游约 100.4k★，Apache-2.0）。
+- **官方描述**：Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More
 
 #### [Agent-Reach](https://github.com/Hua2026-ai/Agent-Reach)
 
@@ -111,6 +117,12 @@
 - **作用**：为 AI 智能体打造的**无头浏览器**：轻量、快速、高兼容，Rust 编写，主页 browser.lexmount.com。fork 自 lexmount/moli（上游约 12.6k★）。
 - **官方描述**：Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust
 
+#### [kimi-k3-in-c](https://github.com/Hua2026-ai/kimi-k3-in-c)
+
+- **上游**：[FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c) · ⭐ 9,033 · 语言 C · fork 于 2026-10-11
+- **作用**：用可移植的 C99 在单台 CPU、8.24GB 内存上跑 2.78 万亿参数 Kimi K3 推理：无 BLAS、无框架、无 GPU。fork 自 FareedKhan-dev/kimi-k3-in-c（上游约 9k★，Apache-2.0）。
+- **官方描述**：A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.
+
 #### [mobile-mcp](https://github.com/Hua2026-ai/mobile-mcp)
 
 - **上游**：[mobile-next/mobile-mcp](https://github.com/mobile-next/mobile-mcp) · ⭐ 8,959 · 语言 TypeScript · fork 于 2026-10-11
@@ -122,6 +134,18 @@
 - **上游**：[TencentCloud/Octop](https://github.com/TencentCloud/Octop) · ⭐ 8,288 · 语言 Python · [官网/主页](https://octop.cloud) · fork 于 2026-10-04
 - **作用**：腾讯云出品的**自托管 AI 助手**，支持多用户、多智能体（multi-agent）架构，可私有化部署。fork 自 TencentCloud/Octop（上游约 6.8k★）。
 - **官方描述**：A smarter, self-hosted AI assistant — multi-user, multi-agent.
+
+#### [iPhone-use](https://github.com/Hua2026-ai/iPhone-use)
+
+- **上游**：[zhongerxin/iPhone-use](https://github.com/zhongerxin/iPhone-use) · ⭐ 3,581 · 语言 Python · fork 于 2026-10-14
+- **作用**：让 Codex 通过 USB 操作真实 iPhone：引导安装、App 自动化、实时屏幕与截图回退。fork 自 zhongerxin/iPhone-use（上游约 3.6k★，MIT）。
+- **官方描述**：让 Codex 通过 USB 操作真实 iPhone：引导安装、App 自动化、实时屏幕与截图回退。
+
+#### [Easel](https://github.com/Hua2026-ai/Easel)
+
+- **上游**：[ZJU-REAL/Easel](https://github.com/ZJU-REAL/Easel) · ⭐ 3,575 · 语言 Python · fork 于 2026-10-12
+- **作用**：开源的 AI 社交媒体智能体：发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等。fork 自 ZJU-REAL/Easel（上游约 3.6k★，Apache-2.0）。
+- **官方描述**：An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.
 
 #### [Open-Source-Face-Recognition-SDK](https://github.com/Hua2026-ai/Open-Source-Face-Recognition-SDK)
 
@@ -152,13 +176,19 @@
 - **作用**：300 条 Muse 技能合集：每条都是「一句话痛点 + 三步做法」，点开即用。注意：仓库**无许可证**（保留所有权利），使用与再分发请自行评估风险。fork 自 jasonbitsmith/muse-skills（上游约 234★）。
 - **官方描述**：300 条 Muse 技能：每条一句话痛点 + 三步做法，点开就能用
 
-### 安全 / OSINT 工具（2）
+### 安全 / OSINT 工具（3）
 
 #### [GhostTrack](https://github.com/Hua2026-ai/GhostTrack)
 
 - **上游**：[HunxByts/GhostTrack](https://github.com/HunxByts/GhostTrack) · ⭐ 17,888 · 语言 Python · fork 于 2026-10-05
 - **作用**：一个用于追踪地理位置或手机号的 OSINT（开源情报）/信息收集工具，Python 编写，菜单含 IP Tracker 等。注意：① 仓库**无许可证**（保留所有权利），使用与再分发请自行评估风险；② 此类工具属双用途，仅可用于合法授权的自查、授权渗透测试或学习研究，遵守所在地法律法规，切勿用于未经同意追踪他人等侵权/违法用途。fork 自 HunxByts/GhostTrack（上游约 17k★）。
 - **官方描述**：Useful tool to track location or mobile number
+
+#### [CyberStrikeAI](https://github.com/Hua2026-ai/CyberStrikeAI)
+
+- **上游**：[AIPentest/CyberStrikeAI](https://github.com/AIPentest/CyberStrikeAI) · ⭐ 7,769 · 语言 Go · fork 于 2026-10-11
+- **作用**：面向 AI 原生的网络安全行动系统：把意图转化为受治理的执行、把证据转化为可操作的记忆，并让每次操作都改进下一次。注意：此类攻防工具属双用途，仅可用于合法授权的授权测试/学习研究，遵守所在地法律法规，勿用于未授权攻击等违法用途。fork 自 AIPentest/CyberStrikeAI（上游约 7.8k★，Apache-2.0）。
+- **官方描述**：The system of action for AI-native cybersecurity—where intent becomes governed execution, evidence becomes operational memory, and every operation improves the next.
 
 #### [Ghosttrack-scanner](https://github.com/Hua2026-ai/Ghosttrack-scanner)
 
@@ -191,7 +221,7 @@
 - **作用**：「网络测试工具集」：作者**只发布编译好的安装包，源代码不对外公开**，并声明禁止逆向与二次分发。fork 仅作收藏备份，使用前请自行评估风险并遵守作者声明的条款。fork 自 feiyuaq/net-test-kit（上游约 14★）。
 - **官方描述**：本项目归原作者所有，仅提供编译完成的程序安装包，源代码不对外公开，禁止逆向、二次分发。
 
-### 影音 / 下载（2）
+### 影音 / 下载（3）
 
 #### [cobalt](https://github.com/Hua2026-ai/cobalt)
 
@@ -204,6 +234,12 @@
 - **上游**：[cshuangyy/videdown](https://github.com/cshuangyy/videdown) · ⭐ 1,837 · 语言 TypeScript · fork 于 2026-10-06
 - **作用**：现代化开源视频下载工具：支持从抖音、小红书、B 站、YouTube、Instagram 等站点下载无水印高清视频。fork 自 cshuangyy/videdown（上游约 1.8k★）。
 - **官方描述**：Videdown 是一款现代化的开源视频下载工具，让你可以从抖音 小红书 B站 YT Instagram等网站下载无水印高清视频
+
+#### [better-douyin](https://github.com/Hua2026-ai/better-douyin)
+
+- **上游**：[anYuJia/better-douyin](https://github.com/anYuJia/better-douyin) · ⭐ 839 · 语言 TypeScript · fork 于 2026-10-13
+- **作用**：更好用的抖音客户端：支持作者级下载、播放、点赞收藏、私信、通知，并接入 MCP 服务让 AI 控制，内置 AI 可在私信与好友间 AI 聊天。注意：下载他人内容请遵守平台服务条款与版权法规，勿用于侵权用途。fork 自 anYuJia/better-douyin（上游约 839★，许可证 Other/未明确，使用前请自行评估）。
+- **官方描述**：打造更好用的douyin，支持作者级下载、播放、点赞收藏、私信、通知、mcp服务接入ai控制，内置ai可以在私信与好友ai聊天。douyin download
 
 ### 学习 / 资源索引（11）
 
@@ -273,7 +309,7 @@
 - **作用**：诗泉：高性能中国古诗词 API 服务。fork 自 palemoky/chinese-poetry-api（上游约 3.2k★）。
 - **官方描述**：📜 诗泉：高性能中国古诗词 API 服务
 
-### 车机 / 3D 与设计（4）
+### 车机 / 3D 与设计（5）
 
 #### [lingbot-map](https://github.com/Hua2026-ai/lingbot-map)
 
@@ -291,6 +327,12 @@
 
 - **上游**：[wy51ai/floorplan-3d](https://github.com/wy51ai/floorplan-3d) · ⭐ 2,018 · 语言 HTML · fork 于 2026-09-29
 - **作用**：纯前端的户型装修设计工具：2D 平面图上摆家具、拆改墙体、量尺寸，一键切到 Three.js 3D 场景，可鸟瞰也可第一人称漫游；整个应用只有一个 index.html，无需构建。上游 README 无描述，此说明依据其 README 整理。
+
+#### [DiPlay-Legacy-Android](https://github.com/Hua2026-ai/DiPlay-Legacy-Android)
+
+- **上游**：[programmerguohuajing/DiPlay-Legacy-Android](https://github.com/programmerguohuajing/DiPlay-Legacy-Android) · ⭐ 572 · 语言 Kotlin · fork 于 2026-10-13
+- **作用**：基于 DiPlay 修改、面向低版本 Android 系统与老款 Android 车机兼容的版本（CarPlay 接收器）。fork 自 programmerguohuajing/DiPlay-Legacy-Android（上游约 572★，GPL-3.0）。
+- **官方描述**：基于 shihabal3amri/DiPlay 修改，面向低版本 Android 系统与老款 Android 车机兼容
 
 #### [playport](https://github.com/Hua2026-ai/playport)
 
@@ -312,7 +354,7 @@
 - **作用**：上万条 Telegram 群组 / 频道的导航合集，附带各类机器人推荐，站点 tg10000.com。
 - **官方描述**：2026最新悄咪咪收集的10000+个Telegram群合集、tg导航，附全网最有趣好用的机器人BOT🤖【tg10000.com】
 
-### 系统工具（9）
+### 系统工具（10）
 
 #### [Win11Debloat](https://github.com/Hua2026-ai/Win11Debloat)
 
@@ -368,8 +410,22 @@
 - **作用**：微软奖励（Microsoft Rewards）自动脚本，在他人脚本基础上做了中文环境本地化。fork 自 chiihero/Microsoft-Rewards-Script（上游约 503★）。
 - **官方描述**：微软奖励脚本，基于他人脚本实现中文环境的本地化
 
+#### [ProsperoStore](https://github.com/Hua2026-ai/ProsperoStore)
+
+- **上游**：[blackbearreloaded/ProsperoStore](https://github.com/blackbearreloaded/ProsperoStore) · ⭐ 248 · 语言 C++ · fork 于 2026-10-13
+- **作用**：面向 PS5 自制软件（homebrew）目录的原生应用商店（homebrew.page 上的 PPSA99000）。注意：涉及主机越狱/自制软件生态，请遵守所在地法律法规与 Sony 相关条款，风险自负。fork 自 blackbearreloaded/ProsperoStore（上游约 248★，GPL-3.0）。
+- **官方描述**：Native PS5 app store for the homebrew catalog at homebrew.page (title PPSA99000)
+
 ## 总表
 
+| [claude-mem](https://github.com/Hua2026-ai/claude-mem) | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 100,444 | TypeScript | AI / 工具与 MCP |
+| [kimi-k3-in-c](https://github.com/Hua2026-ai/kimi-k3-in-c) | [FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c) | 9,033 | C | AI / 工具与 MCP |
+| [CyberStrikeAI](https://github.com/Hua2026-ai/CyberStrikeAI) | [AIPentest/CyberStrikeAI](https://github.com/AIPentest/CyberStrikeAI) | 7,769 | Go | 安全 / OSINT 工具 |
+| [iPhone-use](https://github.com/Hua2026-ai/iPhone-use) | [zhongerxin/iPhone-use](https://github.com/zhongerxin/iPhone-use) | 3,581 | Python | AI / 工具与 MCP |
+| [Easel](https://github.com/Hua2026-ai/Easel) | [ZJU-REAL/Easel](https://github.com/ZJU-REAL/Easel) | 3,575 | Python | AI / 工具与 MCP |
+| [better-douyin](https://github.com/Hua2026-ai/better-douyin) | [anYuJia/better-douyin](https://github.com/anYuJia/better-douyin) | 839 | TypeScript | 影音 / 下载 |
+| [DiPlay-Legacy-Android](https://github.com/Hua2026-ai/DiPlay-Legacy-Android) | [programmerguohuajing/DiPlay-Legacy-Android](https://github.com/programmerguohuajing/DiPlay-Legacy-Android) | 572 | Kotlin | 车机 / 3D 与设计 |
+| [ProsperoStore](https://github.com/Hua2026-ai/ProsperoStore) | [blackbearreloaded/ProsperoStore](https://github.com/blackbearreloaded/ProsperoStore) | 248 | C++ | 系统工具 |
 | 仓库 | 上游 | ⭐ | 语言 | 分类 |
 | --- | --- | --- | --- | --- |
 | [awesome](https://github.com/Hua2026-ai/awesome) | [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 516,837 | - | 学习 / 资源索引 |
@@ -432,7 +488,7 @@
 
 ## 自建仓库（2，非 fork）
 
-> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 57 个 fork 的统计。
+> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 65 个 fork 的统计。
 
 #### [Hua2026-ai.github.io](https://github.com/Hua2026-ai/Hua2026-ai.github.io)
 
