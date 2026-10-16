@@ -1,13 +1,13 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **60** 个 fork，上游合计约 **1,850,029** star。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **61** 个 fork，上游合计约 **1,851,680** star。
 > 最后更新：2026-10-16。本文只做归档与说明，版权与所有权归各自上游作者。
 
 ## 一句话概览
 
-剩下这 60 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
+剩下这 61 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
 其次是**中文学习与资源索引**、**车机 CarPlay 与 3D 设计**、**Telegram 导航**，
-另有少量代理客户端与影视资源相关的归档。
+另有少量代理客户端与影视资源相关的归档，以及 1 个 iOS 开发工具（omarchy-apple-dev）。
 
 ## 分类清单
 
@@ -386,6 +386,15 @@
 - **作用**：面向 PS5 自制软件（homebrew）目录的原生应用商店（homebrew.page 上的 PPSA99000）。注意：涉及主机越狱/自制软件生态，请遵守所在地法律法规与 Sony 相关条款，风险自负。fork 自 blackbearreloaded/ProsperoStore（上游约 248★，GPL-3.0）。
 - **官方描述**：Native PS5 app store for the homebrew catalog at homebrew.page (title PPSA99000)
 
+
+### 开发 / 移动工具（1）
+
+#### [omarchy-apple-dev](https://github.com/Hua2026-ai/omarchy-apple-dev)
+
+- **上游**：[joshuaswarren/omarchy-apple-dev](https://github.com/joshuaswarren/omarchy-apple-dev) · ⭐ 1,651 · 语言 Python · fork 于 2026-10-16
+- **作用**：从 Omarchy Linux 构建并部署 iOS SwiftUI App 的工具链：在任意 PC（x86_64 或 Apple Silicon）上无需 Xcode 即可打包、签名与分发 iOS 应用。MIT 许可证，2026-09 新建、上游 1 天前有提交、90+ fork，质量健康，可作为本地 iOS 构建/CI 方案的研究底座。fork 自 joshuaswarren/omarchy-apple-dev（上游约 1.65k★，MIT）。
+- **官方描述**：Build and deploy iOS SwiftUI apps from Omarchy Linux on any PC (x86_64 or Apple Silicon), no Xcode required
+
 ## 总表
 
 | [claude-mem](https://github.com/Hua2026-ai/claude-mem) | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 100,444 | TypeScript | AI / 工具与 MCP |
@@ -440,6 +449,7 @@
 | [nvidia-macos-driver](https://github.com/Hua2026-ai/nvidia-macos-driver) | [nullmoth/nvidia-macos-driver](https://github.com/nullmoth/nvidia-macos-driver) | 1,942 | Rust | 系统工具 |
 | [videdown](https://github.com/Hua2026-ai/videdown) | [cshuangyy/videdown](https://github.com/cshuangyy/videdown) | 1,837 | TypeScript | 影音 / 下载 |
 | [dsh-im](https://github.com/Hua2026-ai/dsh-im) | [xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) | 1,756 | JavaScript | AI / 工具与 MCP |
+| [omarchy-apple-dev](https://github.com/Hua2026-ai/omarchy-apple-dev) | [joshuaswarren/omarchy-apple-dev](https://github.com/joshuaswarren/omarchy-apple-dev) | 1,651 | Python | 开发 / 移动工具 |
 | [bloodborne_pc](https://github.com/Hua2026-ai/bloodborne_pc) | [Supermedo/bloodborne_pc](https://github.com/Supermedo/bloodborne_pc) | 1,714 | C++ | 系统工具 |
 | [playgta5](https://github.com/Hua2026-ai/playgta5) | [shadany7824/playgta5](https://github.com/shadany7824/playgta5) | 1,026 | JavaScript | 系统工具 |
 | [MacCheck](https://github.com/Hua2026-ai/MacCheck) | [andyhuo520/MacCheck](https://github.com/andyhuo520/MacCheck) | 701 | Swift | 系统工具 |
@@ -453,7 +463,7 @@
 
 ## 自建仓库（2，非 fork）
 
-> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 60 个 fork 的统计。
+> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 61 个 fork 的统计。
 
 #### [Hua2026-ai.github.io](https://github.com/Hua2026-ai/Hua2026-ai.github.io)
 

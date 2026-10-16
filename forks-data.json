@@ -778,5 +778,18 @@
     "description": "Native PS5 app store for the homebrew catalog at homebrew.page (title PPSA99000)",
     "what_it_does": "面向 PS5 自制软件（homebrew）目录的原生应用商店（homebrew.page 上的 PPSA99000）。注意：涉及主机越狱/自制软件生态，请遵守所在地法律法规与 Sony 相关条款，风险自负。fork 自 blackbearreloaded/ProsperoStore（上游约 248★，GPL-3.0）。",
     "forked_at": "2026-10-13"
+  },
+  {
+    "repo": "Hua2026-ai/omarchy-apple-dev",
+    "url": "https://github.com/Hua2026-ai/omarchy-apple-dev",
+    "upstream": "joshuaswarren/omarchy-apple-dev",
+    "upstream_url": "https://github.com/joshuaswarren/omarchy-apple-dev",
+    "stars": 1651,
+    "language": "Python",
+    "homepage": "",
+    "category": "开发 / 移动工具",
+    "description": "Build and deploy iOS SwiftUI apps from Omarchy Linux on any PC (x86_64 or Apple Silicon), no Xcode required",
+    "what_it_does": "从 Omarchy Linux 构建并部署 iOS SwiftUI App 的工具链：在任意 PC（x86_64 或 Apple Silicon）上无需 Xcode 即可打包、签名与分发 iOS 应用。MIT 许可证，2026-09 新建、上游 1 天前有提交、90+ fork，质量健康，可作为本地 iOS 构建/CI 方案的研究底座。fork 自 joshuaswarren/omarchy-apple-dev（上游约 1.65k★，MIT）。",
+    "forked_at": "2026-10-16"
   }
 ]
