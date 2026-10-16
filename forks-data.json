@@ -481,19 +481,6 @@
     "forked_at": "2026-10-02"
   },
   {
-    "repo": "Hua2026-ai/net-test-kit",
-    "url": "https://github.com/Hua2026-ai/net-test-kit",
-    "upstream": "feiyuaq/net-test-kit",
-    "upstream_url": "https://github.com/feiyuaq/net-test-kit",
-    "stars": 15,
-    "language": "-",
-    "homepage": "",
-    "category": "网络工具 / 代理客户端",
-    "description": "本项目归原作者所有，仅提供编译完成的程序安装包，源代码不对外公开，禁止逆向、二次分发。",
-    "what_it_does": "「网络测试工具集」：作者**只发布编译好的安装包，源代码不对外公开**，并声明禁止逆向与二次分发。fork 仅作收藏备份，使用前请自行评估风险并遵守作者声明的条款。fork 自 feiyuaq/net-test-kit（上游约 14★）。",
-    "forked_at": "2026-10-03"
-  },
-  {
     "repo": "Hua2026-ai/android-airplay-server",
     "url": "https://github.com/Hua2026-ai/android-airplay-server",
     "upstream": "jqssun/android-airplay-server",
@@ -648,58 +635,6 @@
     "description": "所有小初高、大学PDF教材。",
     "what_it_does": "小学、初中、高中到大学的 PDF 教材合集。",
     "forked_at": "2026-08-26"
-  },
-  {
-    "repo": "Hua2026-ai/Ghosttrack-scanner",
-    "url": "https://github.com/Hua2026-ai/Ghosttrack-scanner",
-    "upstream": "NexNoir/Ghosttrack",
-    "upstream_url": "https://github.com/NexNoir/Ghosttrack",
-    "stars": 11,
-    "language": "Python",
-    "homepage": "",
-    "category": "安全 / OSINT 工具",
-    "description": "Ghosttrack is a tool for scanning websites to gather system information.",
-    "what_it_does": "一个面向道德黑客/开发者/自动化玩家的终端式 Python 工具集，用于扫描网站、收集系统信息（“像幽灵一样追踪、转换、控制系统”）。注意：① 仓库**无许可证**（保留所有权利），使用与再分发请自行评估风险；② 仅可用于合法授权的授权测试/学习研究，遵守所在地法律法规，勿用于未授权扫描等侵权/违法用途。fork 自 NexNoir/Ghosttrack（上游约 11★）。",
-    "forked_at": "2026-10-05"
-  },
-  {
-    "repo": "Hua2026-ai/HowToLiveLonger",
-    "url": "https://github.com/Hua2026-ai/HowToLiveLonger",
-    "upstream": "geekan/HowToLiveLonger",
-    "upstream_url": "https://github.com/geekan/HowToLiveLonger",
-    "stars": 35725,
-    "language": "-",
-    "homepage": "",
-    "category": "学习 / 资源索引",
-    "description": "程序员延寿指南 | A programmer's guide to live longer",
-    "what_it_does": "「程序员延寿指南」：用循证研究线索梳理如何活得更久（饮食、运动、睡眠、体检等），每条结论尽量附原始研究出处，理性参考、非医疗建议。Unlicense（公有领域）。fork 自 geekan/HowToLiveLonger（上游约 35.7k★）。",
-    "forked_at": "2026-10-10"
-  },
-  {
-    "repo": "Hua2026-ai/reverse-interview-zh",
-    "url": "https://github.com/Hua2026-ai/reverse-interview-zh",
-    "upstream": "perkfly/reverse-interview-zh",
-    "upstream_url": "https://github.com/perkfly/reverse-interview-zh",
-    "stars": 18520,
-    "language": "-",
-    "homepage": "",
-    "category": "学习 / 资源索引",
-    "description": "技术面试最后反问面试官的话",
-    "what_it_does": "「反向面试」：面试最后你可以反问面试官的问题清单（中文版），用来判断团队、流程与技术文化，帮你选到更合适的工作。注意：许可证为 NOASSERTION（未明确标准许可证），使用前请自行评估。fork 自 perkfly/reverse-interview-zh（原 yifeikong/reverse-interview-zh，上游约 18.5k★）。",
-    "forked_at": "2026-10-10"
-  },
-  {
-    "repo": "Hua2026-ai/GhostTrack",
-    "url": "https://github.com/Hua2026-ai/GhostTrack",
-    "upstream": "HunxByts/GhostTrack",
-    "upstream_url": "https://github.com/HunxByts/GhostTrack",
-    "stars": 17888,
-    "language": "Python",
-    "homepage": "",
-    "category": "安全 / OSINT 工具",
-    "description": "Useful tool to track location or mobile number",
-    "what_it_does": "一个用于追踪地理位置或手机号的 OSINT（开源情报）/信息收集工具，Python 编写，菜单含 IP Tracker 等。注意：① 仓库**无许可证**（保留所有权利），使用与再分发请自行评估风险；② 此类工具属双用途，仅可用于合法授权的自查、授权渗透测试或学习研究，遵守所在地法律法规，切勿用于未经同意追踪他人等侵权/违法用途。fork 自 HunxByts/GhostTrack（上游约 17k★）。",
-    "forked_at": "2026-10-05"
   },
   {
     "repo": "Hua2026-ai/bloodborne_pc",

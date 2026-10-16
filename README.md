@@ -1,11 +1,11 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **65** 个 fork，上游合计约 **1,922,188** star。
-> 最后更新：2026-10-14。本文只做归档与说明，版权与所有权归各自上游作者。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **60** 个 fork，上游合计约 **1,850,029** star。
+> 最后更新：2026-10-16。本文只做归档与说明，版权与所有权归各自上游作者。
 
 ## 一句话概览
 
-剩下这 65 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
+剩下这 60 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
 其次是**中文学习与资源索引**、**车机 CarPlay 与 3D 设计**、**Telegram 导航**，
 另有少量代理客户端与影视资源相关的归档。
 
@@ -176,13 +176,7 @@
 - **作用**：300 条 Muse 技能合集：每条都是「一句话痛点 + 三步做法」，点开即用。注意：仓库**无许可证**（保留所有权利），使用与再分发请自行评估风险。fork 自 jasonbitsmith/muse-skills（上游约 234★）。
 - **官方描述**：300 条 Muse 技能：每条一句话痛点 + 三步做法，点开就能用
 
-### 安全 / OSINT 工具（3）
-
-#### [GhostTrack](https://github.com/Hua2026-ai/GhostTrack)
-
-- **上游**：[HunxByts/GhostTrack](https://github.com/HunxByts/GhostTrack) · ⭐ 17,888 · 语言 Python · fork 于 2026-10-05
-- **作用**：一个用于追踪地理位置或手机号的 OSINT（开源情报）/信息收集工具，Python 编写，菜单含 IP Tracker 等。注意：① 仓库**无许可证**（保留所有权利），使用与再分发请自行评估风险；② 此类工具属双用途，仅可用于合法授权的自查、授权渗透测试或学习研究，遵守所在地法律法规，切勿用于未经同意追踪他人等侵权/违法用途。fork 自 HunxByts/GhostTrack（上游约 17k★）。
-- **官方描述**：Useful tool to track location or mobile number
+### 安全 / OSINT 工具（1）
 
 #### [CyberStrikeAI](https://github.com/Hua2026-ai/CyberStrikeAI)
 
@@ -190,13 +184,7 @@
 - **作用**：面向 AI 原生的网络安全行动系统：把意图转化为受治理的执行、把证据转化为可操作的记忆，并让每次操作都改进下一次。注意：此类攻防工具属双用途，仅可用于合法授权的授权测试/学习研究，遵守所在地法律法规，勿用于未授权攻击等违法用途。fork 自 AIPentest/CyberStrikeAI（上游约 7.8k★，Apache-2.0）。
 - **官方描述**：The system of action for AI-native cybersecurity—where intent becomes governed execution, evidence becomes operational memory, and every operation improves the next.
 
-#### [Ghosttrack-scanner](https://github.com/Hua2026-ai/Ghosttrack-scanner)
-
-- **上游**：[NexNoir/Ghosttrack](https://github.com/NexNoir/Ghosttrack) · ⭐ 11 · 语言 Python · fork 于 2026-10-05
-- **作用**：一个面向道德黑客/开发者/自动化玩家的终端式 Python 工具集，用于扫描网站、收集系统信息（“像幽灵一样追踪、转换、控制系统”）。注意：① 仓库**无许可证**（保留所有权利），使用与再分发请自行评估风险；② 仅可用于合法授权的授权测试/学习研究，遵守所在地法律法规，勿用于未授权扫描等侵权/违法用途。fork 自 NexNoir/Ghosttrack（上游约 11★）。
-- **官方描述**：Ghosttrack is a tool for scanning websites to gather system information.
-
-### 网络工具 / 代理客户端（4）
+### 网络工具 / 代理客户端（3）
 
 #### [clash](https://github.com/Hua2026-ai/clash)
 
@@ -214,12 +202,6 @@
 
 - **上游**：[yibaiba/hideck](https://github.com/yibaiba/hideck) · ⭐ 254 · 语言 Go · fork 于 2026-10-04
 - **作用**：自托管的高通 4G/LTE/5G 模组管理控制台：通过浏览器管理 USB modem、蜂窝代理、短信、WiFi 通话/IMS 语音、eSIM 与定时任务，Web UI 默认 `admin/admin`，推荐 Docker 部署。注意许可证为 **PolyForm Noncommercial 1.0.0（仅限非商业用途）**。fork 自 yibaiba/hideck（上游约 231★）。
-
-#### [net-test-kit](https://github.com/Hua2026-ai/net-test-kit)
-
-- **上游**：[feiyuaq/net-test-kit](https://github.com/feiyuaq/net-test-kit) · ⭐ 15 · 语言 - · fork 于 2026-10-03
-- **作用**：「网络测试工具集」：作者**只发布编译好的安装包，源代码不对外公开**，并声明禁止逆向与二次分发。fork 仅作收藏备份，使用前请自行评估风险并遵守作者声明的条款。fork 自 feiyuaq/net-test-kit（上游约 14★）。
-- **官方描述**：本项目归原作者所有，仅提供编译完成的程序安装包，源代码不对外公开，禁止逆向、二次分发。
 
 ### 影音 / 下载（3）
 
@@ -241,7 +223,7 @@
 - **作用**：更好用的抖音客户端：支持作者级下载、播放、点赞收藏、私信、通知，并接入 MCP 服务让 AI 控制，内置 AI 可在私信与好友间 AI 聊天。注意：下载他人内容请遵守平台服务条款与版权法规，勿用于侵权用途。fork 自 anYuJia/better-douyin（上游约 839★，许可证 Other/未明确，使用前请自行评估）。
 - **官方描述**：打造更好用的douyin，支持作者级下载、播放、点赞收藏、私信、通知、mcp服务接入ai控制，内置ai可以在私信与好友ai聊天。douyin download
 
-### 学习 / 资源索引（11）
+### 学习 / 资源索引（9）
 
 #### [awesome](https://github.com/Hua2026-ai/awesome)
 
@@ -284,18 +266,6 @@
 - **上游**：[ZuodaoTech/everyone-can-use-english](https://github.com/ZuodaoTech/everyone-can-use-english) · ⭐ 38,658 · 语言 TypeScript · [官网/主页](https://1000h.org) · fork 于 2026-10-10
 - **作用**：「人人都能用英语」：开源的英语学习软件，主打影子跟读、朗读与阅读，用 AI 辅助练口语与听力，可多端使用。GPL-3.0 许可证。fork 自 ZuodaoTech/everyone-can-use-english（上游约 38.7k★）。
 - **官方描述**：人人都能用英语
-
-#### [HowToLiveLonger](https://github.com/Hua2026-ai/HowToLiveLonger)
-
-- **上游**：[geekan/HowToLiveLonger](https://github.com/geekan/HowToLiveLonger) · ⭐ 35,725 · 语言 - · fork 于 2026-10-10
-- **作用**：「程序员延寿指南」：用循证研究线索梳理如何活得更久（饮食、运动、睡眠、体检等），每条结论尽量附原始研究出处，理性参考、非医疗建议。Unlicense（公有领域）。fork 自 geekan/HowToLiveLonger（上游约 35.7k★）。
-- **官方描述**：程序员延寿指南 | A programmer's guide to live longer
-
-#### [reverse-interview-zh](https://github.com/Hua2026-ai/reverse-interview-zh)
-
-- **上游**：[perkfly/reverse-interview-zh](https://github.com/perkfly/reverse-interview-zh) · ⭐ 18,520 · 语言 - · fork 于 2026-10-10
-- **作用**：「反向面试」：面试最后你可以反问面试官的问题清单（中文版），用来判断团队、流程与技术文化，帮你选到更合适的工作。注意：许可证为 NOASSERTION（未明确标准许可证），使用前请自行评估。fork 自 perkfly/reverse-interview-zh（原 yifeikong/reverse-interview-zh，上游约 18.5k★）。
-- **官方描述**：技术面试最后反问面试官的话
 
 #### [vibe-coding-cn](https://github.com/Hua2026-ai/vibe-coding-cn)
 
@@ -441,13 +411,10 @@
 | [rea](https://github.com/Hua2026-ai/rea) | [morluto/rea](https://github.com/morluto/rea) | 49,730 | TypeScript | AI / 工具与 MCP |
 | [cobalt](https://github.com/Hua2026-ai/cobalt) | [imputnet/cobalt](https://github.com/imputnet/cobalt) | 44,809 | Svelte | 影音 / 下载 |
 | [everyone-can-use-english](https://github.com/Hua2026-ai/everyone-can-use-english) | [ZuodaoTech/everyone-can-use-english](https://github.com/ZuodaoTech/everyone-can-use-english) | 38,658 | TypeScript | 学习 / 资源索引 |
-| [HowToLiveLonger](https://github.com/Hua2026-ai/HowToLiveLonger) | [geekan/HowToLiveLonger](https://github.com/geekan/HowToLiveLonger) | 35,725 | - | 学习 / 资源索引 |
 | [freellmapi](https://github.com/Hua2026-ai/freellmapi) | [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) | 32,582 | TypeScript | AI / 工具与 MCP |
 | [ai-website-cloner-template](https://github.com/Hua2026-ai/ai-website-cloner-template) | [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) | 36,596 | TypeScript | AI / 工具与 MCP |
 | [knowledge-work-plugins](https://github.com/Hua2026-ai/knowledge-work-plugins) | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | 28,328 | Python | AI / 工具与 MCP |
 | [hypit](https://github.com/Hua2026-ai/hypit) | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 20,613 | TypeScript | AI / 工具与 MCP |
-| [reverse-interview-zh](https://github.com/Hua2026-ai/reverse-interview-zh) | [perkfly/reverse-interview-zh](https://github.com/perkfly/reverse-interview-zh) | 18,520 | - | 学习 / 资源索引 |
-| [GhostTrack](https://github.com/Hua2026-ai/GhostTrack) | [HunxByts/GhostTrack](https://github.com/HunxByts/GhostTrack) | 17,888 | Python | 安全 / OSINT 工具 |
 | [lingbot-map](https://github.com/Hua2026-ai/lingbot-map) | [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map) | 17,760 | Python | 车机 / 3D 与设计 |
 | [vibe-coding-cn](https://github.com/Hua2026-ai/vibe-coding-cn) | [tradecatlabs/vibe-coding-cn](https://github.com/tradecatlabs/vibe-coding-cn) | 17,369 | Python | 学习 / 资源索引 |
 | [huobao-drama](https://github.com/Hua2026-ai/huobao-drama) | [chatfire-AI/huobao-drama](https://github.com/chatfire-AI/huobao-drama) | 15,923 | Vue | AI / 语音与视频生成 |
@@ -483,12 +450,10 @@
 | [playport](https://github.com/Hua2026-ai/playport) | [youcci/playport](https://github.com/youcci/playport) | 262 | Kotlin | 车机 / 3D 与设计 |
 | [hideck](https://github.com/Hua2026-ai/hideck) | [yibaiba/hideck](https://github.com/yibaiba/hideck) | 254 | Go | 网络工具 / 代理客户端 |
 | [muse-skills](https://github.com/Hua2026-ai/muse-skills) | [jasonbitsmith/muse-skills](https://github.com/jasonbitsmith/muse-skills) | 251 | - | AI / 工具与 MCP |
-| [net-test-kit](https://github.com/Hua2026-ai/net-test-kit) | [feiyuaq/net-test-kit](https://github.com/feiyuaq/net-test-kit) | 15 | - | 网络工具 / 代理客户端 |
-| [Ghosttrack-scanner](https://github.com/Hua2026-ai/Ghosttrack-scanner) | [NexNoir/Ghosttrack](https://github.com/NexNoir/Ghosttrack) | 11 | Python | 安全 / OSINT 工具 |
 
 ## 自建仓库（2，非 fork）
 
-> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 65 个 fork 的统计。
+> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 60 个 fork 的统计。
 
 #### [Hua2026-ai.github.io](https://github.com/Hua2026-ai/Hua2026-ai.github.io)
 
@@ -508,7 +473,7 @@
 - 上方清单均为 fork（备份/收藏性质），并非本人原创项目。本账号另有**自建仓库**，见上方「自建仓库」小节（`Hua2026-ai.github.io` 个人站点、`my-knowledge-base` 知识库），以及两个私有仓库 `workbuddy-sync`、`test-ai`。
 - 已清理掉一批不再需要的 fork（代理客户端、影视下载、部分 AI 资料类、系统工具等），本表为清理后的最新状态。
 - 网络代理类项目仅作技术资料归档，实际使用请遵守所在地法律法规与服务商条款，请勿用于任何违法用途。
-- 星标数取自上游仓库，会随时间变化；fork 部分为本账号 2026-10-10 的快照，自建仓库小节于 2026-10-13 补充。
+- 星标数取自上游仓库，会随时间变化；fork 部分为本账号 2026-10-16 的快照，自建仓库小节于 2026-10-13 补充。
 
 ## 同步上游
 
