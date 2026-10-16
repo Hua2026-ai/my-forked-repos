@@ -791,5 +791,31 @@
     "description": "Build and deploy iOS SwiftUI apps from Omarchy Linux on any PC (x86_64 or Apple Silicon), no Xcode required",
     "what_it_does": "从 Omarchy Linux 构建并部署 iOS SwiftUI App 的工具链：在任意 PC（x86_64 或 Apple Silicon）上无需 Xcode 即可打包、签名与分发 iOS 应用。MIT 许可证，2026-09 新建、上游 1 天前有提交、90+ fork，质量健康，可作为本地 iOS 构建/CI 方案的研究底座。fork 自 joshuaswarren/omarchy-apple-dev（上游约 1.65k★，MIT）。",
     "forked_at": "2026-10-16"
+  },
+  {
+    "repo": "Hua2026-ai/Windows-MCP",
+    "url": "https://github.com/Hua2026-ai/Windows-MCP",
+    "upstream": "CursorTouch/Windows-MCP",
+    "upstream_url": "https://github.com/CursorTouch/Windows-MCP",
+    "stars": 9167,
+    "language": "Python",
+    "homepage": "",
+    "category": "AI / 工具与 MCP",
+    "description": "MCP Server for Computer Use in Windows",
+    "what_it_does": "基于 Model Context Protocol (MCP) 的 Windows 计算机操作服务器：让 AI 智能体直接操控 Windows 桌面——点击、输入、读取屏幕、运行命令，把大模型接入本地 Windows 环境做自动化与计算机使用（computer use）。MIT 许可证，上游约 9.2k★、995+ fork，今天（2026-10-16）仍有提交，质量健康，可作为本地 Windows 自动化 / Agent 控制的研究底座。fork 自 CursorTouch/Windows-MCP（上游约 9.2k★，MIT）。",
+    "forked_at": "2026-10-16"
+  },
+  {
+    "repo": "Hua2026-ai/MiAuto",
+    "url": "https://github.com/Hua2026-ai/MiAuto",
+    "upstream": "PiggyBackBayonet/MiAuto",
+    "upstream_url": "https://github.com/PiggyBackBayonet/MiAuto",
+    "stars": 223,
+    "language": "Kotlin",
+    "homepage": "https://piggybackbayonet.github.io/MiAuto/",
+    "category": "车机 / 3D 与设计",
+    "description": "小米 / OPPO / vivo 等 ICCOA CarLink 手机投上车机：无线连接，无需转接盒、无需 root。Car-side ICCOA CarLink receiver for Xiaomi CarWith, OPPO Car+ and vivo Jovi InCar.",
+    "what_it_does": "把手机投屏到车机的 ICCOA CarLink 接收端：支持小米 CarWith、OPPO Car+、vivo Jovi InCar，无线连接、无需转接盒、无需 root，让手机应用映射到车机大屏使用。⚠️ 注意：AGPL-3.0 强 copyleft 许可证（修改与网络服务分发均需开源），如要二次开发或部署请遵守其条款；另涉及车机投屏 / 驾驶场景，请仅在合法授权、安全停车状态下使用，遵守交通法规。fork 自 PiggyBackBayonet/MiAuto（上游约 223★，AGPL-3.0）。",
+    "forked_at": "2026-10-16"
   }
 ]
