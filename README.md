@@ -1,16 +1,16 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **63** 个 fork，上游合计约 **1,861,070** star。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **68** 个 fork，上游合计约 **2,127,069** star。
 > 最后更新：2026-10-16。本文只做归档与说明，版权与所有权归各自上游作者。
 
 ## 一句话概览
 
-剩下这 63 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
+剩下这 68 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
 其次是**中文学习与资源索引**、**车机 CarPlay 与 3D 设计**、**Telegram 导航**，
 另有少量代理客户端与影视资源相关的归档，以及 1 个 iOS 开发工具（omarchy-apple-dev）。
 
 ## 分类清单
-### AI / 语音与视频生成（9）
+### AI / 语音与视频生成（10）
 
 #### [OpenMontage](https://github.com/Hua2026-ai/OpenMontage)
 
@@ -23,6 +23,12 @@
 - **上游**：[debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) · ⭐ 56,430 · 语言 Python · [官网/主页](https://voicestudio.sh) · fork 于 2026-09-27
 - **作用**：完全本地运行的语音工作台：声音克隆、语音设计、视频配音、听写、转写、有声书制作，官方称支持 646 种语言。可以理解为 ElevenLabs 的开源自托管替代品。
 - **官方描述**：VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
+
+#### [VoxCPM](https://github.com/Hua2026-ai/VoxCPM)
+
+- **上游**：[OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) · ⭐ 39,514 · 语言 Python · [官网/主页](https://voxcpm.com) · fork 于 2026-10-14
+- **作用**：VoxCPM2：无 tokenizer 的多语言 TTS（文本转语音）系统，支持多语种语音生成、创意音色设计与高保真声音克隆。Apache-2.0 许可证，上游约 39.5k★、4,480+ fork，2026-10-08 仍有提交，质量健康，与清单内 VoiceStudio 同属语音生成方向。fork 自 OpenBMB/VoxCPM（上游约 39.5k★，Apache-2.0）。
+- **官方描述**：VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning
 
 #### [huobao-drama](https://github.com/Hua2026-ai/huobao-drama)
 
@@ -67,7 +73,13 @@
 - **官方描述**：Wispr Flow for your lips: hold a key, silently mouth words, and they're typed at your cursor. Runs locally on your Mac.
 
 
-### AI / 工具与 MCP（19）
+### AI / 工具与 MCP（21）
+
+#### [opencode](https://github.com/Hua2026-ai/opencode)
+
+- **上游**：[anomalyco/opencode](https://github.com/anomalyco/opencode) · ⭐ 215,754 · 语言 TypeScript · [官网/主页](https://opencode.ai) · fork 于 2026-10-17
+- **作用**：开源编码 agent（The open source coding agent）：终端内的 AI 编程助手，支持多模型、多会话与工具调用，是 Claude Code / Codex 类工具的开源替代。MIT 许可证，上游约 21.6 万★、28,900+ fork，2026-10-18 仍有提交，活跃度极高，质量健康。fork 自 anomalyco/opencode（上游约 21.6 万★，MIT）。
+- **官方描述**：The open source coding agent.
 
 #### [claude-mem](https://github.com/Hua2026-ai/claude-mem)
 
@@ -116,6 +128,12 @@
 - **上游**：[lexmount/moli](https://github.com/lexmount/moli) · ⭐ 14,958 · 语言 Rust · [官网/主页](https://browser.lexmount.com) · fork 于 2026-10-06
 - **作用**：为 AI 智能体打造的**无头浏览器**：轻量、快速、高兼容，Rust 编写，主页 browser.lexmount.com。fork 自 lexmount/moli（上游约 12.6k★）。
 - **官方描述**：Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust
+
+#### [Horizon](https://github.com/Hua2026-ai/Horizon)
+
+- **上游**：[Thysrael/Horizon](https://github.com/Thysrael/Horizon) · ⭐ 10,692 · 语言 Python · [官网/主页](https://www.horizon1123.top) · fork 于 2026-10-17
+- **作用**：AI 驱动的新闻雷达：自动抓取并生成中英双语每日简报，打造专属资讯聚合。MIT 许可证，上游约 10.7k★、1,600+ fork，2026-10-18 仍有提交，质量健康，可作为每日资讯自动化 / 信息聚合的研究底座。fork 自 Thysrael/Horizon（上游约 10.7k★，MIT）。
+- **官方描述**：📡 Your own AI-powered news radar. Generates daily briefings in English & Chinese. | 用 AI 构建你专属的新闻雷达
 
 #### [Windows-MCP](https://github.com/Hua2026-ai/Windows-MCP)
 
@@ -346,7 +364,7 @@
 - **官方描述**：2026最新悄咪咪收集的10000+个Telegram群合集、tg导航，附全网最有趣好用的机器人BOT🤖【tg10000.com】
 
 
-### 系统工具（10）
+### 系统工具（12）
 
 #### [Win11Debloat](https://github.com/Hua2026-ai/Win11Debloat)
 
@@ -408,6 +426,18 @@
 - **作用**：面向 PS5 自制软件（homebrew）目录的原生应用商店（homebrew.page 上的 PPSA99000）。注意：涉及主机越狱/自制软件生态，请遵守所在地法律法规与 Sony 相关条款，风险自负。fork 自 blackbearreloaded/ProsperoStore（上游约 248★，GPL-3.0）。
 - **官方描述**：Native PS5 app store for the homebrew catalog at homebrew.page (title PPSA99000)
 
+#### [workbuddy-toolkit](https://github.com/Hua2026-ai/workbuddy-toolkit)
+
+- **上游**：[FlapPearLabs/workbuddy-toolkit](https://github.com/FlapPearLabs/workbuddy-toolkit) · ⭐ 33 · 语言 Python · fork 于 2026-10-18
+- **作用**：WorkBuddy 多账号管理与自动签到工具：多账号轮换、全域工作区打通与自动化签到。⚠️ 注意：属自动化签到 / 多账号类工具，请仅用于自己的账号、遵守相关平台服务条款。MIT 许可证，上游仅 33★、2 fork，2026-10-15 仍有提交，小工具参考。fork 自 FlapPearLabs/workbuddy-toolkit（上游约 33★，MIT）。
+- **官方描述**：WorkBuddy Multi-Account Manager & Automated Check-in Toolkit (多账号轮换、全域工作区打通与自动化签到)
+
+#### [dsh-font-probe](https://github.com/Hua2026-ai/dsh-font-probe)
+
+- **上游**：[lohana20061023-29/dsh-font-probe](https://github.com/lohana20061023-29/dsh-font-probe) · ⭐ 6 · 语言 JavaScript · fork 于 2026-10-18
+- **作用**：DSH 字体插件：中英文字体分设、正文字号与代码字号、字距/行距/段距/首行缩进四根滑块，吸底总预览 + 确认制，配置写回 profile、不动 app.asar。MIT 许可证，上游仅 6★、个人小项目，2026-10-18 仍有提交，适合阅读 / 编辑器排版微调参考。fork 自 lohana20061023-29/dsh-font-probe（上游约 6★，MIT）。
+- **官方描述**：DSH 字体插件：中英文字体分设、正文字号与代码字号、字距/行距/段距/首行缩进四根滑块，吸底总预览 + 确认制，配置写回 profile，不动 app.asar。
+
 
 ### 开发 / 移动工具（1）
 
@@ -422,6 +452,7 @@
 | 仓库 | 上游 | ⭐ | 语言 | 分类 |
 | --- | --- | --- | --- | --- |
 | [awesome](https://github.com/Hua2026-ai/awesome) | [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 516,837 | - | 学习 / 资源索引 |
+| [opencode](https://github.com/Hua2026-ai/opencode) | [anomalyco/opencode](https://github.com/anomalyco/opencode) | 215,754 | TypeScript | AI / 工具与 MCP |
 | [HelloGitHub](https://github.com/Hua2026-ai/HelloGitHub) | [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) | 180,954 | Python | 学习 / 资源索引 |
 | [HowToCook](https://github.com/Hua2026-ai/HowToCook) | [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) | 102,605 | - | 学习 / 资源索引 |
 | [claude-mem](https://github.com/Hua2026-ai/claude-mem) | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 100,444 | TypeScript | AI / 工具与 MCP |
@@ -434,6 +465,7 @@
 | [VoiceStudio](https://github.com/Hua2026-ai/VoiceStudio) | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 56,430 | Python | AI / 语音与视频生成 |
 | [rea](https://github.com/Hua2026-ai/rea) | [morluto/rea](https://github.com/morluto/rea) | 49,730 | TypeScript | AI / 工具与 MCP |
 | [cobalt](https://github.com/Hua2026-ai/cobalt) | [imputnet/cobalt](https://github.com/imputnet/cobalt) | 44,809 | Svelte | 影音 / 下载 |
+| [VoxCPM](https://github.com/Hua2026-ai/VoxCPM) | [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) | 39,514 | Python | AI / 语音与视频生成 |
 | [everyone-can-use-english](https://github.com/Hua2026-ai/everyone-can-use-english) | [ZuodaoTech/everyone-can-use-english](https://github.com/ZuodaoTech/everyone-can-use-english) | 38,658 | TypeScript | 学习 / 资源索引 |
 | [ai-website-cloner-template](https://github.com/Hua2026-ai/ai-website-cloner-template) | [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) | 36,596 | TypeScript | AI / 工具与 MCP |
 | [freellmapi](https://github.com/Hua2026-ai/freellmapi) | [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) | 32,582 | TypeScript | AI / 工具与 MCP |
@@ -444,6 +476,7 @@
 | [huobao-drama](https://github.com/Hua2026-ai/huobao-drama) | [chatfire-AI/huobao-drama](https://github.com/chatfire-AI/huobao-drama) | 15,923 | Vue | AI / 语音与视频生成 |
 | [moli](https://github.com/Hua2026-ai/moli) | [lexmount/moli](https://github.com/lexmount/moli) | 14,958 | Rust | AI / 工具与 MCP |
 | [patent-disclosure-skill](https://github.com/Hua2026-ai/patent-disclosure-skill) | [handsomestWei/patent-disclosure-skill](https://github.com/handsomestWei/patent-disclosure-skill) | 11,222 | Python | AI / 语音与视频生成 |
+| [Horizon](https://github.com/Hua2026-ai/Horizon) | [Thysrael/Horizon](https://github.com/Thysrael/Horizon) | 10,692 | Python | AI / 工具与 MCP |
 | [Wan2GP](https://github.com/Hua2026-ai/Wan2GP) | [deepbeepmeep/Wan2GP](https://github.com/deepbeepmeep/Wan2GP) | 10,259 | Python | AI / 语音与视频生成 |
 | [clash](https://github.com/Hua2026-ai/clash) | [clashbk/clash](https://github.com/clashbk/clash) | 9,462 | - | 网络工具 / 代理客户端 |
 | [rectg](https://github.com/Hua2026-ai/rectg) | [rooktwo/rectg](https://github.com/rooktwo/rectg) | 9,319 | Python | Telegram 导航 |
@@ -484,10 +517,12 @@
 | [muse-skills](https://github.com/Hua2026-ai/muse-skills) | [jasonbitsmith/muse-skills](https://github.com/jasonbitsmith/muse-skills) | 251 | - | AI / 工具与 MCP |
 | [ProsperoStore](https://github.com/Hua2026-ai/ProsperoStore) | [blackbearreloaded/ProsperoStore](https://github.com/blackbearreloaded/ProsperoStore) | 248 | C++ | 系统工具 |
 | [MiAuto](https://github.com/Hua2026-ai/MiAuto) | [PiggyBackBayonet/MiAuto](https://github.com/PiggyBackBayonet/MiAuto) | 223 | Kotlin | 车机 / 3D 与设计 |
+| [workbuddy-toolkit](https://github.com/Hua2026-ai/workbuddy-toolkit) | [FlapPearLabs/workbuddy-toolkit](https://github.com/FlapPearLabs/workbuddy-toolkit) | 33 | Python | 系统工具 |
+| [dsh-font-probe](https://github.com/Hua2026-ai/dsh-font-probe) | [lohana20061023-29/dsh-font-probe](https://github.com/lohana20061023-29/dsh-font-probe) | 6 | JavaScript | 系统工具 |
 
 ## 自建仓库（2，非 fork）
 
-> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 63 个 fork 的统计。
+> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 68 个 fork 的统计。
 
 #### [Hua2026-ai.github.io](https://github.com/Hua2026-ai/Hua2026-ai.github.io)
 

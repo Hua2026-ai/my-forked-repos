@@ -817,5 +817,70 @@
     "description": "小米 / OPPO / vivo 等 ICCOA CarLink 手机投上车机：无线连接，无需转接盒、无需 root。Car-side ICCOA CarLink receiver for Xiaomi CarWith, OPPO Car+ and vivo Jovi InCar.",
     "what_it_does": "把手机投屏到车机的 ICCOA CarLink 接收端：支持小米 CarWith、OPPO Car+、vivo Jovi InCar，无线连接、无需转接盒、无需 root，让手机应用映射到车机大屏使用。⚠️ 注意：AGPL-3.0 强 copyleft 许可证（修改与网络服务分发均需开源），如要二次开发或部署请遵守其条款；另涉及车机投屏 / 驾驶场景，请仅在合法授权、安全停车状态下使用，遵守交通法规。fork 自 PiggyBackBayonet/MiAuto（上游约 223★，AGPL-3.0）。",
     "forked_at": "2026-10-16"
+  },
+  {
+    "repo": "Hua2026-ai/Horizon",
+    "url": "https://github.com/Hua2026-ai/Horizon",
+    "upstream": "Thysrael/Horizon",
+    "upstream_url": "https://github.com/Thysrael/Horizon",
+    "stars": 10692,
+    "language": "Python",
+    "homepage": "https://www.horizon1123.top",
+    "category": "AI / 工具与 MCP",
+    "description": "📡 Your own AI-powered news radar. Generates daily briefings in English & Chinese. | 用 AI 构建你专属的新闻雷达",
+    "what_it_does": "AI 驱动的新闻雷达：自动抓取并生成中英双语每日简报，打造专属资讯聚合。MIT 许可证，上游约 10.7k★、1,600+ fork，2026-10-18 仍有提交，质量健康，可作为每日资讯自动化 / 信息聚合的研究底座。fork 自 Thysrael/Horizon（上游约 10.7k★，MIT）。",
+    "forked_at": "2026-10-17"
+  },
+  {
+    "repo": "Hua2026-ai/VoxCPM",
+    "url": "https://github.com/Hua2026-ai/VoxCPM",
+    "upstream": "OpenBMB/VoxCPM",
+    "upstream_url": "https://github.com/OpenBMB/VoxCPM",
+    "stars": 39514,
+    "language": "Python",
+    "homepage": "https://voxcpm.com",
+    "category": "AI / 语音与视频生成",
+    "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+    "what_it_does": "VoxCPM2：无 tokenizer 的多语言 TTS（文本转语音）系统，支持多语种语音生成、创意音色设计与高保真声音克隆。Apache-2.0 许可证，上游约 39.5k★、4,480+ fork，2026-10-08 仍有提交，质量健康，与清单内 VoiceStudio 同属语音生成方向。fork 自 OpenBMB/VoxCPM（上游约 39.5k★，Apache-2.0）。",
+    "forked_at": "2026-10-14"
+  },
+  {
+    "repo": "Hua2026-ai/dsh-font-probe",
+    "url": "https://github.com/Hua2026-ai/dsh-font-probe",
+    "upstream": "lohana20061023-29/dsh-font-probe",
+    "upstream_url": "https://github.com/lohana20061023-29/dsh-font-probe",
+    "stars": 6,
+    "language": "JavaScript",
+    "homepage": "",
+    "category": "系统工具",
+    "description": "DSH 字体插件：中英文字体分设、正文字号与代码字号、字距/行距/段距/首行缩进四根滑块，吸底总预览 + 确认制，配置写回 profile，不动 app.asar。",
+    "what_it_does": "DSH 字体插件：中英文字体分设、正文字号与代码字号、字距/行距/段距/首行缩进四根滑块，吸底总预览 + 确认制，配置写回 profile、不动 app.asar。MIT 许可证，上游仅 6★、个人小项目，2026-10-18 仍有提交，适合阅读 / 编辑器排版微调参考。fork 自 lohana20061023-29/dsh-font-probe（上游约 6★，MIT）。",
+    "forked_at": "2026-10-18"
+  },
+  {
+    "repo": "Hua2026-ai/opencode",
+    "url": "https://github.com/Hua2026-ai/opencode",
+    "upstream": "anomalyco/opencode",
+    "upstream_url": "https://github.com/anomalyco/opencode",
+    "stars": 215754,
+    "language": "TypeScript",
+    "homepage": "https://opencode.ai",
+    "category": "AI / 工具与 MCP",
+    "description": "The open source coding agent.",
+    "what_it_does": "开源编码 agent（The open source coding agent）：终端内的 AI 编程助手，支持多模型、多会话与工具调用，是 Claude Code / Codex 类工具的开源替代。MIT 许可证，上游约 21.6 万★、28,900+ fork，2026-10-18 仍有提交，活跃度极高，质量健康。fork 自 anomalyco/opencode（上游约 21.6 万★，MIT）。",
+    "forked_at": "2026-10-17"
+  },
+  {
+    "repo": "Hua2026-ai/workbuddy-toolkit",
+    "url": "https://github.com/Hua2026-ai/workbuddy-toolkit",
+    "upstream": "FlapPearLabs/workbuddy-toolkit",
+    "upstream_url": "https://github.com/FlapPearLabs/workbuddy-toolkit",
+    "stars": 33,
+    "language": "Python",
+    "homepage": "",
+    "category": "系统工具",
+    "description": "WorkBuddy Multi-Account Manager & Automated Check-in Toolkit (多账号轮换、全域工作区打通与自动化签到)",
+    "what_it_does": "WorkBuddy 多账号管理与自动签到工具：多账号轮换、全域工作区打通与自动化签到。⚠️ 注意：属自动化签到 / 多账号类工具，请仅用于自己的账号、遵守相关平台服务条款。MIT 许可证，上游仅 33★、2 fork，2026-10-15 仍有提交，小工具参考。fork 自 FlapPearLabs/workbuddy-toolkit（上游约 33★，MIT）。",
+    "forked_at": "2026-10-18"
   }
 ]
