@@ -1,11 +1,11 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **69** 个 fork，上游合计约 **2,127,223** star。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **70** 个 fork，上游合计约 **2,133,046** star。
 > 最后更新：2026-10-16。本文只做归档与说明，版权与所有权归各自上游作者。
 
 ## 一句话概览
 
-剩下这 69 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
+剩下这 70 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
 其次是**中文学习与资源索引**、**车机 CarPlay 与 3D 设计**、**Telegram 导航**，
 另有少量代理客户端与影视资源相关的归档，以及 1 个 iOS 开发工具（omarchy-apple-dev）。
 
@@ -364,7 +364,7 @@
 - **官方描述**：2026最新悄咪咪收集的10000+个Telegram群合集、tg导航，附全网最有趣好用的机器人BOT🤖【tg10000.com】
 
 
-### 系统工具（13）
+### 系统工具（14）
 
 #### [Win11Debloat](https://github.com/Hua2026-ai/Win11Debloat)
 
@@ -377,6 +377,12 @@
 - **上游**：[qingjian-team/qingjian](https://github.com/qingjian-team/qingjian) · ⭐ 5,846 · 语言 Rust · [官网/主页](https://qingjian.app) · fork 于 2026-10-08
 - **作用**：青简 Qingjian：用 Rust 编写的拼音输入法，候选词旁额外显示一条正在学习的外语译词。fork 自 qingjian-team/qingjian（上游约 5.7k★）。
 - **官方描述**：青简 Qingjian：用 Rust 写的拼音输入法，候选词旁多一条正在学的语言的译词
+
+#### [cleanyourtv](https://github.com/Hua2026-ai/cleanyourtv)
+
+- **上游**：[Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) · ⭐ 5,823 · 语言 Java · [官网/主页](https://cleanyour.tv) · fork 于 2026-10-20
+- **作用**：Android TV / Google TV 一键去广告去臃肿工具：通过 ADB over Wi-Fi 用 pm disable-user 禁用厂商遥测、广告服务、推荐内容行与预装垃圾（不卸载、可一键恢复），并换上 Apple TV 风格的极简启动器（纯 Java、约 250KB、支持主题与屏保）。仓库本质是给 Claude Code 等 AI 编码助手使用的 PROMPT.md + 各机型验证过的 debloat 清单 + launcher，无需 root。⚠️ 许可证为 NOASSERTION（GitHub 未识别为标准 SPDX），二次开发/分发前需查看仓库内 LICENSE 原文；操作会禁用电视系统组件，请仅在自有设备上按提示逐步确认、做好备份。上游约 5.8k★、705 fork，2026-10-20 仍有提交，质量健康。fork 自 Gathin23/cleanyourtv。
+- **官方描述**：Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
 
 #### [OpenNOW](https://github.com/Hua2026-ai/OpenNOW)
 
@@ -495,6 +501,7 @@
 | [goutoujunshi](https://github.com/Hua2026-ai/goutoujunshi) | [shengjidaguai-china/goutoujunshi](https://github.com/shengjidaguai-china/goutoujunshi) | 7,504 | Python | AI / 语音与视频生成 |
 | [TelegramGroup](https://github.com/Hua2026-ai/TelegramGroup) | [itgoyo/TelegramGroup](https://github.com/itgoyo/TelegramGroup) | 5,875 | - | Telegram 导航 |
 | [qingjian](https://github.com/Hua2026-ai/qingjian) | [qingjian-team/qingjian](https://github.com/qingjian-team/qingjian) | 5,846 | Rust | 系统工具 |
+| [cleanyourtv](https://github.com/Hua2026-ai/cleanyourtv) | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | 5,823 | Java | 系统工具 |
 | [SenseNova-Skills](https://github.com/Hua2026-ai/SenseNova-Skills) | [OpenSenseNova/SenseNova-Skills](https://github.com/OpenSenseNova/SenseNova-Skills) | 5,749 | JavaScript | AI / 语音与视频生成 |
 | [iPhone-use](https://github.com/Hua2026-ai/iPhone-use) | [zhongerxin/iPhone-use](https://github.com/zhongerxin/iPhone-use) | 3,581 | Python | AI / 工具与 MCP |
 | [Easel](https://github.com/Hua2026-ai/Easel) | [ZJU-REAL/Easel](https://github.com/ZJU-REAL/Easel) | 3,575 | Python | AI / 工具与 MCP |
@@ -529,7 +536,7 @@
 
 ## 自建仓库（2，非 fork）
 
-> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 69 个 fork 的统计。
+> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 70 个 fork 的统计。
 
 #### [Hua2026-ai.github.io](https://github.com/Hua2026-ai/Hua2026-ai.github.io)
 

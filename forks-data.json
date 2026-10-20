@@ -895,5 +895,18 @@
     "description": "DLSS 5 Swapper 中文增强版：全界面与游戏内叠加层完整汉化，并修复部分游戏自带 D3D12 运行时被误判冲突导致无法安装的问题",
     "what_it_does": "DLSS 5 Swapper 中文增强版：为 NVIDIA DLSS 5（神经渲染）提供游戏/模拟器的一键安装与管理。基于原版 rakanki911/DLSS5-Swapper（原版仓库疑已 DMCA 下架），额外提供完整中文汉化（主界面 + 游戏内叠加层）、新手教程、版本更新检测与缓存清理，并修复部分游戏自带 D3D12 运行时被误判冲突导致无法安装的问题。⚠️ 注意：① DLSS 注入会修改游戏文件、可能触发反作弊告警或账号风险，请仅用于单机 / 自有游戏并做好备份；② 上游许可证为 NOASSERTION（含原版 MIT 及增强版附加声明），二次开发 / 分发前需查看仓库内 LICENSE 原文。fork 自 hezhixin15/DLSS5-Swapper-Chinese（上游约 154★）。",
     "forked_at": "2026-10-20"
+  },
+  {
+    "repo": "Hua2026-ai/cleanyourtv",
+    "url": "https://github.com/Hua2026-ai/cleanyourtv",
+    "upstream": "Gathin23/cleanyourtv",
+    "upstream_url": "https://github.com/Gathin23/cleanyourtv",
+    "stars": 5823,
+    "language": "Java",
+    "homepage": "https://cleanyour.tv",
+    "category": "系统工具",
+    "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+    "what_it_does": "Android TV / Google TV 一键去广告去臃肿工具：通过 ADB over Wi-Fi 用 pm disable-user 禁用厂商遥测、广告服务、推荐内容行与预装垃圾（不卸载、可一键恢复），并换上 Apple TV 风格的极简启动器（纯 Java、约 250KB、支持主题与屏保）。仓库本质是给 Claude Code 等 AI 编码助手使用的 PROMPT.md + 各机型验证过的 debloat 清单 + launcher，无需 root。⚠️ 许可证为 NOASSERTION（GitHub 未识别为标准 SPDX），二次开发/分发前需查看仓库内 LICENSE 原文；操作会禁用电视系统组件，请仅在自有设备上按提示逐步确认、做好备份。上游约 5.8k★、705 fork，2026-10-20 仍有提交，质量健康。fork 自 Gathin23/cleanyourtv。",
+    "forked_at": "2026-10-20"
   }
 ]
