@@ -884,16 +884,16 @@
     "forked_at": "2026-10-18"
   },
   {
-    "repo": "Hua2026-ai/awesome-android-root",
-    "url": "https://github.com/Hua2026-ai/awesome-android-root",
-    "upstream": "awesome-android-root/awesome-android-root",
-    "upstream_url": "https://github.com/awesome-android-root/awesome-android-root",
-    "stars": 5367,
+    "repo": "Hua2026-ai/DLSS5-Swapper-Chinese",
+    "url": "https://github.com/Hua2026-ai/DLSS5-Swapper-Chinese",
+    "upstream": "hezhixin15/DLSS5-Swapper-Chinese",
+    "upstream_url": "https://github.com/hezhixin15/DLSS5-Swapper-Chinese",
+    "stars": 154,
     "language": "JavaScript",
-    "homepage": "https://awesome-android-root.xyz",
+    "homepage": "",
     "category": "系统工具",
-    "description": "Discover best root apps, Magisk, KernelSu & LSPosed(xposed) modules & rooting guides",
-    "what_it_does": "Android root 生态的 awesome 精选列表：收录最佳 root 应用、Magisk、KernelSu、LSPosed(Xposed) 模块与 root 指南，是 Android 定制 / root 方向的资源索引。⚠️ 注意：root 会破坏设备保修、有变砖与安全风险，请仅在自有设备、充分备份、了解风险的前提下使用，勿用于绕过安全机制或未授权场景。MIT 许可证（列表类，内容版权归各被收录项目），上游约 5.4k★、324 fork，2026-10-18 仍有提交，质量健康。fork 自 awesome-android-root/awesome-android-root（上游约 5.4k★，MIT）。",
+    "description": "DLSS 5 Swapper 中文增强版：全界面与游戏内叠加层完整汉化，并修复部分游戏自带 D3D12 运行时被误判冲突导致无法安装的问题",
+    "what_it_does": "DLSS 5 Swapper 中文增强版：为 NVIDIA DLSS 5（神经渲染）提供游戏/模拟器的一键安装与管理。基于原版 rakanki911/DLSS5-Swapper（原版仓库疑已 DMCA 下架），额外提供完整中文汉化（主界面 + 游戏内叠加层）、新手教程、版本更新检测与缓存清理，并修复部分游戏自带 D3D12 运行时被误判冲突导致无法安装的问题。⚠️ 注意：① DLSS 注入会修改游戏文件、可能触发反作弊告警或账号风险，请仅用于单机 / 自有游戏并做好备份；② 上游许可证为 NOASSERTION（含原版 MIT 及增强版附加声明），二次开发 / 分发前需查看仓库内 LICENSE 原文。fork 自 hezhixin15/DLSS5-Swapper-Chinese（上游约 154★）。",
     "forked_at": "2026-10-20"
   }
 ]

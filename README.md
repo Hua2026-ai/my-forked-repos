@@ -1,6 +1,6 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **69** 个 fork，上游合计约 **2,132,436** star。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **69** 个 fork，上游合计约 **2,127,223** star。
 > 最后更新：2026-10-16。本文只做归档与说明，版权与所有权归各自上游作者。
 
 ## 一句话概览
@@ -378,12 +378,6 @@
 - **作用**：青简 Qingjian：用 Rust 编写的拼音输入法，候选词旁额外显示一条正在学习的外语译词。fork 自 qingjian-team/qingjian（上游约 5.7k★）。
 - **官方描述**：青简 Qingjian：用 Rust 写的拼音输入法，候选词旁多一条正在学的语言的译词
 
-#### [awesome-android-root](https://github.com/Hua2026-ai/awesome-android-root)
-
-- **上游**：[awesome-android-root/awesome-android-root](https://github.com/awesome-android-root/awesome-android-root) · ⭐ 5,367 · 语言 JavaScript · [官网/主页](https://awesome-android-root.xyz) · fork 于 2026-10-20
-- **作用**：Android root 生态的 awesome 精选列表：收录最佳 root 应用、Magisk、KernelSu、LSPosed(Xposed) 模块与 root 指南，是 Android 定制 / root 方向的资源索引。⚠️ 注意：root 会破坏设备保修、有变砖与安全风险，请仅在自有设备、充分备份、了解风险的前提下使用，勿用于绕过安全机制或未授权场景。MIT 许可证（列表类，内容版权归各被收录项目），上游约 5.4k★、324 fork，2026-10-18 仍有提交，质量健康。fork 自 awesome-android-root/awesome-android-root（上游约 5.4k★，MIT）。
-- **官方描述**：Discover best root apps, Magisk, KernelSu & LSPosed(xposed) modules & rooting guides
-
 #### [OpenNOW](https://github.com/Hua2026-ai/OpenNOW)
 
 - **上游**：[OpenCloudGaming/OpenNOW](https://github.com/OpenCloudGaming/OpenNOW) · ⭐ 3,351 · 语言 Rust · fork 于 2026-10-09
@@ -431,6 +425,12 @@
 - **上游**：[blackbearreloaded/ProsperoStore](https://github.com/blackbearreloaded/ProsperoStore) · ⭐ 248 · 语言 C++ · fork 于 2026-10-13
 - **作用**：面向 PS5 自制软件（homebrew）目录的原生应用商店（homebrew.page 上的 PPSA99000）。注意：涉及主机越狱/自制软件生态，请遵守所在地法律法规与 Sony 相关条款，风险自负。fork 自 blackbearreloaded/ProsperoStore（上游约 248★，GPL-3.0）。
 - **官方描述**：Native PS5 app store for the homebrew catalog at homebrew.page (title PPSA99000)
+
+#### [DLSS5-Swapper-Chinese](https://github.com/Hua2026-ai/DLSS5-Swapper-Chinese)
+
+- **上游**：[hezhixin15/DLSS5-Swapper-Chinese](https://github.com/hezhixin15/DLSS5-Swapper-Chinese) · ⭐ 154 · 语言 JavaScript · fork 于 2026-10-20
+- **作用**：DLSS 5 Swapper 中文增强版：为 NVIDIA DLSS 5（神经渲染）提供游戏/模拟器的一键安装与管理。基于原版 rakanki911/DLSS5-Swapper（原版仓库疑已 DMCA 下架），额外提供完整中文汉化（主界面 + 游戏内叠加层）、新手教程、版本更新检测与缓存清理，并修复部分游戏自带 D3D12 运行时被误判冲突导致无法安装的问题。⚠️ 注意：① DLSS 注入会修改游戏文件、可能触发反作弊告警或账号风险，请仅用于单机 / 自有游戏并做好备份；② 上游许可证为 NOASSERTION（含原版 MIT 及增强版附加声明），二次开发 / 分发前需查看仓库内 LICENSE 原文。fork 自 hezhixin15/DLSS5-Swapper-Chinese（上游约 154★）。
+- **官方描述**：DLSS 5 Swapper 中文增强版：全界面与游戏内叠加层完整汉化，并修复部分游戏自带 D3D12 运行时被误判冲突导致无法安装的问题
 
 #### [workbuddy-toolkit](https://github.com/Hua2026-ai/workbuddy-toolkit)
 
@@ -496,7 +496,6 @@
 | [TelegramGroup](https://github.com/Hua2026-ai/TelegramGroup) | [itgoyo/TelegramGroup](https://github.com/itgoyo/TelegramGroup) | 5,875 | - | Telegram 导航 |
 | [qingjian](https://github.com/Hua2026-ai/qingjian) | [qingjian-team/qingjian](https://github.com/qingjian-team/qingjian) | 5,846 | Rust | 系统工具 |
 | [SenseNova-Skills](https://github.com/Hua2026-ai/SenseNova-Skills) | [OpenSenseNova/SenseNova-Skills](https://github.com/OpenSenseNova/SenseNova-Skills) | 5,749 | JavaScript | AI / 语音与视频生成 |
-| [awesome-android-root](https://github.com/Hua2026-ai/awesome-android-root) | [awesome-android-root/awesome-android-root](https://github.com/awesome-android-root/awesome-android-root) | 5,367 | JavaScript | 系统工具 |
 | [iPhone-use](https://github.com/Hua2026-ai/iPhone-use) | [zhongerxin/iPhone-use](https://github.com/zhongerxin/iPhone-use) | 3,581 | Python | AI / 工具与 MCP |
 | [Easel](https://github.com/Hua2026-ai/Easel) | [ZJU-REAL/Easel](https://github.com/ZJU-REAL/Easel) | 3,575 | Python | AI / 工具与 MCP |
 | [OpenNOW](https://github.com/Hua2026-ai/OpenNOW) | [OpenCloudGaming/OpenNOW](https://github.com/OpenCloudGaming/OpenNOW) | 3,351 | Rust | 系统工具 |
@@ -524,6 +523,7 @@
 | [muse-skills](https://github.com/Hua2026-ai/muse-skills) | [jasonbitsmith/muse-skills](https://github.com/jasonbitsmith/muse-skills) | 251 | - | AI / 工具与 MCP |
 | [ProsperoStore](https://github.com/Hua2026-ai/ProsperoStore) | [blackbearreloaded/ProsperoStore](https://github.com/blackbearreloaded/ProsperoStore) | 248 | C++ | 系统工具 |
 | [MiAuto](https://github.com/Hua2026-ai/MiAuto) | [PiggyBackBayonet/MiAuto](https://github.com/PiggyBackBayonet/MiAuto) | 223 | Kotlin | 车机 / 3D 与设计 |
+| [DLSS5-Swapper-Chinese](https://github.com/Hua2026-ai/DLSS5-Swapper-Chinese) | [hezhixin15/DLSS5-Swapper-Chinese](https://github.com/hezhixin15/DLSS5-Swapper-Chinese) | 154 | JavaScript | 系统工具 |
 | [workbuddy-toolkit](https://github.com/Hua2026-ai/workbuddy-toolkit) | [FlapPearLabs/workbuddy-toolkit](https://github.com/FlapPearLabs/workbuddy-toolkit) | 33 | Python | 系统工具 |
 | [dsh-font-probe](https://github.com/Hua2026-ai/dsh-font-probe) | [lohana20061023-29/dsh-font-probe](https://github.com/lohana20061023-29/dsh-font-probe) | 6 | JavaScript | 系统工具 |
 
