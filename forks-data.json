@@ -882,5 +882,18 @@
     "description": "WorkBuddy Multi-Account Manager & Automated Check-in Toolkit (多账号轮换、全域工作区打通与自动化签到)",
     "what_it_does": "WorkBuddy 多账号管理与自动签到工具：多账号轮换、全域工作区打通与自动化签到。⚠️ 注意：属自动化签到 / 多账号类工具，请仅用于自己的账号、遵守相关平台服务条款。MIT 许可证，上游仅 33★、2 fork，2026-10-15 仍有提交，小工具参考。fork 自 FlapPearLabs/workbuddy-toolkit（上游约 33★，MIT）。",
     "forked_at": "2026-10-18"
+  },
+  {
+    "repo": "Hua2026-ai/awesome-android-root",
+    "url": "https://github.com/Hua2026-ai/awesome-android-root",
+    "upstream": "awesome-android-root/awesome-android-root",
+    "upstream_url": "https://github.com/awesome-android-root/awesome-android-root",
+    "stars": 5367,
+    "language": "JavaScript",
+    "homepage": "https://awesome-android-root.xyz",
+    "category": "系统工具",
+    "description": "Discover best root apps, Magisk, KernelSu & LSPosed(xposed) modules & rooting guides",
+    "what_it_does": "Android root 生态的 awesome 精选列表：收录最佳 root 应用、Magisk、KernelSu、LSPosed(Xposed) 模块与 root 指南，是 Android 定制 / root 方向的资源索引。⚠️ 注意：root 会破坏设备保修、有变砖与安全风险，请仅在自有设备、充分备份、了解风险的前提下使用，勿用于绕过安全机制或未授权场景。MIT 许可证（列表类，内容版权归各被收录项目），上游约 5.4k★、324 fork，2026-10-18 仍有提交，质量健康。fork 自 awesome-android-root/awesome-android-root（上游约 5.4k★，MIT）。",
+    "forked_at": "2026-10-20"
   }
 ]

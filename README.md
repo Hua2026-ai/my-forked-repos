@@ -1,11 +1,11 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **68** 个 fork，上游合计约 **2,127,069** star。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **69** 个 fork，上游合计约 **2,132,436** star。
 > 最后更新：2026-10-16。本文只做归档与说明，版权与所有权归各自上游作者。
 
 ## 一句话概览
 
-剩下这 68 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
+剩下这 69 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
 其次是**中文学习与资源索引**、**车机 CarPlay 与 3D 设计**、**Telegram 导航**，
 另有少量代理客户端与影视资源相关的归档，以及 1 个 iOS 开发工具（omarchy-apple-dev）。
 
@@ -364,7 +364,7 @@
 - **官方描述**：2026最新悄咪咪收集的10000+个Telegram群合集、tg导航，附全网最有趣好用的机器人BOT🤖【tg10000.com】
 
 
-### 系统工具（12）
+### 系统工具（13）
 
 #### [Win11Debloat](https://github.com/Hua2026-ai/Win11Debloat)
 
@@ -377,6 +377,12 @@
 - **上游**：[qingjian-team/qingjian](https://github.com/qingjian-team/qingjian) · ⭐ 5,846 · 语言 Rust · [官网/主页](https://qingjian.app) · fork 于 2026-10-08
 - **作用**：青简 Qingjian：用 Rust 编写的拼音输入法，候选词旁额外显示一条正在学习的外语译词。fork 自 qingjian-team/qingjian（上游约 5.7k★）。
 - **官方描述**：青简 Qingjian：用 Rust 写的拼音输入法，候选词旁多一条正在学的语言的译词
+
+#### [awesome-android-root](https://github.com/Hua2026-ai/awesome-android-root)
+
+- **上游**：[awesome-android-root/awesome-android-root](https://github.com/awesome-android-root/awesome-android-root) · ⭐ 5,367 · 语言 JavaScript · [官网/主页](https://awesome-android-root.xyz) · fork 于 2026-10-20
+- **作用**：Android root 生态的 awesome 精选列表：收录最佳 root 应用、Magisk、KernelSu、LSPosed(Xposed) 模块与 root 指南，是 Android 定制 / root 方向的资源索引。⚠️ 注意：root 会破坏设备保修、有变砖与安全风险，请仅在自有设备、充分备份、了解风险的前提下使用，勿用于绕过安全机制或未授权场景。MIT 许可证（列表类，内容版权归各被收录项目），上游约 5.4k★、324 fork，2026-10-18 仍有提交，质量健康。fork 自 awesome-android-root/awesome-android-root（上游约 5.4k★，MIT）。
+- **官方描述**：Discover best root apps, Magisk, KernelSu & LSPosed(xposed) modules & rooting guides
 
 #### [OpenNOW](https://github.com/Hua2026-ai/OpenNOW)
 
@@ -490,6 +496,7 @@
 | [TelegramGroup](https://github.com/Hua2026-ai/TelegramGroup) | [itgoyo/TelegramGroup](https://github.com/itgoyo/TelegramGroup) | 5,875 | - | Telegram 导航 |
 | [qingjian](https://github.com/Hua2026-ai/qingjian) | [qingjian-team/qingjian](https://github.com/qingjian-team/qingjian) | 5,846 | Rust | 系统工具 |
 | [SenseNova-Skills](https://github.com/Hua2026-ai/SenseNova-Skills) | [OpenSenseNova/SenseNova-Skills](https://github.com/OpenSenseNova/SenseNova-Skills) | 5,749 | JavaScript | AI / 语音与视频生成 |
+| [awesome-android-root](https://github.com/Hua2026-ai/awesome-android-root) | [awesome-android-root/awesome-android-root](https://github.com/awesome-android-root/awesome-android-root) | 5,367 | JavaScript | 系统工具 |
 | [iPhone-use](https://github.com/Hua2026-ai/iPhone-use) | [zhongerxin/iPhone-use](https://github.com/zhongerxin/iPhone-use) | 3,581 | Python | AI / 工具与 MCP |
 | [Easel](https://github.com/Hua2026-ai/Easel) | [ZJU-REAL/Easel](https://github.com/ZJU-REAL/Easel) | 3,575 | Python | AI / 工具与 MCP |
 | [OpenNOW](https://github.com/Hua2026-ai/OpenNOW) | [OpenCloudGaming/OpenNOW](https://github.com/OpenCloudGaming/OpenNOW) | 3,351 | Rust | 系统工具 |
@@ -522,7 +529,7 @@
 
 ## 自建仓库（2，非 fork）
 
-> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 68 个 fork 的统计。
+> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 69 个 fork 的统计。
 
 #### [Hua2026-ai.github.io](https://github.com/Hua2026-ai/Hua2026-ai.github.io)
 
