@@ -921,5 +921,18 @@
     "description": "一张户型图，一句话，Agent 就把它还原成可 2D/3D 直接设计的装修设计器网页（单文件 HTML，离线可用）。适用于任何支持 Skill 的 Agent",
     "what_it_does": "户型图 AI 还原工具：给 Agent 一张户型图 + 一句话需求，就能生成可直接 2D/3D 设计的装修设计器网页（单文件 HTML、离线可用），用于任何支持 Skill 的 Agent。适合装修设计、户型可视化场景。注：作者提示要达到满血效果不推荐豆包等能力较弱的大模型。MIT 许可证，上游约 119★、19 fork，2026-10-22 仍有提交，质量健康。fork 自 ZWD11/house-plan-designer。",
     "forked_at": "2026-10-23"
+  },
+  {
+    "repo": "Hua2026-ai/workbuddyskills",
+    "url": "https://github.com/Hua2026-ai/workbuddyskills",
+    "upstream": "infometa/workbuddyskills",
+    "upstream_url": "https://github.com/infometa/workbuddyskills",
+    "stars": 375,
+    "language": "HTML",
+    "homepage": "",
+    "category": "学习 / 资源索引",
+    "description": "WorkBuddy skills / connectors / experts archive for offline study",
+    "what_it_does": "WorkBuddy 生态的离线学习存档：收录 WorkBuddy 的 skills / connectors / experts 内容，供离线研究与学习使用。适合想深入了解 WorkBuddy 技能体系、连接器与专家机制的用户。⚠️ 注意：上游**无任何许可证**（默认保留所有权利），法律上只能参考学习，不能直接复用或再分发其中代码；如需二次开发请先联系作者获得授权。上游约 375★、122 fork，2026-10-22 仍有提交，质量健康。fork 自 infometa/workbuddyskills。",
+    "forked_at": "2026-10-23"
   }
 ]

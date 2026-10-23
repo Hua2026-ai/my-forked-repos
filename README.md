@@ -1,11 +1,11 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **71** 个 fork，上游合计约 **2,133,165** star。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **72** 个 fork，上游合计约 **2,133,540** star。
 > 最后更新：2026-10-16。本文只做归档与说明，版权与所有权归各自上游作者。
 
 ## 一句话概览
 
-剩下这 71 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
+剩下这 72 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
 其次是**中文学习与资源索引**、**车机 CarPlay 与 3D 设计**、**Telegram 导航**，
 另有少量代理客户端与影视资源相关的归档，以及 1 个 iOS 开发工具（omarchy-apple-dev）。
 
@@ -253,7 +253,7 @@
 - **官方描述**：打造更好用的douyin，支持作者级下载、播放、点赞收藏、私信、通知、mcp服务接入ai控制，内置ai可以在私信与好友ai聊天。douyin download
 
 
-### 学习 / 资源索引（9）
+### 学习 / 资源索引（10）
 
 #### [awesome](https://github.com/Hua2026-ai/awesome)
 
@@ -308,6 +308,12 @@
 - **上游**：[palemoky/chinese-poetry-api](https://github.com/palemoky/chinese-poetry-api) · ⭐ 3,261 · 语言 Go · [官网/主页](https://poetry.palemoky.com) · fork 于 2026-10-09
 - **作用**：诗泉：高性能中国古诗词 API 服务。fork 自 palemoky/chinese-poetry-api（上游约 3.2k★）。
 - **官方描述**：📜 诗泉：高性能中国古诗词 API 服务
+
+#### [workbuddyskills](https://github.com/Hua2026-ai/workbuddyskills)
+
+- **上游**：[infometa/workbuddyskills](https://github.com/infometa/workbuddyskills) · ⭐ 375 · 语言 HTML · fork 于 2026-10-23
+- **作用**：WorkBuddy 生态的离线学习存档：收录 WorkBuddy 的 skills / connectors / experts 内容，供离线研究与学习使用。适合想深入了解 WorkBuddy 技能体系、连接器与专家机制的用户。⚠️ 注意：上游**无任何许可证**（默认保留所有权利），法律上只能参考学习，不能直接复用或再分发其中代码；如需二次开发请先联系作者获得授权。上游约 375★、122 fork，2026-10-22 仍有提交，质量健康。fork 自 infometa/workbuddyskills。
+- **官方描述**：WorkBuddy skills / connectors / experts archive for offline study
 
 
 ### 车机 / 3D 与设计（7）
@@ -531,6 +537,7 @@
 | [DiPlay-Legacy-Android](https://github.com/Hua2026-ai/DiPlay-Legacy-Android) | [programmerguohuajing/DiPlay-Legacy-Android](https://github.com/programmerguohuajing/DiPlay-Legacy-Android) | 572 | Kotlin | 车机 / 3D 与设计 |
 | [lipflow](https://github.com/Hua2026-ai/lipflow) | [amywork777/lipflow](https://github.com/amywork777/lipflow) | 560 | Python | AI / 语音与视频生成 |
 | [Microsoft-Rewards-Script](https://github.com/Hua2026-ai/Microsoft-Rewards-Script) | [chiihero/Microsoft-Rewards-Script](https://github.com/chiihero/Microsoft-Rewards-Script) | 525 | TypeScript | 系统工具 |
+| [workbuddyskills](https://github.com/Hua2026-ai/workbuddyskills) | [infometa/workbuddyskills](https://github.com/infometa/workbuddyskills) | 375 | HTML | 学习 / 资源索引 |
 | [playport](https://github.com/Hua2026-ai/playport) | [youcci/playport](https://github.com/youcci/playport) | 262 | Kotlin | 车机 / 3D 与设计 |
 | [hideck](https://github.com/Hua2026-ai/hideck) | [yibaiba/hideck](https://github.com/yibaiba/hideck) | 254 | Go | 网络工具 / 代理客户端 |
 | [muse-skills](https://github.com/Hua2026-ai/muse-skills) | [jasonbitsmith/muse-skills](https://github.com/jasonbitsmith/muse-skills) | 251 | - | AI / 工具与 MCP |
@@ -543,7 +550,7 @@
 
 ## 自建仓库（2，非 fork）
 
-> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 71 个 fork 的统计。
+> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 72 个 fork 的统计。
 
 #### [Hua2026-ai.github.io](https://github.com/Hua2026-ai/Hua2026-ai.github.io)
 
