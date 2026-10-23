@@ -934,5 +934,18 @@
     "description": "WorkBuddy skills / connectors / experts archive for offline study",
     "what_it_does": "WorkBuddy 生态的离线学习存档：收录 WorkBuddy 的 skills / connectors / experts 内容，供离线研究与学习使用。适合想深入了解 WorkBuddy 技能体系、连接器与专家机制的用户。⚠️ 注意：上游**无任何许可证**（默认保留所有权利），法律上只能参考学习，不能直接复用或再分发其中代码；如需二次开发请先联系作者获得授权。上游约 375★、122 fork，2026-10-22 仍有提交，质量健康。fork 自 infometa/workbuddyskills。",
     "forked_at": "2026-10-23"
+  },
+  {
+    "repo": "Hua2026-ai/bilimusic",
+    "url": "https://github.com/Hua2026-ai/bilimusic",
+    "upstream": "NaivG/bilimusic",
+    "upstream_url": "https://github.com/NaivG/bilimusic",
+    "stars": 64,
+    "language": "Dart",
+    "homepage": "",
+    "category": "影音 / 下载",
+    "description": "基于 Dart / TypeScript / Vela JS 的哔哩哔哩音乐播放器",
+    "what_it_does": "第三方哔哩哔哩音乐播放器：以 B 站音乐区/音频区为曲库，技术栈为 Dart / TypeScript / Vela JS（快应用）。⚠️ 注意：上游为 **AGPL-3.0 强 copyleft**——修改后分发或提供网络服务都必须开源，二次开发/商用前需评估合规成本；另 B 站音频内容受平台条款约束，仅可在合规前提下使用。上游约 64★、11 fork，2026-10-10 仍有提交，质量健康。fork 自 NaivG/bilimusic。",
+    "forked_at": "2026-10-23"
   }
 ]
