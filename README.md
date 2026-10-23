@@ -1,6 +1,6 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **73** 个 fork，上游合计约 **2,133,604** star。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **73** 个 fork，上游合计约 **2,133,748** star。
 > 最后更新：2026-10-16。本文只做归档与说明，版权与所有权归各自上游作者。
 
 ## 一句话概览
@@ -252,11 +252,11 @@
 - **作用**：更好用的抖音客户端：支持作者级下载、播放、点赞收藏、私信、通知，并接入 MCP 服务让 AI 控制，内置 AI 可在私信与好友间 AI 聊天。注意：下载他人内容请遵守平台服务条款与版权法规，勿用于侵权用途。fork 自 anYuJia/better-douyin（上游约 839★，许可证 Other/未明确，使用前请自行评估）。
 - **官方描述**：打造更好用的douyin，支持作者级下载、播放、点赞收藏、私信、通知、mcp服务接入ai控制，内置ai可以在私信与好友ai聊天。douyin download
 
-#### [bilimusic](https://github.com/Hua2026-ai/bilimusic)
+#### [BiliMusic](https://github.com/Hua2026-ai/BiliMusic)
 
-- **上游**：[NaivG/bilimusic](https://github.com/NaivG/bilimusic) · ⭐ 64 · 语言 Dart · fork 于 2026-10-23
-- **作用**：第三方哔哩哔哩音乐播放器：以 B 站音乐区/音频区为曲库，技术栈为 Dart / TypeScript / Vela JS（快应用）。⚠️ 注意：上游为 **AGPL-3.0 强 copyleft**——修改后分发或提供网络服务都必须开源，二次开发/商用前需评估合规成本；另 B 站音频内容受平台条款约束，仅可在合规前提下使用。上游约 64★、11 fork，2026-10-10 仍有提交，质量健康。fork 自 NaivG/bilimusic。
-- **官方描述**：基于 Dart / TypeScript / Vela JS 的哔哩哔哩音乐播放器
+- **上游**：[HanversionOvO/BiliMusic](https://github.com/HanversionOvO/BiliMusic) · ⭐ 208 · 语言 TypeScript · fork 于 2026-10-23
+- **作用**：B 站音乐播放器：把 bilibili 转换成音乐播放器体验（歌单管理、后台播放、Mini Player 等），用户脚本/网页形式。⚠️ 上游**未声明许可证**（默认保留所有权利）——只能参考学习，不能直接复用或再分发代码，二次开发需先联系作者授权；另 B 站内容使用需遵守平台条款。上游 208★、20 fork，2026-05-31 后提交放缓，属轻维护。
+- **官方描述**：Turn your bilibili into music player
 
 
 ### 学习 / 资源索引（10）
@@ -549,9 +549,9 @@
 | [muse-skills](https://github.com/Hua2026-ai/muse-skills) | [jasonbitsmith/muse-skills](https://github.com/jasonbitsmith/muse-skills) | 251 | - | AI / 工具与 MCP |
 | [ProsperoStore](https://github.com/Hua2026-ai/ProsperoStore) | [blackbearreloaded/ProsperoStore](https://github.com/blackbearreloaded/ProsperoStore) | 248 | C++ | 系统工具 |
 | [MiAuto](https://github.com/Hua2026-ai/MiAuto) | [PiggyBackBayonet/MiAuto](https://github.com/PiggyBackBayonet/MiAuto) | 223 | Kotlin | 车机 / 3D 与设计 |
+| [BiliMusic](https://github.com/Hua2026-ai/BiliMusic) | [HanversionOvO/BiliMusic](https://github.com/HanversionOvO/BiliMusic) | 208 | TypeScript | 影音 / 下载 |
 | [DLSS5-Swapper-Chinese](https://github.com/Hua2026-ai/DLSS5-Swapper-Chinese) | [hezhixin15/DLSS5-Swapper-Chinese](https://github.com/hezhixin15/DLSS5-Swapper-Chinese) | 154 | JavaScript | 系统工具 |
 | [house-plan-designer](https://github.com/Hua2026-ai/house-plan-designer) | [ZWD11/house-plan-designer](https://github.com/ZWD11/house-plan-designer) | 119 | HTML | 车机 / 3D 与设计 |
-| [bilimusic](https://github.com/Hua2026-ai/bilimusic) | [NaivG/bilimusic](https://github.com/NaivG/bilimusic) | 64 | Dart | 影音 / 下载 |
 | [workbuddy-toolkit](https://github.com/Hua2026-ai/workbuddy-toolkit) | [FlapPearLabs/workbuddy-toolkit](https://github.com/FlapPearLabs/workbuddy-toolkit) | 33 | Python | 系统工具 |
 | [dsh-font-probe](https://github.com/Hua2026-ai/dsh-font-probe) | [lohana20061023-29/dsh-font-probe](https://github.com/lohana20061023-29/dsh-font-probe) | 6 | JavaScript | 系统工具 |
 
