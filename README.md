@@ -1,11 +1,11 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **70** 个 fork，上游合计约 **2,133,046** star。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **71** 个 fork，上游合计约 **2,133,165** star。
 > 最后更新：2026-10-16。本文只做归档与说明，版权与所有权归各自上游作者。
 
 ## 一句话概览
 
-剩下这 70 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
+剩下这 71 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
 其次是**中文学习与资源索引**、**车机 CarPlay 与 3D 设计**、**Telegram 导航**，
 另有少量代理客户端与影视资源相关的归档，以及 1 个 iOS 开发工具（omarchy-apple-dev）。
 
@@ -310,7 +310,7 @@
 - **官方描述**：📜 诗泉：高性能中国古诗词 API 服务
 
 
-### 车机 / 3D 与设计（6）
+### 车机 / 3D 与设计（7）
 
 #### [lingbot-map](https://github.com/Hua2026-ai/lingbot-map)
 
@@ -347,6 +347,12 @@
 - **上游**：[PiggyBackBayonet/MiAuto](https://github.com/PiggyBackBayonet/MiAuto) · ⭐ 223 · 语言 Kotlin · [官网/主页](https://piggybackbayonet.github.io/MiAuto/) · fork 于 2026-10-16
 - **作用**：把手机投屏到车机的 ICCOA CarLink 接收端：支持小米 CarWith、OPPO Car+、vivo Jovi InCar，无线连接、无需转接盒、无需 root，让手机应用映射到车机大屏使用。⚠️ 注意：AGPL-3.0 强 copyleft 许可证（修改与网络服务分发均需开源），如要二次开发或部署请遵守其条款；另涉及车机投屏 / 驾驶场景，请仅在合法授权、安全停车状态下使用，遵守交通法规。fork 自 PiggyBackBayonet/MiAuto（上游约 223★，AGPL-3.0）。
 - **官方描述**：小米 / OPPO / vivo 等 ICCOA CarLink 手机投上车机：无线连接，无需转接盒、无需 root。Car-side ICCOA CarLink receiver for Xiaomi CarWith, OPPO Car+ and vivo Jovi InCar.
+
+#### [house-plan-designer](https://github.com/Hua2026-ai/house-plan-designer)
+
+- **上游**：[ZWD11/house-plan-designer](https://github.com/ZWD11/house-plan-designer) · ⭐ 119 · 语言 HTML · fork 于 2026-10-23
+- **作用**：户型图 AI 还原工具：给 Agent 一张户型图 + 一句话需求，就能生成可直接 2D/3D 设计的装修设计器网页（单文件 HTML、离线可用），用于任何支持 Skill 的 Agent。适合装修设计、户型可视化场景。注：作者提示要达到满血效果不推荐豆包等能力较弱的大模型。MIT 许可证，上游约 119★、19 fork，2026-10-22 仍有提交，质量健康。fork 自 ZWD11/house-plan-designer。
+- **官方描述**：一张户型图，一句话，Agent 就把它还原成可 2D/3D 直接设计的装修设计器网页（单文件 HTML，离线可用）。适用于任何支持 Skill 的 Agent
 
 
 ### Telegram 导航（2）
@@ -531,12 +537,13 @@
 | [ProsperoStore](https://github.com/Hua2026-ai/ProsperoStore) | [blackbearreloaded/ProsperoStore](https://github.com/blackbearreloaded/ProsperoStore) | 248 | C++ | 系统工具 |
 | [MiAuto](https://github.com/Hua2026-ai/MiAuto) | [PiggyBackBayonet/MiAuto](https://github.com/PiggyBackBayonet/MiAuto) | 223 | Kotlin | 车机 / 3D 与设计 |
 | [DLSS5-Swapper-Chinese](https://github.com/Hua2026-ai/DLSS5-Swapper-Chinese) | [hezhixin15/DLSS5-Swapper-Chinese](https://github.com/hezhixin15/DLSS5-Swapper-Chinese) | 154 | JavaScript | 系统工具 |
+| [house-plan-designer](https://github.com/Hua2026-ai/house-plan-designer) | [ZWD11/house-plan-designer](https://github.com/ZWD11/house-plan-designer) | 119 | HTML | 车机 / 3D 与设计 |
 | [workbuddy-toolkit](https://github.com/Hua2026-ai/workbuddy-toolkit) | [FlapPearLabs/workbuddy-toolkit](https://github.com/FlapPearLabs/workbuddy-toolkit) | 33 | Python | 系统工具 |
 | [dsh-font-probe](https://github.com/Hua2026-ai/dsh-font-probe) | [lohana20061023-29/dsh-font-probe](https://github.com/lohana20061023-29/dsh-font-probe) | 6 | JavaScript | 系统工具 |
 
 ## 自建仓库（2，非 fork）
 
-> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 70 个 fork 的统计。
+> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 71 个 fork 的统计。
 
 #### [Hua2026-ai.github.io](https://github.com/Hua2026-ai/Hua2026-ai.github.io)
 
