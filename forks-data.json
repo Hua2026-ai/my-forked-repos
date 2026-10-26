@@ -947,5 +947,18 @@
     "description": "Turn your bilibili into music player",
     "what_it_does": "B 站音乐播放器：把 bilibili 转换成音乐播放器体验（歌单管理、后台播放、Mini Player 等），用户脚本/网页形式。⚠️ 上游**未声明许可证**（默认保留所有权利）——只能参考学习，不能直接复用或再分发代码，二次开发需先联系作者授权；另 B 站内容使用需遵守平台条款。上游 208★、20 fork，2026-05-31 后提交放缓，属轻维护。",
     "forked_at": "2026-10-23"
+  },
+  {
+    "repo": "Hua2026-ai/gpu-unlock",
+    "url": "https://github.com/Hua2026-ai/gpu-unlock",
+    "upstream": "Zagitta/gpu-unlock",
+    "upstream_url": "https://github.com/Zagitta/gpu-unlock",
+    "stars": 6966,
+    "language": "C",
+    "homepage": "",
+    "category": "系统工具",
+    "description": "Unlock FP/BF16 instruction issue rate on Nvidia 3000's cards to their professional equivalents",
+    "what_it_does": "NVIDIA 3000 系消费级显卡（GA102/GA104 等）的 FP16/BF16 张量核心解锁工具：通过修改 VBIOS/固件把消费卡的 FP/BF16 指令发射率提升到专业卡（A4000/A5000 等）水平，使本地大模型推理/训练获得接近专业卡的算力。⚠️ 上游**未声明许可证**（默认保留所有权利）——只能参考学习，不能直接复用或再分发代码；⚠️ 会改写显卡固件，有变砖风险，仅建议在自有硬件、做好 VBIOS 备份的前提下操作，且可能影响保修与驱动签名校验。上游 2026-10-18 新建、10-24 仍有提交、720 fork、126 open issues（新项目问题多是正常现象）。",
+    "forked_at": "2026-10-26"
   }
 ]

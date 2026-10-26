@@ -1,11 +1,11 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **73** 个 fork，上游合计约 **2,133,748** star。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **74** 个 fork，上游合计约 **2,140,714** star。
 > 最后更新：2026-10-16。本文只做归档与说明，版权与所有权归各自上游作者。
 
 ## 一句话概览
 
-剩下这 73 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
+剩下这 74 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
 其次是**中文学习与资源索引**、**车机 CarPlay 与 3D 设计**、**Telegram 导航**，
 另有少量代理客户端与影视资源相关的归档，以及 1 个 iOS 开发工具（omarchy-apple-dev）。
 
@@ -382,13 +382,19 @@
 - **官方描述**：2026最新悄咪咪收集的10000+个Telegram群合集、tg导航，附全网最有趣好用的机器人BOT🤖【tg10000.com】
 
 
-### 系统工具（14）
+### 系统工具（15）
 
 #### [Win11Debloat](https://github.com/Hua2026-ai/Win11Debloat)
 
 - **上游**：[Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) · ⭐ 58,918 · 语言 PowerShell · fork 于 2026-10-09
 - **作用**：轻量 PowerShell 脚本，一键移除 Win10/Win11 预装应用、关闭遥测并做其它去臃肿/定制改动。fork 自 Raphire/Win11Debloat（上游约 59k★）。
 - **官方描述**：A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.
+
+#### [gpu-unlock](https://github.com/Hua2026-ai/gpu-unlock)
+
+- **上游**：[Zagitta/gpu-unlock](https://github.com/Zagitta/gpu-unlock) · ⭐ 6,966 · 语言 C · fork 于 2026-10-26
+- **作用**：NVIDIA 3000 系消费级显卡（GA102/GA104 等）的 FP16/BF16 张量核心解锁工具：通过修改 VBIOS/固件把消费卡的 FP/BF16 指令发射率提升到专业卡（A4000/A5000 等）水平，使本地大模型推理/训练获得接近专业卡的算力。⚠️ 上游**未声明许可证**（默认保留所有权利）——只能参考学习，不能直接复用或再分发代码；⚠️ 会改写显卡固件，有变砖风险，仅建议在自有硬件、做好 VBIOS 备份的前提下操作，且可能影响保修与驱动签名校验。上游 2026-10-18 新建、10-24 仍有提交、720 fork、126 open issues（新项目问题多是正常现象）。
+- **官方描述**：Unlock FP/BF16 instruction issue rate on Nvidia 3000's cards to their professional equivalents
 
 #### [qingjian](https://github.com/Hua2026-ai/qingjian)
 
@@ -517,6 +523,7 @@
 | [Octop](https://github.com/Hua2026-ai/Octop) | [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 8,288 | Python | AI / 工具与 MCP |
 | [CyberStrikeAI](https://github.com/Hua2026-ai/CyberStrikeAI) | [AIPentest/CyberStrikeAI](https://github.com/AIPentest/CyberStrikeAI) | 7,769 | Go | 安全 / OSINT 工具 |
 | [goutoujunshi](https://github.com/Hua2026-ai/goutoujunshi) | [shengjidaguai-china/goutoujunshi](https://github.com/shengjidaguai-china/goutoujunshi) | 7,504 | Python | AI / 语音与视频生成 |
+| [gpu-unlock](https://github.com/Hua2026-ai/gpu-unlock) | [Zagitta/gpu-unlock](https://github.com/Zagitta/gpu-unlock) | 6,966 | C | 系统工具 |
 | [TelegramGroup](https://github.com/Hua2026-ai/TelegramGroup) | [itgoyo/TelegramGroup](https://github.com/itgoyo/TelegramGroup) | 5,875 | - | Telegram 导航 |
 | [qingjian](https://github.com/Hua2026-ai/qingjian) | [qingjian-team/qingjian](https://github.com/qingjian-team/qingjian) | 5,846 | Rust | 系统工具 |
 | [cleanyourtv](https://github.com/Hua2026-ai/cleanyourtv) | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | 5,823 | Java | 系统工具 |
@@ -557,7 +564,7 @@
 
 ## 自建仓库（2，非 fork）
 
-> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 73 个 fork 的统计。
+> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 74 个 fork 的统计。
 
 #### [Hua2026-ai.github.io](https://github.com/Hua2026-ai/Hua2026-ai.github.io)
 
