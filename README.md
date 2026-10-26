@@ -1,11 +1,11 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **74** 个 fork，上游合计约 **2,140,714** star。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **75** 个 fork，上游合计约 **2,142,177** star。
 > 最后更新：2026-10-16。本文只做归档与说明，版权与所有权归各自上游作者。
 
 ## 一句话概览
 
-剩下这 74 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
+剩下这 75 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
 其次是**中文学习与资源索引**、**车机 CarPlay 与 3D 设计**、**Telegram 导航**，
 另有少量代理客户端与影视资源相关的归档，以及 1 个 iOS 开发工具（omarchy-apple-dev）。
 
@@ -382,7 +382,7 @@
 - **官方描述**：2026最新悄咪咪收集的10000+个Telegram群合集、tg导航，附全网最有趣好用的机器人BOT🤖【tg10000.com】
 
 
-### 系统工具（15）
+### 系统工具（16）
 
 #### [Win11Debloat](https://github.com/Hua2026-ai/Win11Debloat)
 
@@ -425,6 +425,12 @@
 - **上游**：[Supermedo/bloodborne_pc](https://github.com/Supermedo/bloodborne_pc) · ⭐ 1,714 · 语言 C++ · fork 于 2026-10-10
 - **作用**：《血源诅咒》在 Windows 10/11 上原生运行的社区启动器：支持 13 种语言、DLSS、FSR 3.1/4、解锁帧率、作弊与模组功能及一键更新。⚠️ 注意：该项目属于未授权的移植/破解性质，涉及 Sony 与 FromSoftware 的版权与主机平台独占协议问题；此处仅作技术资料归档，实际使用请务必遵守游戏厂商服务条款与相关版权法规，风险自负。fork 自 Supermedo/bloodborne_pc（上游约 1.7k★）。
 - **官方描述**：Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.
+
+#### [android-ad-cleaner](https://github.com/Hua2026-ai/android-ad-cleaner)
+
+- **上游**：[rddmwmddr/android-ad-cleaner](https://github.com/rddmwmddr/android-ad-cleaner) · ⭐ 1,463 · 语言 Python · fork 于 2026-10-26
+- **作用**：国产安卓手机去广告去推送工具：通过 ADB 免 root 关闭系统广告、热搜、资讯推荐与营销推送，全部操作可还原，并支持 AI 智能体一键执行。与 cleanyourtv（电视端）同思路，此为手机端。⚠️ 操作会禁用系统组件，仅在自有设备、按提示逐步确认、做好备份的前提下使用。上游 MIT 许可证（可放心二次开发），2026-10-24 新建、10-25 仍有提交、127 fork、66 open issues（新项目问题多属正常，需关注成熟度）。
+- **官方描述**：关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。
 
 #### [playgta5](https://github.com/Hua2026-ai/playgta5)
 
@@ -542,6 +548,7 @@
 | [dsh-im](https://github.com/Hua2026-ai/dsh-im) | [xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) | 1,756 | JavaScript | AI / 工具与 MCP |
 | [bloodborne_pc](https://github.com/Hua2026-ai/bloodborne_pc) | [Supermedo/bloodborne_pc](https://github.com/Supermedo/bloodborne_pc) | 1,714 | C++ | 系统工具 |
 | [omarchy-apple-dev](https://github.com/Hua2026-ai/omarchy-apple-dev) | [joshuaswarren/omarchy-apple-dev](https://github.com/joshuaswarren/omarchy-apple-dev) | 1,651 | Python | 开发 / 移动工具 |
+| [android-ad-cleaner](https://github.com/Hua2026-ai/android-ad-cleaner) | [rddmwmddr/android-ad-cleaner](https://github.com/rddmwmddr/android-ad-cleaner) | 1,463 | Python | 系统工具 |
 | [playgta5](https://github.com/Hua2026-ai/playgta5) | [shadany7824/playgta5](https://github.com/shadany7824/playgta5) | 1,026 | JavaScript | 系统工具 |
 | [better-douyin](https://github.com/Hua2026-ai/better-douyin) | [anYuJia/better-douyin](https://github.com/anYuJia/better-douyin) | 839 | TypeScript | 影音 / 下载 |
 | [MacCheck](https://github.com/Hua2026-ai/MacCheck) | [andyhuo520/MacCheck](https://github.com/andyhuo520/MacCheck) | 701 | Swift | 系统工具 |
@@ -564,7 +571,7 @@
 
 ## 自建仓库（2，非 fork）
 
-> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 74 个 fork 的统计。
+> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 75 个 fork 的统计。
 
 #### [Hua2026-ai.github.io](https://github.com/Hua2026-ai/Hua2026-ai.github.io)
 
