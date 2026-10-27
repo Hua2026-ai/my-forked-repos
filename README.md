@@ -1,11 +1,11 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **77** 个 fork，上游合计约 **2,149,141** star。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **78** 个 fork，上游合计约 **2,164,208** star。
 > 最后更新：2026-10-16。本文只做归档与说明，版权与所有权归各自上游作者。
 
 ## 一句话概览
 
-剩下这 77 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
+剩下这 78 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
 其次是**中文学习与资源索引**、**车机 CarPlay 与 3D 设计**、**Telegram 导航**，
 另有少量代理客户端与影视资源相关的归档，以及 1 个 iOS 开发工具（omarchy-apple-dev）。
 
@@ -394,13 +394,19 @@
 - **官方描述**：2026最新悄咪咪收集的10000+个Telegram群合集、tg导航，附全网最有趣好用的机器人BOT🤖【tg10000.com】
 
 
-### 系统工具（16）
+### 系统工具（17）
 
 #### [Win11Debloat](https://github.com/Hua2026-ai/Win11Debloat)
 
 - **上游**：[Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) · ⭐ 58,918 · 语言 PowerShell · fork 于 2026-10-09
 - **作用**：轻量 PowerShell 脚本，一键移除 Win10/Win11 预装应用、关闭遥测并做其它去臃肿/定制改动。fork 自 Raphire/Win11Debloat（上游约 59k★）。
 - **官方描述**：A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.
+
+#### [DroidDeck](https://github.com/Hua2026-ai/DroidDeck)
+
+- **上游**：[Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) · ⭐ 15,067 · 语言 Kotlin · fork 于 2026-10-27
+- **作用**：把 SteamOS / Steam Deck 的桌面化游戏体验移植到 Android 设备（Kotlin 开发）：类 Steam 大屏界面风格的游戏启动器与桌面环境，让安卓平板/掌机获得接近 Steam Deck 的操作与游戏管理体验。⚠️ **GPL-3.0 强 copyleft**——修改后分发必须开源，二次开发/商用前需评估合规成本。上游 2026-09-24 建、2026-10-27 仍有提交、769 fork、427 open issues，属高热度新项目（一个月涨至 ★1.5 万），迭代快、成熟度待验证。
+- **官方描述**：DroidDeck brings the SteamOS experience to Android
 
 #### [gpu-unlock](https://github.com/Hua2026-ai/gpu-unlock)
 
@@ -528,6 +534,7 @@
 | [lingbot-map](https://github.com/Hua2026-ai/lingbot-map) | [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map) | 17,760 | Python | 车机 / 3D 与设计 |
 | [vibe-coding-cn](https://github.com/Hua2026-ai/vibe-coding-cn) | [tradecatlabs/vibe-coding-cn](https://github.com/tradecatlabs/vibe-coding-cn) | 17,369 | Python | 学习 / 资源索引 |
 | [huobao-drama](https://github.com/Hua2026-ai/huobao-drama) | [chatfire-AI/huobao-drama](https://github.com/chatfire-AI/huobao-drama) | 15,923 | Vue | AI / 语音与视频生成 |
+| [DroidDeck](https://github.com/Hua2026-ai/DroidDeck) | [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) | 15,067 | Kotlin | 系统工具 |
 | [moli](https://github.com/Hua2026-ai/moli) | [lexmount/moli](https://github.com/lexmount/moli) | 14,958 | Rust | AI / 工具与 MCP |
 | [patent-disclosure-skill](https://github.com/Hua2026-ai/patent-disclosure-skill) | [handsomestWei/patent-disclosure-skill](https://github.com/handsomestWei/patent-disclosure-skill) | 11,222 | Python | AI / 语音与视频生成 |
 | [Horizon](https://github.com/Hua2026-ai/Horizon) | [Thysrael/Horizon](https://github.com/Thysrael/Horizon) | 10,692 | Python | AI / 工具与 MCP |
@@ -585,7 +592,7 @@
 
 ## 自建仓库（2，非 fork）
 
-> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 77 个 fork 的统计。
+> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 78 个 fork 的统计。
 
 #### [Hua2026-ai.github.io](https://github.com/Hua2026-ai/Hua2026-ai.github.io)
 

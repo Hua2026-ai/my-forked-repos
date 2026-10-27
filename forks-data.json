@@ -999,5 +999,18 @@
     "description": "pi extension: /purge swaps pi's built-in assistant persona for your own prompt file",
     "what_it_does": "pi（AI 编码/对话 Agent）的扩展插件：新增 `/purge` 命令，把 pi 内置的 assistant persona 替换成你自己的 prompt 文件，用于定制 Agent 的行为风格与系统提示。轻量单用途、MIT 许可。上游 2026-10-18 建、10-20 仍有提交、213 fork、仅 1 open issue，社区反馈干净；属小而专的插件，需配合 pi 本体使用。",
     "forked_at": "2026-10-27"
+  },
+  {
+    "repo": "Hua2026-ai/DroidDeck",
+    "url": "https://github.com/Hua2026-ai/DroidDeck",
+    "upstream": "Droid-Deck/DroidDeck",
+    "upstream_url": "https://github.com/Droid-Deck/DroidDeck",
+    "stars": 15067,
+    "language": "Kotlin",
+    "homepage": "",
+    "category": "系统工具",
+    "description": "DroidDeck brings the SteamOS experience to Android",
+    "what_it_does": "把 SteamOS / Steam Deck 的桌面化游戏体验移植到 Android 设备（Kotlin 开发）：类 Steam 大屏界面风格的游戏启动器与桌面环境，让安卓平板/掌机获得接近 Steam Deck 的操作与游戏管理体验。⚠️ **GPL-3.0 强 copyleft**——修改后分发必须开源，二次开发/商用前需评估合规成本。上游 2026-09-24 建、2026-10-27 仍有提交、769 fork、427 open issues，属高热度新项目（一个月涨至 ★1.5 万），迭代快、成熟度待验证。",
+    "forked_at": "2026-10-27"
   }
 ]
