@@ -1,11 +1,11 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **75** 个 fork，上游合计约 **2,142,177** star。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **77** 个 fork，上游合计约 **2,149,141** star。
 > 最后更新：2026-10-16。本文只做归档与说明，版权与所有权归各自上游作者。
 
 ## 一句话概览
 
-剩下这 75 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
+剩下这 77 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
 其次是**中文学习与资源索引**、**车机 CarPlay 与 3D 设计**、**Telegram 导航**，
 另有少量代理客户端与影视资源相关的归档，以及 1 个 iOS 开发工具（omarchy-apple-dev）。
 
@@ -73,7 +73,7 @@
 - **官方描述**：Wispr Flow for your lips: hold a key, silently mouth words, and they're typed at your cursor. Runs locally on your Mac.
 
 
-### AI / 工具与 MCP（21）
+### AI / 工具与 MCP（23）
 
 #### [opencode](https://github.com/Hua2026-ai/opencode)
 
@@ -159,6 +159,12 @@
 - **作用**：腾讯云出品的**自托管 AI 助手**，支持多用户、多智能体（multi-agent）架构，可私有化部署。fork 自 TencentCloud/Octop（上游约 6.8k★）。
 - **官方描述**：A smarter, self-hosted AI assistant — multi-user, multi-agent.
 
+#### [cindy](https://github.com/Hua2026-ai/cindy)
+
+- **上游**：[makecindy/cindy](https://github.com/makecindy/cindy) · ⭐ 6,471 · 语言 TypeScript · [官网/主页](https://cindy.app) · fork 于 2026-10-27
+- **作用**：开箱即用的开源 AI Agent 客户端/框架（TypeScript，官网 cindy.app）：无需复杂配置即可直接使用，提供插件（Ghosts）市场与客户端-服务端共享协议（同组织的 cindy-protocol、cindy-official-plugins 为配套仓）。Apache-2.0 宽松许可，可放心二次开发。上游 2026-07 建、2026-10-27 仍有提交、790 fork，但 **2031 个 open issue** 说明迭代快、问题沉淀多，落地前建议先看 issue 与文档成熟度。
+- **官方描述**：Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。
+
 #### [iPhone-use](https://github.com/Hua2026-ai/iPhone-use)
 
 - **上游**：[zhongerxin/iPhone-use](https://github.com/zhongerxin/iPhone-use) · ⭐ 3,581 · 语言 Python · fork 于 2026-10-14
@@ -194,6 +200,12 @@
 - **上游**：[atria-asi/Atria-Dawn-Preview](https://github.com/atria-asi/Atria-Dawn-Preview) · ⭐ 585 · 语言 - · [官网/主页](https://atria-asi.ai/) · fork 于 2026-10-08
 - **作用**：Atria Dawn Preview：从「研究问题」到「可验证结果」的开源 AI 模型预览（InternLM / 上海 AI 实验室相关，已上架 HuggingFace / ModelScope）。fork 自 atria-asi/Atria-Dawn-Preview（上游约 585★）。
 - **官方描述**：
+
+#### [pi-purge](https://github.com/Hua2026-ai/pi-purge)
+
+- **上游**：[ZiChuanLan/pi-purge](https://github.com/ZiChuanLan/pi-purge) · ⭐ 493 · 语言 JavaScript · fork 于 2026-10-27
+- **作用**：pi（AI 编码/对话 Agent）的扩展插件：新增 `/purge` 命令，把 pi 内置的 assistant persona 替换成你自己的 prompt 文件，用于定制 Agent 的行为风格与系统提示。轻量单用途、MIT 许可。上游 2026-10-18 建、10-20 仍有提交、213 fork、仅 1 open issue，社区反馈干净；属小而专的插件，需配合 pi 本体使用。
+- **官方描述**：pi extension: /purge swaps pi's built-in assistant persona for your own prompt file
 
 #### [muse-skills](https://github.com/Hua2026-ai/muse-skills)
 
@@ -530,6 +542,7 @@
 | [CyberStrikeAI](https://github.com/Hua2026-ai/CyberStrikeAI) | [AIPentest/CyberStrikeAI](https://github.com/AIPentest/CyberStrikeAI) | 7,769 | Go | 安全 / OSINT 工具 |
 | [goutoujunshi](https://github.com/Hua2026-ai/goutoujunshi) | [shengjidaguai-china/goutoujunshi](https://github.com/shengjidaguai-china/goutoujunshi) | 7,504 | Python | AI / 语音与视频生成 |
 | [gpu-unlock](https://github.com/Hua2026-ai/gpu-unlock) | [Zagitta/gpu-unlock](https://github.com/Zagitta/gpu-unlock) | 6,966 | C | 系统工具 |
+| [cindy](https://github.com/Hua2026-ai/cindy) | [makecindy/cindy](https://github.com/makecindy/cindy) | 6,471 | TypeScript | AI / 工具与 MCP |
 | [TelegramGroup](https://github.com/Hua2026-ai/TelegramGroup) | [itgoyo/TelegramGroup](https://github.com/itgoyo/TelegramGroup) | 5,875 | - | Telegram 导航 |
 | [qingjian](https://github.com/Hua2026-ai/qingjian) | [qingjian-team/qingjian](https://github.com/qingjian-team/qingjian) | 5,846 | Rust | 系统工具 |
 | [cleanyourtv](https://github.com/Hua2026-ai/cleanyourtv) | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | 5,823 | Java | 系统工具 |
@@ -557,6 +570,7 @@
 | [DiPlay-Legacy-Android](https://github.com/Hua2026-ai/DiPlay-Legacy-Android) | [programmerguohuajing/DiPlay-Legacy-Android](https://github.com/programmerguohuajing/DiPlay-Legacy-Android) | 572 | Kotlin | 车机 / 3D 与设计 |
 | [lipflow](https://github.com/Hua2026-ai/lipflow) | [amywork777/lipflow](https://github.com/amywork777/lipflow) | 560 | Python | AI / 语音与视频生成 |
 | [Microsoft-Rewards-Script](https://github.com/Hua2026-ai/Microsoft-Rewards-Script) | [chiihero/Microsoft-Rewards-Script](https://github.com/chiihero/Microsoft-Rewards-Script) | 525 | TypeScript | 系统工具 |
+| [pi-purge](https://github.com/Hua2026-ai/pi-purge) | [ZiChuanLan/pi-purge](https://github.com/ZiChuanLan/pi-purge) | 493 | JavaScript | AI / 工具与 MCP |
 | [workbuddyskills](https://github.com/Hua2026-ai/workbuddyskills) | [infometa/workbuddyskills](https://github.com/infometa/workbuddyskills) | 375 | HTML | 学习 / 资源索引 |
 | [playport](https://github.com/Hua2026-ai/playport) | [youcci/playport](https://github.com/youcci/playport) | 262 | Kotlin | 车机 / 3D 与设计 |
 | [hideck](https://github.com/Hua2026-ai/hideck) | [yibaiba/hideck](https://github.com/yibaiba/hideck) | 254 | Go | 网络工具 / 代理客户端 |
@@ -571,7 +585,7 @@
 
 ## 自建仓库（2，非 fork）
 
-> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 75 个 fork 的统计。
+> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 77 个 fork 的统计。
 
 #### [Hua2026-ai.github.io](https://github.com/Hua2026-ai/Hua2026-ai.github.io)
 

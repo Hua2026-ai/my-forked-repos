@@ -973,5 +973,31 @@
     "description": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
     "what_it_does": "国产安卓手机去广告去推送工具：通过 ADB 免 root 关闭系统广告、热搜、资讯推荐与营销推送，全部操作可还原，并支持 AI 智能体一键执行。与 cleanyourtv（电视端）同思路，此为手机端。⚠️ 操作会禁用系统组件，仅在自有设备、按提示逐步确认、做好备份的前提下使用。上游 MIT 许可证（可放心二次开发），2026-10-24 新建、10-25 仍有提交、127 fork、66 open issues（新项目问题多属正常，需关注成熟度）。",
     "forked_at": "2026-10-26"
+  },
+  {
+    "repo": "Hua2026-ai/cindy",
+    "url": "https://github.com/Hua2026-ai/cindy",
+    "upstream": "makecindy/cindy",
+    "upstream_url": "https://github.com/makecindy/cindy",
+    "stars": 6471,
+    "language": "TypeScript",
+    "homepage": "https://cindy.app",
+    "category": "AI / 工具与 MCP",
+    "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+    "what_it_does": "开箱即用的开源 AI Agent 客户端/框架（TypeScript，官网 cindy.app）：无需复杂配置即可直接使用，提供插件（Ghosts）市场与客户端-服务端共享协议（同组织的 cindy-protocol、cindy-official-plugins 为配套仓）。Apache-2.0 宽松许可，可放心二次开发。上游 2026-07 建、2026-10-27 仍有提交、790 fork，但 **2031 个 open issue** 说明迭代快、问题沉淀多，落地前建议先看 issue 与文档成熟度。",
+    "forked_at": "2026-10-27"
+  },
+  {
+    "repo": "Hua2026-ai/pi-purge",
+    "url": "https://github.com/Hua2026-ai/pi-purge",
+    "upstream": "ZiChuanLan/pi-purge",
+    "upstream_url": "https://github.com/ZiChuanLan/pi-purge",
+    "stars": 493,
+    "language": "JavaScript",
+    "homepage": "",
+    "category": "AI / 工具与 MCP",
+    "description": "pi extension: /purge swaps pi's built-in assistant persona for your own prompt file",
+    "what_it_does": "pi（AI 编码/对话 Agent）的扩展插件：新增 `/purge` 命令，把 pi 内置的 assistant persona 替换成你自己的 prompt 文件，用于定制 Agent 的行为风格与系统提示。轻量单用途、MIT 许可。上游 2026-10-18 建、10-20 仍有提交、213 fork、仅 1 open issue，社区反馈干净；属小而专的插件，需配合 pi 本体使用。",
+    "forked_at": "2026-10-27"
   }
 ]
