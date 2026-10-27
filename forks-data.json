@@ -1012,5 +1012,57 @@
     "description": "DroidDeck brings the SteamOS experience to Android",
     "what_it_does": "把 SteamOS / Steam Deck 的桌面化游戏体验移植到 Android 设备（Kotlin 开发）：类 Steam 大屏界面风格的游戏启动器与桌面环境，让安卓平板/掌机获得接近 Steam Deck 的操作与游戏管理体验。⚠️ **GPL-3.0 强 copyleft**——修改后分发必须开源，二次开发/商用前需评估合规成本。上游 2026-09-24 建、2026-10-27 仍有提交、769 fork、427 open issues，属高热度新项目（一个月涨至 ★1.5 万），迭代快、成熟度待验证。",
     "forked_at": "2026-10-27"
+  },
+  {
+    "repo": "Hua2026-ai/peach",
+    "url": "https://github.com/Hua2026-ai/peach",
+    "upstream": "peach-mitao/peach",
+    "upstream_url": "https://github.com/peach-mitao/peach",
+    "stars": 12624,
+    "language": "Python",
+    "homepage": "https://peach.video",
+    "category": "媒体管理 / 刮削",
+    "description": "Peach: Local-first video metadata scraper and media manager.",
+    "what_it_does": "本地优先（local-first）的视频元数据刮削与媒体库管理工具（Python，官网 peach.video）：扫描本地视频文件、自动抓取元数据并组织成媒体库，数据留在本地不上云。⚠️ **AGPL-3.0 强 copyleft**——修改后分发或提供网络服务必须开源。上游 2026-08-19 建、2026-10-27 仍有提交、1,471 fork、★1.26 万，属高热度活跃项目。",
+    "forked_at": "2026-10-24"
+  },
+  {
+    "repo": "Hua2026-ai/nanoMuse",
+    "url": "https://github.com/Hua2026-ai/nanoMuse",
+    "upstream": "nano-muse/nanoMuse",
+    "upstream_url": "https://github.com/nano-muse/nanoMuse",
+    "stars": 2681,
+    "language": "Swift",
+    "homepage": "https://nanomuse.cn/",
+    "category": "AI / 工具与 MCP",
+    "description": "nanoMuse: an open-source personal agent for every device you own.",
+    "what_it_does": "跨设备开源个人 AI Agent（Swift，官网 nanomuse.cn）：一个有名字、有外观的常驻助手，应用关闭后仍持续工作、具备长期记忆，并在执行不可撤销操作前主动确认；覆盖 Android / iPhone / iPad / Windows / macOS / Linux 与浏览器，可用手机屏幕与电脑作为其操作入口。⚠️ **GPL-3.0 强 copyleft**。上游 2026-09-23 建、2026-10-27 仍有提交、319 fork、103 open issues，活跃但较新。",
+    "forked_at": "2026-10-24"
+  },
+  {
+    "repo": "Hua2026-ai/3d-model-anything",
+    "url": "https://github.com/Hua2026-ai/3d-model-anything",
+    "upstream": "wesbos/3d-model-anything",
+    "upstream_url": "https://github.com/wesbos/3d-model-anything",
+    "stars": 2121,
+    "language": "Swift",
+    "homepage": "https://wesbos.github.io/3d-model-anything/",
+    "category": "车机 / 3D 与设计",
+    "description": "Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser.",
+    "what_it_does": "用 iPhone LiDAR 与照片扫描真实房间，重建为可在浏览器中浏览、可编辑的 Three.js 3D 场景（Swift 采集端 + Web 渲染端，在线演示 wesbos.github.io/3d-model-anything）。适合房屋测绘、装修设计与 3D 内容创作的快速建模。⚠️ 许可证为 **NOASSERTION**（GitHub 无法映射标准 SPDX），二次开发/分发前需查仓库内 LICENSE 原文。上游 2026-10-21 建、10-22 有提交、313 fork、10 open issues，非常新。",
+    "forked_at": "2026-10-24"
+  },
+  {
+    "repo": "Hua2026-ai/YunGet",
+    "url": "https://github.com/Hua2026-ai/YunGet",
+    "upstream": "jiayuxuan123/YunGet",
+    "upstream_url": "https://github.com/jiayuxuan123/YunGet",
+    "stars": 283,
+    "language": "Kotlin",
+    "homepage": "https://jiayuxuan123.github.io/YunGet/",
+    "category": "影音 / 下载",
+    "description": "云取 YunGet：网盘分享解析与高速下载 Android 应用，基于 CYQawa/YunX 二次开发。",
+    "what_it_does": "Android 端网盘分享链接解析与高速下载工具（Kotlin，官网 jiayuxuan123.github.io/YunGet）：支持夸克 / UC / 迅雷 / 百度 / 123 / 139 / 115 / 光鸭 / 蓝奏等平台，下载由 TurboDL 引擎承担；本身是 CYQawa/YunX 的二次开发版。⚠️ **AGPL-3.0 强 copyleft**；⚠️ 网盘解析涉及平台服务条款，仅建议在合法授权范围内用于自有文件下载。上游 2026-08-25 建、2026-10-27 仍有提交、8 fork、5 open issues。",
+    "forked_at": "2026-10-27"
   }
 ]

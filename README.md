@@ -1,11 +1,11 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **78** 个 fork，上游合计约 **2,164,208** star。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **82** 个 fork，上游合计约 **2,181,917** star。
 > 最后更新：2026-10-16。本文只做归档与说明，版权与所有权归各自上游作者。
 
 ## 一句话概览
 
-剩下这 78 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
+剩下这 82 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
 其次是**中文学习与资源索引**、**车机 CarPlay 与 3D 设计**、**Telegram 导航**，
 另有少量代理客户端与影视资源相关的归档，以及 1 个 iOS 开发工具（omarchy-apple-dev）。
 
@@ -73,7 +73,7 @@
 - **官方描述**：Wispr Flow for your lips: hold a key, silently mouth words, and they're typed at your cursor. Runs locally on your Mac.
 
 
-### AI / 工具与 MCP（23）
+### AI / 工具与 MCP（24）
 
 #### [opencode](https://github.com/Hua2026-ai/opencode)
 
@@ -177,6 +177,12 @@
 - **作用**：开源的 AI 社交媒体智能体：发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等。fork 自 ZJU-REAL/Easel（上游约 3.6k★，Apache-2.0）。
 - **官方描述**：An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.
 
+#### [nanoMuse](https://github.com/Hua2026-ai/nanoMuse)
+
+- **上游**：[nano-muse/nanoMuse](https://github.com/nano-muse/nanoMuse) · ⭐ 2,681 · 语言 Swift · [官网/主页](https://nanomuse.cn/) · fork 于 2026-10-24
+- **作用**：跨设备开源个人 AI Agent（Swift，官网 nanomuse.cn）：一个有名字、有外观的常驻助手，应用关闭后仍持续工作、具备长期记忆，并在执行不可撤销操作前主动确认；覆盖 Android / iPhone / iPad / Windows / macOS / Linux 与浏览器，可用手机屏幕与电脑作为其操作入口。⚠️ **GPL-3.0 强 copyleft**。上游 2026-09-23 建、2026-10-27 仍有提交、319 fork、103 open issues，活跃但较新。
+- **官方描述**：nanoMuse: an open-source personal agent for every device you own.
+
 #### [Open-Source-Face-Recognition-SDK](https://github.com/Hua2026-ai/Open-Source-Face-Recognition-SDK)
 
 - **上游**：[Faceplugin-ltd/Open-Source-Face-Recognition-SDK](https://github.com/Faceplugin-ltd/Open-Source-Face-Recognition-SDK) · ⭐ 2,392 · 语言 Python · [官网/主页](https://faceplugin.com/) · fork 于 2026-10-10
@@ -244,7 +250,7 @@
 - **官方描述**：
 
 
-### 影音 / 下载（4）
+### 影音 / 下载（5）
 
 #### [cobalt](https://github.com/Hua2026-ai/cobalt)
 
@@ -264,11 +270,26 @@
 - **作用**：更好用的抖音客户端：支持作者级下载、播放、点赞收藏、私信、通知，并接入 MCP 服务让 AI 控制，内置 AI 可在私信与好友间 AI 聊天。注意：下载他人内容请遵守平台服务条款与版权法规，勿用于侵权用途。fork 自 anYuJia/better-douyin（上游约 839★，许可证 Other/未明确，使用前请自行评估）。
 - **官方描述**：打造更好用的douyin，支持作者级下载、播放、点赞收藏、私信、通知、mcp服务接入ai控制，内置ai可以在私信与好友ai聊天。douyin download
 
+#### [YunGet](https://github.com/Hua2026-ai/YunGet)
+
+- **上游**：[jiayuxuan123/YunGet](https://github.com/jiayuxuan123/YunGet) · ⭐ 283 · 语言 Kotlin · [官网/主页](https://jiayuxuan123.github.io/YunGet/) · fork 于 2026-10-27
+- **作用**：Android 端网盘分享链接解析与高速下载工具（Kotlin，官网 jiayuxuan123.github.io/YunGet）：支持夸克 / UC / 迅雷 / 百度 / 123 / 139 / 115 / 光鸭 / 蓝奏等平台，下载由 TurboDL 引擎承担；本身是 CYQawa/YunX 的二次开发版。⚠️ **AGPL-3.0 强 copyleft**；⚠️ 网盘解析涉及平台服务条款，仅建议在合法授权范围内用于自有文件下载。上游 2026-08-25 建、2026-10-27 仍有提交、8 fork、5 open issues。
+- **官方描述**：云取 YunGet：网盘分享解析与高速下载 Android 应用，基于 CYQawa/YunX 二次开发。
+
 #### [BiliMusic](https://github.com/Hua2026-ai/BiliMusic)
 
 - **上游**：[HanversionOvO/BiliMusic](https://github.com/HanversionOvO/BiliMusic) · ⭐ 208 · 语言 TypeScript · fork 于 2026-10-23
 - **作用**：B 站音乐播放器：把 bilibili 转换成音乐播放器体验（歌单管理、后台播放、Mini Player 等），用户脚本/网页形式。⚠️ 上游**未声明许可证**（默认保留所有权利）——只能参考学习，不能直接复用或再分发代码，二次开发需先联系作者授权；另 B 站内容使用需遵守平台条款。上游 208★、20 fork，2026-05-31 后提交放缓，属轻维护。
 - **官方描述**：Turn your bilibili into music player
+
+
+### 媒体管理 / 刮削（1）
+
+#### [peach](https://github.com/Hua2026-ai/peach)
+
+- **上游**：[peach-mitao/peach](https://github.com/peach-mitao/peach) · ⭐ 12,624 · 语言 Python · [官网/主页](https://peach.video) · fork 于 2026-10-24
+- **作用**：本地优先（local-first）的视频元数据刮削与媒体库管理工具（Python，官网 peach.video）：扫描本地视频文件、自动抓取元数据并组织成媒体库，数据留在本地不上云。⚠️ **AGPL-3.0 强 copyleft**——修改后分发或提供网络服务必须开源。上游 2026-08-19 建、2026-10-27 仍有提交、1,471 fork、★1.26 万，属高热度活跃项目。
+- **官方描述**：Peach: Local-first video metadata scraper and media manager.
 
 
 ### 学习 / 资源索引（10）
@@ -334,7 +355,7 @@
 - **官方描述**：WorkBuddy skills / connectors / experts archive for offline study
 
 
-### 车机 / 3D 与设计（7）
+### 车机 / 3D 与设计（8）
 
 #### [lingbot-map](https://github.com/Hua2026-ai/lingbot-map)
 
@@ -347,6 +368,12 @@
 - **上游**：[shihabal3amri/DiPlay](https://github.com/shihabal3amri/DiPlay) · ⭐ 8,408 · 语言 Kotlin · [官网/主页](https://shihabal3amri.github.io/DiPlay/) · fork 于 2026-09-29
 - **作用**：面向 Android 车机的独立 CarPlay 接收器，支持有线与无线（公开预览版）。
 - **官方描述**：Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview.
+
+#### [3d-model-anything](https://github.com/Hua2026-ai/3d-model-anything)
+
+- **上游**：[wesbos/3d-model-anything](https://github.com/wesbos/3d-model-anything) · ⭐ 2,121 · 语言 Swift · [官网/主页](https://wesbos.github.io/3d-model-anything/) · fork 于 2026-10-24
+- **作用**：用 iPhone LiDAR 与照片扫描真实房间，重建为可在浏览器中浏览、可编辑的 Three.js 3D 场景（Swift 采集端 + Web 渲染端，在线演示 wesbos.github.io/3d-model-anything）。适合房屋测绘、装修设计与 3D 内容创作的快速建模。⚠️ 许可证为 **NOASSERTION**（GitHub 无法映射标准 SPDX），二次开发/分发前需查仓库内 LICENSE 原文。上游 2026-10-21 建、10-22 有提交、313 fork、10 open issues，非常新。
+- **官方描述**：Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser.
 
 #### [floorplan-3d](https://github.com/Hua2026-ai/floorplan-3d)
 
@@ -536,6 +563,7 @@
 | [huobao-drama](https://github.com/Hua2026-ai/huobao-drama) | [chatfire-AI/huobao-drama](https://github.com/chatfire-AI/huobao-drama) | 15,923 | Vue | AI / 语音与视频生成 |
 | [DroidDeck](https://github.com/Hua2026-ai/DroidDeck) | [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) | 15,067 | Kotlin | 系统工具 |
 | [moli](https://github.com/Hua2026-ai/moli) | [lexmount/moli](https://github.com/lexmount/moli) | 14,958 | Rust | AI / 工具与 MCP |
+| [peach](https://github.com/Hua2026-ai/peach) | [peach-mitao/peach](https://github.com/peach-mitao/peach) | 12,624 | Python | 媒体管理 / 刮削 |
 | [patent-disclosure-skill](https://github.com/Hua2026-ai/patent-disclosure-skill) | [handsomestWei/patent-disclosure-skill](https://github.com/handsomestWei/patent-disclosure-skill) | 11,222 | Python | AI / 语音与视频生成 |
 | [Horizon](https://github.com/Hua2026-ai/Horizon) | [Thysrael/Horizon](https://github.com/Thysrael/Horizon) | 10,692 | Python | AI / 工具与 MCP |
 | [Wan2GP](https://github.com/Hua2026-ai/Wan2GP) | [deepbeepmeep/Wan2GP](https://github.com/deepbeepmeep/Wan2GP) | 10,259 | Python | AI / 语音与视频生成 |
@@ -559,9 +587,11 @@
 | [OpenNOW](https://github.com/Hua2026-ai/OpenNOW) | [OpenCloudGaming/OpenNOW](https://github.com/OpenCloudGaming/OpenNOW) | 3,351 | Rust | 系统工具 |
 | [chinese-poetry-api](https://github.com/Hua2026-ai/chinese-poetry-api) | [palemoky/chinese-poetry-api](https://github.com/palemoky/chinese-poetry-api) | 3,261 | Go | 学习 / 资源索引 |
 | [jianying-headless](https://github.com/Hua2026-ai/jianying-headless) | [mcncarl/jianying-headless](https://github.com/mcncarl/jianying-headless) | 3,026 | Python | AI / 语音与视频生成 |
+| [nanoMuse](https://github.com/Hua2026-ai/nanoMuse) | [nano-muse/nanoMuse](https://github.com/nano-muse/nanoMuse) | 2,681 | Swift | AI / 工具与 MCP |
 | [UFI-TOOLS](https://github.com/Hua2026-ai/UFI-TOOLS) | [kanoqwq/UFI-TOOLS](https://github.com/kanoqwq/UFI-TOOLS) | 2,633 | JavaScript | 网络工具 / 代理客户端 |
 | [Open-Source-Face-Recognition-SDK](https://github.com/Hua2026-ai/Open-Source-Face-Recognition-SDK) | [Faceplugin-ltd/Open-Source-Face-Recognition-SDK](https://github.com/Faceplugin-ltd/Open-Source-Face-Recognition-SDK) | 2,392 | Python | AI / 工具与 MCP |
 | [12306-mcp](https://github.com/Hua2026-ai/12306-mcp) | [Joooook/12306-mcp](https://github.com/Joooook/12306-mcp) | 2,331 | JavaScript | AI / 工具与 MCP |
+| [3d-model-anything](https://github.com/Hua2026-ai/3d-model-anything) | [wesbos/3d-model-anything](https://github.com/wesbos/3d-model-anything) | 2,121 | Swift | 车机 / 3D 与设计 |
 | [floorplan-3d](https://github.com/Hua2026-ai/floorplan-3d) | [wy51ai/floorplan-3d](https://github.com/wy51ai/floorplan-3d) | 2,018 | HTML | 车机 / 3D 与设计 |
 | [nvidia-macos-driver](https://github.com/Hua2026-ai/nvidia-macos-driver) | [nullmoth/nvidia-macos-driver](https://github.com/nullmoth/nvidia-macos-driver) | 1,942 | Rust | 系统工具 |
 | [videdown](https://github.com/Hua2026-ai/videdown) | [cshuangyy/videdown](https://github.com/cshuangyy/videdown) | 1,837 | TypeScript | 影音 / 下载 |
@@ -579,6 +609,7 @@
 | [Microsoft-Rewards-Script](https://github.com/Hua2026-ai/Microsoft-Rewards-Script) | [chiihero/Microsoft-Rewards-Script](https://github.com/chiihero/Microsoft-Rewards-Script) | 525 | TypeScript | 系统工具 |
 | [pi-purge](https://github.com/Hua2026-ai/pi-purge) | [ZiChuanLan/pi-purge](https://github.com/ZiChuanLan/pi-purge) | 493 | JavaScript | AI / 工具与 MCP |
 | [workbuddyskills](https://github.com/Hua2026-ai/workbuddyskills) | [infometa/workbuddyskills](https://github.com/infometa/workbuddyskills) | 375 | HTML | 学习 / 资源索引 |
+| [YunGet](https://github.com/Hua2026-ai/YunGet) | [jiayuxuan123/YunGet](https://github.com/jiayuxuan123/YunGet) | 283 | Kotlin | 影音 / 下载 |
 | [playport](https://github.com/Hua2026-ai/playport) | [youcci/playport](https://github.com/youcci/playport) | 262 | Kotlin | 车机 / 3D 与设计 |
 | [hideck](https://github.com/Hua2026-ai/hideck) | [yibaiba/hideck](https://github.com/yibaiba/hideck) | 254 | Go | 网络工具 / 代理客户端 |
 | [muse-skills](https://github.com/Hua2026-ai/muse-skills) | [jasonbitsmith/muse-skills](https://github.com/jasonbitsmith/muse-skills) | 251 | - | AI / 工具与 MCP |
@@ -592,7 +623,7 @@
 
 ## 自建仓库（2，非 fork）
 
-> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 78 个 fork 的统计。
+> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 82 个 fork 的统计。
 
 #### [Hua2026-ai.github.io](https://github.com/Hua2026-ai/Hua2026-ai.github.io)
 
