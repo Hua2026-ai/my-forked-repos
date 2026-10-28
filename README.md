@@ -1,6 +1,6 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **82** 个 fork，上游合计约 **2,181,917** star。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **82** 个 fork，上游合计约 **2,183,784** star。
 > 最后更新：2026-10-16。本文只做归档与说明，版权与所有权归各自上游作者。
 
 ## 一句话概览
@@ -453,17 +453,17 @@
 - **作用**：Android TV / Google TV 一键去广告去臃肿工具：通过 ADB over Wi-Fi 用 pm disable-user 禁用厂商遥测、广告服务、推荐内容行与预装垃圾（不卸载、可一键恢复），并换上 Apple TV 风格的极简启动器（纯 Java、约 250KB、支持主题与屏保）。仓库本质是给 Claude Code 等 AI 编码助手使用的 PROMPT.md + 各机型验证过的 debloat 清单 + launcher，无需 root。⚠️ 许可证为 NOASSERTION（GitHub 未识别为标准 SPDX），二次开发/分发前需查看仓库内 LICENSE 原文；操作会禁用电视系统组件，请仅在自有设备上按提示逐步确认、做好备份。上游约 5.8k★、705 fork，2026-10-20 仍有提交，质量健康。fork 自 Gathin23/cleanyourtv。
 - **官方描述**：Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
 
+#### [nvidia-macos-driver](https://github.com/Hua2026-ai/nvidia-macos-driver)
+
+- **上游**：[nullmoth/nvidia-macos-driver](https://github.com/nullmoth/nvidia-macos-driver) · ⭐ 3,809 · 语言 Rust · [官网/主页](https://nullmothsystems.com) · fork 于 2026-10-08
+- **作用**：在 macOS Sequoia（Intel / OpenCore 平台）上为 NVIDIA GeForce 显卡提供 Metal 驱动，含源码、免费使用，目标是让本该停在 High Sierra 的 N 卡在较新 macOS 上恢复 GPU 加速。⚠️ 许可证为 **NOASSERTION**（GitHub 无法映射标准 SPDX，含自定义条款），二次开发/分发前必须查仓库内 LICENSE 原文。上游 2026-10-07 新建、2026-10-26 仍有提交、375 fork、246 open issues——一个月内从约 1.9k★ 涨到 3.8k★，属高热度但早期项目，建议先在非主力机验证。
+- **官方描述**：Metal driver for NVIDIA GeForce cards on macOS Sequoia
+
 #### [OpenNOW](https://github.com/Hua2026-ai/OpenNOW)
 
 - **上游**：[OpenCloudGaming/OpenNOW](https://github.com/OpenCloudGaming/OpenNOW) · ⭐ 3,351 · 语言 Rust · fork 于 2026-10-09
 - **作用**：自定义的 GeForce NOW 云游戏客户端（开源）。fork 自 OpenCloudGaming/OpenNOW（上游约 3.3k★）。
 - **官方描述**：Custom GeForce Now Client Named OpenNOW
-
-#### [nvidia-macos-driver](https://github.com/Hua2026-ai/nvidia-macos-driver)
-
-- **上游**：[nullmoth/nvidia-macos-driver](https://github.com/nullmoth/nvidia-macos-driver) · ⭐ 1,942 · 语言 Rust · [官网/主页](https://nullmothsystems.com) · fork 于 2026-10-08
-- **作用**：在 macOS 15 Sequoia（Intel / OpenCore）上为 NVIDIA GeForce RTX 卡提供 Metal 驱动，含源码、免费。注意：许可证为 **NOASSERTION（未明确标准许可证）**，使用前请自行评估。fork 自 nullmoth/nvidia-macos-driver（上游约 1.6k★）。
-- **官方描述**：Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included.
 
 #### [bloodborne_pc](https://github.com/Hua2026-ai/bloodborne_pc)
 
@@ -582,6 +582,7 @@
 | [qingjian](https://github.com/Hua2026-ai/qingjian) | [qingjian-team/qingjian](https://github.com/qingjian-team/qingjian) | 5,846 | Rust | 系统工具 |
 | [cleanyourtv](https://github.com/Hua2026-ai/cleanyourtv) | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | 5,823 | Java | 系统工具 |
 | [SenseNova-Skills](https://github.com/Hua2026-ai/SenseNova-Skills) | [OpenSenseNova/SenseNova-Skills](https://github.com/OpenSenseNova/SenseNova-Skills) | 5,749 | JavaScript | AI / 语音与视频生成 |
+| [nvidia-macos-driver](https://github.com/Hua2026-ai/nvidia-macos-driver) | [nullmoth/nvidia-macos-driver](https://github.com/nullmoth/nvidia-macos-driver) | 3,809 | Rust | 系统工具 |
 | [iPhone-use](https://github.com/Hua2026-ai/iPhone-use) | [zhongerxin/iPhone-use](https://github.com/zhongerxin/iPhone-use) | 3,581 | Python | AI / 工具与 MCP |
 | [Easel](https://github.com/Hua2026-ai/Easel) | [ZJU-REAL/Easel](https://github.com/ZJU-REAL/Easel) | 3,575 | Python | AI / 工具与 MCP |
 | [OpenNOW](https://github.com/Hua2026-ai/OpenNOW) | [OpenCloudGaming/OpenNOW](https://github.com/OpenCloudGaming/OpenNOW) | 3,351 | Rust | 系统工具 |
@@ -593,7 +594,6 @@
 | [12306-mcp](https://github.com/Hua2026-ai/12306-mcp) | [Joooook/12306-mcp](https://github.com/Joooook/12306-mcp) | 2,331 | JavaScript | AI / 工具与 MCP |
 | [3d-model-anything](https://github.com/Hua2026-ai/3d-model-anything) | [wesbos/3d-model-anything](https://github.com/wesbos/3d-model-anything) | 2,121 | Swift | 车机 / 3D 与设计 |
 | [floorplan-3d](https://github.com/Hua2026-ai/floorplan-3d) | [wy51ai/floorplan-3d](https://github.com/wy51ai/floorplan-3d) | 2,018 | HTML | 车机 / 3D 与设计 |
-| [nvidia-macos-driver](https://github.com/Hua2026-ai/nvidia-macos-driver) | [nullmoth/nvidia-macos-driver](https://github.com/nullmoth/nvidia-macos-driver) | 1,942 | Rust | 系统工具 |
 | [videdown](https://github.com/Hua2026-ai/videdown) | [cshuangyy/videdown](https://github.com/cshuangyy/videdown) | 1,837 | TypeScript | 影音 / 下载 |
 | [dsh-im](https://github.com/Hua2026-ai/dsh-im) | [xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) | 1,756 | JavaScript | AI / 工具与 MCP |
 | [bloodborne_pc](https://github.com/Hua2026-ai/bloodborne_pc) | [Supermedo/bloodborne_pc](https://github.com/Supermedo/bloodborne_pc) | 1,714 | C++ | 系统工具 |

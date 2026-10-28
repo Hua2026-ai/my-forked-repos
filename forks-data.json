@@ -95,12 +95,12 @@
     "url": "https://github.com/Hua2026-ai/nvidia-macos-driver",
     "upstream": "nullmoth/nvidia-macos-driver",
     "upstream_url": "https://github.com/nullmoth/nvidia-macos-driver",
-    "stars": 1942,
+    "stars": 3809,
     "language": "Rust",
     "homepage": "https://nullmothsystems.com",
     "category": "系统工具",
-    "description": "Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included.",
-    "what_it_does": "在 macOS 15 Sequoia（Intel / OpenCore）上为 NVIDIA GeForce RTX 卡提供 Metal 驱动，含源码、免费。注意：许可证为 **NOASSERTION（未明确标准许可证）**，使用前请自行评估。fork 自 nullmoth/nvidia-macos-driver（上游约 1.6k★）。",
+    "description": "Metal driver for NVIDIA GeForce cards on macOS Sequoia",
+    "what_it_does": "在 macOS Sequoia（Intel / OpenCore 平台）上为 NVIDIA GeForce 显卡提供 Metal 驱动，含源码、免费使用，目标是让本该停在 High Sierra 的 N 卡在较新 macOS 上恢复 GPU 加速。⚠️ 许可证为 **NOASSERTION**（GitHub 无法映射标准 SPDX，含自定义条款），二次开发/分发前必须查仓库内 LICENSE 原文。上游 2026-10-07 新建、2026-10-26 仍有提交、375 fork、246 open issues——一个月内从约 1.9k★ 涨到 3.8k★，属高热度但早期项目，建议先在非主力机验证。",
     "forked_at": "2026-10-08"
   },
   {
