@@ -1,11 +1,11 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **83** 个 fork，上游合计约 **2,183,903** star。
-> 最后更新：2026-10-16。本文只做归档与说明，版权与所有权归各自上游作者。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **82** 个 fork，上游合计约 **2,183,784** star。
+> 最后更新：2026-10-29。本文只做归档与说明，版权与所有权归各自上游作者。
 
 ## 一句话概览
 
-剩下这 83 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
+剩下这 82 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
 其次是**中文学习与资源索引**、**车机 CarPlay 与 3D 设计**、**Telegram 导航**，
 另有少量代理客户端与影视资源相关的归档，以及 1 个 iOS 开发工具（omarchy-apple-dev）。
 
@@ -250,7 +250,7 @@
 - **官方描述**：
 
 
-### 影音 / 下载（6）
+### 影音 / 下载（5）
 
 #### [cobalt](https://github.com/Hua2026-ai/cobalt)
 
@@ -281,12 +281,6 @@
 - **上游**：[HanversionOvO/BiliMusic](https://github.com/HanversionOvO/BiliMusic) · ⭐ 208 · 语言 TypeScript · fork 于 2026-10-23
 - **作用**：B 站音乐播放器：把 bilibili 转换成音乐播放器体验（歌单管理、后台播放、Mini Player 等），用户脚本/网页形式。⚠️ 上游**未声明许可证**（默认保留所有权利）——只能参考学习，不能直接复用或再分发代码，二次开发需先联系作者授权；另 B 站内容使用需遵守平台条款。上游 208★、20 fork，2026-05-31 后提交放缓，属轻维护。
 - **官方描述**：Turn your bilibili into music player
-
-#### [bilibili-charging-downloader](https://github.com/Hua2026-ai/bilibili-charging-downloader)
-
-- **上游**：[montrush/bilibili-charging-downloader](https://github.com/montrush/bilibili-charging-downloader) · ⭐ 119 · 语言 Python · fork 于 2026-10-29
-- **作用**：B 站「充电专属」视频下载器（Python，MIT 许可证）：绕过 BBDown 1.6.3 的 login 假成功缺陷，改为直接调用 B 站 API 并从 Set-Cookie 提取凭证，支持充电视频完整版与 UGC 合集批量下载。⚠️ 仅可用于**本人已付费充电（已获授权）**的内容备份，不得用于绕过付费墙传播他人作品；B 站内容同时受平台服务条款约束。上游 2026-07-30 建、2026-09-20 后无新提交（约 5 周停滞）、15 fork、2 open issues，属轻维护小工具，功能已稳定但对 B 站 API 变动敏感。
-- **官方描述**：B站充电视频下载器 - 解决BBDown 1.6.3 login假成功bug, 直接调B站API从Set-Cookie提取cookie, 支持充电视频完整版/UGC合集批量下载
 
 
 ### 媒体管理 / 刮削（1）
@@ -624,7 +618,6 @@
 | [BiliMusic](https://github.com/Hua2026-ai/BiliMusic) | [HanversionOvO/BiliMusic](https://github.com/HanversionOvO/BiliMusic) | 208 | TypeScript | 影音 / 下载 |
 | [DLSS5-Swapper-Chinese](https://github.com/Hua2026-ai/DLSS5-Swapper-Chinese) | [hezhixin15/DLSS5-Swapper-Chinese](https://github.com/hezhixin15/DLSS5-Swapper-Chinese) | 154 | JavaScript | 系统工具 |
 | [house-plan-designer](https://github.com/Hua2026-ai/house-plan-designer) | [ZWD11/house-plan-designer](https://github.com/ZWD11/house-plan-designer) | 119 | HTML | 车机 / 3D 与设计 |
-| [bilibili-charging-downloader](https://github.com/Hua2026-ai/bilibili-charging-downloader) | [montrush/bilibili-charging-downloader](https://github.com/montrush/bilibili-charging-downloader) | 119 | Python | 影音 / 下载 |
 | [workbuddy-toolkit](https://github.com/Hua2026-ai/workbuddy-toolkit) | [FlapPearLabs/workbuddy-toolkit](https://github.com/FlapPearLabs/workbuddy-toolkit) | 33 | Python | 系统工具 |
 | [dsh-font-probe](https://github.com/Hua2026-ai/dsh-font-probe) | [lohana20061023-29/dsh-font-probe](https://github.com/lohana20061023-29/dsh-font-probe) | 6 | JavaScript | 系统工具 |
 

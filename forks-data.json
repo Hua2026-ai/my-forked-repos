@@ -1064,18 +1064,5 @@
     "description": "云取 YunGet：网盘分享解析与高速下载 Android 应用，基于 CYQawa/YunX 二次开发。",
     "what_it_does": "Android 端网盘分享链接解析与高速下载工具（Kotlin，官网 jiayuxuan123.github.io/YunGet）：支持夸克 / UC / 迅雷 / 百度 / 123 / 139 / 115 / 光鸭 / 蓝奏等平台，下载由 TurboDL 引擎承担；本身是 CYQawa/YunX 的二次开发版。⚠️ **AGPL-3.0 强 copyleft**；⚠️ 网盘解析涉及平台服务条款，仅建议在合法授权范围内用于自有文件下载。上游 2026-08-25 建、2026-10-27 仍有提交、8 fork、5 open issues。",
     "forked_at": "2026-10-27"
-  },
-  {
-    "repo": "Hua2026-ai/bilibili-charging-downloader",
-    "url": "https://github.com/Hua2026-ai/bilibili-charging-downloader",
-    "upstream": "montrush/bilibili-charging-downloader",
-    "upstream_url": "https://github.com/montrush/bilibili-charging-downloader",
-    "stars": 119,
-    "language": "Python",
-    "homepage": "",
-    "category": "影音 / 下载",
-    "description": "B站充电视频下载器 - 解决BBDown 1.6.3 login假成功bug, 直接调B站API从Set-Cookie提取cookie, 支持充电视频完整版/UGC合集批量下载",
-    "what_it_does": "B 站「充电专属」视频下载器（Python，MIT 许可证）：绕过 BBDown 1.6.3 的 login 假成功缺陷，改为直接调用 B 站 API 并从 Set-Cookie 提取凭证，支持充电视频完整版与 UGC 合集批量下载。⚠️ 仅可用于**本人已付费充电（已获授权）**的内容备份，不得用于绕过付费墙传播他人作品；B 站内容同时受平台服务条款约束。上游 2026-07-30 建、2026-09-20 后无新提交（约 5 周停滞）、15 fork、2 open issues，属轻维护小工具，功能已稳定但对 B 站 API 变动敏感。",
-    "forked_at": "2026-10-29"
   }
 ]
