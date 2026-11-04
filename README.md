@@ -1,13 +1,13 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **82** 个 fork，上游合计约 **2,183,784** star。
-> 最后更新：2026-10-29。本文只做归档与说明，版权与所有权归各自上游作者。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **85** 个 fork，上游合计约 **2,187,792** star。
+> 最后更新：2026-11-04。本文只做归档与说明，版权与所有权归各自上游作者。
 
 ## 一句话概览
 
-剩下这 82 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
+剩下这 85 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
 其次是**中文学习与资源索引**、**车机 CarPlay 与 3D 设计**、**Telegram 导航**，
-另有少量代理客户端与影视资源相关的归档，以及 1 个 iOS 开发工具（omarchy-apple-dev）。
+另有少量代理客户端与影视资源相关的归档，以及安卓 / 桌面端工具（omarchy-apple-dev、DSH-Android、coolapk-desktop）。
 
 ## 分类清单
 ### AI / 语音与视频生成（10）
@@ -36,17 +36,17 @@
 - **作用**：火宝短剧：基于 AI 的一站式短剧生成平台，一句话生成完整短剧、从剧本到成片全自动化。注意：许可证为 **NOASSERTION（未明确标准许可证）**，使用前请自行评估。fork 自 chatfire-AI/huobao-drama（上游约 15.9k★）。
 - **官方描述**：🎬 火宝短剧 - 基于AI的一站式短剧生成平台 《一句话生成完整短剧，从剧本到成片全自动化》  Huobao Drama - An AI-Powered End-to-End Short Drama Generator "One Sentence to Complete Drama: Fully Automated from Script to Final Video"
 
+#### [Wan2GP](https://github.com/Hua2026-ai/Wan2GP)
+
+- **上游**：[deepbeepmeep/WanGP](https://github.com/deepbeepmeep/WanGP) · ⭐ 11,375 · 语言 Python · fork 于 2026-10-03
+- **作用**：「给穷人显卡用的 AI 视频生成器」：面向低显存 GPU，支持 Wan 2.1/2.2、LTX-2、Qwen Image、Hunyuan Video、LTX Video 与 Flux 等多种模型。上游仓库已由 `Wan2GP` 更名为 `deepbeepmeep/WanGP`（GitHub 自动跟随重定向），现约 11.4k★。
+- **官方描述**：A fast AI Video Generator for the GPU Poor. Supports Wan 2.1/2.2, LTX-2, Qwen Image, Hunyuan Video, LTX  Video and Flux.
+
 #### [patent-disclosure-skill](https://github.com/Hua2026-ai/patent-disclosure-skill)
 
 - **上游**：[handsomestWei/patent-disclosure-skill](https://github.com/handsomestWei/patent-disclosure-skill) · ⭐ 11,222 · 语言 Python · [官网/主页](https://skillhub.cn/skills/patent-disclosure-skill) · fork 于 2026-10-02
 - **作用**：中文专利技能包：专利点挖掘、发明/实用新型/外观设计三种交底书撰写、专利通俗解读、政策动向跟踪、审查意见答复辅助。主页 skillhub.cn。
 - **官方描述**：中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。
-
-#### [Wan2GP](https://github.com/Hua2026-ai/Wan2GP)
-
-- **上游**：[deepbeepmeep/Wan2GP](https://github.com/deepbeepmeep/Wan2GP) · ⭐ 10,259 · 语言 Python · fork 于 2026-10-03
-- **作用**：「给穷人显卡用的 AI 视频生成器」：面向低显存 GPU，支持 Wan 2.1/2.2、LTX-2、Qwen Image、Hunyuan Video、LTX Video 与 Flux 等多种模型。fork 自 deepbeepmeep/Wan2GP（上游约 9.9k★）。
-- **官方描述**：A fast AI Video Generator for the GPU Poor. Supports Wan 2.1/2.2, LTX-2, Qwen Image, Hunyuan Video, LTX  Video and Flux.
 
 #### [goutoujunshi](https://github.com/Hua2026-ai/goutoujunshi)
 
@@ -60,20 +60,20 @@
 - **作用**：商汤 SenseNova 的模块化技能包，用来搭建 AI 办公助手与生产力工作流。
 - **官方描述**：Modular SenseNova skills for building AI-powered office assistants and productivity workflows
 
-#### [jianying-headless](https://github.com/Hua2026-ai/jianying-headless)
-
-- **上游**：[mcncarl/jianying-headless](https://github.com/mcncarl/jianying-headless) · ⭐ 3,026 · 语言 Python · fork 于 2026-09-27
-- **作用**：剪映（CapCut 国内版）草稿的无头方案：原生草稿解析、隔离环境的编辑与导出，并附带独立 Agent Skill，便于自动化批量剪视频。
-- **官方描述**：Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill.
-
 #### [lipflow](https://github.com/Hua2026-ai/lipflow)
 
 - **上游**：[amywork777/lipflow](https://github.com/amywork777/lipflow) · ⭐ 560 · 语言 Python · fork 于 2026-10-06
 - **作用**：「唇语输入」工具：按住按键、默念字词，文字就出现在光标处；完全本地运行于 Mac。fork 自 amywork777/lipflow（上游约 538★）。
 - **官方描述**：Wispr Flow for your lips: hold a key, silently mouth words, and they're typed at your cursor. Runs locally on your Mac.
 
+#### [jianying-headless](https://github.com/Hua2026-ai/jianying-headless)
 
-### AI / 工具与 MCP（24）
+- **上游**：[GdLinkLock/jianying-headless](https://github.com/GdLinkLock/jianying-headless) · ⭐ 20 · 语言 Python · fork 于 2026-09-27
+- **作用**：剪映（CapCut 国内版）草稿的无头方案：原生草稿解析、隔离环境的编辑与导出，并附带独立 Agent Skill，便于自动化批量剪视频。⚠️ 原上游 `mcncarl/jianying-headless`（曾约 3k★）已 404/私有化，当前 fork 网络的 source 为公开镜像 `GdLinkLock/jianying-headless`（★20，非商业许可），README 与代码仍是原项目内容；清单 star 已按当前可访问上游修正。
+- **官方描述**：Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill.
+
+
+### AI / 工具与 MCP（25）
 
 #### [opencode](https://github.com/Hua2026-ai/opencode)
 
@@ -201,10 +201,16 @@
 - **作用**：把 IM 机器人接入 DeepSeek Harness 的桥接工具：通过扫码或机器人凭据即可对接飞书、微信、钉钉、企业微信、QQ、Slack、Telegram、Discord、WhatsApp 共 9 个渠道。fork 自 xmanrui/dsh-im（上游约 1.7k★）。
 - **官方描述**：通过扫码或机器人凭据把IM机器人接入DeepSeek Harness（支持飞书、微信、钉钉、企业微信、QQ、Slack、Telegram、Discord和WhatsApp）。 Connect IM bots to DeepSeek Harness via QR code or credentials (9 channels).
 
+#### [DSH-Android](https://github.com/Hua2026-ai/DSH-Android)
+
+- **上游**：[jackwener/DSH-Android](https://github.com/jackwener/DSH-Android) · ⭐ 805 · 语言 Kotlin · fork 于 2026-10-31
+- **作用**：把 DeepSeek Harness 整套 agent 引擎塞进单个 Android APK（Kotlin，**Apache-2.0**）：无需 root、无需 Termux，进程内直接跑 agent；靠无障碍读屏操作其它 App、可改系统设置、支持定时与条件触发自动化，接了 Shizuku 则能做更高权限操作。等于把「手机上的 AI 操作员」做成了装完即用的原生应用。注意：读屏 + 改设置属于高权限能力，务必只在自己的设备上、只跑可信指令；自动化脚本误触系统设置可能导致设备行为异常。上游 2026-10-31 建、仍在活跃开发（2026-11-03 有提交，17 open issue）。
+- **官方描述**：免 ROOT 免 Termux，一个 APK 在安卓手机上跑 DeepSeek Harness。引擎内嵌 App 进程 · 读屏操作 App · 改系统设置 · 定时/条件自动化 · 可选 Shizuku
+
 #### [Atria-Dawn-Preview](https://github.com/Hua2026-ai/Atria-Dawn-Preview)
 
-- **上游**：[atria-asi/Atria-Dawn-Preview](https://github.com/atria-asi/Atria-Dawn-Preview) · ⭐ 585 · 语言 - · [官网/主页](https://atria-asi.ai/) · fork 于 2026-10-08
-- **作用**：Atria Dawn Preview：从「研究问题」到「可验证结果」的开源 AI 模型预览（InternLM / 上海 AI 实验室相关，已上架 HuggingFace / ModelScope）。fork 自 atria-asi/Atria-Dawn-Preview（上游约 585★）。
+- **上游**：[atria-asi/Atria-Dawn](https://github.com/atria-asi/Atria-Dawn) · ⭐ 637 · 语言 - · [官网/主页](https://atria-asi.ai/) · fork 于 2026-10-08
+- **作用**：Atria Dawn Preview：从「研究问题」到「可验证结果」的开源 AI 模型预览（InternLM / 上海 AI 实验室相关，已上架 HuggingFace / ModelScope）。上游已更名为 `atria-asi/Atria-Dawn`（GitHub 自动跟随重定向），现约 637★。
 - **官方描述**：
 
 #### [pi-purge](https://github.com/Hua2026-ai/pi-purge)
@@ -292,7 +298,7 @@
 - **官方描述**：Peach: Local-first video metadata scraper and media manager.
 
 
-### 学习 / 资源索引（10）
+### 学习 / 资源索引（11）
 
 #### [awesome](https://github.com/Hua2026-ai/awesome)
 
@@ -347,6 +353,12 @@
 - **上游**：[palemoky/chinese-poetry-api](https://github.com/palemoky/chinese-poetry-api) · ⭐ 3,261 · 语言 Go · [官网/主页](https://poetry.palemoky.com) · fork 于 2026-10-09
 - **作用**：诗泉：高性能中国古诗词 API 服务。fork 自 palemoky/chinese-poetry-api（上游约 3.2k★）。
 - **官方描述**：📜 诗泉：高性能中国古诗词 API 服务
+
+#### [best-skills](https://github.com/Hua2026-ai/best-skills)
+
+- **上游**：[xstongxue/best-skills](https://github.com/xstongxue/best-skills) · ⭐ 3,115 · 语言 Python · fork 于 2026-11-04
+- **作用**：通用高质量 Agent Skills 合集（Python，**Apache-2.0** 宽松许可，可放心二次开发）：汇集面向 AI Agent 的可复用技能包，覆盖多种通用场景，可按需挑用或作为编写自有 Skill 的参考范本。上游 2026-03-05 建、2026-09-13 之后无新提交（约 7 周停滞）、225 fork、仅 1 open issue——内容型仓库，停更不影响已收录技能可用，但对新模型/新协议适配可能滞后。⚠️ 同名仓库 `LinklyAI/best-skills`（★732）是「每日更新的 Agent Skills Top 100 榜单」，性质不同，未选。
+- **官方描述**：通用高质量 Skills 合集🔥
 
 #### [workbuddyskills](https://github.com/Hua2026-ai/workbuddyskills)
 
@@ -503,8 +515,8 @@
 
 #### [ProsperoStore](https://github.com/Hua2026-ai/ProsperoStore)
 
-- **上游**：[blackbearreloaded/ProsperoStore](https://github.com/blackbearreloaded/ProsperoStore) · ⭐ 248 · 语言 C++ · fork 于 2026-10-13
-- **作用**：面向 PS5 自制软件（homebrew）目录的原生应用商店（homebrew.page 上的 PPSA99000）。注意：涉及主机越狱/自制软件生态，请遵守所在地法律法规与 Sony 相关条款，风险自负。fork 自 blackbearreloaded/ProsperoStore（上游约 248★，GPL-3.0）。
+- **上游**：[darkxex/ProsperoStore](https://github.com/darkxex/ProsperoStore) · ⭐ 489 · 语言 C++ · fork 于 2026-10-13
+- **作用**：面向 PS5 自制软件（homebrew）目录的原生应用商店（homebrew.page 上的 PPSA99000）。注意：涉及主机越狱/自制软件生态，请遵守所在地法律法规与 Sony 相关条款，风险自负。上游 owner 已由 `blackbearreloaded` 变更为 `darkxex`（GitHub 自动跟随重定向），现约 489★，GPL-3.0。
 - **官方描述**：Native PS5 app store for the homebrew catalog at homebrew.page (title PPSA99000)
 
 #### [DLSS5-Swapper-Chinese](https://github.com/Hua2026-ai/DLSS5-Swapper-Chinese)
@@ -526,7 +538,13 @@
 - **官方描述**：DSH 字体插件：中英文字体分设、正文字号与代码字号、字距/行距/段距/首行缩进四根滑块，吸底总预览 + 确认制，配置写回 profile，不动 app.asar。
 
 
-### 开发 / 移动工具（1）
+### 开发 / 移动工具（2）
+
+#### [coolapk-desktop](https://github.com/Hua2026-ai/coolapk-desktop)
+
+- **上游**：[daimiaopeng/coolapk-desktop](https://github.com/daimiaopeng/coolapk-desktop) · ⭐ 1,685 · 语言 Vue · fork 于 2026-11-03
+- **作用**：酷安（Coolapk）的第三方跨平台桌面客户端（Vue 技术栈，**MIT** 宽松许可）：在 Mac / Windows / Linux 桌面上浏览酷安的应用、图文与评论，把只能在手机上刷的安卓应用社区搬到大屏。属于依赖酷安非公开接口的第三方客户端，接口一变就可能失效；登录凭据留在本地，用第三方客户端请勿在公共机器上保存账号。上游 128 fork、1 open issue，最近提交 2026-10-15。
+- **官方描述**：酷安跨平台桌面版
 
 #### [omarchy-apple-dev](https://github.com/Hua2026-ai/omarchy-apple-dev)
 
@@ -564,9 +582,9 @@
 | [DroidDeck](https://github.com/Hua2026-ai/DroidDeck) | [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) | 15,067 | Kotlin | 系统工具 |
 | [moli](https://github.com/Hua2026-ai/moli) | [lexmount/moli](https://github.com/lexmount/moli) | 14,958 | Rust | AI / 工具与 MCP |
 | [peach](https://github.com/Hua2026-ai/peach) | [peach-mitao/peach](https://github.com/peach-mitao/peach) | 12,624 | Python | 媒体管理 / 刮削 |
+| [Wan2GP](https://github.com/Hua2026-ai/Wan2GP) | [deepbeepmeep/WanGP](https://github.com/deepbeepmeep/WanGP) | 11,375 | Python | AI / 语音与视频生成 |
 | [patent-disclosure-skill](https://github.com/Hua2026-ai/patent-disclosure-skill) | [handsomestWei/patent-disclosure-skill](https://github.com/handsomestWei/patent-disclosure-skill) | 11,222 | Python | AI / 语音与视频生成 |
 | [Horizon](https://github.com/Hua2026-ai/Horizon) | [Thysrael/Horizon](https://github.com/Thysrael/Horizon) | 10,692 | Python | AI / 工具与 MCP |
-| [Wan2GP](https://github.com/Hua2026-ai/Wan2GP) | [deepbeepmeep/Wan2GP](https://github.com/deepbeepmeep/Wan2GP) | 10,259 | Python | AI / 语音与视频生成 |
 | [clash](https://github.com/Hua2026-ai/clash) | [clashbk/clash](https://github.com/clashbk/clash) | 9,462 | - | 网络工具 / 代理客户端 |
 | [rectg](https://github.com/Hua2026-ai/rectg) | [rooktwo/rectg](https://github.com/rooktwo/rectg) | 9,319 | Python | Telegram 导航 |
 | [Windows-MCP](https://github.com/Hua2026-ai/Windows-MCP) | [CursorTouch/Windows-MCP](https://github.com/CursorTouch/Windows-MCP) | 9,167 | Python | AI / 工具与 MCP |
@@ -587,7 +605,7 @@
 | [Easel](https://github.com/Hua2026-ai/Easel) | [ZJU-REAL/Easel](https://github.com/ZJU-REAL/Easel) | 3,575 | Python | AI / 工具与 MCP |
 | [OpenNOW](https://github.com/Hua2026-ai/OpenNOW) | [OpenCloudGaming/OpenNOW](https://github.com/OpenCloudGaming/OpenNOW) | 3,351 | Rust | 系统工具 |
 | [chinese-poetry-api](https://github.com/Hua2026-ai/chinese-poetry-api) | [palemoky/chinese-poetry-api](https://github.com/palemoky/chinese-poetry-api) | 3,261 | Go | 学习 / 资源索引 |
-| [jianying-headless](https://github.com/Hua2026-ai/jianying-headless) | [mcncarl/jianying-headless](https://github.com/mcncarl/jianying-headless) | 3,026 | Python | AI / 语音与视频生成 |
+| [best-skills](https://github.com/Hua2026-ai/best-skills) | [xstongxue/best-skills](https://github.com/xstongxue/best-skills) | 3,115 | Python | 学习 / 资源索引 |
 | [nanoMuse](https://github.com/Hua2026-ai/nanoMuse) | [nano-muse/nanoMuse](https://github.com/nano-muse/nanoMuse) | 2,681 | Swift | AI / 工具与 MCP |
 | [UFI-TOOLS](https://github.com/Hua2026-ai/UFI-TOOLS) | [kanoqwq/UFI-TOOLS](https://github.com/kanoqwq/UFI-TOOLS) | 2,633 | JavaScript | 网络工具 / 代理客户端 |
 | [Open-Source-Face-Recognition-SDK](https://github.com/Hua2026-ai/Open-Source-Face-Recognition-SDK) | [Faceplugin-ltd/Open-Source-Face-Recognition-SDK](https://github.com/Faceplugin-ltd/Open-Source-Face-Recognition-SDK) | 2,392 | Python | AI / 工具与 MCP |
@@ -597,33 +615,36 @@
 | [videdown](https://github.com/Hua2026-ai/videdown) | [cshuangyy/videdown](https://github.com/cshuangyy/videdown) | 1,837 | TypeScript | 影音 / 下载 |
 | [dsh-im](https://github.com/Hua2026-ai/dsh-im) | [xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) | 1,756 | JavaScript | AI / 工具与 MCP |
 | [bloodborne_pc](https://github.com/Hua2026-ai/bloodborne_pc) | [Supermedo/bloodborne_pc](https://github.com/Supermedo/bloodborne_pc) | 1,714 | C++ | 系统工具 |
+| [coolapk-desktop](https://github.com/Hua2026-ai/coolapk-desktop) | [daimiaopeng/coolapk-desktop](https://github.com/daimiaopeng/coolapk-desktop) | 1,685 | Vue | 开发 / 移动工具 |
 | [omarchy-apple-dev](https://github.com/Hua2026-ai/omarchy-apple-dev) | [joshuaswarren/omarchy-apple-dev](https://github.com/joshuaswarren/omarchy-apple-dev) | 1,651 | Python | 开发 / 移动工具 |
 | [android-ad-cleaner](https://github.com/Hua2026-ai/android-ad-cleaner) | [rddmwmddr/android-ad-cleaner](https://github.com/rddmwmddr/android-ad-cleaner) | 1,463 | Python | 系统工具 |
 | [playgta5](https://github.com/Hua2026-ai/playgta5) | [shadany7824/playgta5](https://github.com/shadany7824/playgta5) | 1,026 | JavaScript | 系统工具 |
 | [better-douyin](https://github.com/Hua2026-ai/better-douyin) | [anYuJia/better-douyin](https://github.com/anYuJia/better-douyin) | 839 | TypeScript | 影音 / 下载 |
+| [DSH-Android](https://github.com/Hua2026-ai/DSH-Android) | [jackwener/DSH-Android](https://github.com/jackwener/DSH-Android) | 805 | Kotlin | AI / 工具与 MCP |
 | [MacCheck](https://github.com/Hua2026-ai/MacCheck) | [andyhuo520/MacCheck](https://github.com/andyhuo520/MacCheck) | 701 | Swift | 系统工具 |
-| [Atria-Dawn-Preview](https://github.com/Hua2026-ai/Atria-Dawn-Preview) | [atria-asi/Atria-Dawn-Preview](https://github.com/atria-asi/Atria-Dawn-Preview) | 585 | - | AI / 工具与 MCP |
+| [Atria-Dawn-Preview](https://github.com/Hua2026-ai/Atria-Dawn-Preview) | [atria-asi/Atria-Dawn](https://github.com/atria-asi/Atria-Dawn) | 637 | - | AI / 工具与 MCP |
 | [android-airplay-server](https://github.com/Hua2026-ai/android-airplay-server) | [jqssun/android-airplay-server](https://github.com/jqssun/android-airplay-server) | 578 | Kotlin | 系统工具 |
 | [DiPlay-Legacy-Android](https://github.com/Hua2026-ai/DiPlay-Legacy-Android) | [programmerguohuajing/DiPlay-Legacy-Android](https://github.com/programmerguohuajing/DiPlay-Legacy-Android) | 572 | Kotlin | 车机 / 3D 与设计 |
 | [lipflow](https://github.com/Hua2026-ai/lipflow) | [amywork777/lipflow](https://github.com/amywork777/lipflow) | 560 | Python | AI / 语音与视频生成 |
 | [Microsoft-Rewards-Script](https://github.com/Hua2026-ai/Microsoft-Rewards-Script) | [chiihero/Microsoft-Rewards-Script](https://github.com/chiihero/Microsoft-Rewards-Script) | 525 | TypeScript | 系统工具 |
 | [pi-purge](https://github.com/Hua2026-ai/pi-purge) | [ZiChuanLan/pi-purge](https://github.com/ZiChuanLan/pi-purge) | 493 | JavaScript | AI / 工具与 MCP |
+| [ProsperoStore](https://github.com/Hua2026-ai/ProsperoStore) | [darkxex/ProsperoStore](https://github.com/darkxex/ProsperoStore) | 489 | C++ | 系统工具 |
 | [workbuddyskills](https://github.com/Hua2026-ai/workbuddyskills) | [infometa/workbuddyskills](https://github.com/infometa/workbuddyskills) | 375 | HTML | 学习 / 资源索引 |
 | [YunGet](https://github.com/Hua2026-ai/YunGet) | [jiayuxuan123/YunGet](https://github.com/jiayuxuan123/YunGet) | 283 | Kotlin | 影音 / 下载 |
 | [playport](https://github.com/Hua2026-ai/playport) | [youcci/playport](https://github.com/youcci/playport) | 262 | Kotlin | 车机 / 3D 与设计 |
 | [hideck](https://github.com/Hua2026-ai/hideck) | [yibaiba/hideck](https://github.com/yibaiba/hideck) | 254 | Go | 网络工具 / 代理客户端 |
 | [muse-skills](https://github.com/Hua2026-ai/muse-skills) | [jasonbitsmith/muse-skills](https://github.com/jasonbitsmith/muse-skills) | 251 | - | AI / 工具与 MCP |
-| [ProsperoStore](https://github.com/Hua2026-ai/ProsperoStore) | [blackbearreloaded/ProsperoStore](https://github.com/blackbearreloaded/ProsperoStore) | 248 | C++ | 系统工具 |
 | [MiAuto](https://github.com/Hua2026-ai/MiAuto) | [PiggyBackBayonet/MiAuto](https://github.com/PiggyBackBayonet/MiAuto) | 223 | Kotlin | 车机 / 3D 与设计 |
 | [BiliMusic](https://github.com/Hua2026-ai/BiliMusic) | [HanversionOvO/BiliMusic](https://github.com/HanversionOvO/BiliMusic) | 208 | TypeScript | 影音 / 下载 |
 | [DLSS5-Swapper-Chinese](https://github.com/Hua2026-ai/DLSS5-Swapper-Chinese) | [hezhixin15/DLSS5-Swapper-Chinese](https://github.com/hezhixin15/DLSS5-Swapper-Chinese) | 154 | JavaScript | 系统工具 |
 | [house-plan-designer](https://github.com/Hua2026-ai/house-plan-designer) | [ZWD11/house-plan-designer](https://github.com/ZWD11/house-plan-designer) | 119 | HTML | 车机 / 3D 与设计 |
 | [workbuddy-toolkit](https://github.com/Hua2026-ai/workbuddy-toolkit) | [FlapPearLabs/workbuddy-toolkit](https://github.com/FlapPearLabs/workbuddy-toolkit) | 33 | Python | 系统工具 |
+| [jianying-headless](https://github.com/Hua2026-ai/jianying-headless) | [GdLinkLock/jianying-headless](https://github.com/GdLinkLock/jianying-headless) | 20 | Python | AI / 语音与视频生成 |
 | [dsh-font-probe](https://github.com/Hua2026-ai/dsh-font-probe) | [lohana20061023-29/dsh-font-probe](https://github.com/lohana20061023-29/dsh-font-probe) | 6 | JavaScript | 系统工具 |
 
 ## 自建仓库（2，非 fork）
 
-> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 83 个 fork 的统计。
+> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 85 个 fork 的统计。
 
 #### [Hua2026-ai.github.io](https://github.com/Hua2026-ai/Hua2026-ai.github.io)
 

@@ -288,14 +288,14 @@
   {
     "repo": "Hua2026-ai/Wan2GP",
     "url": "https://github.com/Hua2026-ai/Wan2GP",
-    "upstream": "deepbeepmeep/Wan2GP",
-    "upstream_url": "https://github.com/deepbeepmeep/Wan2GP",
-    "stars": 10259,
+    "upstream": "deepbeepmeep/WanGP",
+    "upstream_url": "https://github.com/deepbeepmeep/WanGP",
+    "stars": 11375,
     "language": "Python",
     "homepage": "",
     "category": "AI / 语音与视频生成",
     "description": "A fast AI Video Generator for the GPU Poor. Supports Wan 2.1/2.2, LTX-2, Qwen Image, Hunyuan Video, LTX  Video and Flux.",
-    "what_it_does": "「给穷人显卡用的 AI 视频生成器」：面向低显存 GPU，支持 Wan 2.1/2.2、LTX-2、Qwen Image、Hunyuan Video、LTX Video 与 Flux 等多种模型。fork 自 deepbeepmeep/Wan2GP（上游约 9.9k★）。",
+    "what_it_does": "「给穷人显卡用的 AI 视频生成器」：面向低显存 GPU，支持 Wan 2.1/2.2、LTX-2、Qwen Image、Hunyuan Video、LTX Video 与 Flux 等多种模型。上游仓库已由 `Wan2GP` 更名为 `deepbeepmeep/WanGP`（GitHub 自动跟随重定向），现约 11.4k★。",
     "forked_at": "2026-10-03"
   },
   {
@@ -314,14 +314,14 @@
   {
     "repo": "Hua2026-ai/Atria-Dawn-Preview",
     "url": "https://github.com/Hua2026-ai/Atria-Dawn-Preview",
-    "upstream": "atria-asi/Atria-Dawn-Preview",
-    "upstream_url": "https://github.com/atria-asi/Atria-Dawn-Preview",
-    "stars": 585,
+    "upstream": "atria-asi/Atria-Dawn",
+    "upstream_url": "https://github.com/atria-asi/Atria-Dawn",
+    "stars": 637,
     "language": "-",
     "homepage": "https://atria-asi.ai/",
     "category": "AI / 工具与 MCP",
     "description": "",
-    "what_it_does": "Atria Dawn Preview：从「研究问题」到「可验证结果」的开源 AI 模型预览（InternLM / 上海 AI 实验室相关，已上架 HuggingFace / ModelScope）。fork 自 atria-asi/Atria-Dawn-Preview（上游约 585★）。",
+    "what_it_does": "Atria Dawn Preview：从「研究问题」到「可验证结果」的开源 AI 模型预览（InternLM / 上海 AI 实验室相关，已上架 HuggingFace / ModelScope）。上游已更名为 `atria-asi/Atria-Dawn`（GitHub 自动跟随重定向），现约 637★。",
     "forked_at": "2026-10-08"
   },
   {
@@ -379,14 +379,14 @@
   {
     "repo": "Hua2026-ai/jianying-headless",
     "url": "https://github.com/Hua2026-ai/jianying-headless",
-    "upstream": "mcncarl/jianying-headless",
-    "upstream_url": "https://github.com/mcncarl/jianying-headless",
-    "stars": 3026,
+    "upstream": "GdLinkLock/jianying-headless",
+    "upstream_url": "https://github.com/GdLinkLock/jianying-headless",
+    "stars": 20,
     "language": "Python",
     "homepage": "",
     "category": "AI / 语音与视频生成",
     "description": "Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill.",
-    "what_it_does": "剪映（CapCut 国内版）草稿的无头方案：原生草稿解析、隔离环境的编辑与导出，并附带独立 Agent Skill，便于自动化批量剪视频。",
+    "what_it_does": "剪映（CapCut 国内版）草稿的无头方案：原生草稿解析、隔离环境的编辑与导出，并附带独立 Agent Skill，便于自动化批量剪视频。⚠️ 原上游 `mcncarl/jianying-headless`（曾约 3k★）已 404/私有化，当前 fork 网络的 source 为公开镜像 `GdLinkLock/jianying-headless`（★20，非商业许可），README 与代码仍是原项目内容；清单 star 已按当前可访问上游修正。",
     "forked_at": "2026-09-27"
   },
   {
@@ -769,14 +769,14 @@
   {
     "repo": "Hua2026-ai/ProsperoStore",
     "url": "https://github.com/Hua2026-ai/ProsperoStore",
-    "upstream": "blackbearreloaded/ProsperoStore",
-    "upstream_url": "https://github.com/blackbearreloaded/ProsperoStore",
-    "stars": 248,
+    "upstream": "darkxex/ProsperoStore",
+    "upstream_url": "https://github.com/darkxex/ProsperoStore",
+    "stars": 489,
     "language": "C++",
     "homepage": "",
     "category": "系统工具",
     "description": "Native PS5 app store for the homebrew catalog at homebrew.page (title PPSA99000)",
-    "what_it_does": "面向 PS5 自制软件（homebrew）目录的原生应用商店（homebrew.page 上的 PPSA99000）。注意：涉及主机越狱/自制软件生态，请遵守所在地法律法规与 Sony 相关条款，风险自负。fork 自 blackbearreloaded/ProsperoStore（上游约 248★，GPL-3.0）。",
+    "what_it_does": "面向 PS5 自制软件（homebrew）目录的原生应用商店（homebrew.page 上的 PPSA99000）。注意：涉及主机越狱/自制软件生态，请遵守所在地法律法规与 Sony 相关条款，风险自负。上游 owner 已由 `blackbearreloaded` 变更为 `darkxex`（GitHub 自动跟随重定向），现约 489★，GPL-3.0。",
     "forked_at": "2026-10-13"
   },
   {
@@ -1064,5 +1064,44 @@
     "description": "云取 YunGet：网盘分享解析与高速下载 Android 应用，基于 CYQawa/YunX 二次开发。",
     "what_it_does": "Android 端网盘分享链接解析与高速下载工具（Kotlin，官网 jiayuxuan123.github.io/YunGet）：支持夸克 / UC / 迅雷 / 百度 / 123 / 139 / 115 / 光鸭 / 蓝奏等平台，下载由 TurboDL 引擎承担；本身是 CYQawa/YunX 的二次开发版。⚠️ **AGPL-3.0 强 copyleft**；⚠️ 网盘解析涉及平台服务条款，仅建议在合法授权范围内用于自有文件下载。上游 2026-08-25 建、2026-10-27 仍有提交、8 fork、5 open issues。",
     "forked_at": "2026-10-27"
+  },
+  {
+    "repo": "Hua2026-ai/best-skills",
+    "url": "https://github.com/Hua2026-ai/best-skills",
+    "upstream": "xstongxue/best-skills",
+    "upstream_url": "https://github.com/xstongxue/best-skills",
+    "stars": 3115,
+    "language": "Python",
+    "homepage": "",
+    "category": "学习 / 资源索引",
+    "description": "通用高质量 Skills 合集🔥",
+    "what_it_does": "通用高质量 Agent Skills 合集（Python，**Apache-2.0** 宽松许可，可放心二次开发）：汇集面向 AI Agent 的可复用技能包，覆盖多种通用场景，可按需挑用或作为编写自有 Skill 的参考范本。上游 2026-03-05 建、2026-09-13 之后无新提交（约 7 周停滞）、225 fork、仅 1 open issue——内容型仓库，停更不影响已收录技能可用，但对新模型/新协议适配可能滞后。⚠️ 同名仓库 `LinklyAI/best-skills`（★732）是「每日更新的 Agent Skills Top 100 榜单」，性质不同，未选。",
+    "forked_at": "2026-11-04"
+  },
+  {
+    "repo": "Hua2026-ai/DSH-Android",
+    "url": "https://github.com/Hua2026-ai/DSH-Android",
+    "upstream": "jackwener/DSH-Android",
+    "upstream_url": "https://github.com/jackwener/DSH-Android",
+    "stars": 805,
+    "language": "Kotlin",
+    "homepage": "",
+    "category": "AI / 工具与 MCP",
+    "description": "免 ROOT 免 Termux，一个 APK 在安卓手机上跑 DeepSeek Harness。引擎内嵌 App 进程 · 读屏操作 App · 改系统设置 · 定时/条件自动化 · 可选 Shizuku",
+    "what_it_does": "把 DeepSeek Harness 整套 agent 引擎塞进单个 Android APK（Kotlin，**Apache-2.0**）：无需 root、无需 Termux，进程内直接跑 agent；靠无障碍读屏操作其它 App、可改系统设置、支持定时与条件触发自动化，接了 Shizuku 则能做更高权限操作。等于把「手机上的 AI 操作员」做成了装完即用的原生应用。注意：读屏 + 改设置属于高权限能力，务必只在自己的设备上、只跑可信指令；自动化脚本误触系统设置可能导致设备行为异常。上游 2026-10-31 建、仍在活跃开发（2026-11-03 有提交，17 open issue）。",
+    "forked_at": "2026-10-31"
+  },
+  {
+    "repo": "Hua2026-ai/coolapk-desktop",
+    "url": "https://github.com/Hua2026-ai/coolapk-desktop",
+    "upstream": "daimiaopeng/coolapk-desktop",
+    "upstream_url": "https://github.com/daimiaopeng/coolapk-desktop",
+    "stars": 1685,
+    "language": "Vue",
+    "homepage": "",
+    "category": "开发 / 移动工具",
+    "description": "酷安跨平台桌面版",
+    "what_it_does": "酷安（Coolapk）的第三方跨平台桌面客户端（Vue 技术栈，**MIT** 宽松许可）：在 Mac / Windows / Linux 桌面上浏览酷安的应用、图文与评论，把只能在手机上刷的安卓应用社区搬到大屏。属于依赖酷安非公开接口的第三方客户端，接口一变就可能失效；登录凭据留在本地，用第三方客户端请勿在公共机器上保存账号。上游 128 fork、1 open issue，最近提交 2026-10-15。",
+    "forked_at": "2026-11-03"
   }
 ]
