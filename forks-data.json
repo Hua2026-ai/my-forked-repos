@@ -1103,5 +1103,31 @@
     "description": "酷安跨平台桌面版",
     "what_it_does": "酷安（Coolapk）的第三方跨平台桌面客户端（Vue 技术栈，**MIT** 宽松许可）：在 Mac / Windows / Linux 桌面上浏览酷安的应用、图文与评论，把只能在手机上刷的安卓应用社区搬到大屏。属于依赖酷安非公开接口的第三方客户端，接口一变就可能失效；登录凭据留在本地，用第三方客户端请勿在公共机器上保存账号。上游 128 fork、1 open issue，最近提交 2026-10-15。",
     "forked_at": "2026-11-03"
+  },
+  {
+    "repo": "Hua2026-ai/OpenMausBot",
+    "url": "https://github.com/Hua2026-ai/OpenMausBot",
+    "upstream": "milind-soni/OpenMausBot",
+    "upstream_url": "https://github.com/milind-soni/OpenMausBot",
+    "stars": 11879,
+    "language": "TypeScript",
+    "homepage": "https://www.openmausbot.com/",
+    "category": "AI / 工具与 MCP",
+    "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+    "what_it_does": "把「一整队 AI agent」做成聊天应用：侧栏里每个 bot 都是一个真实 agent，各有自己的模型、个性、会话记忆、独立计算机与连接的应用，可以像联系人一样对话、围观它干活、逐条审批它的动作。**Bring your own agent**：底层直接调用本机装好的 `claude` / `codex` / `grok` CLI，复用已有登录与订阅，无需新账号或中间代理；本机 `127.0.0.1` 上一个 harness server 统管所有 agent 进程，transcripts / 密钥 / 事件都存在 `~/.openmausbot`，不吃云端。**Agents with hands**：每个 bot 可挂云端 Linux 桌面、隔离的本地 VM，或在显式 opt-in 后操控本机（macOS、Ubuntu Xorg 已支持；Ubuntu Wayland 因 issue #345 暂禁用），并通过 Composio 接 500+ 应用（Gmail / Slack / GitHub / Notion 等，走 OAuth）；shell 命令、文件改动与提问都以审批卡形式弹到聊天里，由人 Allow / Deny。技术栈 Electron + React 19 + TypeScript（strict）+ Expo + Docker，官方发 macOS（Apple silicon / Intel，签名公证 .dmg）、Windows x64、Ubuntu 24.04 .deb / AppImage 安装包，**Apache-2.0** 宽松许可，适合二次开发。维护非常活跃：2026-08-11 建，3 个月涨到 11.9k★ / 1,639 fork，2026-11-04 仍有提交；但 734 个 open issue 说明迭代很快、issue 积压明显，属高速演进项目，落地请锁定版本。⚠️ 高权限工具：agent 能执行 shell、改文件、经 OAuth 操作外部账号，甚至申请控制本机，务必只在隔离环境跑可信指令并认真审阅审批卡。README 明确声明与任何加密货币 / 代币无关联。⚠️ 同名衍生仓库（`OpenMausBot-cn` 中文化版、`openmausbot-teams`、`openmausbot-releases`、各类 V2 / 打包版）star 均不足 60，未选。",
+    "forked_at": "2026-11-04"
+  },
+  {
+    "repo": "Hua2026-ai/boxplayer",
+    "url": "https://github.com/Hua2026-ai/boxplayer",
+    "upstream": "gaozhangmin/boxplayer",
+    "upstream_url": "https://github.com/gaozhangmin/boxplayer",
+    "stars": 7552,
+    "language": "TypeScript",
+    "homepage": "https://www.boxplayer.cc",
+    "category": "媒体管理 / 刮削",
+    "description": "BoxPlayer - 聚合网盘管理+影视聚合 支持 Windows Linux iOS macOS tvOS Android",
+    "what_it_does": "面向个人媒体资产的**全平台聚合播放器**：把多个云盘、本地文件与 Jellyfin / Emby / Plex 媒体服务器放进统一入口，支持云盘文件管理、媒体刮削（海报、季集、演职员、播放进度）、统一媒体库、音乐库与粒子播放器、电子书阅读、跨来源搜索，以及 AI 辅助找片 / 整理文件 / 读文档；仓库里还带 `clouddrive-cli` 的 CLI / MCP 接口，可让 AI agent 直接操作网盘。本仓库主要维护 Electron 桌面版（TypeScript + Vue 3），另有 iOS / iPadOS / Apple TV / Android / Android TV / Windows / Linux / macOS 客户端，但各端界面、功能与发布节奏不完全一致（全平台下载见 README 里的 xbyvideohub.com）。**GPL-3.0** 强 copyleft：二次开发可以，但分发衍生版本须同协议开源，不适合闭源集成。维护稳定：2023-02-23 建，3 年多累积 7.5k★ / 453 fork，仅 1 个 open issue，2026-11-02 仍有提交。⚠️ 合规：依赖第三方网盘接口与影视元数据刮削，请只用于自己有权访问的文件与内容，遵守各平台服务条款；网盘账号凭据保存在本地，避免在公共设备登录。",
+    "forked_at": "2026-11-04"
   }
 ]

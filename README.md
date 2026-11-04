@@ -1,11 +1,11 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **85** 个 fork，上游合计约 **2,187,792** star。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **87** 个 fork，上游合计约 **2,207,223** star。
 > 最后更新：2026-11-04。本文只做归档与说明，版权与所有权归各自上游作者。
 
 ## 一句话概览
 
-剩下这 85 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
+剩下这 87 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
 其次是**中文学习与资源索引**、**车机 CarPlay 与 3D 设计**、**Telegram 导航**，
 另有少量代理客户端与影视资源相关的归档，以及安卓 / 桌面端工具（omarchy-apple-dev、DSH-Android、coolapk-desktop）。
 
@@ -73,7 +73,7 @@
 - **官方描述**：Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill.
 
 
-### AI / 工具与 MCP（25）
+### AI / 工具与 MCP（26）
 
 #### [opencode](https://github.com/Hua2026-ai/opencode)
 
@@ -128,6 +128,12 @@
 - **上游**：[lexmount/moli](https://github.com/lexmount/moli) · ⭐ 14,958 · 语言 Rust · [官网/主页](https://browser.lexmount.com) · fork 于 2026-10-06
 - **作用**：为 AI 智能体打造的**无头浏览器**：轻量、快速、高兼容，Rust 编写，主页 browser.lexmount.com。fork 自 lexmount/moli（上游约 12.6k★）。
 - **官方描述**：Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust
+
+#### [OpenMausBot](https://github.com/Hua2026-ai/OpenMausBot)
+
+- **上游**：[milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) · ⭐ 11,879 · 语言 TypeScript · [官网/主页](https://www.openmausbot.com/) · fork 于 2026-11-04
+- **作用**：把「一整队 AI agent」做成聊天应用：侧栏里每个 bot 都是一个真实 agent，各有自己的模型、个性、会话记忆、独立计算机与连接的应用，可以像联系人一样对话、围观它干活、逐条审批它的动作。**Bring your own agent**：底层直接调用本机装好的 `claude` / `codex` / `grok` CLI，复用已有登录与订阅，无需新账号或中间代理；本机 `127.0.0.1` 上一个 harness server 统管所有 agent 进程，transcripts / 密钥 / 事件都存在 `~/.openmausbot`，不吃云端。**Agents with hands**：每个 bot 可挂云端 Linux 桌面、隔离的本地 VM，或在显式 opt-in 后操控本机（macOS、Ubuntu Xorg 已支持；Ubuntu Wayland 因 issue #345 暂禁用），并通过 Composio 接 500+ 应用（Gmail / Slack / GitHub / Notion 等，走 OAuth）；shell 命令、文件改动与提问都以审批卡形式弹到聊天里，由人 Allow / Deny。技术栈 Electron + React 19 + TypeScript（strict）+ Expo + Docker，官方发 macOS（Apple silicon / Intel，签名公证 .dmg）、Windows x64、Ubuntu 24.04 .deb / AppImage 安装包，**Apache-2.0** 宽松许可，适合二次开发。维护非常活跃：2026-08-11 建，3 个月涨到 11.9k★ / 1,639 fork，2026-11-04 仍有提交；但 734 个 open issue 说明迭代很快、issue 积压明显，属高速演进项目，落地请锁定版本。⚠️ 高权限工具：agent 能执行 shell、改文件、经 OAuth 操作外部账号，甚至申请控制本机，务必只在隔离环境跑可信指令并认真审阅审批卡。README 明确声明与任何加密货币 / 代币无关联。⚠️ 同名衍生仓库（`OpenMausBot-cn` 中文化版、`openmausbot-teams`、`openmausbot-releases`、各类 V2 / 打包版）star 均不足 60，未选。
+- **官方描述**：Open-source Grok Bot alternative with a virtual machine that bots can use
 
 #### [Horizon](https://github.com/Hua2026-ai/Horizon)
 
@@ -289,13 +295,19 @@
 - **官方描述**：Turn your bilibili into music player
 
 
-### 媒体管理 / 刮削（1）
+### 媒体管理 / 刮削（2）
 
 #### [peach](https://github.com/Hua2026-ai/peach)
 
 - **上游**：[peach-mitao/peach](https://github.com/peach-mitao/peach) · ⭐ 12,624 · 语言 Python · [官网/主页](https://peach.video) · fork 于 2026-10-24
 - **作用**：本地优先（local-first）的视频元数据刮削与媒体库管理工具（Python，官网 peach.video）：扫描本地视频文件、自动抓取元数据并组织成媒体库，数据留在本地不上云。⚠️ **AGPL-3.0 强 copyleft**——修改后分发或提供网络服务必须开源。上游 2026-08-19 建、2026-10-27 仍有提交、1,471 fork、★1.26 万，属高热度活跃项目。
 - **官方描述**：Peach: Local-first video metadata scraper and media manager.
+
+#### [boxplayer](https://github.com/Hua2026-ai/boxplayer)
+
+- **上游**：[gaozhangmin/boxplayer](https://github.com/gaozhangmin/boxplayer) · ⭐ 7,552 · 语言 TypeScript · [官网/主页](https://www.boxplayer.cc) · fork 于 2026-11-04
+- **作用**：面向个人媒体资产的**全平台聚合播放器**：把多个云盘、本地文件与 Jellyfin / Emby / Plex 媒体服务器放进统一入口，支持云盘文件管理、媒体刮削（海报、季集、演职员、播放进度）、统一媒体库、音乐库与粒子播放器、电子书阅读、跨来源搜索，以及 AI 辅助找片 / 整理文件 / 读文档；仓库里还带 `clouddrive-cli` 的 CLI / MCP 接口，可让 AI agent 直接操作网盘。本仓库主要维护 Electron 桌面版（TypeScript + Vue 3），另有 iOS / iPadOS / Apple TV / Android / Android TV / Windows / Linux / macOS 客户端，但各端界面、功能与发布节奏不完全一致（全平台下载见 README 里的 xbyvideohub.com）。**GPL-3.0** 强 copyleft：二次开发可以，但分发衍生版本须同协议开源，不适合闭源集成。维护稳定：2023-02-23 建，3 年多累积 7.5k★ / 453 fork，仅 1 个 open issue，2026-11-02 仍有提交。⚠️ 合规：依赖第三方网盘接口与影视元数据刮削，请只用于自己有权访问的文件与内容，遵守各平台服务条款；网盘账号凭据保存在本地，避免在公共设备登录。
+- **官方描述**：BoxPlayer - 聚合网盘管理+影视聚合 支持 Windows Linux iOS macOS tvOS Android
 
 
 ### 学习 / 资源索引（11）
@@ -582,6 +594,7 @@
 | [DroidDeck](https://github.com/Hua2026-ai/DroidDeck) | [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) | 15,067 | Kotlin | 系统工具 |
 | [moli](https://github.com/Hua2026-ai/moli) | [lexmount/moli](https://github.com/lexmount/moli) | 14,958 | Rust | AI / 工具与 MCP |
 | [peach](https://github.com/Hua2026-ai/peach) | [peach-mitao/peach](https://github.com/peach-mitao/peach) | 12,624 | Python | 媒体管理 / 刮削 |
+| [OpenMausBot](https://github.com/Hua2026-ai/OpenMausBot) | [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | 11,879 | TypeScript | AI / 工具与 MCP |
 | [Wan2GP](https://github.com/Hua2026-ai/Wan2GP) | [deepbeepmeep/WanGP](https://github.com/deepbeepmeep/WanGP) | 11,375 | Python | AI / 语音与视频生成 |
 | [patent-disclosure-skill](https://github.com/Hua2026-ai/patent-disclosure-skill) | [handsomestWei/patent-disclosure-skill](https://github.com/handsomestWei/patent-disclosure-skill) | 11,222 | Python | AI / 语音与视频生成 |
 | [Horizon](https://github.com/Hua2026-ai/Horizon) | [Thysrael/Horizon](https://github.com/Thysrael/Horizon) | 10,692 | Python | AI / 工具与 MCP |
@@ -593,6 +606,7 @@
 | [DiPlay](https://github.com/Hua2026-ai/DiPlay) | [shihabal3amri/DiPlay](https://github.com/shihabal3amri/DiPlay) | 8,408 | Kotlin | 车机 / 3D 与设计 |
 | [Octop](https://github.com/Hua2026-ai/Octop) | [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 8,288 | Python | AI / 工具与 MCP |
 | [CyberStrikeAI](https://github.com/Hua2026-ai/CyberStrikeAI) | [AIPentest/CyberStrikeAI](https://github.com/AIPentest/CyberStrikeAI) | 7,769 | Go | 安全 / OSINT 工具 |
+| [boxplayer](https://github.com/Hua2026-ai/boxplayer) | [gaozhangmin/boxplayer](https://github.com/gaozhangmin/boxplayer) | 7,552 | TypeScript | 媒体管理 / 刮削 |
 | [goutoujunshi](https://github.com/Hua2026-ai/goutoujunshi) | [shengjidaguai-china/goutoujunshi](https://github.com/shengjidaguai-china/goutoujunshi) | 7,504 | Python | AI / 语音与视频生成 |
 | [gpu-unlock](https://github.com/Hua2026-ai/gpu-unlock) | [Zagitta/gpu-unlock](https://github.com/Zagitta/gpu-unlock) | 6,966 | C | 系统工具 |
 | [cindy](https://github.com/Hua2026-ai/cindy) | [makecindy/cindy](https://github.com/makecindy/cindy) | 6,471 | TypeScript | AI / 工具与 MCP |
@@ -644,7 +658,7 @@
 
 ## 自建仓库（2，非 fork）
 
-> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 85 个 fork 的统计。
+> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 87 个 fork 的统计。
 
 #### [Hua2026-ai.github.io](https://github.com/Hua2026-ai/Hua2026-ai.github.io)
 
