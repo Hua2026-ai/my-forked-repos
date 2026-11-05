@@ -1,11 +1,11 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **87** 个 fork，上游合计约 **2,207,223** star。
-> 最后更新：2026-11-04。本文只做归档与说明，版权与所有权归各自上游作者。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **89** 个 fork，上游合计约 **2,214,084** star。
+> 最后更新：2026-11-05。本文只做归档与说明，版权与所有权归各自上游作者。
 
 ## 一句话概览
 
-剩下这 87 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
+剩下这 89 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
 其次是**中文学习与资源索引**、**车机 CarPlay 与 3D 设计**、**Telegram 导航**，
 另有少量代理客户端与影视资源相关的归档，以及安卓 / 桌面端工具（omarchy-apple-dev、DSH-Android、coolapk-desktop）。
 
@@ -73,7 +73,7 @@
 - **官方描述**：Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill.
 
 
-### AI / 工具与 MCP（26）
+### AI / 工具与 MCP（27）
 
 #### [opencode](https://github.com/Hua2026-ai/opencode)
 
@@ -164,6 +164,12 @@
 - **上游**：[TencentCloud/Octop](https://github.com/TencentCloud/Octop) · ⭐ 8,288 · 语言 Python · [官网/主页](https://octop.cloud) · fork 于 2026-10-04
 - **作用**：腾讯云出品的**自托管 AI 助手**，支持多用户、多智能体（multi-agent）架构，可私有化部署。fork 自 TencentCloud/Octop（上游约 6.8k★）。
 - **官方描述**：A smarter, self-hosted AI assistant — multi-user, multi-agent.
+
+#### [Mika](https://github.com/Hua2026-ai/Mika)
+
+- **上游**：[wangzan101/Mika](https://github.com/wangzan101/Mika) · ⭐ 6,856 · 语言 Kotlin · fork 于 2026-11-05
+- **作用**：安卓端 on-device AI agent：一句话交代任务，它在一个**独立的后台屏幕**上读屏、点击、输入、滚动，把 App 和网页操作完，主屏照常使用；不依赖 App API、不需要逐应用适配，像人一样看界面找按钮。自带桌面级浏览器（保持登录态、可下载上传）、当前屏幕双击投喂、定时与条件任务、按住语音输入；会记住你说过的偏好，并把完成的任务固化成 skill 下次更快；每个会话还能开一个 arm64 Linux sandbox 跑 Python / Node / shell，电脑侧可通过 CLI + Skill 或 MCP 给它派活。模型可填自己的 API key（预设 DeepSeek、通义千问、Kimi、智谱、硅基流动、火山方舟、MiniMax、腾讯混元、百度千帆、OpenRouter、Anthropic、Gemini、OpenAI、xAI、Ollama 等，也支持任意 OpenAI 兼容 / Anthropic / Gemini / Responses 自定义端点），或登录 ChatGPT Plus/Pro、xAI、OpenRouter 账号。**隐私**：没有 Mika 服务器，对话与屏幕内容只发到你配置的模型方；API key 与记忆加密存本机，会话与运行记录留在设备，仅更新检查访问 GitHub。技术栈 Kotlin + Jetpack Compose，**Apache-2.0**；Android 11+ 可聊天/网页/文件，操作 App 需 Android 12+（推荐 14+）并配对一次无线调试，Linux sandbox 仅 arm64。默认 **Ask mode**（只在下单、付款等花钱动作前找你确认），可切 Autonomous mode。维护极活跃：2026-10-29 建，7 天涨到 6.9k★ / 1,512 fork，2026-11-05 仍有提交，113 open issue。⚠️ 高权限（无障碍读屏 + 无线调试）且自动操作第三方 App/网站可能违反其服务条款；支付、密码、验证码页面会交回人工，重要操作请留在 Ask mode 并复核结果。
+- **官方描述**：An on-device AI agent for Android that operates apps and the web to get things done for you.
 
 #### [cindy](https://github.com/Hua2026-ai/cindy)
 
@@ -445,7 +451,7 @@
 - **官方描述**：2026最新悄咪咪收集的10000+个Telegram群合集、tg导航，附全网最有趣好用的机器人BOT🤖【tg10000.com】
 
 
-### 系统工具（17）
+### 系统工具（18）
 
 #### [Win11Debloat](https://github.com/Hua2026-ai/Win11Debloat)
 
@@ -549,6 +555,12 @@
 - **作用**：DSH 字体插件：中英文字体分设、正文字号与代码字号、字距/行距/段距/首行缩进四根滑块，吸底总预览 + 确认制，配置写回 profile、不动 app.asar。MIT 许可证，上游仅 6★、个人小项目，2026-10-18 仍有提交，适合阅读 / 编辑器排版微调参考。fork 自 lohana20061023-29/dsh-font-probe（上游约 6★，MIT）。
 - **官方描述**：DSH 字体插件：中英文字体分设、正文字号与代码字号、字距/行距/段距/首行缩进四根滑块，吸底总预览 + 确认制，配置写回 profile，不动 app.asar。
 
+#### [release-downloader](https://github.com/Hua2026-ai/release-downloader)
+
+- **上游**：[ziyuanhuishequ/release-downloader](https://github.com/ziyuanhuishequ/release-downloader) · ⭐ 5 · 语言 Rust · fork 于 2026-11-05
+- **作用**：把「扫描 → 勾选 → 批量下载 → 自动分文件夹」串成一步的 GitHub Release 收集器：一行一个 `owner/repo` 批量扫多个仓库，可只取最新版或手动点选文件，按 `仓库/系统/` 自动把 Windows / macOS / Linux 安装包归位。下载侧做了较多工程优化：4/6/8 段并发分片、失败回退单连接、10 秒无进展自动换线路、总速度跌破峰值 45% 时全体断连重连提速（全程最多 5 次、间隔 ≥25 秒）、断点续传、内置 8 条镜像线路测速选最快、填 GitHub Token 可把未登录时的 60 次/小时 API 限额提上去。Rust stable 1.75+ 编译，产物约 4.7 MB 的免安装单文件 exe，像素风界面全部手绘、无第三方 UI 皮肤，**Apache-2.0**。⚠️ **仅 Windows**（macOS / Linux 不能直接跑）；上游 2026-11-04 才建、★5、当天有提交，属全新个人项目，稳定性与长期维护待观察；内置镜像线路为第三方加速，下载安装包后建议核对来源与哈希，Token 凭据保存在本地需注意保管。
+- **官方描述**：批量下载多个仓库的 GitHub Release 文件，并按系统与架构自动归档。免安装单文件，像素风界面，Windows 平台。
+
 
 ### 开发 / 移动工具（2）
 
@@ -609,6 +621,7 @@
 | [boxplayer](https://github.com/Hua2026-ai/boxplayer) | [gaozhangmin/boxplayer](https://github.com/gaozhangmin/boxplayer) | 7,552 | TypeScript | 媒体管理 / 刮削 |
 | [goutoujunshi](https://github.com/Hua2026-ai/goutoujunshi) | [shengjidaguai-china/goutoujunshi](https://github.com/shengjidaguai-china/goutoujunshi) | 7,504 | Python | AI / 语音与视频生成 |
 | [gpu-unlock](https://github.com/Hua2026-ai/gpu-unlock) | [Zagitta/gpu-unlock](https://github.com/Zagitta/gpu-unlock) | 6,966 | C | 系统工具 |
+| [Mika](https://github.com/Hua2026-ai/Mika) | [wangzan101/Mika](https://github.com/wangzan101/Mika) | 6,856 | Kotlin | AI / 工具与 MCP |
 | [cindy](https://github.com/Hua2026-ai/cindy) | [makecindy/cindy](https://github.com/makecindy/cindy) | 6,471 | TypeScript | AI / 工具与 MCP |
 | [TelegramGroup](https://github.com/Hua2026-ai/TelegramGroup) | [itgoyo/TelegramGroup](https://github.com/itgoyo/TelegramGroup) | 5,875 | - | Telegram 导航 |
 | [qingjian](https://github.com/Hua2026-ai/qingjian) | [qingjian-team/qingjian](https://github.com/qingjian-team/qingjian) | 5,846 | Rust | 系统工具 |
@@ -655,10 +668,11 @@
 | [workbuddy-toolkit](https://github.com/Hua2026-ai/workbuddy-toolkit) | [FlapPearLabs/workbuddy-toolkit](https://github.com/FlapPearLabs/workbuddy-toolkit) | 33 | Python | 系统工具 |
 | [jianying-headless](https://github.com/Hua2026-ai/jianying-headless) | [GdLinkLock/jianying-headless](https://github.com/GdLinkLock/jianying-headless) | 20 | Python | AI / 语音与视频生成 |
 | [dsh-font-probe](https://github.com/Hua2026-ai/dsh-font-probe) | [lohana20061023-29/dsh-font-probe](https://github.com/lohana20061023-29/dsh-font-probe) | 6 | JavaScript | 系统工具 |
+| [release-downloader](https://github.com/Hua2026-ai/release-downloader) | [ziyuanhuishequ/release-downloader](https://github.com/ziyuanhuishequ/release-downloader) | 5 | Rust | 系统工具 |
 
 ## 自建仓库（2，非 fork）
 
-> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 87 个 fork 的统计。
+> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 89 个 fork 的统计。
 
 #### [Hua2026-ai.github.io](https://github.com/Hua2026-ai/Hua2026-ai.github.io)
 

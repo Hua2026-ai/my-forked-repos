@@ -1129,5 +1129,31 @@
     "description": "BoxPlayer - 聚合网盘管理+影视聚合 支持 Windows Linux iOS macOS tvOS Android",
     "what_it_does": "面向个人媒体资产的**全平台聚合播放器**：把多个云盘、本地文件与 Jellyfin / Emby / Plex 媒体服务器放进统一入口，支持云盘文件管理、媒体刮削（海报、季集、演职员、播放进度）、统一媒体库、音乐库与粒子播放器、电子书阅读、跨来源搜索，以及 AI 辅助找片 / 整理文件 / 读文档；仓库里还带 `clouddrive-cli` 的 CLI / MCP 接口，可让 AI agent 直接操作网盘。本仓库主要维护 Electron 桌面版（TypeScript + Vue 3），另有 iOS / iPadOS / Apple TV / Android / Android TV / Windows / Linux / macOS 客户端，但各端界面、功能与发布节奏不完全一致（全平台下载见 README 里的 xbyvideohub.com）。**GPL-3.0** 强 copyleft：二次开发可以，但分发衍生版本须同协议开源，不适合闭源集成。维护稳定：2023-02-23 建，3 年多累积 7.5k★ / 453 fork，仅 1 个 open issue，2026-11-02 仍有提交。⚠️ 合规：依赖第三方网盘接口与影视元数据刮削，请只用于自己有权访问的文件与内容，遵守各平台服务条款；网盘账号凭据保存在本地，避免在公共设备登录。",
     "forked_at": "2026-11-04"
+  },
+  {
+    "repo": "Hua2026-ai/Mika",
+    "url": "https://github.com/Hua2026-ai/Mika",
+    "upstream": "wangzan101/Mika",
+    "upstream_url": "https://github.com/wangzan101/Mika",
+    "stars": 6856,
+    "language": "Kotlin",
+    "homepage": "",
+    "category": "AI / 工具与 MCP",
+    "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
+    "what_it_does": "安卓端 on-device AI agent：一句话交代任务，它在一个**独立的后台屏幕**上读屏、点击、输入、滚动，把 App 和网页操作完，主屏照常使用；不依赖 App API、不需要逐应用适配，像人一样看界面找按钮。自带桌面级浏览器（保持登录态、可下载上传）、当前屏幕双击投喂、定时与条件任务、按住语音输入；会记住你说过的偏好，并把完成的任务固化成 skill 下次更快；每个会话还能开一个 arm64 Linux sandbox 跑 Python / Node / shell，电脑侧可通过 CLI + Skill 或 MCP 给它派活。模型可填自己的 API key（预设 DeepSeek、通义千问、Kimi、智谱、硅基流动、火山方舟、MiniMax、腾讯混元、百度千帆、OpenRouter、Anthropic、Gemini、OpenAI、xAI、Ollama 等，也支持任意 OpenAI 兼容 / Anthropic / Gemini / Responses 自定义端点），或登录 ChatGPT Plus/Pro、xAI、OpenRouter 账号。**隐私**：没有 Mika 服务器，对话与屏幕内容只发到你配置的模型方；API key 与记忆加密存本机，会话与运行记录留在设备，仅更新检查访问 GitHub。技术栈 Kotlin + Jetpack Compose，**Apache-2.0**；Android 11+ 可聊天/网页/文件，操作 App 需 Android 12+（推荐 14+）并配对一次无线调试，Linux sandbox 仅 arm64。默认 **Ask mode**（只在下单、付款等花钱动作前找你确认），可切 Autonomous mode。维护极活跃：2026-10-29 建，7 天涨到 6.9k★ / 1,512 fork，2026-11-05 仍有提交，113 open issue。⚠️ 高权限（无障碍读屏 + 无线调试）且自动操作第三方 App/网站可能违反其服务条款；支付、密码、验证码页面会交回人工，重要操作请留在 Ask mode 并复核结果。",
+    "forked_at": "2026-11-05"
+  },
+  {
+    "repo": "Hua2026-ai/release-downloader",
+    "url": "https://github.com/Hua2026-ai/release-downloader",
+    "upstream": "ziyuanhuishequ/release-downloader",
+    "upstream_url": "https://github.com/ziyuanhuishequ/release-downloader",
+    "stars": 5,
+    "language": "Rust",
+    "homepage": "",
+    "category": "系统工具",
+    "description": "批量下载多个仓库的 GitHub Release 文件，并按系统与架构自动归档。免安装单文件，像素风界面，Windows 平台。",
+    "what_it_does": "把「扫描 → 勾选 → 批量下载 → 自动分文件夹」串成一步的 GitHub Release 收集器：一行一个 `owner/repo` 批量扫多个仓库，可只取最新版或手动点选文件，按 `仓库/系统/` 自动把 Windows / macOS / Linux 安装包归位。下载侧做了较多工程优化：4/6/8 段并发分片、失败回退单连接、10 秒无进展自动换线路、总速度跌破峰值 45% 时全体断连重连提速（全程最多 5 次、间隔 ≥25 秒）、断点续传、内置 8 条镜像线路测速选最快、填 GitHub Token 可把未登录时的 60 次/小时 API 限额提上去。Rust stable 1.75+ 编译，产物约 4.7 MB 的免安装单文件 exe，像素风界面全部手绘、无第三方 UI 皮肤，**Apache-2.0**。⚠️ **仅 Windows**（macOS / Linux 不能直接跑）；上游 2026-11-04 才建、★5、当天有提交，属全新个人项目，稳定性与长期维护待观察；内置镜像线路为第三方加速，下载安装包后建议核对来源与哈希，Token 凭据保存在本地需注意保管。",
+    "forked_at": "2026-11-05"
   }
 ]
