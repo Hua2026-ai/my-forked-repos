@@ -1155,5 +1155,31 @@
     "description": "批量下载多个仓库的 GitHub Release 文件，并按系统与架构自动归档。免安装单文件，像素风界面，Windows 平台。",
     "what_it_does": "把「扫描 → 勾选 → 批量下载 → 自动分文件夹」串成一步的 GitHub Release 收集器：一行一个 `owner/repo` 批量扫多个仓库，可只取最新版或手动点选文件，按 `仓库/系统/` 自动把 Windows / macOS / Linux 安装包归位。下载侧做了较多工程优化：4/6/8 段并发分片、失败回退单连接、10 秒无进展自动换线路、总速度跌破峰值 45% 时全体断连重连提速（全程最多 5 次、间隔 ≥25 秒）、断点续传、内置 8 条镜像线路测速选最快、填 GitHub Token 可把未登录时的 60 次/小时 API 限额提上去。Rust stable 1.75+ 编译，产物约 4.7 MB 的免安装单文件 exe，像素风界面全部手绘、无第三方 UI 皮肤，**Apache-2.0**。⚠️ **仅 Windows**（macOS / Linux 不能直接跑）；上游 2026-11-04 才建、★5、当天有提交，属全新个人项目，稳定性与长期维护待观察；内置镜像线路为第三方加速，下载安装包后建议核对来源与哈希，Token 凭据保存在本地需注意保管。",
     "forked_at": "2026-11-05"
+  },
+  {
+    "repo": "Hua2026-ai/geo-sleuth",
+    "url": "https://github.com/Hua2026-ai/geo-sleuth",
+    "upstream": "Oldcircle/geo-sleuth",
+    "upstream_url": "https://github.com/Oldcircle/geo-sleuth",
+    "stars": 6027,
+    "language": "Python",
+    "homepage": "",
+    "category": "安全 / OSINT 工具",
+    "description": "An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode and GitHub Copilot.",
+    "what_it_does": "把「只给一张照片，找出拍摄地点」做成一个标准 **Agent Skill**（`SKILL.md` + 一组纯 Python 脚本）：agent 读技能说明、跑脚本，返回相机坐标 ± 误差半径、镜头朝向、卫星证据图与分级置信度。不靠画面里的文字、车牌或地标——用 **OpenStreetMap 几何**拉区域内所有候选（如铁路桥 27,335 段），用**高程数据**算每个采样点的 360° 地平线/山脊线并与照片比对，桥墩间距当测距尺、影子推方位、山脊线当指纹，再叠加卫星瓦片与街景核验；20 个单一用途脚本负责搜索/打分/排序，模型只在 top 候选中做判断，且**每个结论都必须指向本次会话实际跑过的命令与产出的文件**，便于复核。安装 `npx skills add Oldcircle/geo-sleuth`，首次让 agent 跑 `scripts/doctor.py` 自检；Python 3.10+，兼容 Claude Code / Codex / Cursor / Gemini CLI / OpenCode / GitHub Copilot 及任何能读 `SKILL.md` 并跑 shell 的 agent。官方 3 个无 GPS 案例：广东清远 ±2 m、青海大柴旦 100 m 内、温哥华 3 m；其中一例端到端约 72 分钟（约一半在等计算），README 明确说明这是单次模型运行记录，换模型或换决策未必复现同样结果。**MIT** 宽松许可；2026-09-18 建，7 周涨到 6.0k★ / 745 fork，2026-11-05 仍有提交，23 open issue，维护活跃。⚠️ 合规：照片地理定位属 geoint / OSINT 能力，涉及他人隐私与潜在的人肉搜索风险，只用于自己有权分析的照片与合规调查；依赖 OSM、高程、卫星瓦片、街景等第三方数据源，注意速率限制与服务条款。⚠️ 同名 `aibrahamdrbaa-dot/geo-sleuth`(★11) 是独立拷贝、其余 `GeoSleuth` 多为 0★ 小游戏/玩具，未选。",
+    "forked_at": "2026-11-05"
+  },
+  {
+    "repo": "Hua2026-ai/mediary-scout",
+    "url": "https://github.com/Hua2026-ai/mediary-scout",
+    "upstream": "fancydirty/mediary-scout",
+    "upstream_url": "https://github.com/fancydirty/mediary-scout",
+    "stars": 1731,
+    "language": "TypeScript",
+    "homepage": "https://mediaryscout.app",
+    "category": "媒体管理 / 刮削",
+    "description": "巡影 · 开源 AI 影视自动追更与多网盘媒体库整理工具 / Open-source AI agent for cloud drive media tracking & NAS (夸克 Quark / UC / 115 / 123 / 光鸭 Guangya / 天翼 Tianyi)",
+    "what_it_does": "「巡影」：自部署的 **agent 驱动网盘媒体库**。说一句想看哪部电影/剧/番，agent 自己搜资源、挑最合适的转存进你自己的网盘，转完**回读确认**确实落地，之后缺哪集还会定时接着补。支持夸克 / UC / 115 / 123 / 光鸭 / 天翼六家网盘，多盘联合时按实时剩余容量与画质分配落盘、可跨盘凑齐同一季。两种形态：**桌面版**（macOS Apple 芯片 .dmg 已签名公证；Windows x64 .exe 未签名，会触发 SmartScreen）适合自己用；**Docker**（`git clone && docker compose up -d` → `:3000`）适合 NAS / 服务器常开，支持 24 小时定时巡检补缺、多用户、Tailscale / Cloudflare Tunnel 远程访问、设置里一键升级。影视元数据用 TMDB，资源搜索用 PanSou（Docker 自带一个，桌面版默认公共实例可换自建），可选接 Prowlarr 找磁力，另有 Agent API 让 Claude Code / Codex 等直接操作。AI 模型为可选升级（OpenAI 兼容接口，key 只存自己实例）；**未配置时默认走 Kilo Code 公共免费模型池，此时搜索查询、任务与留言内容、候选结果、文件名等上下文会发给 Kilo 及其上游模型商**——敏感场景建议自配 key。技术栈 TypeScript + Next.js + Electron + Docker，**0BSD**（比 MIT 更宽松）；官网 mediaryscout.app，有在线 Demo。2026-06-21 建，1.7k★ / 133 fork / 26 open issue，2026-11-05 仍有提交。⚠️ 合规：网盘资源搜索与转存涉及第三方版权内容，README 明确声明这是开源自部署工具、不提供托管服务、与各家网盘及 TMDB 无隶属关系；请只用于自己有权获取的内容，并遵守所在地法规与网盘服务条款；网盘登录凭据保存在自己实例，避免在公共设备部署。⚠️ 同名 `kush-coder/autopilot-mediary-scout`、`SageAutoman/mediary-scout-image` 等均为 0★ 构建/CI 仓库，未选。",
+    "forked_at": "2026-11-05"
   }
 ]

@@ -1,11 +1,11 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **89** 个 fork，上游合计约 **2,214,084** star。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **91** 个 fork，上游合计约 **2,221,842** star。
 > 最后更新：2026-11-05。本文只做归档与说明，版权与所有权归各自上游作者。
 
 ## 一句话概览
 
-剩下这 89 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
+剩下这 91 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
 其次是**中文学习与资源索引**、**车机 CarPlay 与 3D 设计**、**Telegram 导航**，
 另有少量代理客户端与影视资源相关的归档，以及安卓 / 桌面端工具（omarchy-apple-dev、DSH-Android、coolapk-desktop）。
 
@@ -238,13 +238,19 @@
 - **官方描述**：300 条 Muse 技能：每条一句话痛点 + 三步做法，点开就能用
 
 
-### 安全 / OSINT 工具（1）
+### 安全 / OSINT 工具（2）
 
 #### [CyberStrikeAI](https://github.com/Hua2026-ai/CyberStrikeAI)
 
 - **上游**：[AIPentest/CyberStrikeAI](https://github.com/AIPentest/CyberStrikeAI) · ⭐ 7,769 · 语言 Go · fork 于 2026-10-11
 - **作用**：面向 AI 原生的网络安全行动系统：把意图转化为受治理的执行、把证据转化为可操作的记忆，并让每次操作都改进下一次。注意：此类攻防工具属双用途，仅可用于合法授权的授权测试/学习研究，遵守所在地法律法规，勿用于未授权攻击等违法用途。fork 自 AIPentest/CyberStrikeAI（上游约 7.8k★，Apache-2.0）。
 - **官方描述**：The system of action for AI-native cybersecurity—where intent becomes governed execution, evidence becomes operational memory, and every operation improves the next.
+
+#### [geo-sleuth](https://github.com/Hua2026-ai/geo-sleuth)
+
+- **上游**：[Oldcircle/geo-sleuth](https://github.com/Oldcircle/geo-sleuth) · ⭐ 6,027 · 语言 Python · fork 于 2026-11-05
+- **作用**：把「只给一张照片，找出拍摄地点」做成一个标准 **Agent Skill**（`SKILL.md` + 一组纯 Python 脚本）：agent 读技能说明、跑脚本，返回相机坐标 ± 误差半径、镜头朝向、卫星证据图与分级置信度。不靠画面里的文字、车牌或地标——用 **OpenStreetMap 几何**拉区域内所有候选（如铁路桥 27,335 段），用**高程数据**算每个采样点的 360° 地平线/山脊线并与照片比对，桥墩间距当测距尺、影子推方位、山脊线当指纹，再叠加卫星瓦片与街景核验；20 个单一用途脚本负责搜索/打分/排序，模型只在 top 候选中做判断，且**每个结论都必须指向本次会话实际跑过的命令与产出的文件**，便于复核。安装 `npx skills add Oldcircle/geo-sleuth`，首次让 agent 跑 `scripts/doctor.py` 自检；Python 3.10+，兼容 Claude Code / Codex / Cursor / Gemini CLI / OpenCode / GitHub Copilot 及任何能读 `SKILL.md` 并跑 shell 的 agent。官方 3 个无 GPS 案例：广东清远 ±2 m、青海大柴旦 100 m 内、温哥华 3 m；其中一例端到端约 72 分钟（约一半在等计算），README 明确说明这是单次模型运行记录，换模型或换决策未必复现同样结果。**MIT** 宽松许可；2026-09-18 建，7 周涨到 6.0k★ / 745 fork，2026-11-05 仍有提交，23 open issue，维护活跃。⚠️ 合规：照片地理定位属 geoint / OSINT 能力，涉及他人隐私与潜在的人肉搜索风险，只用于自己有权分析的照片与合规调查；依赖 OSM、高程、卫星瓦片、街景等第三方数据源，注意速率限制与服务条款。⚠️ 同名 `aibrahamdrbaa-dot/geo-sleuth`(★11) 是独立拷贝、其余 `GeoSleuth` 多为 0★ 小游戏/玩具，未选。
+- **官方描述**：An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode and GitHub Copilot.
 
 
 ### 网络工具 / 代理客户端（3）
@@ -301,7 +307,7 @@
 - **官方描述**：Turn your bilibili into music player
 
 
-### 媒体管理 / 刮削（2）
+### 媒体管理 / 刮削（3）
 
 #### [peach](https://github.com/Hua2026-ai/peach)
 
@@ -314,6 +320,12 @@
 - **上游**：[gaozhangmin/boxplayer](https://github.com/gaozhangmin/boxplayer) · ⭐ 7,552 · 语言 TypeScript · [官网/主页](https://www.boxplayer.cc) · fork 于 2026-11-04
 - **作用**：面向个人媒体资产的**全平台聚合播放器**：把多个云盘、本地文件与 Jellyfin / Emby / Plex 媒体服务器放进统一入口，支持云盘文件管理、媒体刮削（海报、季集、演职员、播放进度）、统一媒体库、音乐库与粒子播放器、电子书阅读、跨来源搜索，以及 AI 辅助找片 / 整理文件 / 读文档；仓库里还带 `clouddrive-cli` 的 CLI / MCP 接口，可让 AI agent 直接操作网盘。本仓库主要维护 Electron 桌面版（TypeScript + Vue 3），另有 iOS / iPadOS / Apple TV / Android / Android TV / Windows / Linux / macOS 客户端，但各端界面、功能与发布节奏不完全一致（全平台下载见 README 里的 xbyvideohub.com）。**GPL-3.0** 强 copyleft：二次开发可以，但分发衍生版本须同协议开源，不适合闭源集成。维护稳定：2023-02-23 建，3 年多累积 7.5k★ / 453 fork，仅 1 个 open issue，2026-11-02 仍有提交。⚠️ 合规：依赖第三方网盘接口与影视元数据刮削，请只用于自己有权访问的文件与内容，遵守各平台服务条款；网盘账号凭据保存在本地，避免在公共设备登录。
 - **官方描述**：BoxPlayer - 聚合网盘管理+影视聚合 支持 Windows Linux iOS macOS tvOS Android
+
+#### [mediary-scout](https://github.com/Hua2026-ai/mediary-scout)
+
+- **上游**：[fancydirty/mediary-scout](https://github.com/fancydirty/mediary-scout) · ⭐ 1,731 · 语言 TypeScript · [官网/主页](https://mediaryscout.app) · fork 于 2026-11-05
+- **作用**：「巡影」：自部署的 **agent 驱动网盘媒体库**。说一句想看哪部电影/剧/番，agent 自己搜资源、挑最合适的转存进你自己的网盘，转完**回读确认**确实落地，之后缺哪集还会定时接着补。支持夸克 / UC / 115 / 123 / 光鸭 / 天翼六家网盘，多盘联合时按实时剩余容量与画质分配落盘、可跨盘凑齐同一季。两种形态：**桌面版**（macOS Apple 芯片 .dmg 已签名公证；Windows x64 .exe 未签名，会触发 SmartScreen）适合自己用；**Docker**（`git clone && docker compose up -d` → `:3000`）适合 NAS / 服务器常开，支持 24 小时定时巡检补缺、多用户、Tailscale / Cloudflare Tunnel 远程访问、设置里一键升级。影视元数据用 TMDB，资源搜索用 PanSou（Docker 自带一个，桌面版默认公共实例可换自建），可选接 Prowlarr 找磁力，另有 Agent API 让 Claude Code / Codex 等直接操作。AI 模型为可选升级（OpenAI 兼容接口，key 只存自己实例）；**未配置时默认走 Kilo Code 公共免费模型池，此时搜索查询、任务与留言内容、候选结果、文件名等上下文会发给 Kilo 及其上游模型商**——敏感场景建议自配 key。技术栈 TypeScript + Next.js + Electron + Docker，**0BSD**（比 MIT 更宽松）；官网 mediaryscout.app，有在线 Demo。2026-06-21 建，1.7k★ / 133 fork / 26 open issue，2026-11-05 仍有提交。⚠️ 合规：网盘资源搜索与转存涉及第三方版权内容，README 明确声明这是开源自部署工具、不提供托管服务、与各家网盘及 TMDB 无隶属关系；请只用于自己有权获取的内容，并遵守所在地法规与网盘服务条款；网盘登录凭据保存在自己实例，避免在公共设备部署。⚠️ 同名 `kush-coder/autopilot-mediary-scout`、`SageAutoman/mediary-scout-image` 等均为 0★ 构建/CI 仓库，未选。
+- **官方描述**：巡影 · 开源 AI 影视自动追更与多网盘媒体库整理工具 / Open-source AI agent for cloud drive media tracking & NAS (夸克 Quark / UC / 115 / 123 / 光鸭 Guangya / 天翼 Tianyi)
 
 
 ### 学习 / 资源索引（11）
@@ -623,6 +635,7 @@
 | [gpu-unlock](https://github.com/Hua2026-ai/gpu-unlock) | [Zagitta/gpu-unlock](https://github.com/Zagitta/gpu-unlock) | 6,966 | C | 系统工具 |
 | [Mika](https://github.com/Hua2026-ai/Mika) | [wangzan101/Mika](https://github.com/wangzan101/Mika) | 6,856 | Kotlin | AI / 工具与 MCP |
 | [cindy](https://github.com/Hua2026-ai/cindy) | [makecindy/cindy](https://github.com/makecindy/cindy) | 6,471 | TypeScript | AI / 工具与 MCP |
+| [geo-sleuth](https://github.com/Hua2026-ai/geo-sleuth) | [Oldcircle/geo-sleuth](https://github.com/Oldcircle/geo-sleuth) | 6,027 | Python | 安全 / OSINT 工具 |
 | [TelegramGroup](https://github.com/Hua2026-ai/TelegramGroup) | [itgoyo/TelegramGroup](https://github.com/itgoyo/TelegramGroup) | 5,875 | - | Telegram 导航 |
 | [qingjian](https://github.com/Hua2026-ai/qingjian) | [qingjian-team/qingjian](https://github.com/qingjian-team/qingjian) | 5,846 | Rust | 系统工具 |
 | [cleanyourtv](https://github.com/Hua2026-ai/cleanyourtv) | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | 5,823 | Java | 系统工具 |
@@ -641,6 +654,7 @@
 | [floorplan-3d](https://github.com/Hua2026-ai/floorplan-3d) | [wy51ai/floorplan-3d](https://github.com/wy51ai/floorplan-3d) | 2,018 | HTML | 车机 / 3D 与设计 |
 | [videdown](https://github.com/Hua2026-ai/videdown) | [cshuangyy/videdown](https://github.com/cshuangyy/videdown) | 1,837 | TypeScript | 影音 / 下载 |
 | [dsh-im](https://github.com/Hua2026-ai/dsh-im) | [xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) | 1,756 | JavaScript | AI / 工具与 MCP |
+| [mediary-scout](https://github.com/Hua2026-ai/mediary-scout) | [fancydirty/mediary-scout](https://github.com/fancydirty/mediary-scout) | 1,731 | TypeScript | 媒体管理 / 刮削 |
 | [bloodborne_pc](https://github.com/Hua2026-ai/bloodborne_pc) | [Supermedo/bloodborne_pc](https://github.com/Supermedo/bloodborne_pc) | 1,714 | C++ | 系统工具 |
 | [coolapk-desktop](https://github.com/Hua2026-ai/coolapk-desktop) | [daimiaopeng/coolapk-desktop](https://github.com/daimiaopeng/coolapk-desktop) | 1,685 | Vue | 开发 / 移动工具 |
 | [omarchy-apple-dev](https://github.com/Hua2026-ai/omarchy-apple-dev) | [joshuaswarren/omarchy-apple-dev](https://github.com/joshuaswarren/omarchy-apple-dev) | 1,651 | Python | 开发 / 移动工具 |
@@ -672,7 +686,7 @@
 
 ## 自建仓库（2，非 fork）
 
-> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 89 个 fork 的统计。
+> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 91 个 fork 的统计。
 
 #### [Hua2026-ai.github.io](https://github.com/Hua2026-ai/Hua2026-ai.github.io)
 
