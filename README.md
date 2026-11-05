@@ -363,7 +363,7 @@
 #### [vibe-coding-cn](https://github.com/Hua2026-ai/vibe-coding-cn)
 
 - **上游**：[tradecatlabs/vibe-coding-cn](https://github.com/tradecatlabs/vibe-coding-cn) · ⭐ 17,369 · 语言 Python · [官网/主页](https://tradecatlabs.com/) · fork 于 2026-10-09
-- **作用**：Vibe Coding 从入门到精通的中文教程：涵盖 AI 结对编程工作流、Prompt、Skill、Workflow、上下文管理与 codex 实战。fork 自 tradecatlabs/vibe-coding-cn（上游约 17k★）。
+- **作用**：Vibe Coding 从入门到精通的中文教程：涵盖 AI 结对编程工作流、Prompt、Skill、Workflow、上下文管理与 codex 实战。fork 自 tradecatlabs/vibe-coding-cn（上游约 17k★）。 ⚠️ 2026-11-05 核实：上游 `tradecatlabs/vibe-coding-cn` 仓库已 404（GitHub 仍把它保留为 fork 的 parent / source），目前仅 fork 快照可访问；官网 tradecatlabs.com 仍在线。同名 `2025Emma/vibe-coding-cn`（★23,145）README 与快照高度相似，但创建于 2025-12-17 且当天后再无提交、非 fork，属一次性镜像，未确认为官方迁移，故 upstream 保持 fork 网络的真实 parent 不改。
 - **官方描述**：Vibe Coding 从入门到精通教程｜AI 结对编程工作流｜Prompt、Skill、Workflow、上下文管理、codex实战指南
 
 #### [chinese-poetry-api](https://github.com/Hua2026-ai/chinese-poetry-api)
@@ -414,7 +414,7 @@
 #### [DiPlay-Legacy-Android](https://github.com/Hua2026-ai/DiPlay-Legacy-Android)
 
 - **上游**：[programmerguohuajing/DiPlay-Legacy-Android](https://github.com/programmerguohuajing/DiPlay-Legacy-Android) · ⭐ 572 · 语言 Kotlin · fork 于 2026-10-13
-- **作用**：基于 DiPlay 修改、面向低版本 Android 系统与老款 Android 车机兼容的版本（CarPlay 接收器）。fork 自 programmerguohuajing/DiPlay-Legacy-Android（上游约 572★，GPL-3.0）。
+- **作用**：基于 DiPlay 修改、面向低版本 Android 系统与老款 Android 车机兼容的版本（CarPlay 接收器）。fork 自 programmerguohuajing/DiPlay-Legacy-Android（上游约 572★，GPL-3.0）。 ⚠️ 2026-11-05 核实：上游 `programmerguohuajing/DiPlay-Legacy-Android` 已 404（GitHub 仍把它保留为 fork 的 parent / source），目前仅 fork 快照可访问；搜索到的同名仓库均为 ★8 以下的衍生或备份，无可确认的官方迁移，故 upstream 保持 fork 网络的真实 parent 不改。
 - **官方描述**：基于 shihabal3amri/DiPlay 修改，面向低版本 Android 系统与老款 Android 车机兼容
 
 #### [playport](https://github.com/Hua2026-ai/playport)
