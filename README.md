@@ -1,11 +1,11 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **92** 个 fork，上游合计约 **2,237,059** star。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **93** 个 fork，上游合计约 **2,237,084** star。
 > 最后更新：2026-11-06。本文只做归档与说明，版权与所有权归各自上游作者。
 
 ## 一句话概览
 
-剩下这 92 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
+剩下这 93 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
 其次是**中文学习与资源索引**、**车机 CarPlay 与 3D 设计**、**Telegram 导航**，
 另有少量代理客户端与影视资源相关的归档，以及安卓 / 桌面端工具（omarchy-apple-dev、DSH-Android、coolapk-desktop）。
 
@@ -334,7 +334,7 @@
 - **官方描述**：巡影 · 开源 AI 影视自动追更与多网盘媒体库整理工具 / Open-source AI agent for cloud drive media tracking & NAS (夸克 Quark / UC / 115 / 123 / 光鸭 Guangya / 天翼 Tianyi)
 
 
-### 学习 / 资源索引（11）
+### 学习 / 资源索引（12）
 
 #### [awesome](https://github.com/Hua2026-ai/awesome)
 
@@ -401,6 +401,12 @@
 - **上游**：[infometa/workbuddyskills](https://github.com/infometa/workbuddyskills) · ⭐ 375 · 语言 HTML · fork 于 2026-10-23
 - **作用**：WorkBuddy 生态的离线学习存档：收录 WorkBuddy 的 skills / connectors / experts 内容，供离线研究与学习使用。适合想深入了解 WorkBuddy 技能体系、连接器与专家机制的用户。⚠️ 注意：上游**无任何许可证**（默认保留所有权利），法律上只能参考学习，不能直接复用或再分发其中代码；如需二次开发请先联系作者获得授权。上游约 375★、122 fork，2026-10-22 仍有提交，质量健康。fork 自 infometa/workbuddyskills。
 - **官方描述**：WorkBuddy skills / connectors / experts archive for offline study
+
+#### [yuan-shufang-formulas](https://github.com/Hua2026-ai/yuan-shufang-formulas)
+
+- **上游**：[mason0510/yuan-shufang-formulas](https://github.com/mason0510/yuan-shufang-formulas) · ⭐ 25 · 语言 Rust · fork 于 2026-11-06
+- **作用**：河南西平县芦庙乡盘龙桥村老中医**袁淑芳**（行医八十余年）遗愿刻于墓碑的验方，由作者据墓碑照片 OCR/人工誊录 + 公开电子版互校，整理成可检索、可程序化调用的开源数据集：收录 **120 首**（碑称百首，立面四末段风化未补），分妊娠 / 产后 / 不孕 / 经带 / 儿科 / 内科 / 外科 / 五官八类。`data/formulas.json` 机器可读（可直接 `jq '.formulas[] | select(.ind | contains("痛经"))'` 按病证检索）、`data/formulas.md` 供人阅读，条目带 `ctrl`（管控/禁用药材，如穿山甲、麝香、紫河车）与 `doubt`（照片与电子版冲突或残缺）标记；`data/sources/xhs-100fang/` 存 22 张实拍誊录底本。另附 `agent/SYSTEM.md`「开方智能体」系统提示——贴进任意支持自定义 system prompt 的对话模型，或导入 Grok Bot / Cursor 同名 Agent 即可按主诉 + 体质 + 药房清单给出加减参考方；启用仓库 Pages（Source: `/docs`）还能得到在线助手。`backend/` 为 Rust。许可为 **CC BY-NC-SA 4.0**（署名 - 非商业性使用 - 相同方式共享；`LICENSE` 明确，GitHub API 因此报 `NOASSERTION`），碑文内容属公开史料抄录。维护：2026-11-05 建，★25 / 7 fork / 1 open issue，2026-11-06 仍有提交，属全新小项目。⚠️ **这是医疗内容而非普通工具，合规边界必须留意**：上游 README、`LICENSE` 与 `docs/disclaimer.md` 明确声明——数据来自 OCR 誊录与网络传抄互校、**可能有误**；仅供专业辨证学习参考，**不可自行照方抓药**，中医须望闻问切、同病异治、剂量因人而异；不对外宣称「AI 医生」「在线处方」；输出方剂仅供**有资质中医师**参考，**禁止作为互联网诊疗处方直接发售**；含管控药材须合法代用或删减；身体不适请前往正规医疗机构。⚠️ 非商用许可意味着任何商业化使用都不被允许；若计划基于它做面向公众的问诊 / 开方应用，属高合规风险领域，建议仅作资料归档与学习研究。
+- **官方描述**：袁淑芳墓碑验方开源库 + GitHub Pages 开方助手（Grok/ChainFuel）
 
 
 ### 车机 / 3D 与设计（8）
@@ -687,13 +693,14 @@
 | [DLSS5-Swapper-Chinese](https://github.com/Hua2026-ai/DLSS5-Swapper-Chinese) | [hezhixin15/DLSS5-Swapper-Chinese](https://github.com/hezhixin15/DLSS5-Swapper-Chinese) | 154 | JavaScript | 系统工具 |
 | [house-plan-designer](https://github.com/Hua2026-ai/house-plan-designer) | [ZWD11/house-plan-designer](https://github.com/ZWD11/house-plan-designer) | 119 | HTML | 车机 / 3D 与设计 |
 | [workbuddy-toolkit](https://github.com/Hua2026-ai/workbuddy-toolkit) | [FlapPearLabs/workbuddy-toolkit](https://github.com/FlapPearLabs/workbuddy-toolkit) | 33 | Python | 系统工具 |
+| [yuan-shufang-formulas](https://github.com/Hua2026-ai/yuan-shufang-formulas) | [mason0510/yuan-shufang-formulas](https://github.com/mason0510/yuan-shufang-formulas) | 25 | Rust | 学习 / 资源索引 |
 | [jianying-headless](https://github.com/Hua2026-ai/jianying-headless) | [GdLinkLock/jianying-headless](https://github.com/GdLinkLock/jianying-headless) | 20 | Python | AI / 语音与视频生成 |
 | [dsh-font-probe](https://github.com/Hua2026-ai/dsh-font-probe) | [lohana20061023-29/dsh-font-probe](https://github.com/lohana20061023-29/dsh-font-probe) | 6 | JavaScript | 系统工具 |
 | [release-downloader](https://github.com/Hua2026-ai/release-downloader) | [ziyuanhuishequ/release-downloader](https://github.com/ziyuanhuishequ/release-downloader) | 5 | Rust | 系统工具 |
 
 ## 自建仓库（2，非 fork）
 
-> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 92 个 fork 的统计。
+> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 93 个 fork 的统计。
 
 #### [Hua2026-ai.github.io](https://github.com/Hua2026-ai/Hua2026-ai.github.io)
 

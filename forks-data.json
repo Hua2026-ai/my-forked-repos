@@ -1194,5 +1194,18 @@
     "description": "Craft Anything: understand how any software works, and craft your own.",
     "what_it_does": "把「看懂任意软件怎么运作，然后让 AI 做自己的版本」做成一条完整流水线：**Study → Build → Check → Ready**——指向一个网站 / 桌面 App / 手机 App / 游戏 / 文件，用真实检查工具研究原版，让本机 coding agent 按你指定的语言、框架或引擎重建一个新项目，再与原版逐项比对（网页在三种屏宽下的页面、游戏自带自检、App 的实际运行），列出差异并迭代收敛。底层是**纯 Rust 的 clean-room 逆向引擎，320 个工具**（引擎内 300 + AI/setup 层），覆盖原生程序、.NET、Java、Android、Apple、Electron/JS、网站、固件、抓包、数据库与游戏文件；自带解码器、反汇编器、反编译器，不依赖外部程序，Deep 模式可接 Ghidra。桌面应用用 egui，另有 CLI 与 MCP Server，部分引擎以 WebAssembly 跑在浏览器；**每个工具同时是 CLI 子命令和 MCP tool**（`craft-anything-cli mcp` 供任意 MCP client 调用、`craft-anything-cli rebuild <url> \"Recreate this website\"` 可脱离 GUI 跑完整重建），结果带证据记录、置信度、覆盖度与局限。两种界面：Simple（默认，四步项目页 + 问答/审批卡片 + 相似度）与 Advanced 工作台（函数列表、伪 C、反汇编、hex、调用图、证据账本、agent console）。**Clean room 是默认模式**：不读原版代码、文件或页面源码，只用访客可见的东西（截图、可见文本、量到的布局、颜色、字体、间距、展开的菜单），会读取内部的工具被直接拒绝并提示如何开 Deep；但 README 明确说明 **Clean room 是工具层面的规则，不是 OS 沙箱**，不隔离你的电脑，coding agent 仍以你的身份动作。构建需本机 coding agent：**Claude Code 首选**（跑你自己未修改的 `claude`、用你自己的登录，项目不接触账号），Codex adapter 存在但未经真机验证，GitHub Copilot 走 ACP，其他 ACP agent（Gemini CLI / Qwen Code / opencode / goose / Hermes / Maki）可切后端、其中仅 Maki 实跑过；问答分析支持 Anthropic / OpenAI / OpenRouter / 本地 OpenAI 兼容服务。要求 **Rust 1.97+**，Linux 桌面版另需 X11/Wayland/GTK 等开发库；支持 macOS / Windows / Linux / FreeBSD / Web。许可为 **MIT OR Apache-2.0 双许可**（仓库含 `LICENSE-MIT` 与 `LICENSE-APACHE`，GitHub API 只报 Apache-2.0）。维护极热但很年轻：2026-10-31 建，6 天涨到 15.2k★ / 2,634 fork，2026-11-05 仍有提交；README 自标 **early alpha**、291 open issue，功能与稳定性仍在快速变动。与清单内 `rea`（agent + 本地逆向工具链）和 `ai-website-cloner-template`（像素级复刻网站）同属一条技术线。⚠️ 合规：逆向第三方软件 / 网站涉及法律与服务条款风险，Deep 模式读取原版代码与文件、README 限定「私人使用」，务必确认自己有权分析；Clean room 不等于法律意义上的净室，也不隔离本机；coding agent 以你的身份读写文件与执行命令，审批卡片需认真审阅。⚠️ 同名甄别：`Terry-9988`、`nakurakuu`、`123caiji` 均标注为本项目镜像（★0–3），`xocialize-code/CraftAnythingNative` 是 macOS SwiftUI 外壳，其余 `CraftAnything` 为无关小项目，均未选。",
     "forked_at": "2026-11-06"
+  },
+  {
+    "repo": "Hua2026-ai/yuan-shufang-formulas",
+    "url": "https://github.com/Hua2026-ai/yuan-shufang-formulas",
+    "upstream": "mason0510/yuan-shufang-formulas",
+    "upstream_url": "https://github.com/mason0510/yuan-shufang-formulas",
+    "stars": 25,
+    "language": "Rust",
+    "homepage": "",
+    "category": "学习 / 资源索引",
+    "description": "袁淑芳墓碑验方开源库 + GitHub Pages 开方助手（Grok/ChainFuel）",
+    "what_it_does": "河南西平县芦庙乡盘龙桥村老中医**袁淑芳**（行医八十余年）遗愿刻于墓碑的验方，由作者据墓碑照片 OCR/人工誊录 + 公开电子版互校，整理成可检索、可程序化调用的开源数据集：收录 **120 首**（碑称百首，立面四末段风化未补），分妊娠 / 产后 / 不孕 / 经带 / 儿科 / 内科 / 外科 / 五官八类。`data/formulas.json` 机器可读（可直接 `jq '.formulas[] | select(.ind | contains(\"痛经\"))'` 按病证检索）、`data/formulas.md` 供人阅读，条目带 `ctrl`（管控/禁用药材，如穿山甲、麝香、紫河车）与 `doubt`（照片与电子版冲突或残缺）标记；`data/sources/xhs-100fang/` 存 22 张实拍誊录底本。另附 `agent/SYSTEM.md`「开方智能体」系统提示——贴进任意支持自定义 system prompt 的对话模型，或导入 Grok Bot / Cursor 同名 Agent 即可按主诉 + 体质 + 药房清单给出加减参考方；启用仓库 Pages（Source: `/docs`）还能得到在线助手。`backend/` 为 Rust。许可为 **CC BY-NC-SA 4.0**（署名 - 非商业性使用 - 相同方式共享；`LICENSE` 明确，GitHub API 因此报 `NOASSERTION`），碑文内容属公开史料抄录。维护：2026-11-05 建，★25 / 7 fork / 1 open issue，2026-11-06 仍有提交，属全新小项目。⚠️ **这是医疗内容而非普通工具，合规边界必须留意**：上游 README、`LICENSE` 与 `docs/disclaimer.md` 明确声明——数据来自 OCR 誊录与网络传抄互校、**可能有误**；仅供专业辨证学习参考，**不可自行照方抓药**，中医须望闻问切、同病异治、剂量因人而异；不对外宣称「AI 医生」「在线处方」；输出方剂仅供**有资质中医师**参考，**禁止作为互联网诊疗处方直接发售**；含管控药材须合法代用或删减；身体不适请前往正规医疗机构。⚠️ 非商用许可意味着任何商业化使用都不被允许；若计划基于它做面向公众的问诊 / 开方应用，属高合规风险领域，建议仅作资料归档与学习研究。",
+    "forked_at": "2026-11-06"
   }
 ]
