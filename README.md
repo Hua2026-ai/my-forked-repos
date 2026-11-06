@@ -1,11 +1,11 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **91** 个 fork，上游合计约 **2,221,842** star。
-> 最后更新：2026-11-05。本文只做归档与说明，版权与所有权归各自上游作者。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **92** 个 fork，上游合计约 **2,237,059** star。
+> 最后更新：2026-11-06。本文只做归档与说明，版权与所有权归各自上游作者。
 
 ## 一句话概览
 
-剩下这 91 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
+剩下这 92 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
 其次是**中文学习与资源索引**、**车机 CarPlay 与 3D 设计**、**Telegram 导航**，
 另有少量代理客户端与影视资源相关的归档，以及安卓 / 桌面端工具（omarchy-apple-dev、DSH-Android、coolapk-desktop）。
 
@@ -73,7 +73,7 @@
 - **官方描述**：Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill.
 
 
-### AI / 工具与 MCP（27）
+### AI / 工具与 MCP（28）
 
 #### [opencode](https://github.com/Hua2026-ai/opencode)
 
@@ -122,6 +122,12 @@
 - **上游**：[hypit-ai/hypit](https://github.com/hypit-ai/hypit) · ⭐ 20,613 · 语言 TypeScript · [官网/主页](https://hypit.ai) · fork 于 2026-10-08
 - **作用**：用 AI 智能体克隆爆款视频：不只是脚本，而是整套工作流——换脸、换词、换 B-roll，一条命令产出上百个变体。注意：许可证为 **NOASSERTION（未明确标准许可证）**，且涉及换脸/二创，请合规使用、尊重肖像权与版权。fork 自 hypit-ai/hypit（上游约 20.5k★）。
 - **官方描述**：Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.
+
+#### [craft-anything](https://github.com/Hua2026-ai/craft-anything)
+
+- **上游**：[storytold/craft-anything](https://github.com/storytold/craft-anything) · ⭐ 15,217 · 语言 Rust · [官网/主页](https://getartcraft.com/) · fork 于 2026-11-06
+- **作用**：把「看懂任意软件怎么运作，然后让 AI 做自己的版本」做成一条完整流水线：**Study → Build → Check → Ready**——指向一个网站 / 桌面 App / 手机 App / 游戏 / 文件，用真实检查工具研究原版，让本机 coding agent 按你指定的语言、框架或引擎重建一个新项目，再与原版逐项比对（网页在三种屏宽下的页面、游戏自带自检、App 的实际运行），列出差异并迭代收敛。底层是**纯 Rust 的 clean-room 逆向引擎，320 个工具**（引擎内 300 + AI/setup 层），覆盖原生程序、.NET、Java、Android、Apple、Electron/JS、网站、固件、抓包、数据库与游戏文件；自带解码器、反汇编器、反编译器，不依赖外部程序，Deep 模式可接 Ghidra。桌面应用用 egui，另有 CLI 与 MCP Server，部分引擎以 WebAssembly 跑在浏览器；**每个工具同时是 CLI 子命令和 MCP tool**（`craft-anything-cli mcp` 供任意 MCP client 调用、`craft-anything-cli rebuild <url> "Recreate this website"` 可脱离 GUI 跑完整重建），结果带证据记录、置信度、覆盖度与局限。两种界面：Simple（默认，四步项目页 + 问答/审批卡片 + 相似度）与 Advanced 工作台（函数列表、伪 C、反汇编、hex、调用图、证据账本、agent console）。**Clean room 是默认模式**：不读原版代码、文件或页面源码，只用访客可见的东西（截图、可见文本、量到的布局、颜色、字体、间距、展开的菜单），会读取内部的工具被直接拒绝并提示如何开 Deep；但 README 明确说明 **Clean room 是工具层面的规则，不是 OS 沙箱**，不隔离你的电脑，coding agent 仍以你的身份动作。构建需本机 coding agent：**Claude Code 首选**（跑你自己未修改的 `claude`、用你自己的登录，项目不接触账号），Codex adapter 存在但未经真机验证，GitHub Copilot 走 ACP，其他 ACP agent（Gemini CLI / Qwen Code / opencode / goose / Hermes / Maki）可切后端、其中仅 Maki 实跑过；问答分析支持 Anthropic / OpenAI / OpenRouter / 本地 OpenAI 兼容服务。要求 **Rust 1.97+**，Linux 桌面版另需 X11/Wayland/GTK 等开发库；支持 macOS / Windows / Linux / FreeBSD / Web。许可为 **MIT OR Apache-2.0 双许可**（仓库含 `LICENSE-MIT` 与 `LICENSE-APACHE`，GitHub API 只报 Apache-2.0）。维护极热但很年轻：2026-10-31 建，6 天涨到 15.2k★ / 2,634 fork，2026-11-05 仍有提交；README 自标 **early alpha**、291 open issue，功能与稳定性仍在快速变动。与清单内 `rea`（agent + 本地逆向工具链）和 `ai-website-cloner-template`（像素级复刻网站）同属一条技术线。⚠️ 合规：逆向第三方软件 / 网站涉及法律与服务条款风险，Deep 模式读取原版代码与文件、README 限定「私人使用」，务必确认自己有权分析；Clean room 不等于法律意义上的净室，也不隔离本机；coding agent 以你的身份读写文件与执行命令，审批卡片需认真审阅。⚠️ 同名甄别：`Terry-9988`、`nakurakuu`、`123caiji` 均标注为本项目镜像（★0–3），`xocialize-code/CraftAnythingNative` 是 macOS SwiftUI 外壳，其余 `CraftAnything` 为无关小项目，均未选。
+- **官方描述**：Craft Anything: understand how any software works, and craft your own.
 
 #### [moli](https://github.com/Hua2026-ai/moli)
 
@@ -615,6 +621,7 @@
 | [lingbot-map](https://github.com/Hua2026-ai/lingbot-map) | [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map) | 17,760 | Python | 车机 / 3D 与设计 |
 | [vibe-coding-cn](https://github.com/Hua2026-ai/vibe-coding-cn) | [tradecatlabs/vibe-coding-cn](https://github.com/tradecatlabs/vibe-coding-cn) | 17,369 | Python | 学习 / 资源索引 |
 | [huobao-drama](https://github.com/Hua2026-ai/huobao-drama) | [chatfire-AI/huobao-drama](https://github.com/chatfire-AI/huobao-drama) | 15,923 | Vue | AI / 语音与视频生成 |
+| [craft-anything](https://github.com/Hua2026-ai/craft-anything) | [storytold/craft-anything](https://github.com/storytold/craft-anything) | 15,217 | Rust | AI / 工具与 MCP |
 | [DroidDeck](https://github.com/Hua2026-ai/DroidDeck) | [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) | 15,067 | Kotlin | 系统工具 |
 | [moli](https://github.com/Hua2026-ai/moli) | [lexmount/moli](https://github.com/lexmount/moli) | 14,958 | Rust | AI / 工具与 MCP |
 | [peach](https://github.com/Hua2026-ai/peach) | [peach-mitao/peach](https://github.com/peach-mitao/peach) | 12,624 | Python | 媒体管理 / 刮削 |
@@ -686,7 +693,7 @@
 
 ## 自建仓库（2，非 fork）
 
-> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 91 个 fork 的统计。
+> 以下为本账号**自行创建、并非 fork** 的公开仓库，与上方 fork 清单分开记录，仅供说明，不计入上方 92 个 fork 的统计。
 
 #### [Hua2026-ai.github.io](https://github.com/Hua2026-ai/Hua2026-ai.github.io)
 
