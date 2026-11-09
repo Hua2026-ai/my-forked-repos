@@ -1,16 +1,15 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **103** 个 fork，上游合计约 **2,950,844** star。
-> 最后更新：2026-11-07。本文只做归档与说明，版权与所有权归各自上游作者。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **106** 个 fork，上游合计约 **2,953,456** star。
+> 最后更新：2026-11-09。本文只做归档与说明，版权与所有权归各自上游作者。
 
 ## 一句话概览
 
-剩下这 103 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
+剩下这 106 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
 其次是**中文学习与资源索引**、**车机 CarPlay 与 3D 设计**、**Telegram 导航**，
 另有少量代理客户端、影视资源，以及 Kindle 越狱与第三方系统相关的归档。
 
 ## 分类清单
-
 ### AI / 语音与视频生成（10）
 
 #### [VoiceStudio](https://github.com/Hua2026-ai/VoiceStudio)
@@ -21,8 +20,8 @@
 
 #### [OpenMontage](https://github.com/Hua2026-ai/OpenMontage)
 
-- **上游**：[calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) · ⭐ 77,806 · 语言 Python · [官网/主页](https://www.openmontage.video/) · fork 于 2026-10-02
-- **作用**：开源的「Agentic 视频制作系统」，内置 12 条生产流水线、100+ 工具、700+ Agent 技能与制作知识文件，目标是把 AI 编码助手扩展成一整套视频工作室。
+- **上游**：[OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage) · ⭐ 78,710 · 语言 Python · [官网/主页](https://www.openmontage.video/) · fork 于 2026-10-02
+- **作用**：开源的「Agentic 视频制作系统」，内置 12 条生产流水线、100+ 工具、700+ Agent 技能与制作知识文件，目标是把 AI 编码助手扩展成一整套视频工作室。 2026-11-09 核实：上游 owner 已由 `calesthio` 迁移至 `OpenMontageInc`（GitHub 自动跟随重定向），现约 78.7k★；**AGPL-3.0** 强 copyleft，商用需评估。
 - **官方描述**：World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.
 
 #### [VoxCPM](https://github.com/Hua2026-ai/VoxCPM)
@@ -73,7 +72,8 @@
 - **作用**：剪映（CapCut 国内版）草稿的无头方案：原生草稿解析、隔离环境的编辑与导出，并附带独立 Agent Skill，便于自动化批量剪视频。
 - **官方描述**：Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill.
 
-### AI / 工具与 MCP（30）
+
+### AI / 工具与 MCP（31）
 
 #### [rea](https://github.com/Hua2026-ai/rea)
 
@@ -225,6 +225,12 @@
 - **作用**：基于 Model Context Protocol (MCP) 的 12306 购票搜索服务器：提供简单 API 接口，让大模型可以搜索 12306 购票信息，支持查询车票、过滤列车、过站查询与中转查询。fork 自 Joooook/12306-mcp（上游约 1.65k★）。
 - **官方描述**：This is a 12306 ticket search server based on the Model Context Protocol (MCP).
 
+#### [pinky](https://github.com/Hua2026-ai/pinky)
+
+- **上游**：[DIYgod/pinky](https://github.com/DIYgod/pinky) · ⭐ 876 · 语言 Go · fork 于 2026-11-09
+- **作用**：让任意 AI agent（Claude Code / Claude Desktop / Codex / Cursor 或脚本）通过 **MCP** 操作真实 iPhone / Android，人在电脑上旁观、审批高风险步骤、随时接管并回看全过程；**审批由 Pinky 网关强制执行，不是靠提示词约束 agent**，因此屏幕上的诱导文字也无法让 agent 自我批准。Go 编写，界面用 MyGo 在 GPU 上绘制、无 Electron 无 webview，安装包仅 16–22 MB、空闲约 70 MB 内存 / 0% CPU；支持 macOS（Apple silicon / Intel）、Windows、Linux，手机端 Android 10–17 与 **iPhone iOS 17.4+**（iOS 27+ 免安装、17.4–26 需从 Xcode 装一次 helper）。Settings › Agents 一键接入各类 MCP client，可本机或经 HTTP。安全设计：支付 / 交易 / 转账默认等待点击 Allow，可配置发送、下单、删除、通话、安装、外链、设置变更也需审批（10 种语言识别按钮）；银行 / 钱包 / 密码管理器 App 对 agent 默认不可见，密码与一次性验证码字段禁止输入，每个新 agent 需单独批准且只拿到授权范围；锁屏 PIN 只存 Pinky，每次解锁需 Touch ID / Windows Hello / keyring 确认，agent 看不到。Android 13+ 可用隐藏第二屏幕，主屏仍归用户；点镜像即接管并暂停 agent，全局停止 ⌥⌘.（Win/Linux Ctrl+Alt+.）；每次运行留步骤文字、截图与带步骤标记的录屏，可导出 HTML，数据全留本机。**Apache-2.0**；2026-11-06 建，2026-11-09 仍有提交，876★ / 70 fork / 11 open issue。⚠️ **本机适配结论见 `Pinky-iPhone13ProMax适配评估.md`：你的 iPhone 13 Pro Max 是 iOS 16.4，Pinky 不可用且无法绕过**——官方 `README.md:142/:180` 明确「iOS 17.3 and earlier are not supported」，17.4 前连接需管理员权限、iOS 16 及更早需当前 Xcode 已不再附带的 DDI；升 macOS / 装 Xcode 27 / 换镜像 DDI 均无效，且 Apple 升级后不可降级、iOS 16 已停签。替代路线是 WDA 系 `mobile-next/mobile-mcp`，或直接用 Android 设备体验其审批模型。⚠️ 高权限工具：能读屏、点击、操作支付与账号，务必只用可信 agent 并逐条审阅审批。
+- **官方描述**：Let AI agents use your phone, with you in the loop.
+
 #### [DSH-Android](https://github.com/Hua2026-ai/DSH-Android)
 
 - **上游**：[jackwener/DSH-Android](https://github.com/jackwener/DSH-Android) · ⭐ 853 · 语言 Kotlin · fork 于 2026-10-31
@@ -241,6 +247,7 @@
 
 - **上游**：[atria-asi/Atria-Dawn](https://github.com/atria-asi/Atria-Dawn) · ⭐ 638 · 语言 - · [官网/主页](https://atria-asi.ai/) · fork 于 2026-10-08
 - **作用**：Atria Dawn Preview：从「研究问题」到「可验证结果」的开源 AI 模型预览（InternLM / 上海 AI 实验室相关，已上架 HuggingFace / ModelScope）。fork 自 atria-asi/Atria-Dawn-Preview（上游约 585★）。
+- **官方描述**：
 
 #### [muse-skills](https://github.com/Hua2026-ai/muse-skills)
 
@@ -253,6 +260,7 @@
 - **上游**：[lohana20061023-29/dsh-font-probe](https://github.com/lohana20061023-29/dsh-font-probe) · ⭐ 25 · 语言 JavaScript · fork 于 2026-10-18
 - **作用**：DSH 字体插件：中英文字体分设，正文字号、代码字号、字距/行距/段距/首行缩进四根滑块，吸底实时预览 + 确认制，配置写回 profile 而不改 app.asar。MIT。fork 自 lohana20061023-29/dsh-font-probe（上游约 25★）。
 - **官方描述**：DSH 字体插件：中英文字体分设、正文字号与代码字号、字距/行距/段距/首行缩进四根滑块，吸底总预览 + 确认制，配置写回 profile，不动 app.asar。
+
 
 ### 安全 / OSINT 工具（2）
 
@@ -267,6 +275,7 @@
 - **上游**：[Oldcircle/geo-sleuth](https://github.com/Oldcircle/geo-sleuth) · ⭐ 6,311 · 语言 Python · fork 于 2026-11-05
 - **作用**：地理定位 Agent Skill：根据照片推断拍摄地点，结合 OpenStreetMap 几何、海拔山脊线、卫星图与街景，并展示推理过程；兼容 Claude Code / Codex / Cursor / Gemini CLI 等。MIT。注意：属 OSINT 双用途工具，仅可用于合法授权场景，注意他人隐私与所在地法律。fork 自 Oldcircle/geo-sleuth（上游约 6.3k★）。
 - **官方描述**：An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode and GitHub Copilot.
+
 
 ### 网络工具 / 代理客户端（3）
 
@@ -286,8 +295,10 @@
 
 - **上游**：[yibaiba/hideck](https://github.com/yibaiba/hideck) · ⭐ 311 · 语言 Go · fork 于 2026-10-04
 - **作用**：自托管的高通 4G/LTE/5G 模组管理控制台：通过浏览器管理 USB modem、蜂窝代理、短信、WiFi 通话/IMS 语音、eSIM 与定时任务，Web UI 默认 `admin/admin`，推荐 Docker 部署。注意许可证为 **PolyForm Noncommercial 1.0.0（仅限非商业用途）**。fork 自 yibaiba/hideck（上游约 231★）。
+- **官方描述**：
 
-### 影音 / 下载（8）
+
+### 影音 / 下载（9）
 
 #### [cobalt](https://github.com/Hua2026-ai/cobalt)
 
@@ -325,6 +336,12 @@
 - **作用**：第三方抖音客户端增强：作者级下载、播放、点赞收藏、私信、通知，内置 AI 可在私信里聊天并提供 MCP 接入。注意：许可证为 NOASSERTION（未明确标准许可证），使用前请自行评估；第三方客户端需遵守平台服务条款。fork 自 anYuJia/better-douyin（上游约 1.1k★）。
 - **官方描述**：打造更好用的douyin，支持作者级下载、播放、点赞收藏、私信、通知、mcp服务接入ai控制，内置ai可以在私信与好友ai聊天。douyin download
 
+#### [MarcoMovie](https://github.com/Hua2026-ai/MarcoMovie)
+
+- **上游**：[Pilipala9919/MarcoMovie](https://github.com/Pilipala9919/MarcoMovie) · ⭐ 591 · 语言 Java · fork 于 2026-11-09
+- **作用**：Pilipala 开发的 **Marco Movie 多端影视播放器**，README 明确支持 Android 电视 / 手机 / 平板及 Windows / macOS / iOS 自适应。Java 实现，**GPL-3.0**；591★ / 46 fork / 21 open issue，2026-11-09 仍有提交，维护活跃。⚠️ 官方反复声明「仅提供工具、不含影视资源，内容和配置由用户自行合法获取」——属于典型的第三方播放器外壳，播放源合规性完全由使用者负责；请只用于自己有权访问的内容，并遵守所在地法规与平台服务条款。
+- **官方描述**：由 Pilipala 开发的 Android 电视播放器。仅提供工具，不含影视资源；内容和配置由用户自行合法获取。
+
 #### [BiliMusic](https://github.com/Hua2026-ai/BiliMusic)
 
 - **上游**：[HanversionOvO/BiliMusic](https://github.com/HanversionOvO/BiliMusic) · ⭐ 449 · 语言 TypeScript · fork 于 2026-10-23
@@ -336,6 +353,7 @@
 - **上游**：[jiayuxuan123/YunGet](https://github.com/jiayuxuan123/YunGet) · ⭐ 356 · 语言 Kotlin · [官网/主页](https://jiayuxuan123.github.io/YunGet/) · fork 于 2026-10-27
 - **作用**：「云取」网盘分享解析与高速下载 Android 应用，支持夸克 / UC / 迅雷 / 百度 / 123 / 139 / 115 / 蓝奏等，下载由 TurboDL 引擎承担；基于 CYQawa/YunX 二次开发。AGPL-3.0。注意：第三方网盘解析需遵守各平台服务条款。fork 自 jiayuxuan123/YunGet（上游约 355★）。
 - **官方描述**：云取 YunGet：网盘分享解析与高速下载 Android 应用，基于 CYQawa/YunX 二次开发。支持夸克/UC/迅雷/百度/123/139/115/光鸭/蓝奏等平台，下载由 TurboDL 引擎承担。AGPL-3.0。
+
 
 ### 学习 / 资源索引（11）
 
@@ -401,9 +419,10 @@
 
 #### [vibe-coding-cn](https://github.com/Hua2026-ai/vibe-coding-cn)
 
-- **上游**：[?]() · ⭐ 0 · 语言 Python · [官网/主页](https://tradecatlabs.com/) · fork 于 2026-10-09
-- **作用**：Vibe Coding 从入门到精通的中文教程：涵盖 AI 结对编程工作流、Prompt、Skill、Workflow、上下文管理与 codex 实战。fork 自 tradecatlabs/vibe-coding-cn（上游约 17k★）。
+- **上游**：[tradecatlabs/vibe-coding-cn](https://github.com/tradecatlabs/vibe-coding-cn) · ⭐ 0 · 语言 Python · [官网/主页](https://tradecatlabs.com/) · fork 于 2026-10-09
+- **作用**：Vibe Coding 从入门到精通的中文教程：涵盖 AI 结对编程工作流、Prompt、Skill、Workflow、上下文管理与 codex 实战。fork 自 tradecatlabs/vibe-coding-cn（上游约 17k★）。 2026-11-05 核实：上游仓库已 404（GitHub 仍把它保留为 fork 的 parent / source），目前仅 fork 快照可访问；未确认官方迁移，故 upstream 保持 fork 网络的真实 parent。
 - **官方描述**：Vibe Coding 从入门到精通教程｜AI 结对编程工作流｜Prompt、Skill、Workflow、上下文管理、codex实战指南
+
 
 ### 车机 / 3D 与设计（8）
 
@@ -423,6 +442,7 @@
 
 - **上游**：[wy51ai/floorplan-3d](https://github.com/wy51ai/floorplan-3d) · ⭐ 3,610 · 语言 HTML · fork 于 2026-09-29
 - **作用**：纯前端的户型装修设计工具：2D 平面图上摆家具、拆改墙体、量尺寸，一键切到 Three.js 3D 场景，可鸟瞰也可第一人称漫游；整个应用只有一个 index.html，无需构建。上游 README 无描述，此说明依据其 README 整理。
+- **官方描述**：
 
 #### [3d-model-anything](https://github.com/Hua2026-ai/3d-model-anything)
 
@@ -450,9 +470,10 @@
 
 #### [DiPlay-Legacy-Android](https://github.com/Hua2026-ai/DiPlay-Legacy-Android)
 
-- **上游**：[?]() · ⭐ 0 · 语言 Kotlin · [官网/主页](https://programmerguohuajing.github.io/DiPlay-Legacy-Android/) · fork 于 2026-10-13
-- **作用**：基于 shihabal3amri/DiPlay 修改的 Android 车机 CarPlay 接收端，专门兼容低版本 Android 系统与老款车机。此 fork 查询不到 parent 信息，说明依据仓库自述整理。
+- **上游**：[programmerguohuajing/DiPlay-Legacy-Android](https://github.com/programmerguohuajing/DiPlay-Legacy-Android) · ⭐ 0 · 语言 Kotlin · [官网/主页](https://programmerguohuajing.github.io/DiPlay-Legacy-Android/) · fork 于 2026-10-13
+- **作用**：基于 shihabal3amri/DiPlay 修改的 Android 车机 CarPlay 接收端，专门兼容低版本 Android 系统与老款车机。此 fork 查询不到 parent 信息，说明依据仓库自述整理。 2026-11-05 核实：上游仓库已 404（GitHub 仍把它保留为 fork 的 parent / source），目前仅 fork 快照可访问；未确认官方迁移，故 upstream 保持 fork 网络的真实 parent。
 - **官方描述**：基于 shihabal3amri/DiPlay 修改，面向低版本 Android 系统与老款 Android 车机兼容
+
 
 ### Telegram 导航（2）
 
@@ -468,7 +489,8 @@
 - **作用**：上万条 Telegram 群组 / 频道的导航合集，附带各类机器人推荐，站点 tg10000.com。
 - **官方描述**：2026最新悄咪咪收集的10000+个Telegram群合集、tg导航，附全网最有趣好用的机器人BOT🤖【tg10000.com】
 
-### 系统工具（19）
+
+### 系统工具（20）
 
 #### [Win11Debloat](https://github.com/Hua2026-ai/Win11Debloat)
 
@@ -572,6 +594,12 @@
 - **作用**：DLSS 5 Swapper 中文增强版：全界面与游戏内叠加层完整汉化，并修复部分游戏自带 D3D12 运行时被误判冲突导致无法安装的问题。注意：许可证为 NOASSERTION（未明确标准许可证），使用前请自行评估。fork 自 hezhixin15/DLSS5-Swapper-Chinese（上游约 480★）。
 - **官方描述**：DLSS 5 Swapper 中文增强版：全界面与游戏内叠加层完整汉化，并修复部分游戏自带 D3D12 运行时被误判冲突导致无法安装的问题
 
+#### [official-swiplets](https://github.com/Hua2026-ai/official-swiplets)
+
+- **上游**：[swipt-automation/official-swiplets](https://github.com/swipt-automation/official-swiplets) · ⭐ 241 · 语言 TypeScript · fork 于 2026-11-09
+- **作用**：**Swipt 官方插件（Swiplet）集合**，本体是 `swipt-automation/swipt`（★353 / Go / universal iOS automation platform），本仓库不含本体、README 为空，只有三个插件目录，每个含 `src/`、`locales.json`、`package.json`、`tsconfig.json`：`skip-chinese-ads`（跳国内 App 开屏广告）、`simulate-location`（模拟定位）、`switch-app-store-account`（切换 App Store 账号）。TypeScript + Bun（`bun.lock`）。**许可为 GPL-3.0-or-later 加附加条款**：`LICENSE` 明确「衍生作品未经事先同意不得使用本应用名称或暗示关联」，GitHub API 因此报 `NOASSERTION`；衍生分发须同协议开源。2026-11-05 建，241★ / 11 fork / 6 open issue，2026-11-08 仍有提交。⚠️ 之前 `iOS16.4-跳开屏广告方案评估.md` 已把它列入**明确排除项**：需 Swipt 本体，且源码有 **iOS 17.4+ 硬门槛**，你的 iOS 16.4 设备不适用；该报告给出的可行路线是纯域名级规则订阅（`huijingfei/Shadowrocket-Rules` 的 `sr_app_ad.module`），不依赖 MITM 与开发者服务。⚠️ 模拟定位、切换 App Store 账号可能违反相关服务条款；这类插件依赖 iOS 自动化高权限，注意账号与设备风险。
+- **官方描述**：Official Swiplets for Swipt
+
 #### [workbuddy-toolkit](https://github.com/Hua2026-ai/workbuddy-toolkit)
 
 - **上游**：[FlapPearLabs/workbuddy-toolkit](https://github.com/FlapPearLabs/workbuddy-toolkit) · ⭐ 43 · 语言 Python · fork 于 2026-10-18
@@ -583,6 +611,7 @@
 - **上游**：[ziyuanhuishequ/release-downloader](https://github.com/ziyuanhuishequ/release-downloader) · ⭐ 13 · 语言 Rust · fork 于 2026-11-05
 - **作用**：批量下载多个仓库的 GitHub Release 文件，按系统与架构自动归档；免安装单文件、像素风界面的 Windows 工具（Rust）。Apache-2.0。fork 自 ziyuanhuishequ/release-downloader（上游约 13★）。
 - **官方描述**：批量下载多个仓库的 GitHub Release 文件，并按系统与架构自动归档。免安装单文件，像素风界面，Windows 平台。
+
 
 ### Kindle / 越狱与第三方系统（10）
 
@@ -659,7 +688,7 @@
 | [HowToCook](https://github.com/Hua2026-ai/HowToCook) | [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) | 103,661 | - | 学习 / 资源索引 |
 | [VoiceStudio](https://github.com/Hua2026-ai/VoiceStudio) | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 103,044 | Python | AI / 语音与视频生成 |
 | [ChinaTextbook](https://github.com/Hua2026-ai/ChinaTextbook) | [TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook) | 84,216 | Roff | 学习 / 资源索引 |
-| [OpenMontage](https://github.com/Hua2026-ai/OpenMontage) | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | 77,806 | Python | AI / 语音与视频生成 |
+| [OpenMontage](https://github.com/Hua2026-ai/OpenMontage) | [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage) | 78,710 | Python | AI / 语音与视频生成 |
 | [HowToLiveBetter](https://github.com/Hua2026-ai/HowToLiveBetter) | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | 74,073 | HTML | 学习 / 资源索引 |
 | [up](https://github.com/Hua2026-ai/up) | [byoungd/up](https://github.com/byoungd/up) | 70,216 | JavaScript | 学习 / 资源索引 |
 | [Win11Debloat](https://github.com/Hua2026-ai/Win11Debloat) | [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) | 61,929 | PowerShell | 系统工具 |
@@ -722,11 +751,13 @@
 | [better-douyin](https://github.com/Hua2026-ai/better-douyin) | [anYuJia/better-douyin](https://github.com/anYuJia/better-douyin) | 1,059 | TypeScript | 影音 / 下载 |
 | [android-airplay-server](https://github.com/Hua2026-ai/android-airplay-server) | [jqssun/android-airplay-server](https://github.com/jqssun/android-airplay-server) | 978 | Kotlin | 系统工具 |
 | [MacCheck](https://github.com/Hua2026-ai/MacCheck) | [andyhuo520/MacCheck](https://github.com/andyhuo520/MacCheck) | 910 | Swift | 系统工具 |
+| [pinky](https://github.com/Hua2026-ai/pinky) | [DIYgod/pinky](https://github.com/DIYgod/pinky) | 876 | Go | AI / 工具与 MCP |
 | [DSH-Android](https://github.com/Hua2026-ai/DSH-Android) | [jackwener/DSH-Android](https://github.com/jackwener/DSH-Android) | 853 | Kotlin | AI / 工具与 MCP |
 | [pi-purge](https://github.com/Hua2026-ai/pi-purge) | [ZiChuanLan/pi-purge](https://github.com/ZiChuanLan/pi-purge) | 730 | JavaScript | AI / 工具与 MCP |
 | [lipflow](https://github.com/Hua2026-ai/lipflow) | [amywork777/lipflow](https://github.com/amywork777/lipflow) | 698 | Python | AI / 语音与视频生成 |
 | [Microsoft-Rewards-Script](https://github.com/Hua2026-ai/Microsoft-Rewards-Script) | [chiihero/Microsoft-Rewards-Script](https://github.com/chiihero/Microsoft-Rewards-Script) | 645 | TypeScript | 系统工具 |
 | [Atria-Dawn-Preview](https://github.com/Hua2026-ai/Atria-Dawn-Preview) | [atria-asi/Atria-Dawn](https://github.com/atria-asi/Atria-Dawn) | 638 | - | AI / 工具与 MCP |
+| [MarcoMovie](https://github.com/Hua2026-ai/MarcoMovie) | [Pilipala9919/MarcoMovie](https://github.com/Pilipala9919/MarcoMovie) | 591 | Java | 影音 / 下载 |
 | [KindleTool](https://github.com/Hua2026-ai/KindleTool) | [NiLuJe/KindleTool](https://github.com/NiLuJe/KindleTool) | 536 | C | Kindle / 越狱与第三方系统 |
 | [ProsperoStore](https://github.com/Hua2026-ai/ProsperoStore) | [darkxex/ProsperoStore](https://github.com/darkxex/ProsperoStore) | 506 | C++ | 系统工具 |
 | [MiAuto](https://github.com/Hua2026-ai/MiAuto) | [PiggyBackBayonet/MiAuto](https://github.com/PiggyBackBayonet/MiAuto) | 499 | Kotlin | 车机 / 3D 与设计 |
@@ -740,6 +771,7 @@
 | [YunGet](https://github.com/Hua2026-ai/YunGet) | [jiayuxuan123/YunGet](https://github.com/jiayuxuan123/YunGet) | 356 | Kotlin | 影音 / 下载 |
 | [playport](https://github.com/Hua2026-ai/playport) | [youcci/playport](https://github.com/youcci/playport) | 313 | Kotlin | 车机 / 3D 与设计 |
 | [hideck](https://github.com/Hua2026-ai/hideck) | [yibaiba/hideck](https://github.com/yibaiba/hideck) | 311 | Go | 网络工具 / 代理客户端 |
+| [official-swiplets](https://github.com/Hua2026-ai/official-swiplets) | [swipt-automation/official-swiplets](https://github.com/swipt-automation/official-swiplets) | 241 | TypeScript | 系统工具 |
 | [Hotfix](https://github.com/Hua2026-ai/Hotfix) | [KindleModding/Hotfix](https://github.com/KindleModding/Hotfix) | 233 | Shell | Kindle / 越狱与第三方系统 |
 | [alpine_kindle_kual](https://github.com/Hua2026-ai/alpine_kindle_kual) | [schuhumi/alpine_kindle_kual](https://github.com/schuhumi/alpine_kindle_kual) | 184 | Shell | Kindle / 越狱与第三方系统 |
 | [Fastboot-Kindle](https://github.com/Hua2026-ai/Fastboot-Kindle) | [yifanlu/Fastboot-Kindle](https://github.com/yifanlu/Fastboot-Kindle) | 45 | C | Kindle / 越狱与第三方系统 |
@@ -750,8 +782,8 @@
 | [alpine_kindle](https://github.com/Hua2026-ai/alpine_kindle) | [thomaspreece/alpine_kindle](https://github.com/thomaspreece/alpine_kindle) | 22 | Shell | Kindle / 越狱与第三方系统 |
 | [release-downloader](https://github.com/Hua2026-ai/release-downloader) | [ziyuanhuishequ/release-downloader](https://github.com/ziyuanhuishequ/release-downloader) | 13 | Rust | 系统工具 |
 | [kindle_modding_recovery_project](https://github.com/Hua2026-ai/kindle_modding_recovery_project) | [KindleModding/kindle_modding_recovery_project](https://github.com/KindleModding/kindle_modding_recovery_project) | 2 | C++ | Kindle / 越狱与第三方系统 |
-| [DiPlay-Legacy-Android](https://github.com/Hua2026-ai/DiPlay-Legacy-Android) | [?]() | 0 | Kotlin | 车机 / 3D 与设计 |
-| [vibe-coding-cn](https://github.com/Hua2026-ai/vibe-coding-cn) | [?]() | 0 | Python | 学习 / 资源索引 |
+| [DiPlay-Legacy-Android](https://github.com/Hua2026-ai/DiPlay-Legacy-Android) | [programmerguohuajing/DiPlay-Legacy-Android](https://github.com/programmerguohuajing/DiPlay-Legacy-Android) | 0 | Kotlin | 车机 / 3D 与设计 |
+| [vibe-coding-cn](https://github.com/Hua2026-ai/vibe-coding-cn) | [tradecatlabs/vibe-coding-cn](https://github.com/tradecatlabs/vibe-coding-cn) | 0 | Python | 学习 / 资源索引 |
 | [kindle-paperwhite-display](https://github.com/Hua2026-ai/kindle-paperwhite-display) | [zx85/kindle-paperwhite-display](https://github.com/zx85/kindle-paperwhite-display) | 0 | Shell | Kindle / 越狱与第三方系统 |
 
 ## 说明
@@ -759,7 +791,7 @@
 - 这些都是 fork（备份/收藏性质），不是我本人的原创项目，本账号下唯一的自建仓库是私有的 `test-ai`。
 - 本表按当前 fork 的实际状态生成，仅收录仍存在的仓库；历史清理过的不再列出。
 - 网络代理类项目仅作技术资料归档，实际使用请遵守所在地法律法规与服务商条款，请勿用于任何违法用途。
-- 星标数取自上游仓库，会随时间变化；本表是 2026-11-07 的快照。
+- 星标数取自上游仓库，会随时间变化；本表是 2026-11-09 的快照。
 
 ## 同步上游
 

@@ -444,14 +444,14 @@
   {
     "repo": "Hua2026-ai/DiPlay-Legacy-Android",
     "url": "https://github.com/Hua2026-ai/DiPlay-Legacy-Android",
-    "upstream": "?",
-    "upstream_url": "",
+    "upstream": "programmerguohuajing/DiPlay-Legacy-Android",
+    "upstream_url": "https://github.com/programmerguohuajing/DiPlay-Legacy-Android",
     "stars": 0,
     "language": "Kotlin",
     "homepage": "https://programmerguohuajing.github.io/DiPlay-Legacy-Android/",
     "category": "车机 / 3D 与设计",
     "description": "基于 shihabal3amri/DiPlay 修改，面向低版本 Android 系统与老款 Android 车机兼容",
-    "what_it_does": "基于 shihabal3amri/DiPlay 修改的 Android 车机 CarPlay 接收端，专门兼容低版本 Android 系统与老款车机。此 fork 查询不到 parent 信息，说明依据仓库自述整理。",
+    "what_it_does": "基于 shihabal3amri/DiPlay 修改的 Android 车机 CarPlay 接收端，专门兼容低版本 Android 系统与老款车机。此 fork 查询不到 parent 信息，说明依据仓库自述整理。 2026-11-05 核实：上游仓库已 404（GitHub 仍把它保留为 fork 的 parent / source），目前仅 fork 快照可访问；未确认官方迁移，故 upstream 保持 fork 网络的真实 parent。",
     "forked_at": "2026-10-13"
   },
   {
@@ -548,14 +548,14 @@
   {
     "repo": "Hua2026-ai/vibe-coding-cn",
     "url": "https://github.com/Hua2026-ai/vibe-coding-cn",
-    "upstream": "?",
-    "upstream_url": "",
+    "upstream": "tradecatlabs/vibe-coding-cn",
+    "upstream_url": "https://github.com/tradecatlabs/vibe-coding-cn",
     "stars": 0,
     "language": "Python",
     "homepage": "https://tradecatlabs.com/",
     "category": "学习 / 资源索引",
     "description": "Vibe Coding 从入门到精通教程｜AI 结对编程工作流｜Prompt、Skill、Workflow、上下文管理、codex实战指南",
-    "what_it_does": "Vibe Coding 从入门到精通的中文教程：涵盖 AI 结对编程工作流、Prompt、Skill、Workflow、上下文管理与 codex 实战。fork 自 tradecatlabs/vibe-coding-cn（上游约 17k★）。",
+    "what_it_does": "Vibe Coding 从入门到精通的中文教程：涵盖 AI 结对编程工作流、Prompt、Skill、Workflow、上下文管理与 codex 实战。fork 自 tradecatlabs/vibe-coding-cn（上游约 17k★）。 2026-11-05 核实：上游仓库已 404（GitHub 仍把它保留为 fork 的 parent / source），目前仅 fork 快照可访问；未确认官方迁移，故 upstream 保持 fork 网络的真实 parent。",
     "forked_at": "2026-10-09"
   },
   {
@@ -1068,14 +1068,14 @@
   {
     "repo": "Hua2026-ai/OpenMontage",
     "url": "https://github.com/Hua2026-ai/OpenMontage",
-    "upstream": "calesthio/OpenMontage",
-    "upstream_url": "https://github.com/calesthio/OpenMontage",
-    "stars": 77806,
+    "upstream": "OpenMontageInc/OpenMontage",
+    "upstream_url": "https://github.com/OpenMontageInc/OpenMontage",
+    "stars": 78710,
     "language": "Python",
     "homepage": "https://www.openmontage.video/",
     "category": "AI / 语音与视频生成",
     "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
-    "what_it_does": "开源的「Agentic 视频制作系统」，内置 12 条生产流水线、100+ 工具、700+ Agent 技能与制作知识文件，目标是把 AI 编码助手扩展成一整套视频工作室。",
+    "what_it_does": "开源的「Agentic 视频制作系统」，内置 12 条生产流水线、100+ 工具、700+ Agent 技能与制作知识文件，目标是把 AI 编码助手扩展成一整套视频工作室。 2026-11-09 核实：上游 owner 已由 `calesthio` 迁移至 `OpenMontageInc`（GitHub 自动跟随重定向），现约 78.7k★；**AGPL-3.0** 强 copyleft，商用需评估。",
     "forked_at": "2026-10-02"
   },
   {
@@ -1337,5 +1337,44 @@
     "description": "Fastboot tool for the Kindle",
     "what_it_does": "Kindle 的 fastboot 底层刷机工具（yifanlu 原版），通过串口 / uboot 刷写 diags、kernel 等分区，是真正动底层固件与救砖路径的工具；PW2 需拆机焊 1.8V 串口。注意：仓库**无许可证**（保留所有权利），使用与再分发请自行评估风险；刷错分区会变砖。fork 自 yifanlu/Fastboot-Kindle（上游约 45★）。",
     "forked_at": "2026-11-07"
+  },
+  {
+    "repo": "Hua2026-ai/pinky",
+    "url": "https://github.com/Hua2026-ai/pinky",
+    "upstream": "DIYgod/pinky",
+    "upstream_url": "https://github.com/DIYgod/pinky",
+    "stars": 876,
+    "language": "Go",
+    "homepage": "",
+    "category": "AI / 工具与 MCP",
+    "description": "Let AI agents use your phone, with you in the loop.",
+    "what_it_does": "让任意 AI agent（Claude Code / Claude Desktop / Codex / Cursor 或脚本）通过 **MCP** 操作真实 iPhone / Android，人在电脑上旁观、审批高风险步骤、随时接管并回看全过程；**审批由 Pinky 网关强制执行，不是靠提示词约束 agent**，因此屏幕上的诱导文字也无法让 agent 自我批准。Go 编写，界面用 MyGo 在 GPU 上绘制、无 Electron 无 webview，安装包仅 16–22 MB、空闲约 70 MB 内存 / 0% CPU；支持 macOS（Apple silicon / Intel）、Windows、Linux，手机端 Android 10–17 与 **iPhone iOS 17.4+**（iOS 27+ 免安装、17.4–26 需从 Xcode 装一次 helper）。Settings › Agents 一键接入各类 MCP client，可本机或经 HTTP。安全设计：支付 / 交易 / 转账默认等待点击 Allow，可配置发送、下单、删除、通话、安装、外链、设置变更也需审批（10 种语言识别按钮）；银行 / 钱包 / 密码管理器 App 对 agent 默认不可见，密码与一次性验证码字段禁止输入，每个新 agent 需单独批准且只拿到授权范围；锁屏 PIN 只存 Pinky，每次解锁需 Touch ID / Windows Hello / keyring 确认，agent 看不到。Android 13+ 可用隐藏第二屏幕，主屏仍归用户；点镜像即接管并暂停 agent，全局停止 ⌥⌘.（Win/Linux Ctrl+Alt+.）；每次运行留步骤文字、截图与带步骤标记的录屏，可导出 HTML，数据全留本机。**Apache-2.0**；2026-11-06 建，2026-11-09 仍有提交，876★ / 70 fork / 11 open issue。⚠️ **本机适配结论见 `Pinky-iPhone13ProMax适配评估.md`：你的 iPhone 13 Pro Max 是 iOS 16.4，Pinky 不可用且无法绕过**——官方 `README.md:142/:180` 明确「iOS 17.3 and earlier are not supported」，17.4 前连接需管理员权限、iOS 16 及更早需当前 Xcode 已不再附带的 DDI；升 macOS / 装 Xcode 27 / 换镜像 DDI 均无效，且 Apple 升级后不可降级、iOS 16 已停签。替代路线是 WDA 系 `mobile-next/mobile-mcp`，或直接用 Android 设备体验其审批模型。⚠️ 高权限工具：能读屏、点击、操作支付与账号，务必只用可信 agent 并逐条审阅审批。",
+    "forked_at": "2026-11-09"
+  },
+  {
+    "repo": "Hua2026-ai/official-swiplets",
+    "url": "https://github.com/Hua2026-ai/official-swiplets",
+    "upstream": "swipt-automation/official-swiplets",
+    "upstream_url": "https://github.com/swipt-automation/official-swiplets",
+    "stars": 241,
+    "language": "TypeScript",
+    "homepage": "",
+    "category": "系统工具",
+    "description": "Official Swiplets for Swipt",
+    "what_it_does": "**Swipt 官方插件（Swiplet）集合**，本体是 `swipt-automation/swipt`（★353 / Go / universal iOS automation platform），本仓库不含本体、README 为空，只有三个插件目录，每个含 `src/`、`locales.json`、`package.json`、`tsconfig.json`：`skip-chinese-ads`（跳国内 App 开屏广告）、`simulate-location`（模拟定位）、`switch-app-store-account`（切换 App Store 账号）。TypeScript + Bun（`bun.lock`）。**许可为 GPL-3.0-or-later 加附加条款**：`LICENSE` 明确「衍生作品未经事先同意不得使用本应用名称或暗示关联」，GitHub API 因此报 `NOASSERTION`；衍生分发须同协议开源。2026-11-05 建，241★ / 11 fork / 6 open issue，2026-11-08 仍有提交。⚠️ 之前 `iOS16.4-跳开屏广告方案评估.md` 已把它列入**明确排除项**：需 Swipt 本体，且源码有 **iOS 17.4+ 硬门槛**，你的 iOS 16.4 设备不适用；该报告给出的可行路线是纯域名级规则订阅（`huijingfei/Shadowrocket-Rules` 的 `sr_app_ad.module`），不依赖 MITM 与开发者服务。⚠️ 模拟定位、切换 App Store 账号可能违反相关服务条款；这类插件依赖 iOS 自动化高权限，注意账号与设备风险。",
+    "forked_at": "2026-11-09"
+  },
+  {
+    "repo": "Hua2026-ai/MarcoMovie",
+    "url": "https://github.com/Hua2026-ai/MarcoMovie",
+    "upstream": "Pilipala9919/MarcoMovie",
+    "upstream_url": "https://github.com/Pilipala9919/MarcoMovie",
+    "stars": 591,
+    "language": "Java",
+    "homepage": "",
+    "category": "影音 / 下载",
+    "description": "由 Pilipala 开发的 Android 电视播放器。仅提供工具，不含影视资源；内容和配置由用户自行合法获取。",
+    "what_it_does": "Pilipala 开发的 **Marco Movie 多端影视播放器**，README 明确支持 Android 电视 / 手机 / 平板及 Windows / macOS / iOS 自适应。Java 实现，**GPL-3.0**；591★ / 46 fork / 21 open issue，2026-11-09 仍有提交，维护活跃。⚠️ 官方反复声明「仅提供工具、不含影视资源，内容和配置由用户自行合法获取」——属于典型的第三方播放器外壳，播放源合规性完全由使用者负责；请只用于自己有权访问的内容，并遵守所在地法规与平台服务条款。",
+    "forked_at": "2026-11-09"
   }
 ]
