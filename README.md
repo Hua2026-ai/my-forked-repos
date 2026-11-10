@@ -1,11 +1,11 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **107** 个 fork，上游合计约 **3,014,551** star。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **108** 个 fork，上游合计约 **3,016,378** star。
 > 最后更新：2026-11-10。本文只做归档与说明，版权与所有权归各自上游作者。
 
 ## 一句话概览
 
-这 107 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
+这 108 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
 其次是**中文学习与资源索引**、**车机 CarPlay 与 3D 设计**、**Telegram 导航**，
 另有少量代理客户端、影视资源，以及 Kindle 越狱与第三方系统相关的归档。
 
@@ -14,19 +14,19 @@
 
 #### [VoiceStudio](https://github.com/Hua2026-ai/VoiceStudio)
 
-- **上游**：[debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) · ⭐ 106,170 · 语言 Python · [官网/主页](https://voicestudio.sh) · fork 于 2026-09-27
+- **上游**：[debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) · ⭐ 106,173 · 语言 Python · [官网/主页](https://voicestudio.sh) · fork 于 2026-09-27
 - **作用**：完全本地运行的语音工作台：声音克隆、语音设计、视频配音、听写、转写、有声书制作，官方称支持 646 种语言。可以理解为 ElevenLabs 的开源自托管替代品。
 - **官方描述**：VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
 
 #### [OpenMontage](https://github.com/Hua2026-ai/OpenMontage)
 
-- **上游**：[OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage) · ⭐ 79,115 · 语言 Python · [官网/主页](https://www.openmontage.video/) · fork 于 2026-10-02
+- **上游**：[OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage) · ⭐ 79,116 · 语言 Python · [官网/主页](https://www.openmontage.video/) · fork 于 2026-10-02
 - **作用**：开源的「Agentic 视频制作系统」，内置 12 条生产流水线、100+ 工具、700+ Agent 技能与制作知识文件，目标是把 AI 编码助手扩展成一整套视频工作室。 2026-11-09 核实：上游 owner 已由 `calesthio` 迁移至 `OpenMontageInc`（GitHub 自动跟随重定向），现约 78.7k★；**AGPL-3.0** 强 copyleft，商用需评估。
 - **官方描述**：World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.
 
 #### [VoxCPM](https://github.com/Hua2026-ai/VoxCPM)
 
-- **上游**：[OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) · ⭐ 42,115 · 语言 Python · [官网/主页](https://voxcpm.com) · fork 于 2026-10-14
+- **上游**：[OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) · ⭐ 42,117 · 语言 Python · [官网/主页](https://voxcpm.com) · fork 于 2026-10-14
 - **作用**：VoxCPM2：无 tokenizer 的多语种语音生成模型，支持创意音色设计与高保真声音克隆（面壁智能 OpenBMB）。Apache-2.0。fork 自 OpenBMB/VoxCPM（上游约 41.1k★）。
 - **官方描述**：VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning
 
@@ -76,7 +76,7 @@
 
 #### [rea](https://github.com/Hua2026-ai/rea)
 
-- **上游**：[morluto/rea](https://github.com/morluto/rea) · ⭐ 446,957 · 语言 TypeScript · [官网/主页](https://rea.tools) · fork 于 2026-10-09
+- **上游**：[morluto/rea](https://github.com/morluto/rea) · ⭐ 446,970 · 语言 TypeScript · [官网/主页](https://rea.tools) · fork 于 2026-10-09
 - **作用**：借助智能体对任意目标做逆向工程：从应用行为一路追到原生二进制层。fork 自 morluto/rea（上游约 35k★）。
 - **官方描述**：Reverse engineer anything with agents, from app behavior down to native binaries.
 
@@ -94,7 +94,7 @@
 
 #### [Agent-Reach](https://github.com/Hua2026-ai/Agent-Reach)
 
-- **上游**：[Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) · ⭐ 110,620 · 语言 Python · fork 于 2026-10-08
+- **上游**：[Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) · ⭐ 110,622 · 语言 Python · fork 于 2026-10-08
 - **作用**：给 AI 智能体装上一双「看遍全网」的眼睛：一个 CLI 即可免 API 费用地阅读与搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书等。fork 自 Panniantong/Agent-Reach（上游约 93k★）。
 - **官方描述**：Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
 
@@ -118,31 +118,31 @@
 
 #### [hypit](https://github.com/Hua2026-ai/hypit)
 
-- **上游**：[hypit-ai/hypit](https://github.com/hypit-ai/hypit) · ⭐ 28,801 · 语言 TypeScript · [官网/主页](https://hypit.ai) · fork 于 2026-10-08
+- **上游**：[hypit-ai/hypit](https://github.com/hypit-ai/hypit) · ⭐ 28,802 · 语言 TypeScript · [官网/主页](https://hypit.ai) · fork 于 2026-10-08
 - **作用**：用 AI 智能体克隆爆款视频：不只是脚本，而是整套工作流——换脸、换词、换 B-roll，一条命令产出上百个变体。注意：许可证为 **NOASSERTION（未明确标准许可证）**，且涉及换脸/二创，请合规使用、尊重肖像权与版权。fork 自 hypit-ai/hypit（上游约 20.5k★）。
 - **官方描述**：Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.
 
 #### [craft-anything](https://github.com/Hua2026-ai/craft-anything)
 
-- **上游**：[storytold/craft-anything](https://github.com/storytold/craft-anything) · ⭐ 24,466 · 语言 Rust · fork 于 2026-11-06
+- **上游**：[storytold/craft-anything](https://github.com/storytold/craft-anything) · ⭐ 24,475 · 语言 Rust · fork 于 2026-11-06
 - **作用**：「Craft Anything」：理解任意软件的工作原理，并据此自己造一个（Rust）。Apache-2.0。fork 自 storytold/craft-anything（上游约 18.5k★）。
 - **官方描述**：Craft Anything: understand how any software works, and craft your own.
 
 #### [moli](https://github.com/Hua2026-ai/moli)
 
-- **上游**：[lexmount/moli](https://github.com/lexmount/moli) · ⭐ 23,168 · 语言 Rust · [官网/主页](https://browser.lexmount.com) · fork 于 2026-10-06
+- **上游**：[lexmount/moli](https://github.com/lexmount/moli) · ⭐ 23,167 · 语言 Rust · [官网/主页](https://browser.lexmount.com) · fork 于 2026-10-06
 - **作用**：为 AI 智能体打造的**无头浏览器**：轻量、快速、高兼容，Rust 编写，主页 browser.lexmount.com。fork 自 lexmount/moli（上游约 12.6k★）。
 - **官方描述**：Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust
 
 #### [agent-desktop](https://github.com/Hua2026-ai/agent-desktop)
 
-- **上游**：[vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) · ⭐ 20,460 · 语言 Rust · [官网/主页](https://agent-browser.dev/desktop) · fork 于 2026-11-10
+- **上游**：[vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) · ⭐ 20,464 · 语言 Rust · [官网/主页](https://agent-browser.dev/desktop) · fork 于 2026-11-10
 - **作用**：Vercel Labs 出品的桌面 Computer use CLI：读取 macOS / Windows / Linux 应用的无障碍树（accessibility tree）并返回 JSON，每个可操作元素带 ref，Agent 用 ref 点击/输入、再快照验证，循环由 Agent 侧驱动，无截图、无像素匹配，模型不在其中；npm / Homebrew 安装，附带 C 库与原生二进制。Apache-2.0。fork 自 vercel-labs/agent-desktop（上游约 20.5k★）。
 - **官方描述**：Computer use CLI for AI agents
 
 #### [OpenMausBot](https://github.com/Hua2026-ai/OpenMausBot)
 
-- **上游**：[milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) · ⭐ 19,668 · 语言 TypeScript · [官网/主页](https://www.openmausbot.com/) · fork 于 2026-11-04
+- **上游**：[milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) · ⭐ 19,674 · 语言 TypeScript · [官网/主页](https://www.openmausbot.com/) · fork 于 2026-11-04
 - **作用**：开源版 Grok Bot 替代方案，附带可供机器人使用的虚拟机。Apache-2.0。fork 自 milind-soni/OpenMausBot（上游约 15.6k★）。
 - **官方描述**：Open-source Grok Bot alternative with a virtual machine that bots can use
 
@@ -166,7 +166,7 @@
 
 #### [Windows-MCP](https://github.com/Hua2026-ai/Windows-MCP)
 
-- **上游**：[CursorTouch/Windows-MCP](https://github.com/CursorTouch/Windows-MCP) · ⭐ 11,417 · 语言 Python · fork 于 2026-10-16
+- **上游**：[CursorTouch/Windows-MCP](https://github.com/CursorTouch/Windows-MCP) · ⭐ 11,419 · 语言 Python · fork 于 2026-10-16
 - **作用**：面向 Windows 的 MCP Server，让大模型直接操作本机电脑（Computer Use）。MIT。fork 自 CursorTouch/Windows-MCP（上游约 11.2k★）。
 - **官方描述**：MCP Server for Computer Use in Windows
 
@@ -184,7 +184,7 @@
 
 #### [Mika](https://github.com/Hua2026-ai/Mika)
 
-- **上游**：[wangzan101/Mika](https://github.com/wangzan101/Mika) · ⭐ 7,910 · 语言 Kotlin · fork 于 2026-11-05
+- **上游**：[wangzan101/Mika](https://github.com/wangzan101/Mika) · ⭐ 7,911 · 语言 Kotlin · fork 于 2026-11-05
 - **作用**：运行在安卓设备本地的 AI Agent，可代替用户操作 App 与网页完成任务（Kotlin）。Apache-2.0。fork 自 wangzan101/Mika（上游约 7.4k★）。
 - **官方描述**：An on-device AI agent for Android that operates apps and the web to get things done for you.
 
@@ -202,7 +202,7 @@
 
 #### [dsh-im](https://github.com/Hua2026-ai/dsh-im)
 
-- **上游**：[xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) · ⭐ 3,420 · 语言 JavaScript · fork 于 2026-10-07
+- **上游**：[xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) · ⭐ 3,421 · 语言 JavaScript · fork 于 2026-10-07
 - **作用**：把 IM 机器人接入 DeepSeek Harness 的桥接工具：通过扫码或机器人凭据即可对接飞书、微信、钉钉、企业微信、QQ、Slack、Telegram、Discord、WhatsApp 共 9 个渠道。fork 自 xmanrui/dsh-im（上游约 1.7k★）。
 - **官方描述**：通过扫码或机器人凭据把IM机器人接入DeepSeek Harness（支持飞书、微信、钉钉、企业微信、QQ、Slack、Telegram、Discord和WhatsApp）。 Connect IM bots to DeepSeek Harness via QR code or credentials (9 channels).
 
@@ -275,7 +275,7 @@
 
 #### [geo-sleuth](https://github.com/Hua2026-ai/geo-sleuth)
 
-- **上游**：[Oldcircle/geo-sleuth](https://github.com/Oldcircle/geo-sleuth) · ⭐ 6,718 · 语言 Python · fork 于 2026-11-05
+- **上游**：[Oldcircle/geo-sleuth](https://github.com/Oldcircle/geo-sleuth) · ⭐ 6,719 · 语言 Python · fork 于 2026-11-05
 - **作用**：地理定位 Agent Skill：根据照片推断拍摄地点，结合 OpenStreetMap 几何、海拔山脊线、卫星图与街景，并展示推理过程；兼容 Claude Code / Codex / Cursor / Gemini CLI 等。MIT。注意：属 OSINT 双用途工具，仅可用于合法授权场景，注意他人隐私与所在地法律。fork 自 Oldcircle/geo-sleuth（上游约 6.3k★）。
 - **官方描述**：An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode and GitHub Copilot.
 
@@ -338,7 +338,7 @@
 
 #### [MarcoMovie](https://github.com/Hua2026-ai/MarcoMovie)
 
-- **上游**：[Pilipala9919/MarcoMovie](https://github.com/Pilipala9919/MarcoMovie) · ⭐ 656 · 语言 Java · fork 于 2026-11-09
+- **上游**：[Pilipala9919/MarcoMovie](https://github.com/Pilipala9919/MarcoMovie) · ⭐ 657 · 语言 Java · fork 于 2026-11-09
 - **作用**：Pilipala 开发的 **Marco Movie 多端影视播放器**，README 明确支持 Android 电视 / 手机 / 平板及 Windows / macOS / iOS 自适应。Java 实现，**GPL-3.0**；591★ / 46 fork / 21 open issue，2026-11-09 仍有提交，维护活跃。⚠️ 官方反复声明「仅提供工具、不含影视资源，内容和配置由用户自行合法获取」——属于典型的第三方播放器外壳，播放源合规性完全由使用者负责；请只用于自己有权访问的内容，并遵守所在地法规与平台服务条款。
 - **官方描述**：由 Pilipala 开发的 Android 电视播放器。仅提供工具，不含影视资源；内容和配置由用户自行合法获取。
 
@@ -358,7 +358,7 @@
 
 #### [awesome](https://github.com/Hua2026-ai/awesome)
 
-- **上游**：[sindresorhus/awesome](https://github.com/sindresorhus/awesome) · ⭐ 534,273 · 语言 - · fork 于 2026-07-25
+- **上游**：[sindresorhus/awesome](https://github.com/sindresorhus/awesome) · ⭐ 534,274 · 语言 - · fork 于 2026-07-25
 - **作用**：Awesome 系列清单的总索引，几乎所有「xxx awesome list」都能从这里顺藤摸瓜找到。
 - **官方描述**：😎 Awesome lists about all kinds of interesting topics
 
@@ -382,7 +382,7 @@
 
 #### [HowToLiveBetter](https://github.com/Hua2026-ai/HowToLiveBetter)
 
-- **上游**：[eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) · ⭐ 74,601 · 语言 HTML · [官网/主页](https://eternity4719.github.io/HowToLiveBetter/) · fork 于 2026-09-24
+- **上游**：[eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) · ⭐ 74,602 · 语言 HTML · [官网/主页](https://eternity4719.github.io/HowToLiveBetter/) · fork 于 2026-09-24
 - **作用**：按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业工伤、医保社保、恋爱婚育、怀孕育儿、创业合规、出国与技能。每条都标注成本、收益、证据等级和原始出处，只引用期刊论文与官方文件。
 - **官方描述**：按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。
 
@@ -438,12 +438,12 @@
 
 #### [floorplan-3d](https://github.com/Hua2026-ai/floorplan-3d)
 
-- **上游**：[wy51ai/floorplan-3d](https://github.com/wy51ai/floorplan-3d) · ⭐ 3,651 · 语言 HTML · fork 于 2026-09-29
+- **上游**：[wy51ai/floorplan-3d](https://github.com/wy51ai/floorplan-3d) · ⭐ 3,652 · 语言 HTML · fork 于 2026-09-29
 - **作用**：纯前端的户型装修设计工具：2D 平面图上摆家具、拆改墙体、量尺寸，一键切到 Three.js 3D 场景，可鸟瞰也可第一人称漫游；整个应用只有一个 index.html，无需构建。上游 README 无描述，此说明依据其 README 整理。
 
 #### [3d-model-anything](https://github.com/Hua2026-ai/3d-model-anything)
 
-- **上游**：[wesbos/3d-model-anything](https://github.com/wesbos/3d-model-anything) · ⭐ 2,916 · 语言 Swift · [官网/主页](https://wesbos.github.io/3d-model-anything/) · fork 于 2026-10-24
+- **上游**：[wesbos/3d-model-anything](https://github.com/wesbos/3d-model-anything) · ⭐ 2,917 · 语言 Swift · [官网/主页](https://wesbos.github.io/3d-model-anything/) · fork 于 2026-10-24
 - **作用**：用 iPhone LiDAR 与照片采集空间，重建为可在浏览器里浏览、可编辑的 Three.js 房间（Swift）。注意：许可证为 NOASSERTION（未明确标准许可证），使用前请自行评估。fork 自 wesbos/3d-model-anything（上游约 2.8k★）。
 - **官方描述**：Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser.
 
@@ -485,11 +485,11 @@
 - **作用**：上万条 Telegram 群组 / 频道的导航合集，附带各类机器人推荐，站点 tg10000.com。
 - **官方描述**：2026最新悄咪咪收集的10000+个Telegram群合集、tg导航，附全网最有趣好用的机器人BOT🤖【tg10000.com】
 
-### 系统工具（20）
+### 系统工具（21）
 
 #### [Win11Debloat](https://github.com/Hua2026-ai/Win11Debloat)
 
-- **上游**：[Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) · ⭐ 62,241 · 语言 PowerShell · fork 于 2026-10-09
+- **上游**：[Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) · ⭐ 62,242 · 语言 PowerShell · fork 于 2026-10-09
 - **作用**：轻量 PowerShell 脚本，一键移除 Win10/Win11 预装应用、关闭遥测并做其它去臃肿/定制改动。fork 自 Raphire/Win11Debloat（上游约 59k★）。
 - **官方描述**：A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.
 
@@ -501,13 +501,13 @@
 
 #### [DroidDeck](https://github.com/Hua2026-ai/DroidDeck)
 
-- **上游**：[Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) · ⭐ 19,046 · 语言 Kotlin · fork 于 2026-10-27
+- **上游**：[Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) · ⭐ 19,047 · 语言 Kotlin · fork 于 2026-10-27
 - **作用**：把 SteamOS 的界面与体验搬到 Android 设备（Kotlin）。GPL-3.0。fork 自 Droid-Deck/DroidDeck（上游约 18.3k★）。
 - **官方描述**：DroidDeck brings the SteamOS experience to Android
 
 #### [gpu-unlock](https://github.com/Hua2026-ai/gpu-unlock)
 
-- **上游**：[Zagitta/gpu-unlock](https://github.com/Zagitta/gpu-unlock) · ⭐ 18,387 · 语言 C · fork 于 2026-10-26
+- **上游**：[Zagitta/gpu-unlock](https://github.com/Zagitta/gpu-unlock) · ⭐ 18,388 · 语言 C · fork 于 2026-10-26
 - **作用**：解锁 NVIDIA RTX 30 系消费卡的 FP16/BF16 指令吞吐，使其接近同代专业卡（C，需配合特定驱动）。注意：仓库**无许可证**（保留所有权利），使用与再分发请自行评估风险；改动驱动可能违反厂商条款。fork 自 Zagitta/gpu-unlock（上游约 17.6k★）。
 - **官方描述**：Unlock FP/BF16 instruction issue rate on Nvidia 3000's cards to their professional equivalents
 
@@ -519,7 +519,7 @@
 
 #### [android-ad-cleaner](https://github.com/Hua2026-ai/android-ad-cleaner)
 
-- **上游**：[rddmwmddr/android-ad-cleaner](https://github.com/rddmwmddr/android-ad-cleaner) · ⭐ 7,249 · 语言 Python · fork 于 2026-10-26
+- **上游**：[rddmwmddr/android-ad-cleaner](https://github.com/rddmwmddr/android-ad-cleaner) · ⭐ 7,251 · 语言 Python · fork 于 2026-10-26
 - **作用**：关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送；不 root、可还原，支持 AI 智能体一键执行。MIT。fork 自 rddmwmddr/android-ad-cleaner（上游约 6.8k★）。
 - **官方描述**：关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。
 
@@ -546,6 +546,12 @@
 - **上游**：[joshuaswarren/omarchy-apple-dev](https://github.com/joshuaswarren/omarchy-apple-dev) · ⭐ 1,848 · 语言 Python · fork 于 2026-10-16
 - **作用**：在任意 PC（x86_64 或 Apple Silicon）的 Omarchy Linux 上构建并部署 iOS SwiftUI 应用，无需 Xcode。MIT。fork 自 joshuaswarren/omarchy-apple-dev（上游约 1.8k★）。
 - **官方描述**：Build and deploy iOS SwiftUI apps from Omarchy Linux on any PC (x86_64 or Apple Silicon), no Xcode required
+
+#### [S2Arm](https://github.com/Hua2026-ai/S2Arm)
+
+- **上游**：[jhaizhou-ops/S2Arm](https://github.com/jhaizhou-ops/S2Arm) · ⭐ 1,772 · 语言 C# · [官网/主页](https://jhaizhou-ops.github.io/S2Arm/) · fork 于 2026-11-10
+- **作用**：把自带的 Switch 游戏原生移植到 iPhone / iPad / Mac 的工具链，**不是模拟器**：构建期把游戏自身的 ARM64 代码重写后直接跑在设备 CPU 上，图形调用直转 Metal，系统服务复用 Ryujinx 兼容层；一个 App 装下整个游戏库。Mac / Windows 图形化 launcher 三步完成导入→构建→签名安装，并提供 `s2armctl` 控制接口让 AI 助手接管全流程（含自检自修复与诊断包）。要求 iOS/iPadOS 18+、Apple silicon macOS 15+，仅支持 64 位 AArch64 游戏。Apache-2.0，2026-11-08 新建两天涨到约 1.8k★。⚠️ 项目不附带游戏与密钥、要求自带**合法取得**的游戏文件，与 Nintendo 无隶属关系；使用需自行评估游戏版权与密钥来源的合规性。
+- **官方描述**：Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。
 
 #### [playgta5](https://github.com/Hua2026-ai/playgta5)
 
@@ -673,35 +679,35 @@
 
 | 仓库 | 上游 | ⭐ | 语言 | 分类 |
 | --- | --- | --- | --- | --- |
-| [awesome](https://github.com/Hua2026-ai/awesome) | [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 534,273 | - | 学习 / 资源索引 |
-| [rea](https://github.com/Hua2026-ai/rea) | [morluto/rea](https://github.com/morluto/rea) | 446,957 | TypeScript | AI / 工具与 MCP |
+| [awesome](https://github.com/Hua2026-ai/awesome) | [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 534,274 | - | 学习 / 资源索引 |
+| [rea](https://github.com/Hua2026-ai/rea) | [morluto/rea](https://github.com/morluto/rea) | 446,970 | TypeScript | AI / 工具与 MCP |
 | [opencode](https://github.com/Hua2026-ai/opencode) | [anomalyco/opencode](https://github.com/anomalyco/opencode) | 225,678 | TypeScript | AI / 工具与 MCP |
 | [HelloGitHub](https://github.com/Hua2026-ai/HelloGitHub) | [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) | 187,828 | Python | 学习 / 资源索引 |
 | [claude-mem](https://github.com/Hua2026-ai/claude-mem) | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 115,397 | TypeScript | AI / 工具与 MCP |
-| [Agent-Reach](https://github.com/Hua2026-ai/Agent-Reach) | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 110,620 | Python | AI / 工具与 MCP |
-| [VoiceStudio](https://github.com/Hua2026-ai/VoiceStudio) | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 106,170 | Python | AI / 语音与视频生成 |
+| [Agent-Reach](https://github.com/Hua2026-ai/Agent-Reach) | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 110,622 | Python | AI / 工具与 MCP |
+| [VoiceStudio](https://github.com/Hua2026-ai/VoiceStudio) | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 106,173 | Python | AI / 语音与视频生成 |
 | [HowToCook](https://github.com/Hua2026-ai/HowToCook) | [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) | 103,764 | - | 学习 / 资源索引 |
 | [ChinaTextbook](https://github.com/Hua2026-ai/ChinaTextbook) | [TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook) | 84,293 | Roff | 学习 / 资源索引 |
-| [OpenMontage](https://github.com/Hua2026-ai/OpenMontage) | [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage) | 79,115 | Python | AI / 语音与视频生成 |
-| [HowToLiveBetter](https://github.com/Hua2026-ai/HowToLiveBetter) | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | 74,601 | HTML | 学习 / 资源索引 |
+| [OpenMontage](https://github.com/Hua2026-ai/OpenMontage) | [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage) | 79,116 | Python | AI / 语音与视频生成 |
+| [HowToLiveBetter](https://github.com/Hua2026-ai/HowToLiveBetter) | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | 74,602 | HTML | 学习 / 资源索引 |
 | [up](https://github.com/Hua2026-ai/up) | [byoungd/up](https://github.com/byoungd/up) | 70,317 | JavaScript | 学习 / 资源索引 |
-| [Win11Debloat](https://github.com/Hua2026-ai/Win11Debloat) | [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) | 62,241 | PowerShell | 系统工具 |
+| [Win11Debloat](https://github.com/Hua2026-ai/Win11Debloat) | [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) | 62,242 | PowerShell | 系统工具 |
 | [cleanyourtv](https://github.com/Hua2026-ai/cleanyourtv) | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | 55,465 | Java | 系统工具 |
 | [freellmapi](https://github.com/Hua2026-ai/freellmapi) | [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) | 49,747 | TypeScript | AI / 工具与 MCP |
 | [cobalt](https://github.com/Hua2026-ai/cobalt) | [imputnet/cobalt](https://github.com/imputnet/cobalt) | 45,949 | Svelte | 影音 / 下载 |
-| [VoxCPM](https://github.com/Hua2026-ai/VoxCPM) | [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) | 42,115 | Python | AI / 语音与视频生成 |
+| [VoxCPM](https://github.com/Hua2026-ai/VoxCPM) | [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) | 42,117 | Python | AI / 语音与视频生成 |
 | [everyone-can-use-english](https://github.com/Hua2026-ai/everyone-can-use-english) | [ZuodaoTech/everyone-can-use-english](https://github.com/ZuodaoTech/everyone-can-use-english) | 39,606 | TypeScript | 学习 / 资源索引 |
 | [ai-website-cloner-template](https://github.com/Hua2026-ai/ai-website-cloner-template) | [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) | 38,919 | TypeScript | AI / 工具与 MCP |
 | [knowledge-work-plugins](https://github.com/Hua2026-ai/knowledge-work-plugins) | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | 35,274 | Python | AI / 工具与 MCP |
 | [koreader](https://github.com/Hua2026-ai/koreader) | [koreader/koreader](https://github.com/koreader/koreader) | 31,005 | Lua | Kindle / 越狱与第三方系统 |
-| [hypit](https://github.com/Hua2026-ai/hypit) | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 28,801 | TypeScript | AI / 工具与 MCP |
-| [craft-anything](https://github.com/Hua2026-ai/craft-anything) | [storytold/craft-anything](https://github.com/storytold/craft-anything) | 24,466 | Rust | AI / 工具与 MCP |
-| [moli](https://github.com/Hua2026-ai/moli) | [lexmount/moli](https://github.com/lexmount/moli) | 23,168 | Rust | AI / 工具与 MCP |
-| [agent-desktop](https://github.com/Hua2026-ai/agent-desktop) | [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) | 20,460 | Rust | AI / 工具与 MCP |
-| [OpenMausBot](https://github.com/Hua2026-ai/OpenMausBot) | [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | 19,668 | TypeScript | AI / 工具与 MCP |
-| [DroidDeck](https://github.com/Hua2026-ai/DroidDeck) | [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) | 19,046 | Kotlin | 系统工具 |
+| [hypit](https://github.com/Hua2026-ai/hypit) | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 28,802 | TypeScript | AI / 工具与 MCP |
+| [craft-anything](https://github.com/Hua2026-ai/craft-anything) | [storytold/craft-anything](https://github.com/storytold/craft-anything) | 24,475 | Rust | AI / 工具与 MCP |
+| [moli](https://github.com/Hua2026-ai/moli) | [lexmount/moli](https://github.com/lexmount/moli) | 23,167 | Rust | AI / 工具与 MCP |
+| [agent-desktop](https://github.com/Hua2026-ai/agent-desktop) | [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) | 20,464 | Rust | AI / 工具与 MCP |
+| [OpenMausBot](https://github.com/Hua2026-ai/OpenMausBot) | [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | 19,674 | TypeScript | AI / 工具与 MCP |
+| [DroidDeck](https://github.com/Hua2026-ai/DroidDeck) | [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) | 19,047 | Kotlin | 系统工具 |
 | [lingbot-map](https://github.com/Hua2026-ai/lingbot-map) | [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map) | 18,592 | Python | 车机 / 3D 与设计 |
-| [gpu-unlock](https://github.com/Hua2026-ai/gpu-unlock) | [Zagitta/gpu-unlock](https://github.com/Zagitta/gpu-unlock) | 18,387 | C | 系统工具 |
+| [gpu-unlock](https://github.com/Hua2026-ai/gpu-unlock) | [Zagitta/gpu-unlock](https://github.com/Zagitta/gpu-unlock) | 18,388 | C | 系统工具 |
 | [huobao-drama](https://github.com/Hua2026-ai/huobao-drama) | [chatfire-AI/huobao-drama](https://github.com/chatfire-AI/huobao-drama) | 17,182 | Vue | AI / 语音与视频生成 |
 | [peach](https://github.com/Hua2026-ai/peach) | [peach-mitao/peach](https://github.com/peach-mitao/peach) | 14,733 | Python | 影音 / 下载 |
 | [DiPlay](https://github.com/Hua2026-ai/DiPlay) | [shihabal3amri/DiPlay](https://github.com/shihabal3amri/DiPlay) | 13,530 | Kotlin | 车机 / 3D 与设计 |
@@ -710,18 +716,18 @@
 | [Octop](https://github.com/Hua2026-ai/Octop) | [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 11,812 | Python | AI / 工具与 MCP |
 | [Wan2GP](https://github.com/Hua2026-ai/Wan2GP) | [deepbeepmeep/WanGP](https://github.com/deepbeepmeep/WanGP) | 11,552 | Python | AI / 语音与视频生成 |
 | [kimi-k3-in-c](https://github.com/Hua2026-ai/kimi-k3-in-c) | [FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c) | 11,483 | C | AI / 工具与 MCP |
-| [Windows-MCP](https://github.com/Hua2026-ai/Windows-MCP) | [CursorTouch/Windows-MCP](https://github.com/CursorTouch/Windows-MCP) | 11,417 | Python | AI / 工具与 MCP |
+| [Windows-MCP](https://github.com/Hua2026-ai/Windows-MCP) | [CursorTouch/Windows-MCP](https://github.com/CursorTouch/Windows-MCP) | 11,419 | Python | AI / 工具与 MCP |
 | [clash](https://github.com/Hua2026-ai/clash) | [clashbk/clash](https://github.com/clashbk/clash) | 11,164 | - | 网络工具 / 代理客户端 |
 | [mobile-mcp](https://github.com/Hua2026-ai/mobile-mcp) | [mobile-next/mobile-mcp](https://github.com/mobile-next/mobile-mcp) | 10,441 | TypeScript | AI / 工具与 MCP |
 | [cindy](https://github.com/Hua2026-ai/cindy) | [makecindy/cindy](https://github.com/makecindy/cindy) | 9,651 | TypeScript | AI / 工具与 MCP |
 | [goutoujunshi](https://github.com/Hua2026-ai/goutoujunshi) | [shengjidaguai-china/goutoujunshi](https://github.com/shengjidaguai-china/goutoujunshi) | 9,467 | Python | AI / 语音与视频生成 |
 | [rectg](https://github.com/Hua2026-ai/rectg) | [rooktwo/rectg](https://github.com/rooktwo/rectg) | 9,380 | Python | Telegram 导航 |
 | [CyberStrikeAI](https://github.com/Hua2026-ai/CyberStrikeAI) | [AIPentest/CyberStrikeAI](https://github.com/AIPentest/CyberStrikeAI) | 8,516 | Go | 安全 / OSINT 工具 |
-| [Mika](https://github.com/Hua2026-ai/Mika) | [wangzan101/Mika](https://github.com/wangzan101/Mika) | 7,910 | Kotlin | AI / 工具与 MCP |
+| [Mika](https://github.com/Hua2026-ai/Mika) | [wangzan101/Mika](https://github.com/wangzan101/Mika) | 7,911 | Kotlin | AI / 工具与 MCP |
 | [qingjian](https://github.com/Hua2026-ai/qingjian) | [qingjian-team/qingjian](https://github.com/qingjian-team/qingjian) | 7,721 | Rust | 系统工具 |
 | [boxplayer](https://github.com/Hua2026-ai/boxplayer) | [gaozhangmin/boxplayer](https://github.com/gaozhangmin/boxplayer) | 7,627 | TypeScript | 影音 / 下载 |
-| [android-ad-cleaner](https://github.com/Hua2026-ai/android-ad-cleaner) | [rddmwmddr/android-ad-cleaner](https://github.com/rddmwmddr/android-ad-cleaner) | 7,249 | Python | 系统工具 |
-| [geo-sleuth](https://github.com/Hua2026-ai/geo-sleuth) | [Oldcircle/geo-sleuth](https://github.com/Oldcircle/geo-sleuth) | 6,718 | Python | 安全 / OSINT 工具 |
+| [android-ad-cleaner](https://github.com/Hua2026-ai/android-ad-cleaner) | [rddmwmddr/android-ad-cleaner](https://github.com/rddmwmddr/android-ad-cleaner) | 7,251 | Python | 系统工具 |
+| [geo-sleuth](https://github.com/Hua2026-ai/geo-sleuth) | [Oldcircle/geo-sleuth](https://github.com/Oldcircle/geo-sleuth) | 6,719 | Python | 安全 / OSINT 工具 |
 | [TelegramGroup](https://github.com/Hua2026-ai/TelegramGroup) | [itgoyo/TelegramGroup](https://github.com/itgoyo/TelegramGroup) | 6,470 | - | Telegram 导航 |
 | [SenseNova-Skills](https://github.com/Hua2026-ai/SenseNova-Skills) | [OpenSenseNova/SenseNova-Skills](https://github.com/OpenSenseNova/SenseNova-Skills) | 6,056 | JavaScript | AI / 语音与视频生成 |
 | [bloodborne_pc](https://github.com/Hua2026-ai/bloodborne_pc) | [Supermedo/bloodborne_pc](https://github.com/Supermedo/bloodborne_pc) | 5,292 | C++ | 系统工具 |
@@ -729,17 +735,18 @@
 | [Easel](https://github.com/Hua2026-ai/Easel) | [ZJU-REAL/Easel](https://github.com/ZJU-REAL/Easel) | 4,540 | Python | AI / 工具与 MCP |
 | [nvidia-macos-driver](https://github.com/Hua2026-ai/nvidia-macos-driver) | [nullmoth/nvidia-macos-driver](https://github.com/nullmoth/nvidia-macos-driver) | 4,263 | Rust | 系统工具 |
 | [chinese-poetry-api](https://github.com/Hua2026-ai/chinese-poetry-api) | [palemoky/chinese-poetry-api](https://github.com/palemoky/chinese-poetry-api) | 3,666 | Go | 学习 / 资源索引 |
-| [floorplan-3d](https://github.com/Hua2026-ai/floorplan-3d) | [wy51ai/floorplan-3d](https://github.com/wy51ai/floorplan-3d) | 3,651 | HTML | 车机 / 3D 与设计 |
+| [floorplan-3d](https://github.com/Hua2026-ai/floorplan-3d) | [wy51ai/floorplan-3d](https://github.com/wy51ai/floorplan-3d) | 3,652 | HTML | 车机 / 3D 与设计 |
 | [OpenNOW](https://github.com/Hua2026-ai/OpenNOW) | [OpenCloudGaming/OpenNOW](https://github.com/OpenCloudGaming/OpenNOW) | 3,564 | Rust | 系统工具 |
-| [dsh-im](https://github.com/Hua2026-ai/dsh-im) | [xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) | 3,420 | JavaScript | AI / 工具与 MCP |
+| [dsh-im](https://github.com/Hua2026-ai/dsh-im) | [xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) | 3,421 | JavaScript | AI / 工具与 MCP |
 | [nanoMuse](https://github.com/Hua2026-ai/nanoMuse) | [nano-muse/nanoMuse](https://github.com/nano-muse/nanoMuse) | 3,360 | Swift | AI / 工具与 MCP |
 | [Open-Source-Face-Recognition-SDK](https://github.com/Hua2026-ai/Open-Source-Face-Recognition-SDK) | [Faceplugin-ltd/Open-Source-Face-Recognition-SDK](https://github.com/Faceplugin-ltd/Open-Source-Face-Recognition-SDK) | 3,145 | Python | AI / 工具与 MCP |
 | [best-skills](https://github.com/Hua2026-ai/best-skills) | [xstongxue/best-skills](https://github.com/xstongxue/best-skills) | 3,139 | Python | AI / 工具与 MCP |
 | [UFI-TOOLS](https://github.com/Hua2026-ai/UFI-TOOLS) | [kanoqwq/UFI-TOOLS](https://github.com/kanoqwq/UFI-TOOLS) | 3,081 | JavaScript | 网络工具 / 代理客户端 |
-| [3d-model-anything](https://github.com/Hua2026-ai/3d-model-anything) | [wesbos/3d-model-anything](https://github.com/wesbos/3d-model-anything) | 2,916 | Swift | 车机 / 3D 与设计 |
+| [3d-model-anything](https://github.com/Hua2026-ai/3d-model-anything) | [wesbos/3d-model-anything](https://github.com/wesbos/3d-model-anything) | 2,917 | Swift | 车机 / 3D 与设计 |
 | [12306-mcp](https://github.com/Hua2026-ai/12306-mcp) | [Joooook/12306-mcp](https://github.com/Joooook/12306-mcp) | 2,431 | JavaScript | AI / 工具与 MCP |
 | [videdown](https://github.com/Hua2026-ai/videdown) | [cshuangyy/videdown](https://github.com/cshuangyy/videdown) | 2,191 | TypeScript | 影音 / 下载 |
 | [omarchy-apple-dev](https://github.com/Hua2026-ai/omarchy-apple-dev) | [joshuaswarren/omarchy-apple-dev](https://github.com/joshuaswarren/omarchy-apple-dev) | 1,848 | Python | 系统工具 |
+| [S2Arm](https://github.com/Hua2026-ai/S2Arm) | [jhaizhou-ops/S2Arm](https://github.com/jhaizhou-ops/S2Arm) | 1,772 | C# | 系统工具 |
 | [mediary-scout](https://github.com/Hua2026-ai/mediary-scout) | [fancydirty/mediary-scout](https://github.com/fancydirty/mediary-scout) | 1,771 | TypeScript | 影音 / 下载 |
 | [playgta5](https://github.com/Hua2026-ai/playgta5) | [shadany7824/playgta5](https://github.com/shadany7824/playgta5) | 1,771 | JavaScript | 系统工具 |
 | [coolapk-desktop](https://github.com/Hua2026-ai/coolapk-desktop) | [daimiaopeng/coolapk-desktop](https://github.com/daimiaopeng/coolapk-desktop) | 1,690 | Vue | 系统工具 |
@@ -750,8 +757,8 @@
 | [DSH-Android](https://github.com/Hua2026-ai/DSH-Android) | [jackwener/DSH-Android](https://github.com/jackwener/DSH-Android) | 897 | Kotlin | AI / 工具与 MCP |
 | [pi-purge](https://github.com/Hua2026-ai/pi-purge) | [ZiChuanLan/pi-purge](https://github.com/ZiChuanLan/pi-purge) | 760 | JavaScript | AI / 工具与 MCP |
 | [lipflow](https://github.com/Hua2026-ai/lipflow) | [amywork777/lipflow](https://github.com/amywork777/lipflow) | 703 | Python | AI / 语音与视频生成 |
+| [MarcoMovie](https://github.com/Hua2026-ai/MarcoMovie) | [Pilipala9919/MarcoMovie](https://github.com/Pilipala9919/MarcoMovie) | 657 | Java | 影音 / 下载 |
 | [Microsoft-Rewards-Script](https://github.com/Hua2026-ai/Microsoft-Rewards-Script) | [chiihero/Microsoft-Rewards-Script](https://github.com/chiihero/Microsoft-Rewards-Script) | 656 | TypeScript | 系统工具 |
-| [MarcoMovie](https://github.com/Hua2026-ai/MarcoMovie) | [Pilipala9919/MarcoMovie](https://github.com/Pilipala9919/MarcoMovie) | 656 | Java | 影音 / 下载 |
 | [Atria-Dawn-Preview](https://github.com/Hua2026-ai/Atria-Dawn-Preview) | [atria-asi/Atria-Dawn](https://github.com/atria-asi/Atria-Dawn) | 638 | - | AI / 工具与 MCP |
 | [KindleTool](https://github.com/Hua2026-ai/KindleTool) | [NiLuJe/KindleTool](https://github.com/NiLuJe/KindleTool) | 536 | C | Kindle / 越狱与第三方系统 |
 | [DLSS5-Swapper-Chinese](https://github.com/Hua2026-ai/DLSS5-Swapper-Chinese) | [hezhixin15/DLSS5-Swapper-Chinese](https://github.com/hezhixin15/DLSS5-Swapper-Chinese) | 536 | JavaScript | 系统工具 |
