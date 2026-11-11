@@ -1,61 +1,56 @@
 # 我 Fork 了哪些仓库，以及它们各自有什么用
 
-
-> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **112** 个 fork，上游合计约 **3,629,723** star。
+> GitHub 账号 **Hua2026-ai** 的 fork 清单快照，共 **121** 个 fork，上游合计约 **3,687,838** star。
 > 最后更新：2026-11-11。本文只做归档与说明，版权与所有权归各自上游作者。
-
 
 ## 一句话概览
 
-
-这 112 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
+这 121 个 fork 基本就是我的兴趣画像：**AI Agent / 音视频生成工具**占了大头，
 其次是**中文学习与资源索引**、**车机 CarPlay 与 3D 设计**、**Telegram 导航**，
-另有少量代理客户端、影视资源，以及 Kindle 越狱与第三方系统相关的归档。
-
+另有**iOS 侧载与越狱工具链**、少量代理客户端、影视资源，以及 Kindle 越狱与第三方系统相关的归档。
 
 ## 分类清单
-
 ### AI / 语音与视频生成（10）
 
 #### [VoiceStudio](https://github.com/Hua2026-ai/VoiceStudio)
 
-- **上游**：[debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) · ⭐ 107,746 · 语言 Python · [官网/主页](https://voicestudio.sh) · fork 于 2026-09-27
+- **上游**：[debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) · ⭐ 107,798 · 语言 Python · [官网/主页](https://voicestudio.sh) · fork 于 2026-09-27
 - **作用**：完全本地运行的语音工作台：声音克隆、语音设计、视频配音、听写、转写、有声书制作，官方称支持 646 种语言。可以理解为 ElevenLabs 的开源自托管替代品。
 - **官方描述**：VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
 
 #### [OpenMontage](https://github.com/Hua2026-ai/OpenMontage)
 
-- **上游**：[OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage) · ⭐ 79,550 · 语言 Python · [官网/主页](https://www.openmontage.video/) · fork 于 2026-10-02
+- **上游**：[OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage) · ⭐ 79,566 · 语言 Python · [官网/主页](https://www.openmontage.video/) · fork 于 2026-10-02
 - **作用**：开源的「Agentic 视频制作系统」，内置 12 条生产流水线、100+ 工具、700+ Agent 技能与制作知识文件，目标是把 AI 编码助手扩展成一整套视频工作室。 2026-11-09 核实：上游 owner 已由 `calesthio` 迁移至 `OpenMontageInc`（GitHub 自动跟随重定向），现约 78.7k★；**AGPL-3.0** 强 copyleft，商用需评估。
 - **官方描述**：World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.
 
 #### [VoxCPM](https://github.com/Hua2026-ai/VoxCPM)
 
-- **上游**：[OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) · ⭐ 42,246 · 语言 Python · [官网/主页](https://voxcpm.com) · fork 于 2026-10-14
+- **上游**：[OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) · ⭐ 42,252 · 语言 Python · [官网/主页](https://voxcpm.com) · fork 于 2026-10-14
 - **作用**：VoxCPM2：无 tokenizer 的多语种语音生成模型，支持创意音色设计与高保真声音克隆（面壁智能 OpenBMB）。Apache-2.0。fork 自 OpenBMB/VoxCPM（上游约 41.1k★）。
 - **官方描述**：VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning
 
 #### [huobao-drama](https://github.com/Hua2026-ai/huobao-drama)
 
-- **上游**：[chatfire-AI/huobao-drama](https://github.com/chatfire-AI/huobao-drama) · ⭐ 17,237 · 语言 Vue · fork 于 2026-10-08
+- **上游**：[chatfire-AI/huobao-drama](https://github.com/chatfire-AI/huobao-drama) · ⭐ 17,239 · 语言 Vue · fork 于 2026-10-08
 - **作用**：火宝短剧：基于 AI 的一站式短剧生成平台，一句话生成完整短剧、从剧本到成片全自动化。注意：许可证为 **NOASSERTION（未明确标准许可证）**，使用前请自行评估。fork 自 chatfire-AI/huobao-drama（上游约 15.9k★）。
 - **官方描述**：🎬 火宝短剧 - 基于AI的一站式短剧生成平台 《一句话生成完整短剧，从剧本到成片全自动化》  Huobao Drama - An AI-Powered End-to-End Short Drama Generator "One Sentence to Complete Drama: Fully Automated from Script to Final Video"
 
 #### [patent-disclosure-skill](https://github.com/Hua2026-ai/patent-disclosure-skill)
 
-- **上游**：[handsomestWei/patent-disclosure-skill](https://github.com/handsomestWei/patent-disclosure-skill) · ⭐ 13,329 · 语言 Python · [官网/主页](https://skillhub.cn/skills/patent-disclosure-skill) · fork 于 2026-10-02
+- **上游**：[handsomestWei/patent-disclosure-skill](https://github.com/handsomestWei/patent-disclosure-skill) · ⭐ 13,331 · 语言 Python · [官网/主页](https://skillhub.cn/skills/patent-disclosure-skill) · fork 于 2026-10-02
 - **作用**：中文专利技能包：专利点挖掘、发明/实用新型/外观设计三种交底书撰写、专利通俗解读、政策动向跟踪、审查意见答复辅助。主页 skillhub.cn。
 - **官方描述**：中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。
 
 #### [Wan2GP](https://github.com/Hua2026-ai/Wan2GP)
 
-- **上游**：[deepbeepmeep/WanGP](https://github.com/deepbeepmeep/WanGP) · ⭐ 11,584 · 语言 Python · fork 于 2026-10-03
+- **上游**：[deepbeepmeep/WanGP](https://github.com/deepbeepmeep/WanGP) · ⭐ 11,585 · 语言 Python · fork 于 2026-10-03
 - **作用**：「给穷人显卡用的 AI 视频生成器」：面向低显存 GPU，支持 Wan 2.1/2.2、LTX-2、Qwen Image、Hunyuan Video、LTX Video 与 Flux 等多种模型。fork 自 deepbeepmeep/Wan2GP（上游约 9.9k★）。
 - **官方描述**：A fast AI Video Generator for the GPU Poor. Supports Wan 2.1/2.2, LTX-2, Qwen Image, Hunyuan Video, LTX  Video and Flux.
 
 #### [goutoujunshi](https://github.com/Hua2026-ai/goutoujunshi)
 
-- **上游**：[shengjidaguai-china/goutoujunshi](https://github.com/shengjidaguai-china/goutoujunshi) · ⭐ 9,531 · 语言 Python · fork 于 2026-10-03
+- **上游**：[shengjidaguai-china/goutoujunshi](https://github.com/shengjidaguai-china/goutoujunshi) · ⭐ 9,534 · 语言 Python · fork 于 2026-10-03
 - **作用**：「狗头军师」：一个先接住情绪、再分析关系并给出可执行策略的 AI 恋爱/关系军师，内置心理、法律、社会、人文、哲学、婚姻家庭与性学知识库，支持多元关系。fork 自 shengjidaguai-china/goutoujunshi（上游约 6.7k★）。
 - **官方描述**：一个先接住情绪、再分析关系并给出可执行策略的 Codex 恋爱军师，内置心理、法律、社会、人文、哲学、婚姻家庭与性学知识库，支持多元关系。
 
@@ -81,97 +76,97 @@
 
 #### [rea](https://github.com/Hua2026-ai/rea)
 
-- **上游**：[morluto/rea](https://github.com/morluto/rea) · ⭐ 451,290 · 语言 TypeScript · [官网/主页](https://rea.tools) · fork 于 2026-10-09
+- **上游**：[morluto/rea](https://github.com/morluto/rea) · ⭐ 451,425 · 语言 TypeScript · [官网/主页](https://rea.tools) · fork 于 2026-10-09
 - **作用**：借助智能体对任意目标做逆向工程：从应用行为一路追到原生二进制层。fork 自 morluto/rea（上游约 35k★）。
 - **官方描述**：Reverse engineer anything with agents, from app behavior down to native binaries.
 
 #### [opencode](https://github.com/Hua2026-ai/opencode)
 
-- **上游**：[anomalyco/opencode](https://github.com/anomalyco/opencode) · ⭐ 226,019 · 语言 TypeScript · [官网/主页](https://opencode.ai) · fork 于 2026-10-17
+- **上游**：[anomalyco/opencode](https://github.com/anomalyco/opencode) · ⭐ 226,035 · 语言 TypeScript · [官网/主页](https://opencode.ai) · fork 于 2026-10-17
 - **作用**：开源终端编码 Agent（TypeScript）。MIT。fork 自 anomalyco/opencode（上游约 225k★）。
 - **官方描述**：The open source coding agent.
 
 #### [claude-mem](https://github.com/Hua2026-ai/claude-mem)
 
-- **上游**：[thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) · ⭐ 116,020 · 语言 TypeScript · [官网/主页](https://claude-mem.ai) · fork 于 2026-10-14
+- **上游**：[thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) · ⭐ 116,030 · 语言 TypeScript · [官网/主页](https://claude-mem.ai) · fork 于 2026-10-14
 - **作用**：给各类编码 Agent 提供跨会话持久记忆：记录会话行为、用 AI 压缩，并在后续会话中注入相关上下文；兼容 Claude Code / Codex / Gemini 等。Apache-2.0。fork 自 thedotmack/claude-mem（上游约 114k★）。
 - **官方描述**：Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More
 
 #### [Agent-Reach](https://github.com/Hua2026-ai/Agent-Reach)
 
-- **上游**：[Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) · ⭐ 111,007 · 语言 Python · fork 于 2026-10-08
+- **上游**：[Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) · ⭐ 111,018 · 语言 Python · fork 于 2026-10-08
 - **作用**：给 AI 智能体装上一双「看遍全网」的眼睛：一个 CLI 即可免 API 费用地阅读与搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书等。fork 自 Panniantong/Agent-Reach（上游约 93k★）。
 - **官方描述**：Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
 
 #### [crawl4ai](https://github.com/Hua2026-ai/crawl4ai)
 
-- **上游**：[unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) · ⭐ 87,208 · 语言 Python · [官网/主页](https://crawl4ai.com) · fork 于 2026-11-11
+- **上游**：[unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) · ⭐ 87,210 · 语言 Python · [官网/主页](https://crawl4ai.com) · fork 于 2026-11-11
 - **作用**：面向 AI Agent 与数据管线的网页抓取/抽取/搜索工具，双形态：**云端**（crawl4ai.com，注册即送每月 1,000 免费额度、免信用卡，提供 `https://api.crawl4ai.com` 的 scrape/extract/search REST 接口）与**自托管**（本仓库即驱动云端的 Apache-2.0 爬虫，可用 Python 或 Docker 自己跑）。核心能力：把网页转成干净 Markdown 供 RAG、抽取结构化 JSON、实时搜索；云端 Agent 接入与 MCP 配置文档齐全。Python，最新 v0.9.5。⚠️ 自托管需自备浏览器运行环境与代理；云端免费层有额度限制。fork 自 unclecode/crawl4ai（上游约 87k★）。
 - **官方描述**：Official Crawl4AI Cloud: a hosted web scraping, extraction, and search API for AI agents. Free API key, 1,000 credits a month, no card. Fully open source: this repo is the Apache-2.0 crawler that powers it, and you can self-host it.
 
 #### [freellmapi](https://github.com/Hua2026-ai/freellmapi)
 
-- **上游**：[tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) · ⭐ 50,480 · 语言 TypeScript · [官网/主页](https://freellmapi.co) · fork 于 2026-10-07
+- **上游**：[tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) · ⭐ 50,505 · 语言 TypeScript · [官网/主页](https://freellmapi.co) · fork 于 2026-10-07
 - **作用**：免费 LLM API 聚合网关：每月 74 亿 token、34 家免费供应商、635 个免费模型端点，统一走一个 /v1 接口，支持自定义 OpenAI 兼容端点、智能路由与自动故障转移；作者声明仅供个人实验。fork 自 tashfeenahmed/freellmapi（上游约 31.7k★）。
 - **官方描述**：7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.
 
 #### [ai-website-cloner-template](https://github.com/Hua2026-ai/ai-website-cloner-template)
 
-- **上游**：[JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) · ⭐ 38,991 · 语言 TypeScript · [官网/主页](https://dsc.gg/jcodesmore) · fork 于 2026-10-12
+- **上游**：[JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) · ⭐ 38,996 · 语言 TypeScript · [官网/主页](https://dsc.gg/jcodesmore) · fork 于 2026-10-12
 - **作用**：用 AI 编码 Agent 一条命令克隆任意网站的模板项目。MIT。fork 自 JCodesMore/ai-website-cloner-template（上游约 38.8k★）。
 - **官方描述**：Clone any website with one command using AI coding agents
 
 #### [knowledge-work-plugins](https://github.com/Hua2026-ai/knowledge-work-plugins)
 
-- **上游**：[anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) · ⭐ 35,416 · 语言 Python · fork 于 2026-10-09
+- **上游**：[anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) · ⭐ 35,421 · 语言 Python · fork 于 2026-10-09
 - **作用**：Anthropic 开源的知识工作者插件仓库（主要配合 Claude Cowork 使用）。fork 自 anthropics/knowledge-work-plugins（上游约 28k★）。
 - **官方描述**：Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork
 
 #### [hypit](https://github.com/Hua2026-ai/hypit)
 
-- **上游**：[hypit-ai/hypit](https://github.com/hypit-ai/hypit) · ⭐ 29,275 · 语言 TypeScript · [官网/主页](https://hypit.ai) · fork 于 2026-10-08
+- **上游**：[hypit-ai/hypit](https://github.com/hypit-ai/hypit) · ⭐ 29,281 · 语言 TypeScript · [官网/主页](https://hypit.ai) · fork 于 2026-10-08
 - **作用**：用 AI 智能体克隆爆款视频：不只是脚本，而是整套工作流——换脸、换词、换 B-roll，一条命令产出上百个变体。注意：许可证为 **NOASSERTION（未明确标准许可证）**，且涉及换脸/二创，请合规使用、尊重肖像权与版权。fork 自 hypit-ai/hypit（上游约 20.5k★）。
 - **官方描述**：Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.
 
 #### [craft-anything](https://github.com/Hua2026-ai/craft-anything)
 
-- **上游**：[storytold/craft-anything](https://github.com/storytold/craft-anything) · ⭐ 27,534 · 语言 Rust · fork 于 2026-11-06
+- **上游**：[storytold/craft-anything](https://github.com/storytold/craft-anything) · ⭐ 27,648 · 语言 Rust · fork 于 2026-11-06
 - **作用**：「Craft Anything」：理解任意软件的工作原理，并据此自己造一个（Rust）。Apache-2.0。fork 自 storytold/craft-anything（上游约 18.5k★）。
 - **官方描述**：Craft Anything: understand how any software works, and craft your own.
 
 #### [moli](https://github.com/Hua2026-ai/moli)
 
-- **上游**：[lexmount/moli](https://github.com/lexmount/moli) · ⭐ 23,369 · 语言 Rust · [官网/主页](https://browser.lexmount.com) · fork 于 2026-10-06
+- **上游**：[lexmount/moli](https://github.com/lexmount/moli) · ⭐ 23,373 · 语言 Rust · [官网/主页](https://browser.lexmount.com) · fork 于 2026-10-06
 - **作用**：为 AI 智能体打造的**无头浏览器**：轻量、快速、高兼容，Rust 编写，主页 browser.lexmount.com。fork 自 lexmount/moli（上游约 12.6k★）。
 - **官方描述**：Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust
 
 #### [agent-desktop](https://github.com/Hua2026-ai/agent-desktop)
 
-- **上游**：[vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) · ⭐ 21,710 · 语言 Rust · [官网/主页](https://agent-browser.dev/desktop) · fork 于 2026-11-10
+- **上游**：[vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) · ⭐ 21,758 · 语言 Rust · [官网/主页](https://agent-browser.dev/desktop) · fork 于 2026-11-10
 - **作用**：Vercel Labs 出品的桌面 Computer use CLI：读取 macOS / Windows / Linux 应用的无障碍树（accessibility tree）并返回 JSON，每个可操作元素带 ref，Agent 用 ref 点击/输入、再快照验证，循环由 Agent 侧驱动，无截图、无像素匹配，模型不在其中；npm / Homebrew 安装，附带 C 库与原生二进制。Apache-2.0。fork 自 vercel-labs/agent-desktop（上游约 20.5k★）。
 - **官方描述**：Computer use CLI for AI agents
 
 #### [OpenMausBot](https://github.com/Hua2026-ai/OpenMausBot)
 
-- **上游**：[milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) · ⭐ 20,964 · 语言 TypeScript · [官网/主页](https://www.openmausbot.com/) · fork 于 2026-11-04
+- **上游**：[milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) · ⭐ 20,996 · 语言 TypeScript · [官网/主页](https://www.openmausbot.com/) · fork 于 2026-11-04
 - **作用**：开源版 Grok Bot 替代方案，附带可供机器人使用的虚拟机。Apache-2.0。fork 自 milind-soni/OpenMausBot（上游约 15.6k★）。
 - **官方描述**：Open-source Grok Bot alternative with a virtual machine that bots can use
 
 #### [Horizon](https://github.com/Hua2026-ai/Horizon)
 
-- **上游**：[Thysrael/Horizon](https://github.com/Thysrael/Horizon) · ⭐ 13,619 · 语言 Python · [官网/主页](https://www.horizon1123.top) · fork 于 2026-10-17
+- **上游**：[Thysrael/Horizon](https://github.com/Thysrael/Horizon) · ⭐ 13,630 · 语言 Python · [官网/主页](https://www.horizon1123.top) · fork 于 2026-10-17
 - **作用**：AI 驱动的个人新闻雷达，每天生成中英文简报（Python）。MIT。fork 自 Thysrael/Horizon（上游约 13k★）。
 - **官方描述**：📡 Your own AI-powered news radar. Generates daily briefings in English & Chinese. | 用 AI 构建你专属的新闻雷达
 
 #### [Octop](https://github.com/Hua2026-ai/Octop)
 
-- **上游**：[TencentCloud/Octop](https://github.com/TencentCloud/Octop) · ⭐ 11,909 · 语言 Python · [官网/主页](https://octop.cloud) · fork 于 2026-10-04
+- **上游**：[TencentCloud/Octop](https://github.com/TencentCloud/Octop) · ⭐ 11,912 · 语言 Python · [官网/主页](https://octop.cloud) · fork 于 2026-10-04
 - **作用**：腾讯云出品的**自托管 AI 助手**，支持多用户、多智能体（multi-agent）架构，可私有化部署。fork 自 TencentCloud/Octop（上游约 6.8k★）。
 - **官方描述**：A smarter, self-hosted AI assistant — multi-user, multi-agent.
 
 #### [kimi-k3-in-c](https://github.com/Hua2026-ai/kimi-k3-in-c)
 
-- **上游**：[FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c) · ⭐ 11,730 · 语言 C · [官网/主页](https://medium.com/@fareedkhandev/building-kimi-k3-in-c-to-run-a-2-8t-model-on-consumer-hardware-a5792cbf3b59) · fork 于 2026-10-11
+- **上游**：[FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c) · ⭐ 11,746 · 语言 C · [官网/主页](https://medium.com/@fareedkhandev/building-kimi-k3-in-c-to-run-a-2-8t-model-on-consumer-hardware-a5792cbf3b59) · fork 于 2026-10-11
 - **作用**：用纯 C99 在单颗 CPU、8.24GB 内存里跑 2.78 万亿参数的 Kimi K3 推理：不依赖 BLAS、框架或 GPU。Apache-2.0。fork 自 FareedKhan-dev/kimi-k3-in-c（上游约 11k★）。
 - **官方描述**：A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.
 
@@ -189,13 +184,13 @@
 
 #### [cindy](https://github.com/Hua2026-ai/cindy)
 
-- **上游**：[makecindy/cindy](https://github.com/makecindy/cindy) · ⭐ 9,801 · 语言 TypeScript · [官网/主页](https://cindy.app) · fork 于 2026-10-27
+- **上游**：[makecindy/cindy](https://github.com/makecindy/cindy) · ⭐ 9,807 · 语言 TypeScript · [官网/主页](https://cindy.app) · fork 于 2026-10-27
 - **作用**：「想到，就能做到」：开源、开箱即用的通用 AI Agent。Apache-2.0。fork 自 makecindy/cindy（上游约 9.4k★）。
 - **官方描述**：Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。
 
 #### [Mika](https://github.com/Hua2026-ai/Mika)
 
-- **上游**：[wangzan101/Mika](https://github.com/wangzan101/Mika) · ⭐ 8,168 · 语言 Kotlin · fork 于 2026-11-05
+- **上游**：[wangzan101/Mika](https://github.com/wangzan101/Mika) · ⭐ 8,181 · 语言 Kotlin · fork 于 2026-11-05
 - **作用**：运行在安卓设备本地的 AI Agent，可代替用户操作 App 与网页完成任务（Kotlin）。Apache-2.0。fork 自 wangzan101/Mika（上游约 7.4k★）。
 - **官方描述**：An on-device AI agent for Android that operates apps and the web to get things done for you.
 
@@ -207,13 +202,13 @@
 
 #### [Easel](https://github.com/Hua2026-ai/Easel)
 
-- **上游**：[ZJU-REAL/Easel](https://github.com/ZJU-REAL/Easel) · ⭐ 4,592 · 语言 Python · [官网/主页](https://zju-real.github.io/Easel/) · fork 于 2026-10-12
+- **上游**：[ZJU-REAL/Easel](https://github.com/ZJU-REAL/Easel) · ⭐ 4,594 · 语言 Python · [官网/主页](https://zju-real.github.io/Easel/) · fork 于 2026-10-12
 - **作用**：开源 AI 社交媒体智能体：发现热点趋势、创作内容、一键发布到小红书 / 抖音 / 知乎 / B 站等，并分析哪些内容真正有效（浙江大学 ZJU-REAL）。Apache-2.0。fork 自 ZJU-REAL/Easel（上游约 4.5k★）。
 - **官方描述**：An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。
 
 #### [dsh-im](https://github.com/Hua2026-ai/dsh-im)
 
-- **上游**：[xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) · ⭐ 3,488 · 语言 JavaScript · fork 于 2026-10-07
+- **上游**：[xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) · ⭐ 3,489 · 语言 JavaScript · fork 于 2026-10-07
 - **作用**：把 IM 机器人接入 DeepSeek Harness 的桥接工具：通过扫码或机器人凭据即可对接飞书、微信、钉钉、企业微信、QQ、Slack、Telegram、Discord、WhatsApp 共 9 个渠道。fork 自 xmanrui/dsh-im（上游约 1.7k★）。
 - **官方描述**：通过扫码或机器人凭据把IM机器人接入DeepSeek Harness（支持飞书、微信、钉钉、企业微信、QQ、Slack、Telegram、Discord和WhatsApp）。 Connect IM bots to DeepSeek Harness via QR code or credentials (9 channels).
 
@@ -243,7 +238,7 @@
 
 #### [pinky](https://github.com/Hua2026-ai/pinky)
 
-- **上游**：[DIYgod/pinky](https://github.com/DIYgod/pinky) · ⭐ 1,806 · 语言 Go · fork 于 2026-11-09
+- **上游**：[DIYgod/pinky](https://github.com/DIYgod/pinky) · ⭐ 1,811 · 语言 Go · fork 于 2026-11-09
 - **作用**：让任意 AI agent（Claude Code / Claude Desktop / Codex / Cursor 或脚本）通过 **MCP** 操作真实 iPhone / Android，人在电脑上旁观、审批高风险步骤、随时接管并回看全过程；**审批由 Pinky 网关强制执行，不是靠提示词约束 agent**，因此屏幕上的诱导文字也无法让 agent 自我批准。Go 编写，界面用 MyGo 在 GPU 上绘制、无 Electron 无 webview，安装包仅 16–22 MB、空闲约 70 MB 内存 / 0% CPU；支持 macOS（Apple silicon / Intel）、Windows、Linux，手机端 Android 10–17 与 **iPhone iOS 17.4+**（iOS 27+ 免安装、17.4–26 需从 Xcode 装一次 helper）。Settings › Agents 一键接入各类 MCP client，可本机或经 HTTP。安全设计：支付 / 交易 / 转账默认等待点击 Allow，可配置发送、下单、删除、通话、安装、外链、设置变更也需审批（10 种语言识别按钮）；银行 / 钱包 / 密码管理器 App 对 agent 默认不可见，密码与一次性验证码字段禁止输入，每个新 agent 需单独批准且只拿到授权范围；锁屏 PIN 只存 Pinky，每次解锁需 Touch ID / Windows Hello / keyring 确认，agent 看不到。Android 13+ 可用隐藏第二屏幕，主屏仍归用户；点镜像即接管并暂停 agent，全局停止 ⌥⌘.（Win/Linux Ctrl+Alt+.）；每次运行留步骤文字、截图与带步骤标记的录屏，可导出 HTML，数据全留本机。**Apache-2.0**；2026-11-06 建，2026-11-09 仍有提交，876★ / 70 fork / 11 open issue。⚠️ **本机适配结论见 `Pinky-iPhone13ProMax适配评估.md`：你的 iPhone 13 Pro Max 是 iOS 16.4，Pinky 不可用且无法绕过**——官方 `README.md:142/:180` 明确「iOS 17.3 and earlier are not supported」，17.4 前连接需管理员权限、iOS 16 及更早需当前 Xcode 已不再附带的 DDI；升 macOS / 装 Xcode 27 / 换镜像 DDI 均无效，且 Apple 升级后不可降级、iOS 16 已停签。替代路线是 WDA 系 `mobile-next/mobile-mcp`，或直接用 Android 设备体验其审批模型。⚠️ 高权限工具：能读屏、点击、操作支付与账号，务必只用可信 agent 并逐条审阅审批。
 - **官方描述**：Let AI agents use your phone, with you in the loop.
 
@@ -280,13 +275,13 @@
 
 #### [CyberStrikeAI](https://github.com/Hua2026-ai/CyberStrikeAI)
 
-- **上游**：[AIPentest/CyberStrikeAI](https://github.com/AIPentest/CyberStrikeAI) · ⭐ 8,557 · 语言 Go · fork 于 2026-10-11
+- **上游**：[AIPentest/CyberStrikeAI](https://github.com/AIPentest/CyberStrikeAI) · ⭐ 8,558 · 语言 Go · fork 于 2026-10-11
 - **作用**：AI 原生的网络安全行动系统（Go）：把意图转成受控执行、把证据沉淀为操作记忆。Apache-2.0。注意：属渗透测试类双用途工具，仅可用于合法授权的自查、授权测试或学习研究，遵守所在地法律法规。fork 自 AIPentest/CyberStrikeAI（上游约 8.4k★）。
 - **官方描述**：The system of action for AI-native cybersecurity—where intent becomes governed execution, evidence becomes operational memory, and every operation improves the next.
 
 #### [geo-sleuth](https://github.com/Hua2026-ai/geo-sleuth)
 
-- **上游**：[Oldcircle/geo-sleuth](https://github.com/Oldcircle/geo-sleuth) · ⭐ 6,847 · 语言 Python · fork 于 2026-11-05
+- **上游**：[Oldcircle/geo-sleuth](https://github.com/Oldcircle/geo-sleuth) · ⭐ 6,848 · 语言 Python · fork 于 2026-11-05
 - **作用**：地理定位 Agent Skill：根据照片推断拍摄地点，结合 OpenStreetMap 几何、海拔山脊线、卫星图与街景，并展示推理过程；兼容 Claude Code / Codex / Cursor / Gemini CLI 等。MIT。注意：属 OSINT 双用途工具，仅可用于合法授权场景，注意他人隐私与所在地法律。fork 自 Oldcircle/geo-sleuth（上游约 6.3k★）。
 - **官方描述**：An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode and GitHub Copilot.
 
@@ -294,7 +289,7 @@
 
 #### [clash](https://github.com/Hua2026-ai/clash)
 
-- **上游**：[clashbk/clash](https://github.com/clashbk/clash) · ⭐ 11,223 · 语言 - · [官网/主页](https://github.com/clashbk/clash) · fork 于 2026-09-27
+- **上游**：[clashbk/clash](https://github.com/clashbk/clash) · ⭐ 11,226 · 语言 - · [官网/主页](https://github.com/clashbk/clash) · fork 于 2026-09-27
 - **作用**：Clash 官网各版本的下载地址与备份下载地址汇总（一个资源索引仓库，不是内核源码）。
 - **官方描述**：Clash官网各版本Clash下载地址及备份下载地址
 
@@ -313,13 +308,13 @@
 
 #### [cobalt](https://github.com/Hua2026-ai/cobalt)
 
-- **上游**：[imputnet/cobalt](https://github.com/imputnet/cobalt) · ⭐ 45,974 · 语言 Svelte · [官网/主页](https://cobalt.tools) · fork 于 2026-10-10
+- **上游**：[imputnet/cobalt](https://github.com/imputnet/cobalt) · ⭐ 45,975 · 语言 Svelte · [官网/主页](https://cobalt.tools) · fork 于 2026-10-10
 - **作用**：cobalt：号称「保存你喜爱内容的最佳方式」的开源媒体提取/下载器，支持从 YouTube、TikTok、Instagram、X、Reddit 等数十个平台提取视频或音频，主打无广告、无追踪、无水印，提供网页端、API 与自托管部署。AGPL-3.0 许可证。fork 自 imputnet/cobalt（上游约 44.8k★）。
 - **官方描述**：best way to save what you love
 
 #### [peach](https://github.com/Hua2026-ai/peach)
 
-- **上游**：[peach-mitao/peach](https://github.com/peach-mitao/peach) · ⭐ 14,871 · 语言 Python · [官网/主页](https://peach.video) · fork 于 2026-10-24
+- **上游**：[peach-mitao/peach](https://github.com/peach-mitao/peach) · ⭐ 14,873 · 语言 Python · [官网/主页](https://peach.video) · fork 于 2026-10-24
 - **作用**：「蜜桃」单用户、本地优先的个人媒体系统。AGPL-3.0。fork 自 peach-mitao/peach（上游约 14.6k★）。
 - **官方描述**：Peach 蜜桃：单用户、本地优先的个人媒体系统 · Single-user, local-first personal media system
 
@@ -331,7 +326,7 @@
 
 #### [videdown](https://github.com/Hua2026-ai/videdown)
 
-- **上游**：[cshuangyy/videdown](https://github.com/cshuangyy/videdown) · ⭐ 2,205 · 语言 TypeScript · fork 于 2026-10-06
+- **上游**：[cshuangyy/videdown](https://github.com/cshuangyy/videdown) · ⭐ 2,207 · 语言 TypeScript · fork 于 2026-10-06
 - **作用**：现代化开源视频下载工具：支持从抖音、小红书、B 站、YouTube、Instagram 等站点下载无水印高清视频。fork 自 cshuangyy/videdown（上游约 1.8k★）。
 - **官方描述**：Videdown 是一款现代化的开源视频下载工具，让你可以从抖音 小红书 B站 YT Instagram等网站下载无水印高清视频
 
@@ -349,7 +344,7 @@
 
 #### [MarcoMovie](https://github.com/Hua2026-ai/MarcoMovie)
 
-- **上游**：[Pilipala9919/MarcoMovie](https://github.com/Pilipala9919/MarcoMovie) · ⭐ 745 · 语言 Java · fork 于 2026-11-09
+- **上游**：[Pilipala9919/MarcoMovie](https://github.com/Pilipala9919/MarcoMovie) · ⭐ 747 · 语言 Java · fork 于 2026-11-09
 - **作用**：Pilipala 开发的 **Marco Movie 多端影视播放器**，README 明确支持 Android 电视 / 手机 / 平板及 Windows / macOS / iOS 自适应。Java 实现，**GPL-3.0**；591★ / 46 fork / 21 open issue，2026-11-09 仍有提交，维护活跃。⚠️ 官方反复声明「仅提供工具、不含影视资源，内容和配置由用户自行合法获取」——属于典型的第三方播放器外壳，播放源合规性完全由使用者负责；请只用于自己有权访问的内容，并遵守所在地法规与平台服务条款。
 - **官方描述**：由 Pilipala 开发的 Android 电视播放器。仅提供工具，不含影视资源；内容和配置由用户自行合法获取。
 
@@ -369,43 +364,43 @@
 
 #### [awesome](https://github.com/Hua2026-ai/awesome)
 
-- **上游**：[sindresorhus/awesome](https://github.com/sindresorhus/awesome) · ⭐ 535,109 · 语言 - · fork 于 2026-07-25
+- **上游**：[sindresorhus/awesome](https://github.com/sindresorhus/awesome) · ⭐ 535,142 · 语言 - · fork 于 2026-07-25
 - **作用**：Awesome 系列清单的总索引，几乎所有「xxx awesome list」都能从这里顺藤摸瓜找到。
 - **官方描述**：😎 Awesome lists about all kinds of interesting topics
 
 #### [public-apis](https://github.com/Hua2026-ai/public-apis)
 
-- **上游**：[public-apis/public-apis](https://github.com/public-apis/public-apis) · ⭐ 498,111 · 语言 Markdown · [官网/主页](https://api.apis.guru/) · fork 于 2026-11-11
+- **上游**：[public-apis/public-apis](https://github.com/public-apis/public-apis) · ⭐ 498,138 · 语言 Markdown · [官网/主页](https://api.apis.guru/) · fork 于 2026-11-11
 - **作用**：GitHub 上最著名的免费公共 API 合集（始于 2016），按主题分类收录大量无需鉴权或带免费层的开放接口（天气、金融、图像、机器学习、娱乐等）。纯 Markdown 维护、MIT 许可、社区协作；本质是**索引/目录**而非可部署服务，适合作为「找免费接口」的检索起点。fork 自 public-apis/public-apis（上游约 498k★）。
 - **官方描述**：A collective list of free APIs
 
 #### [HelloGitHub](https://github.com/Hua2026-ai/HelloGitHub)
 
-- **上游**：[521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) · ⭐ 188,139 · 语言 Python · [官网/主页](https://hellogithub.com) · fork 于 2026-07-27
+- **上游**：[521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) · ⭐ 188,150 · 语言 Python · [官网/主页](https://hellogithub.com) · fork 于 2026-07-27
 - **作用**：中文项目推荐月刊，每月分享 GitHub 上有趣、入门级的开源项目，适合找练手项目。
 - **官方描述**：:octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.
 
 #### [HowToCook](https://github.com/Hua2026-ai/HowToCook)
 
-- **上游**：[Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) · ⭐ 103,846 · 语言 - · [官网/主页](https://howtocook.aiursoft.com) · fork 于 2026-10-10
+- **上游**：[Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) · ⭐ 103,847 · 语言 - · [官网/主页](https://howtocook.aiursoft.com) · fork 于 2026-10-10
 - **作用**：「程序员做饭指南」：用工程化思维写的中文菜谱合集，每道菜按材料、用量、步骤拆解，另附「如何做饭」等生活指南，从厨房小白到能开火都能用。Unlicense（公有领域）。fork 自 Anduin2017/HowToCook（上游约 102.6k★）。
 - **官方描述**：Programmer's guide about how to cook at home.
 
 #### [ChinaTextbook](https://github.com/Hua2026-ai/ChinaTextbook)
 
-- **上游**：[TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook) · ⭐ 84,373 · 语言 Roff · fork 于 2026-08-26
+- **上游**：[TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook) · ⭐ 84,378 · 语言 Roff · fork 于 2026-08-26
 - **作用**：小学、初中、高中到大学的 PDF 教材合集。
 - **官方描述**：所有小初高、大学PDF教材。
 
 #### [HowToLiveBetter](https://github.com/Hua2026-ai/HowToLiveBetter)
 
-- **上游**：[eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) · ⭐ 74,960 · 语言 HTML · [官网/主页](https://eternity4719.github.io/HowToLiveBetter/) · fork 于 2026-09-24
+- **上游**：[eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) · ⭐ 74,972 · 语言 HTML · [官网/主页](https://eternity4719.github.io/HowToLiveBetter/) · fork 于 2026-09-24
 - **作用**：按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业工伤、医保社保、恋爱婚育、怀孕育儿、创业合规、出国与技能。每条都标注成本、收益、证据等级和原始出处，只引用期刊论文与官方文件。
 - **官方描述**：按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。
 
 #### [up](https://github.com/Hua2026-ai/up)
 
-- **上游**：[byoungd/up](https://github.com/byoungd/up) · ⭐ 70,403 · 语言 JavaScript · [官网/主页](https://byoungd.github.io/up/) · fork 于 2026-10-10
+- **上游**：[byoungd/up](https://github.com/byoungd/up) · ⭐ 70,406 · 语言 JavaScript · [官网/主页](https://byoungd.github.io/up/) · fork 于 2026-10-10
 - **作用**：「人生进阶指南」：BYOUNGD（韩先凯）的成长指南，涵盖英语学习、AI 时代终身学习、创业与成长，与《离谱的人生》系列配套。注意：许可证为 NOASSERTION（未明确标准许可证），使用前请自行评估。fork 自 byoungd/up（上游约 68.1k★）。
 - **官方描述**：人生进阶指南 韩先凯的人生进阶指南 英语学习指南 离谱的人生 AI时代终身学习：AI、学习、创业与成长。
 
@@ -429,7 +424,7 @@
 
 #### [workbuddyskills](https://github.com/Hua2026-ai/workbuddyskills)
 
-- **上游**：[infometa/workbuddyskills](https://github.com/infometa/workbuddyskills) · ⭐ 436 · 语言 HTML · fork 于 2026-10-23
+- **上游**：[infometa/workbuddyskills](https://github.com/infometa/workbuddyskills) · ⭐ 437 · 语言 HTML · fork 于 2026-10-23
 - **作用**：WorkBuddy 的 skills / connectors / experts 离线学习归档。注意：仓库**无许可证**（保留所有权利），使用与再分发请自行评估风险。fork 自 infometa/workbuddyskills（上游约 418★）。
 - **官方描述**：WorkBuddy skills / connectors / experts archive for offline study
 
@@ -455,7 +450,7 @@
 
 #### [DiPlay](https://github.com/Hua2026-ai/DiPlay)
 
-- **上游**：[shihabal3amri/DiPlay](https://github.com/shihabal3amri/DiPlay) · ⭐ 13,630 · 语言 Kotlin · [官网/主页](https://shihabal3amri.github.io/DiPlay/) · fork 于 2026-09-29
+- **上游**：[shihabal3amri/DiPlay](https://github.com/shihabal3amri/DiPlay) · ⭐ 13,632 · 语言 Kotlin · [官网/主页](https://shihabal3amri.github.io/DiPlay/) · fork 于 2026-09-29
 - **作用**：面向 Android 车机的独立 CarPlay 接收器，支持有线与无线（公开预览版）。
 - **官方描述**：Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview.
 
@@ -466,13 +461,13 @@
 
 #### [3d-model-anything](https://github.com/Hua2026-ai/3d-model-anything)
 
-- **上游**：[wesbos/3d-model-anything](https://github.com/wesbos/3d-model-anything) · ⭐ 2,947 · 语言 Swift · [官网/主页](https://wesbos.github.io/3d-model-anything/) · fork 于 2026-10-24
+- **上游**：[wesbos/3d-model-anything](https://github.com/wesbos/3d-model-anything) · ⭐ 2,950 · 语言 Swift · [官网/主页](https://wesbos.github.io/3d-model-anything/) · fork 于 2026-10-24
 - **作用**：用 iPhone LiDAR 与照片采集空间，重建为可在浏览器里浏览、可编辑的 Three.js 房间（Swift）。注意：许可证为 NOASSERTION（未明确标准许可证），使用前请自行评估。fork 自 wesbos/3d-model-anything（上游约 2.8k★）。
 - **官方描述**：Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser.
 
 #### [house-plan-designer](https://github.com/Hua2026-ai/house-plan-designer)
 
-- **上游**：[ZWD11/house-plan-designer](https://github.com/ZWD11/house-plan-designer) · ⭐ 581 · 语言 HTML · fork 于 2026-10-23
+- **上游**：[ZWD11/house-plan-designer](https://github.com/ZWD11/house-plan-designer) · ⭐ 582 · 语言 HTML · fork 于 2026-10-23
 - **作用**：给一张户型图 + 一句话，Agent 把它还原成可直接 2D/3D 设计的装修设计器网页；单文件 HTML、离线可用，适用于任何支持 Skill 的 Agent。MIT。fork 自 ZWD11/house-plan-designer（上游约 375★）。
 - **官方描述**：一张户型图，一句话，Agent 就把它还原成可 2D/3D 直接设计的装修设计器网页（单文件 HTML，离线可用）。适用于任何支持 Skill 的 Agent｜注：要想达到满血效果不推荐使用诸如豆包等大模型
 
@@ -490,7 +485,7 @@
 
 #### [CarUp](https://github.com/Hua2026-ai/CarUp)
 
-- **上游**：[nobcdz/CarUp](https://github.com/nobcdz/CarUp) · ⭐ 14 · fork 于 2026-11-11
+- **上游**：[nobcdz/CarUp](https://github.com/nobcdz/CarUp) · ⭐ 15 · fork 于 2026-11-11
 - **作用**：让 iPhone 通过**有线或无线 CarPlay 连接安卓车机**的工具：先打开「检测」页做车机能力检测（有线 23 项 / 无线 37 项，连接卡住时可定位卡在 USB、蓝牙、Wi‑Fi、认证还是 iPhone 授权），再发起连接；连接后可在车机使用高德地图、汽水音乐等支持 CarPlay 的应用，支持自动画面适配、方向盘按键、浅色/深色外观等。兼容目标 Android 4.0+，实际可用连接方式取决于车机硬件能力。⚠️ **合规风险**：上游 README 明确 Releases 提供的 CarUp 3.0 APK「来源于网络、由本仓库整理分享」，非官方发布；CarPlay 是 Apple 专有协议，在非 Apple 硬件上启用 CarPlay 处于许可灰色地带，且 APK 来源不明、存在安全与版权隐患，仅供技术了解，不建议作为日常依赖或传播。fork 自 nobcdz/CarUp（上游约 14★，2026-11-10 新建）。
 - **官方描述**：让 iPhone 通过有线或无线 CarPlay 连接安卓车机
 
@@ -510,7 +505,7 @@
 
 #### [TelegramGroup](https://github.com/Hua2026-ai/TelegramGroup)
 
-- **上游**：[itgoyo/TelegramGroup](https://github.com/itgoyo/TelegramGroup) · ⭐ 6,477 · 语言 - · [官网/主页](https://itgoyo.github.io) · fork 于 2026-07-25
+- **上游**：[itgoyo/TelegramGroup](https://github.com/itgoyo/TelegramGroup) · ⭐ 6,478 · 语言 - · [官网/主页](https://itgoyo.github.io) · fork 于 2026-07-25
 - **作用**：上万条 Telegram 群组 / 频道的导航合集，附带各类机器人推荐，站点 tg10000.com。
 - **官方描述**：2026最新悄咪咪收集的10000+个Telegram群合集、tg导航，附全网最有趣好用的机器人BOT🤖【tg10000.com】
 
@@ -524,55 +519,55 @@
 
 #### [cleanyourtv](https://github.com/Hua2026-ai/cleanyourtv)
 
-- **上游**：[Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) · ⭐ 56,229 · 语言 Java · [官网/主页](https://cleanyour.tv) · fork 于 2026-10-20
+- **上游**：[Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) · ⭐ 56,246 · 语言 Java · [官网/主页](https://cleanyour.tv) · fork 于 2026-10-20
 - **作用**：通过 Wi-Fi 给 Android / Google TV 去臃肿，换成 Apple TV 风格的桌面（Java）。注意：许可证为 NOASSERTION（未明确标准许可证），使用前请自行评估。fork 自 Gathin23/cleanyourtv（上游约 53.4k★）。
 - **官方描述**：Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
 
 #### [DroidDeck](https://github.com/Hua2026-ai/DroidDeck)
 
-- **上游**：[Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) · ⭐ 19,380 · 语言 Kotlin · fork 于 2026-10-27
+- **上游**：[Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) · ⭐ 19,390 · 语言 Kotlin · fork 于 2026-10-27
 - **作用**：把 SteamOS 的界面与体验搬到 Android 设备（Kotlin）。GPL-3.0。fork 自 Droid-Deck/DroidDeck（上游约 18.3k★）。
 - **官方描述**：DroidDeck brings the SteamOS experience to Android
 
 #### [gpu-unlock](https://github.com/Hua2026-ai/gpu-unlock)
 
-- **上游**：[Zagitta/gpu-unlock](https://github.com/Zagitta/gpu-unlock) · ⭐ 18,638 · 语言 C · fork 于 2026-10-26
+- **上游**：[Zagitta/gpu-unlock](https://github.com/Zagitta/gpu-unlock) · ⭐ 18,646 · 语言 C · fork 于 2026-10-26
 - **作用**：解锁 NVIDIA RTX 30 系消费卡的 FP16/BF16 指令吞吐，使其接近同代专业卡（C，需配合特定驱动）。注意：仓库**无许可证**（保留所有权利），使用与再分发请自行评估风险；改动驱动可能违反厂商条款。fork 自 Zagitta/gpu-unlock（上游约 17.6k★）。
 - **官方描述**：Unlock FP/BF16 instruction issue rate on Nvidia 3000's cards to their professional equivalents
 
 #### [qingjian](https://github.com/Hua2026-ai/qingjian)
 
-- **上游**：[qingjian-team/qingjian](https://github.com/qingjian-team/qingjian) · ⭐ 7,765 · 语言 Rust · [官网/主页](https://qingjian.app) · fork 于 2026-10-08
+- **上游**：[qingjian-team/qingjian](https://github.com/qingjian-team/qingjian) · ⭐ 7,768 · 语言 Rust · [官网/主页](https://qingjian.app) · fork 于 2026-10-08
 - **作用**：青简 Qingjian：用 Rust 编写的拼音输入法，候选词旁额外显示一条正在学习的外语译词。fork 自 qingjian-team/qingjian（上游约 5.7k★）。
 - **官方描述**：青简 Qingjian：用 Rust 写的拼音输入法，候选词旁多一条正在学的语言的译词
 
 #### [android-ad-cleaner](https://github.com/Hua2026-ai/android-ad-cleaner)
 
-- **上游**：[rddmwmddr/android-ad-cleaner](https://github.com/rddmwmddr/android-ad-cleaner) · ⭐ 7,453 · 语言 Python · fork 于 2026-10-26
+- **上游**：[rddmwmddr/android-ad-cleaner](https://github.com/rddmwmddr/android-ad-cleaner) · ⭐ 7,466 · 语言 Python · fork 于 2026-10-26
 - **作用**：关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送；不 root、可还原，支持 AI 智能体一键执行。MIT。fork 自 rddmwmddr/android-ad-cleaner（上游约 6.8k★）。
 - **官方描述**：关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。
 
 #### [bloodborne_pc](https://github.com/Hua2026-ai/bloodborne_pc)
 
-- **上游**：[Supermedo/bloodborne_pc](https://github.com/Supermedo/bloodborne_pc) · ⭐ 5,323 · 语言 C++ · [官网/主页](https://discord.gg/yTMG8c4Bqm) · fork 于 2026-10-10
+- **上游**：[Supermedo/bloodborne_pc](https://github.com/Supermedo/bloodborne_pc) · ⭐ 5,325 · 语言 C++ · [官网/主页](https://discord.gg/yTMG8c4Bqm) · fork 于 2026-10-10
 - **作用**：让《Bloodborne》在 Windows 10/11 原生运行的启动器（C++）：13 种语言、DLSS、FSR 3.1/4、解锁帧率、模组与一键更新。GPL-2.0。注意：涉及游戏版权与模组使用，仅作技术资料归档，实际使用请遵守游戏厂商服务条款与相关版权法规。fork 自 Supermedo/bloodborne_pc（上游约 5.2k★）。
 - **官方描述**：Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.
 
 #### [nvidia-macos-driver](https://github.com/Hua2026-ai/nvidia-macos-driver)
 
-- **上游**：[nullmoth/nvidia-macos-driver](https://github.com/nullmoth/nvidia-macos-driver) · ⭐ 4,288 · 语言 Rust · [官网/主页](https://nullmothsystems.com) · fork 于 2026-10-08
+- **上游**：[nullmoth/nvidia-macos-driver](https://github.com/nullmoth/nvidia-macos-driver) · ⭐ 4,292 · 语言 Rust · [官网/主页](https://nullmothsystems.com) · fork 于 2026-10-08
 - **作用**：在 macOS 15 Sequoia（Intel / OpenCore）上为 NVIDIA GeForce RTX 卡提供 Metal 驱动，含源码、免费。注意：许可证为 **NOASSERTION（未明确标准许可证）**，使用前请自行评估。fork 自 nullmoth/nvidia-macos-driver（上游约 1.6k★）。
 - **官方描述**：Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included.
 
 #### [OpenNOW](https://github.com/Hua2026-ai/OpenNOW)
 
-- **上游**：[OpenCloudGaming/OpenNOW](https://github.com/OpenCloudGaming/OpenNOW) · ⭐ 3,566 · 语言 Rust · fork 于 2026-10-09
+- **上游**：[OpenCloudGaming/OpenNOW](https://github.com/OpenCloudGaming/OpenNOW) · ⭐ 3,565 · 语言 Rust · fork 于 2026-10-09
 - **作用**：自定义的 GeForce NOW 云游戏客户端（开源）。fork 自 OpenCloudGaming/OpenNOW（上游约 3.3k★）。
 - **官方描述**：Custom GeForce Now Client Named OpenNOW
 
 #### [S2Arm](https://github.com/Hua2026-ai/S2Arm)
 
-- **上游**：[jhaizhou-ops/S2Arm](https://github.com/jhaizhou-ops/S2Arm) · ⭐ 2,528 · 语言 C# · [官网/主页](https://jhaizhou-ops.github.io/S2Arm/) · fork 于 2026-11-10
+- **上游**：[jhaizhou-ops/S2Arm](https://github.com/jhaizhou-ops/S2Arm) · ⭐ 2,537 · 语言 C# · [官网/主页](https://jhaizhou-ops.github.io/S2Arm/) · fork 于 2026-11-10
 - **作用**：把自带的 Switch 游戏原生移植到 iPhone / iPad / Mac 的工具链，**不是模拟器**：构建期把游戏自身的 ARM64 代码重写后直接跑在设备 CPU 上，图形调用直转 Metal，系统服务复用 Ryujinx 兼容层；一个 App 装下整个游戏库。Mac / Windows 图形化 launcher 三步完成导入→构建→签名安装，并提供 `s2armctl` 控制接口让 AI 助手接管全流程（含自检自修复与诊断包）。要求 iOS/iPadOS 18+、Apple silicon macOS 15+，仅支持 64 位 AArch64 游戏。Apache-2.0，2026-11-08 新建两天涨到约 1.8k★。⚠️ 项目不附带游戏与密钥、要求自带**合法取得**的游戏文件，与 Nintendo 无隶属关系；使用需自行评估游戏版权与密钥来源的合规性。
 - **官方描述**：Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。
 
@@ -602,7 +597,7 @@
 
 #### [MacCheck](https://github.com/Hua2026-ai/MacCheck)
 
-- **上游**：[andyhuo520/MacCheck](https://github.com/andyhuo520/MacCheck) · ⭐ 914 · 语言 Swift · fork 于 2026-10-06
+- **上游**：[andyhuo520/MacCheck](https://github.com/andyhuo520/MacCheck) · ⭐ 913 · 语言 Swift · fork 于 2026-10-06
 - **作用**：MacCheck 验机宝：本地 Mac 硬件检测、交互式验机与 PDF/PNG 报告导出工具。注意：仓库**无许可证**（保留所有权利），使用与再分发请自行评估风险。fork 自 andyhuo520/MacCheck（上游约 698★）。
 - **官方描述**：MacCheck 验机宝：本地 Mac 硬件检测、交互验机与 PDF/PNG 报告导出工具
 
@@ -614,7 +609,7 @@
 
 #### [DLSS5-Swapper-Chinese](https://github.com/Hua2026-ai/DLSS5-Swapper-Chinese)
 
-- **上游**：[hezhixin15/DLSS5-Swapper-Chinese](https://github.com/hezhixin15/DLSS5-Swapper-Chinese) · ⭐ 564 · 语言 JavaScript · fork 于 2026-10-20
+- **上游**：[hezhixin15/DLSS5-Swapper-Chinese](https://github.com/hezhixin15/DLSS5-Swapper-Chinese) · ⭐ 563 · 语言 JavaScript · fork 于 2026-10-20
 - **作用**：DLSS 5 Swapper 中文增强版：全界面与游戏内叠加层完整汉化，并修复部分游戏自带 D3D12 运行时被误判冲突导致无法安装的问题。注意：许可证为 NOASSERTION（未明确标准许可证），使用前请自行评估。fork 自 hezhixin15/DLSS5-Swapper-Chinese（上游约 480★）。
 - **官方描述**：DLSS 5 Swapper 中文增强版：全界面与游戏内叠加层完整汉化，并修复部分游戏自带 D3D12 运行时被误判冲突导致无法安装的问题
 
@@ -642,11 +637,67 @@
 - **作用**：批量下载多个仓库的 GitHub Release 文件，按系统与架构自动归档；免安装单文件、像素风界面的 Windows 工具（Rust）。Apache-2.0。fork 自 ziyuanhuishequ/release-downloader（上游约 13★）。
 - **官方描述**：批量下载多个仓库的 GitHub Release 文件，并按系统与架构自动归档。免安装单文件，像素风界面，Windows 平台。
 
+### iOS / 侧载与越狱工具（9）
+
+#### [TrollStore](https://github.com/Hua2026-ai/TrollStore)
+
+- **上游**：[opa334/TrollStore](https://github.com/opa334/TrollStore) · ⭐ 22,589 · 语言 Objective-C · [官网/主页](https://ios.cfw.guide/installing-trollstore) · fork 于 2026-11-11
+- **作用**：免越狱（jailed）环境下永久安装任意 IPA 的「permasign」容器，是整个 TrollStore 生态的根基。原理是 AMFI/CoreTrust 在多签名者二进制上的校验缺陷，使安装的 App 获得任意 entitlements 与 root helper 能力。README 原文支持范围：**14.0 beta 2 – 16.6.1、16.7 RC (20H18)、17.0**；16.7.x（RC 除外）与 17.0.1+ 明确「永不支持」。配套机制：图标缓存重载后 App 会退回 User 态无法启动，需用「持久化助手（Persistence Helper）」写进系统 App 重新注册；卸载只能从 TrollStore 内操作；1.3+ 复用系统 `apple-magnifier://` URL scheme（避免被越狱检测识别），可用于浏览器直接装 IPA 或为 App 开启 JIT。最新 2.1.1（2026-04-01）。许可：LICENSE 为 Debian copyright 格式，主体 **MIT**（2022-2026 Lars Fröder），`RootHelper/uicache.m` 为 **BSD-4-Clause**——GitHub 因此识别为 NOASSERTION，不是无许可。⚠️ 依赖系统漏洞，可能导致设备不稳定或失去保修。
+- **官方描述**：Jailed iOS app that can install IPAs permanently with arbitary entitlements and root helpers because it trolls Apple
+
+#### [LiveContainer](https://github.com/Hua2026-ai/LiveContainer)
+
+- **上游**：[LiveContainer/LiveContainer](https://github.com/LiveContainer/LiveContainer) · ⭐ 14,085 · 语言 Swift · [官网/主页](https://livecontainer.github.io/docs/intro) · fork 于 2026-11-11
+- **作用**：App 启动器（README 明确「不是模拟器、不是 hypervisor」），让 iOS App 在容器内运行而不真正安装：① 只用一个 App 与一个 App ID 就能装无限个 App，**绕开免费开发者账号 3 App / 10 App ID 的限制**；② 同一 App 可并存多个版本、各自独立数据容器，适合测某个 dylib 在不同 App 版本上的效果而不必反复卸载重装；③ iOS 26 以下有 JIT 时完全绕过 codesign（无需预签名），否则用 LiveContainer 自身证书签名。最新 nightly（2026-11-08）。**AGPL-3.0**（注意：AGPL 有网络分发传染性，二次分发或提供网络服务需开源）。⚠️ 官方明确警告：**不要使用第三方二次编译的版本**，它们可获取你所有 App 的钥匙串与登录凭据。
+- **官方描述**：Run iOS apps without actually installing them!
+
+#### [SideStore](https://github.com/Hua2026-ai/SideStore)
+
+- **上游**：[SideStore/SideStore](https://github.com/SideStore/SideStore) · ⭐ 7,358 · 语言 Swift · [官网/主页](https://sidestore.io) · fork 于 2026-11-11
+- **作用**：不需要 AltServer（即不需要常开电脑）的免越狱第三方 App Store，AltStore 的社区 fork。原理：用你的 Apple ID 个人开发证书重签 App，再借助**专用 VPN（`jkcoxson/em_proxy`）欺骗 iOS 完成安装**，并在后台定期「刷新」使 App 不因 7 天开发证书过期而失效——所谓 untethered 侧载。README Requirements：Xcode 15、iOS 14+。发布以 nightly 构建为主（2026-11 仍活跃）。**AGPL-3.0**。⚠️ 需自备 Apple ID 与开发者证书；免费账号 7 天需续签（靠 VPN 后台刷新缓解）、最多 3 个 App；使用非官方商店安装 App 有账号风控与安全风险，建议用小号。
+- **官方描述**：SideStore is a fork of AltStore that doesn't require an AltServer.
+
+#### [feather](https://github.com/Hua2026-ai/feather)
+
+- **上游**：[claration/feather](https://github.com/claration/feather) · ⭐ 5,074 · 语言 Swift · fork 于 2026-11-11
+- **作用**：设备端自我签名 + 安装一体化的侧载工具（Sideloading app meant for developer certificates），使用 Apple Developer Program 证书签名，支持导入 AltStore 源、查看 App 与证书详情、管理已装应用。界面现代化，与 SideStore 功能高度重叠，二选一即可。最新 v2.9.0（2026-07-05）。**GPL-3.0**。**上游已迁移**：原地址 `khcrysalis/Feather` 现由 GitHub 重定向到 `claration/feather`，我的 fork 的 parent 已自动指向新归属（仓库名全小写 `feather`）。fork 自 claration/feather（原 khcrysalis/Feather，上游约 5.1k★）。⚠️ 需要开发者证书；免费账号签名 7 天过期需重签，付费账号 1 年。
+- **官方描述**：Free on-device iOS/iPadOS application manager/installer, using certificates part of the Apple Developer Program.
+
+#### [TrollFools](https://github.com/Hua2026-ai/TrollFools)
+
+- **上游**：[Lessica/TrollFools](https://github.com/Lessica/TrollFools) · ⭐ 3,679 · 语言 Swift · [官网/主页](https://havoc.app/package/trollfools) · fork 于 2026-11-11
+- **作用**：就地（in-place）注入 tweak / dylib 的注入器，基于 `insert_dylib` 与 **ChOma**（解析与重签名 Mach-O），SwiftUI 编写。README 原文：「Expected to work on all iOS versions supported by opa334's TrollStore（i.e. iOS 14.0 - 17.0）」。已知可注入目标：可移除的系统应用、已解密的 App Store 应用（即 TrollStore 装的应用）、以及「加密 App Store 应用 + 裸动态库」的组合。MIT 许可，最新 v4.4-257（2026-10-11）。⚠️ 仅对自有或已获授权的 App 使用；改包会破坏原 App 签名与完整性校验，部分 App 有反注入检测。
+- **官方描述**：In-place tweak injection with insert_dylib and ChOma.
+
+#### [TrollRecorder](https://github.com/Hua2026-ai/TrollRecorder)
+
+- **上游**：[Lessica/TrollRecorder](https://github.com/Lessica/TrollRecorder) · ⭐ 2,125 · 语言 Objective-C++ · [官网/主页](https://havoc.app/package/trollrecorder) · fork 于 2026-11-11
+- **作用**：免越狱通话录音工具（TrollStore 版），同作者（Lessica）出品。README 原文支持 **iOS 15.0 – 17.0，明确不支持 iOS 14**；另有越狱版 TrollRecorder JB 支持 RootHide / Dopamine / palera1n。功能含双向录音、自动接听、录音归档管理，是这个方向目前完成度最高的一个。最新 v4.7.5-3677（2026-10-12）。**AGPL-3.0**。⚠️ 官方说明不为 Bootstrap(RootHide) 与 NathanLR 提供额外支持，这两者请改用 TrollStore 版。⚠️ 通话录音的合法性各地差异很大，中国大陆司法实践中未经对方同意的录音通常不被采纳为证据且有合规风险，仅供个人留证用途，切勿外传或用于商业场景。
+- **官方描述**：(i18n/CLI) Not the first, but the best phone call recorder with TrollStore.
+
+#### [TrollDecrypt](https://github.com/Hua2026-ai/TrollDecrypt)
+
+- **上游**：[donato-fiore/TrollDecrypt](https://github.com/donato-fiore/TrollDecrypt) · ⭐ 876 · 语言 Objective-C · [官网/主页](https://havoc.app/package/trolldecrypt) · fork 于 2026-11-11
+- **作用**：在设备上直接解密已安装的 App 并导出成可再分发的 IPA，是**自研 dylib / 注入插件的前置工具**——想给某 App 写注入插件，第一步就是把它的二进制 dump 出来分析。需 TrollStore 环境；可用 Theos（`make package`）从源码构建。最新 v1.2.4。**注意：仓库根目录没有 LICENSE 文件**（GitHub 返回 404），即默认保留全部权利，严格来说不可再分发或用于衍生作品，仅作本地研究工具使用。⚠️ 解密他人 App 并进行二次分发属侵犯著作权；仅在自有 App 或已获授权、且符合当地法律的前提下用于安全研究。
+- **官方描述**：iOS IPA Decrypter for TrollStore
+
+#### [TrollSpeed](https://github.com/Hua2026-ai/TrollSpeed)
+
+- **上游**：[Lessica/TrollSpeed](https://github.com/Lessica/TrollSpeed) · ⭐ 852 · 语言 Objective-C++ · [官网/主页](https://havoc.app/package/trollspeed) · fork 于 2026-11-11
+- **作用**：在状态栏下方显示实时上传/下载网速的轻量 HUD 工具。实现方式为 TrollStore App 以 root 权限拉起 HUD 进程，技术栈是 TrollStore + `limneos/UIDaemon` + `lwlsw/NetworkSpeed13`。README：「Tested and expected to work on all iOS versions supported by opa334's TrollStore」。无线网络请求、无常驻副作用。最新 v2.0-13（2026-04-14）。MIT 许可。
+- **官方描述**：Shows upload & download speed below the status bar. Supports opa334's TrollStore.
+
+#### [Geranium](https://github.com/Hua2026-ai/Geranium)
+
+- **上游**：[c22dev/Geranium](https://github.com/c22dev/Geranium) · ⭐ 746 · 语言 Swift · fork 于 2026-11-11
+- **作用**：TrollStore 生态的多功能系统工具箱，四合一：**LocSim 虚拟定位**、守护进程（daemon）管理、系统清理、屏幕时间（ScreenTime）限制移除，另带设备状态监督。安装要求：TrollStore 1.3+、设备 iOS 15 或更高（前提是 TrollStore 本身支持该版本）。最新 1.1.4（2026-07-04）。**GPL-3.0**。⚠️ 虚拟定位会违反多数基于地理位置的服务条款（如打卡、社交、游戏），屏幕时间移除涉及绕过家长控制，请仅在自己拥有的设备上用于合理自用场景。
+- **官方描述**：LocSim, Daemon Manager, Cleaner, ScreenTime Remover and Superviser for TrollStore
+
 ### Kindle / 越狱与第三方系统（10）
 
 #### [koreader](https://github.com/Hua2026-ai/koreader)
 
-- **上游**：[koreader/koreader](https://github.com/koreader/koreader) · ⭐ 31,030 · 语言 Lua · [官网/主页](http://koreader.rocks/) · fork 于 2026-11-07
+- **上游**：[koreader/koreader](https://github.com/koreader/koreader) · ⭐ 31,032 · 语言 Lua · [官网/主页](http://koreader.rocks/) · fork 于 2026-11-07
 - **作用**：跨平台开源阅读前端（Lua 编写），支持 PDF / DjVu / EPUB / FB2 等格式，可运行在 Kindle、Kobo、PocketBook、Android 上；越狱后作为替代原厂阅读界面的主力应用。AGPL-3.0。fork 自 koreader/koreader（上游约 30.9k★）。
 - **官方描述**：An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices
 
@@ -676,7 +727,7 @@
 
 #### [alpine_kindle_kual](https://github.com/Hua2026-ai/alpine_kindle_kual)
 
-- **上游**：[schuhumi/alpine_kindle_kual](https://github.com/schuhumi/alpine_kindle_kual) · ⭐ 184 · 语言 Shell · fork 于 2026-11-07
+- **上游**：[schuhumi/alpine_kindle_kual](https://github.com/schuhumi/alpine_kindle_kual) · ⭐ 185 · 语言 Shell · fork 于 2026-11-07
 - **作用**：Alpine Linux on Kindle 的 KUAL 启动器：自动安装 kterm 依赖、一键下载部署 Alpine 镜像、启动桌面或进入 chroot shell、卸载系统。GPL-3.0。fork 自 schuhumi/alpine_kindle_kual（上游约 184★）。
 - **官方描述**：KUAL launcher to manage Alpine Linux for Kindle
 
@@ -706,101 +757,109 @@
 
 ## 总表
 
-
 | 仓库 | 上游 | ⭐ | 语言 | 分类 |
 | --- | --- | --- | --- | --- |
-| [awesome](https://github.com/Hua2026-ai/awesome) | [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 535,109 | - | 学习 / 资源索引 |
-| [public-apis](https://github.com/Hua2026-ai/public-apis) | [public-apis/public-apis](https://github.com/public-apis/public-apis) | 498,111 | Markdown | 学习 / 资源索引 |
-| [rea](https://github.com/Hua2026-ai/rea) | [morluto/rea](https://github.com/morluto/rea) | 451,290 | TypeScript | AI / 工具与 MCP |
-| [opencode](https://github.com/Hua2026-ai/opencode) | [anomalyco/opencode](https://github.com/anomalyco/opencode) | 226,019 | TypeScript | AI / 工具与 MCP |
-| [HelloGitHub](https://github.com/Hua2026-ai/HelloGitHub) | [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) | 188,139 | Python | 学习 / 资源索引 |
-| [claude-mem](https://github.com/Hua2026-ai/claude-mem) | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 116,020 | TypeScript | AI / 工具与 MCP |
-| [Agent-Reach](https://github.com/Hua2026-ai/Agent-Reach) | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 111,007 | Python | AI / 工具与 MCP |
-| [VoiceStudio](https://github.com/Hua2026-ai/VoiceStudio) | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 107,746 | Python | AI / 语音与视频生成 |
-| [HowToCook](https://github.com/Hua2026-ai/HowToCook) | [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) | 103,846 | - | 学习 / 资源索引 |
-| [crawl4ai](https://github.com/Hua2026-ai/crawl4ai) | [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) | 87,208 | Python | AI / 工具与 MCP |
-| [ChinaTextbook](https://github.com/Hua2026-ai/ChinaTextbook) | [TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook) | 84,373 | Roff | 学习 / 资源索引 |
-| [OpenMontage](https://github.com/Hua2026-ai/OpenMontage) | [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage) | 79,550 | Python | AI / 语音与视频生成 |
-| [HowToLiveBetter](https://github.com/Hua2026-ai/HowToLiveBetter) | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | 74,960 | HTML | 学习 / 资源索引 |
-| [up](https://github.com/Hua2026-ai/up) | [byoungd/up](https://github.com/byoungd/up) | 70,403 | JavaScript | 学习 / 资源索引 |
+| [awesome](https://github.com/Hua2026-ai/awesome) | [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 535,142 | - | 学习 / 资源索引 |
+| [public-apis](https://github.com/Hua2026-ai/public-apis) | [public-apis/public-apis](https://github.com/public-apis/public-apis) | 498,138 | Markdown | 学习 / 资源索引 |
+| [rea](https://github.com/Hua2026-ai/rea) | [morluto/rea](https://github.com/morluto/rea) | 451,425 | TypeScript | AI / 工具与 MCP |
+| [opencode](https://github.com/Hua2026-ai/opencode) | [anomalyco/opencode](https://github.com/anomalyco/opencode) | 226,035 | TypeScript | AI / 工具与 MCP |
+| [HelloGitHub](https://github.com/Hua2026-ai/HelloGitHub) | [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) | 188,150 | Python | 学习 / 资源索引 |
+| [claude-mem](https://github.com/Hua2026-ai/claude-mem) | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 116,030 | TypeScript | AI / 工具与 MCP |
+| [Agent-Reach](https://github.com/Hua2026-ai/Agent-Reach) | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 111,018 | Python | AI / 工具与 MCP |
+| [VoiceStudio](https://github.com/Hua2026-ai/VoiceStudio) | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 107,798 | Python | AI / 语音与视频生成 |
+| [HowToCook](https://github.com/Hua2026-ai/HowToCook) | [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) | 103,847 | - | 学习 / 资源索引 |
+| [crawl4ai](https://github.com/Hua2026-ai/crawl4ai) | [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) | 87,210 | Python | AI / 工具与 MCP |
+| [ChinaTextbook](https://github.com/Hua2026-ai/ChinaTextbook) | [TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook) | 84,378 | Roff | 学习 / 资源索引 |
+| [OpenMontage](https://github.com/Hua2026-ai/OpenMontage) | [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage) | 79,566 | Python | AI / 语音与视频生成 |
+| [HowToLiveBetter](https://github.com/Hua2026-ai/HowToLiveBetter) | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | 74,972 | HTML | 学习 / 资源索引 |
+| [up](https://github.com/Hua2026-ai/up) | [byoungd/up](https://github.com/byoungd/up) | 70,406 | JavaScript | 学习 / 资源索引 |
 | [Win11Debloat](https://github.com/Hua2026-ai/Win11Debloat) | [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) | 62,349 | PowerShell | 系统工具 |
-| [cleanyourtv](https://github.com/Hua2026-ai/cleanyourtv) | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | 56,229 | Java | 系统工具 |
-| [freellmapi](https://github.com/Hua2026-ai/freellmapi) | [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) | 50,480 | TypeScript | AI / 工具与 MCP |
-| [cobalt](https://github.com/Hua2026-ai/cobalt) | [imputnet/cobalt](https://github.com/imputnet/cobalt) | 45,974 | Svelte | 影音 / 下载 |
-| [VoxCPM](https://github.com/Hua2026-ai/VoxCPM) | [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) | 42,246 | Python | AI / 语音与视频生成 |
+| [cleanyourtv](https://github.com/Hua2026-ai/cleanyourtv) | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | 56,246 | Java | 系统工具 |
+| [freellmapi](https://github.com/Hua2026-ai/freellmapi) | [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) | 50,505 | TypeScript | AI / 工具与 MCP |
+| [cobalt](https://github.com/Hua2026-ai/cobalt) | [imputnet/cobalt](https://github.com/imputnet/cobalt) | 45,975 | Svelte | 影音 / 下载 |
+| [VoxCPM](https://github.com/Hua2026-ai/VoxCPM) | [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) | 42,252 | Python | AI / 语音与视频生成 |
 | [everyone-can-use-english](https://github.com/Hua2026-ai/everyone-can-use-english) | [ZuodaoTech/everyone-can-use-english](https://github.com/ZuodaoTech/everyone-can-use-english) | 39,632 | TypeScript | 学习 / 资源索引 |
-| [ai-website-cloner-template](https://github.com/Hua2026-ai/ai-website-cloner-template) | [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) | 38,991 | TypeScript | AI / 工具与 MCP |
-| [knowledge-work-plugins](https://github.com/Hua2026-ai/knowledge-work-plugins) | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | 35,416 | Python | AI / 工具与 MCP |
-| [koreader](https://github.com/Hua2026-ai/koreader) | [koreader/koreader](https://github.com/koreader/koreader) | 31,030 | Lua | Kindle / 越狱与第三方系统 |
-| [hypit](https://github.com/Hua2026-ai/hypit) | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 29,275 | TypeScript | AI / 工具与 MCP |
-| [craft-anything](https://github.com/Hua2026-ai/craft-anything) | [storytold/craft-anything](https://github.com/storytold/craft-anything) | 27,534 | Rust | AI / 工具与 MCP |
-| [moli](https://github.com/Hua2026-ai/moli) | [lexmount/moli](https://github.com/lexmount/moli) | 23,369 | Rust | AI / 工具与 MCP |
-| [agent-desktop](https://github.com/Hua2026-ai/agent-desktop) | [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) | 21,710 | Rust | AI / 工具与 MCP |
-| [OpenMausBot](https://github.com/Hua2026-ai/OpenMausBot) | [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | 20,964 | TypeScript | AI / 工具与 MCP |
-| [DroidDeck](https://github.com/Hua2026-ai/DroidDeck) | [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) | 19,380 | Kotlin | 系统工具 |
-| [gpu-unlock](https://github.com/Hua2026-ai/gpu-unlock) | [Zagitta/gpu-unlock](https://github.com/Zagitta/gpu-unlock) | 18,638 | C | 系统工具 |
+| [ai-website-cloner-template](https://github.com/Hua2026-ai/ai-website-cloner-template) | [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) | 38,996 | TypeScript | AI / 工具与 MCP |
+| [knowledge-work-plugins](https://github.com/Hua2026-ai/knowledge-work-plugins) | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | 35,421 | Python | AI / 工具与 MCP |
+| [koreader](https://github.com/Hua2026-ai/koreader) | [koreader/koreader](https://github.com/koreader/koreader) | 31,032 | Lua | Kindle / 越狱与第三方系统 |
+| [hypit](https://github.com/Hua2026-ai/hypit) | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 29,281 | TypeScript | AI / 工具与 MCP |
+| [craft-anything](https://github.com/Hua2026-ai/craft-anything) | [storytold/craft-anything](https://github.com/storytold/craft-anything) | 27,648 | Rust | AI / 工具与 MCP |
+| [moli](https://github.com/Hua2026-ai/moli) | [lexmount/moli](https://github.com/lexmount/moli) | 23,373 | Rust | AI / 工具与 MCP |
+| [TrollStore](https://github.com/Hua2026-ai/TrollStore) | [opa334/TrollStore](https://github.com/opa334/TrollStore) | 22,589 | Objective-C | iOS / 侧载与越狱工具 |
+| [agent-desktop](https://github.com/Hua2026-ai/agent-desktop) | [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) | 21,758 | Rust | AI / 工具与 MCP |
+| [OpenMausBot](https://github.com/Hua2026-ai/OpenMausBot) | [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | 20,996 | TypeScript | AI / 工具与 MCP |
+| [DroidDeck](https://github.com/Hua2026-ai/DroidDeck) | [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) | 19,390 | Kotlin | 系统工具 |
+| [gpu-unlock](https://github.com/Hua2026-ai/gpu-unlock) | [Zagitta/gpu-unlock](https://github.com/Zagitta/gpu-unlock) | 18,646 | C | 系统工具 |
 | [lingbot-map](https://github.com/Hua2026-ai/lingbot-map) | [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map) | 18,606 | Python | 车机 / 3D 与设计 |
-| [huobao-drama](https://github.com/Hua2026-ai/huobao-drama) | [chatfire-AI/huobao-drama](https://github.com/chatfire-AI/huobao-drama) | 17,237 | Vue | AI / 语音与视频生成 |
-| [peach](https://github.com/Hua2026-ai/peach) | [peach-mitao/peach](https://github.com/peach-mitao/peach) | 14,871 | Python | 影音 / 下载 |
-| [DiPlay](https://github.com/Hua2026-ai/DiPlay) | [shihabal3amri/DiPlay](https://github.com/shihabal3amri/DiPlay) | 13,630 | Kotlin | 车机 / 3D 与设计 |
-| [Horizon](https://github.com/Hua2026-ai/Horizon) | [Thysrael/Horizon](https://github.com/Thysrael/Horizon) | 13,619 | Python | AI / 工具与 MCP |
-| [patent-disclosure-skill](https://github.com/Hua2026-ai/patent-disclosure-skill) | [handsomestWei/patent-disclosure-skill](https://github.com/handsomestWei/patent-disclosure-skill) | 13,329 | Python | AI / 语音与视频生成 |
-| [Octop](https://github.com/Hua2026-ai/Octop) | [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 11,909 | Python | AI / 工具与 MCP |
-| [kimi-k3-in-c](https://github.com/Hua2026-ai/kimi-k3-in-c) | [FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c) | 11,730 | C | AI / 工具与 MCP |
-| [Wan2GP](https://github.com/Hua2026-ai/Wan2GP) | [deepbeepmeep/WanGP](https://github.com/deepbeepmeep/WanGP) | 11,584 | Python | AI / 语音与视频生成 |
+| [huobao-drama](https://github.com/Hua2026-ai/huobao-drama) | [chatfire-AI/huobao-drama](https://github.com/chatfire-AI/huobao-drama) | 17,239 | Vue | AI / 语音与视频生成 |
+| [peach](https://github.com/Hua2026-ai/peach) | [peach-mitao/peach](https://github.com/peach-mitao/peach) | 14,873 | Python | 影音 / 下载 |
+| [LiveContainer](https://github.com/Hua2026-ai/LiveContainer) | [LiveContainer/LiveContainer](https://github.com/LiveContainer/LiveContainer) | 14,085 | Swift | iOS / 侧载与越狱工具 |
+| [DiPlay](https://github.com/Hua2026-ai/DiPlay) | [shihabal3amri/DiPlay](https://github.com/shihabal3amri/DiPlay) | 13,632 | Kotlin | 车机 / 3D 与设计 |
+| [Horizon](https://github.com/Hua2026-ai/Horizon) | [Thysrael/Horizon](https://github.com/Thysrael/Horizon) | 13,630 | Python | AI / 工具与 MCP |
+| [patent-disclosure-skill](https://github.com/Hua2026-ai/patent-disclosure-skill) | [handsomestWei/patent-disclosure-skill](https://github.com/handsomestWei/patent-disclosure-skill) | 13,331 | Python | AI / 语音与视频生成 |
+| [Octop](https://github.com/Hua2026-ai/Octop) | [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 11,912 | Python | AI / 工具与 MCP |
+| [kimi-k3-in-c](https://github.com/Hua2026-ai/kimi-k3-in-c) | [FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c) | 11,746 | C | AI / 工具与 MCP |
+| [Wan2GP](https://github.com/Hua2026-ai/Wan2GP) | [deepbeepmeep/WanGP](https://github.com/deepbeepmeep/WanGP) | 11,585 | Python | AI / 语音与视频生成 |
 | [Windows-MCP](https://github.com/Hua2026-ai/Windows-MCP) | [CursorTouch/Windows-MCP](https://github.com/CursorTouch/Windows-MCP) | 11,504 | Python | AI / 工具与 MCP |
-| [clash](https://github.com/Hua2026-ai/clash) | [clashbk/clash](https://github.com/clashbk/clash) | 11,223 | - | 网络工具 / 代理客户端 |
+| [clash](https://github.com/Hua2026-ai/clash) | [clashbk/clash](https://github.com/clashbk/clash) | 11,226 | - | 网络工具 / 代理客户端 |
 | [mobile-mcp](https://github.com/Hua2026-ai/mobile-mcp) | [mobile-next/mobile-mcp](https://github.com/mobile-next/mobile-mcp) | 10,493 | TypeScript | AI / 工具与 MCP |
-| [cindy](https://github.com/Hua2026-ai/cindy) | [makecindy/cindy](https://github.com/makecindy/cindy) | 9,801 | TypeScript | AI / 工具与 MCP |
-| [goutoujunshi](https://github.com/Hua2026-ai/goutoujunshi) | [shengjidaguai-china/goutoujunshi](https://github.com/shengjidaguai-china/goutoujunshi) | 9,531 | Python | AI / 语音与视频生成 |
+| [cindy](https://github.com/Hua2026-ai/cindy) | [makecindy/cindy](https://github.com/makecindy/cindy) | 9,807 | TypeScript | AI / 工具与 MCP |
+| [goutoujunshi](https://github.com/Hua2026-ai/goutoujunshi) | [shengjidaguai-china/goutoujunshi](https://github.com/shengjidaguai-china/goutoujunshi) | 9,534 | Python | AI / 语音与视频生成 |
 | [rectg](https://github.com/Hua2026-ai/rectg) | [rooktwo/rectg](https://github.com/rooktwo/rectg) | 9,385 | Python | Telegram 导航 |
-| [CyberStrikeAI](https://github.com/Hua2026-ai/CyberStrikeAI) | [AIPentest/CyberStrikeAI](https://github.com/AIPentest/CyberStrikeAI) | 8,557 | Go | 安全 / OSINT 工具 |
-| [Mika](https://github.com/Hua2026-ai/Mika) | [wangzan101/Mika](https://github.com/wangzan101/Mika) | 8,168 | Kotlin | AI / 工具与 MCP |
-| [qingjian](https://github.com/Hua2026-ai/qingjian) | [qingjian-team/qingjian](https://github.com/qingjian-team/qingjian) | 7,765 | Rust | 系统工具 |
+| [CyberStrikeAI](https://github.com/Hua2026-ai/CyberStrikeAI) | [AIPentest/CyberStrikeAI](https://github.com/AIPentest/CyberStrikeAI) | 8,558 | Go | 安全 / OSINT 工具 |
+| [Mika](https://github.com/Hua2026-ai/Mika) | [wangzan101/Mika](https://github.com/wangzan101/Mika) | 8,181 | Kotlin | AI / 工具与 MCP |
+| [qingjian](https://github.com/Hua2026-ai/qingjian) | [qingjian-team/qingjian](https://github.com/qingjian-team/qingjian) | 7,768 | Rust | 系统工具 |
 | [boxplayer](https://github.com/Hua2026-ai/boxplayer) | [gaozhangmin/boxplayer](https://github.com/gaozhangmin/boxplayer) | 7,656 | TypeScript | 影音 / 下载 |
-| [android-ad-cleaner](https://github.com/Hua2026-ai/android-ad-cleaner) | [rddmwmddr/android-ad-cleaner](https://github.com/rddmwmddr/android-ad-cleaner) | 7,453 | Python | 系统工具 |
-| [geo-sleuth](https://github.com/Hua2026-ai/geo-sleuth) | [Oldcircle/geo-sleuth](https://github.com/Oldcircle/geo-sleuth) | 6,847 | Python | 安全 / OSINT 工具 |
-| [TelegramGroup](https://github.com/Hua2026-ai/TelegramGroup) | [itgoyo/TelegramGroup](https://github.com/itgoyo/TelegramGroup) | 6,477 | - | Telegram 导航 |
+| [android-ad-cleaner](https://github.com/Hua2026-ai/android-ad-cleaner) | [rddmwmddr/android-ad-cleaner](https://github.com/rddmwmddr/android-ad-cleaner) | 7,466 | Python | 系统工具 |
+| [SideStore](https://github.com/Hua2026-ai/SideStore) | [SideStore/SideStore](https://github.com/SideStore/SideStore) | 7,358 | Swift | iOS / 侧载与越狱工具 |
+| [geo-sleuth](https://github.com/Hua2026-ai/geo-sleuth) | [Oldcircle/geo-sleuth](https://github.com/Oldcircle/geo-sleuth) | 6,848 | Python | 安全 / OSINT 工具 |
+| [TelegramGroup](https://github.com/Hua2026-ai/TelegramGroup) | [itgoyo/TelegramGroup](https://github.com/itgoyo/TelegramGroup) | 6,478 | - | Telegram 导航 |
 | [SenseNova-Skills](https://github.com/Hua2026-ai/SenseNova-Skills) | [OpenSenseNova/SenseNova-Skills](https://github.com/OpenSenseNova/SenseNova-Skills) | 6,068 | JavaScript | AI / 语音与视频生成 |
 | [awesome-freellm-apis](https://github.com/Hua2026-ai/awesome-freellm-apis) | [open-free-llm-api/awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis) | 5,511 | Markdown | 学习 / 资源索引 |
-| [bloodborne_pc](https://github.com/Hua2026-ai/bloodborne_pc) | [Supermedo/bloodborne_pc](https://github.com/Supermedo/bloodborne_pc) | 5,323 | C++ | 系统工具 |
+| [bloodborne_pc](https://github.com/Hua2026-ai/bloodborne_pc) | [Supermedo/bloodborne_pc](https://github.com/Supermedo/bloodborne_pc) | 5,325 | C++ | 系统工具 |
+| [feather](https://github.com/Hua2026-ai/feather) | [claration/feather](https://github.com/claration/feather) | 5,074 | Swift | iOS / 侧载与越狱工具 |
 | [iPhone-use](https://github.com/Hua2026-ai/iPhone-use) | [zhongerxin/iPhone-use](https://github.com/zhongerxin/iPhone-use) | 4,978 | Python | AI / 工具与 MCP |
-| [Easel](https://github.com/Hua2026-ai/Easel) | [ZJU-REAL/Easel](https://github.com/ZJU-REAL/Easel) | 4,592 | Python | AI / 工具与 MCP |
-| [nvidia-macos-driver](https://github.com/Hua2026-ai/nvidia-macos-driver) | [nullmoth/nvidia-macos-driver](https://github.com/nullmoth/nvidia-macos-driver) | 4,288 | Rust | 系统工具 |
+| [Easel](https://github.com/Hua2026-ai/Easel) | [ZJU-REAL/Easel](https://github.com/ZJU-REAL/Easel) | 4,594 | Python | AI / 工具与 MCP |
+| [nvidia-macos-driver](https://github.com/Hua2026-ai/nvidia-macos-driver) | [nullmoth/nvidia-macos-driver](https://github.com/nullmoth/nvidia-macos-driver) | 4,292 | Rust | 系统工具 |
 | [floorplan-3d](https://github.com/Hua2026-ai/floorplan-3d) | [wy51ai/floorplan-3d](https://github.com/wy51ai/floorplan-3d) | 3,703 | HTML | 车机 / 3D 与设计 |
+| [TrollFools](https://github.com/Hua2026-ai/TrollFools) | [Lessica/TrollFools](https://github.com/Lessica/TrollFools) | 3,679 | Swift | iOS / 侧载与越狱工具 |
 | [chinese-poetry-api](https://github.com/Hua2026-ai/chinese-poetry-api) | [palemoky/chinese-poetry-api](https://github.com/palemoky/chinese-poetry-api) | 3,672 | Go | 学习 / 资源索引 |
-| [OpenNOW](https://github.com/Hua2026-ai/OpenNOW) | [OpenCloudGaming/OpenNOW](https://github.com/OpenCloudGaming/OpenNOW) | 3,566 | Rust | 系统工具 |
-| [dsh-im](https://github.com/Hua2026-ai/dsh-im) | [xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) | 3,488 | JavaScript | AI / 工具与 MCP |
+| [OpenNOW](https://github.com/Hua2026-ai/OpenNOW) | [OpenCloudGaming/OpenNOW](https://github.com/OpenCloudGaming/OpenNOW) | 3,565 | Rust | 系统工具 |
+| [dsh-im](https://github.com/Hua2026-ai/dsh-im) | [xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) | 3,489 | JavaScript | AI / 工具与 MCP |
 | [nanoMuse](https://github.com/Hua2026-ai/nanoMuse) | [nano-muse/nanoMuse](https://github.com/nano-muse/nanoMuse) | 3,404 | Swift | AI / 工具与 MCP |
 | [best-skills](https://github.com/Hua2026-ai/best-skills) | [xstongxue/best-skills](https://github.com/xstongxue/best-skills) | 3,162 | Python | AI / 工具与 MCP |
 | [Open-Source-Face-Recognition-SDK](https://github.com/Hua2026-ai/Open-Source-Face-Recognition-SDK) | [Faceplugin-ltd/Open-Source-Face-Recognition-SDK](https://github.com/Faceplugin-ltd/Open-Source-Face-Recognition-SDK) | 3,149 | Python | AI / 工具与 MCP |
 | [UFI-TOOLS](https://github.com/Hua2026-ai/UFI-TOOLS) | [kanoqwq/UFI-TOOLS](https://github.com/kanoqwq/UFI-TOOLS) | 3,092 | JavaScript | 网络工具 / 代理客户端 |
-| [3d-model-anything](https://github.com/Hua2026-ai/3d-model-anything) | [wesbos/3d-model-anything](https://github.com/wesbos/3d-model-anything) | 2,947 | Swift | 车机 / 3D 与设计 |
-| [S2Arm](https://github.com/Hua2026-ai/S2Arm) | [jhaizhou-ops/S2Arm](https://github.com/jhaizhou-ops/S2Arm) | 2,528 | C# | 系统工具 |
+| [3d-model-anything](https://github.com/Hua2026-ai/3d-model-anything) | [wesbos/3d-model-anything](https://github.com/wesbos/3d-model-anything) | 2,950 | Swift | 车机 / 3D 与设计 |
+| [S2Arm](https://github.com/Hua2026-ai/S2Arm) | [jhaizhou-ops/S2Arm](https://github.com/jhaizhou-ops/S2Arm) | 2,537 | C# | 系统工具 |
 | [12306-mcp](https://github.com/Hua2026-ai/12306-mcp) | [Joooook/12306-mcp](https://github.com/Joooook/12306-mcp) | 2,429 | JavaScript | AI / 工具与 MCP |
-| [videdown](https://github.com/Hua2026-ai/videdown) | [cshuangyy/videdown](https://github.com/cshuangyy/videdown) | 2,205 | TypeScript | 影音 / 下载 |
+| [videdown](https://github.com/Hua2026-ai/videdown) | [cshuangyy/videdown](https://github.com/cshuangyy/videdown) | 2,207 | TypeScript | 影音 / 下载 |
+| [TrollRecorder](https://github.com/Hua2026-ai/TrollRecorder) | [Lessica/TrollRecorder](https://github.com/Lessica/TrollRecorder) | 2,125 | Objective-C++ | iOS / 侧载与越狱工具 |
 | [omarchy-apple-dev](https://github.com/Hua2026-ai/omarchy-apple-dev) | [joshuaswarren/omarchy-apple-dev](https://github.com/joshuaswarren/omarchy-apple-dev) | 1,853 | Python | 系统工具 |
-| [pinky](https://github.com/Hua2026-ai/pinky) | [DIYgod/pinky](https://github.com/DIYgod/pinky) | 1,806 | Go | AI / 工具与 MCP |
+| [pinky](https://github.com/Hua2026-ai/pinky) | [DIYgod/pinky](https://github.com/DIYgod/pinky) | 1,811 | Go | AI / 工具与 MCP |
 | [mediary-scout](https://github.com/Hua2026-ai/mediary-scout) | [fancydirty/mediary-scout](https://github.com/fancydirty/mediary-scout) | 1,780 | TypeScript | 影音 / 下载 |
 | [playgta5](https://github.com/Hua2026-ai/playgta5) | [shadany7824/playgta5](https://github.com/shadany7824/playgta5) | 1,773 | JavaScript | 系统工具 |
 | [coolapk-desktop](https://github.com/Hua2026-ai/coolapk-desktop) | [daimiaopeng/coolapk-desktop](https://github.com/daimiaopeng/coolapk-desktop) | 1,688 | Vue | 系统工具 |
 | [better-douyin](https://github.com/Hua2026-ai/better-douyin) | [anYuJia/better-douyin](https://github.com/anYuJia/better-douyin) | 1,075 | TypeScript | 影音 / 下载 |
 | [android-airplay-server](https://github.com/Hua2026-ai/android-airplay-server) | [jqssun/android-airplay-server](https://github.com/jqssun/android-airplay-server) | 1,034 | Kotlin | 系统工具 |
-| [MacCheck](https://github.com/Hua2026-ai/MacCheck) | [andyhuo520/MacCheck](https://github.com/andyhuo520/MacCheck) | 914 | Swift | 系统工具 |
+| [MacCheck](https://github.com/Hua2026-ai/MacCheck) | [andyhuo520/MacCheck](https://github.com/andyhuo520/MacCheck) | 913 | Swift | 系统工具 |
 | [DSH-Android](https://github.com/Hua2026-ai/DSH-Android) | [jackwener/DSH-Android](https://github.com/jackwener/DSH-Android) | 912 | Kotlin | AI / 工具与 MCP |
+| [TrollDecrypt](https://github.com/Hua2026-ai/TrollDecrypt) | [donato-fiore/TrollDecrypt](https://github.com/donato-fiore/TrollDecrypt) | 876 | Objective-C | iOS / 侧载与越狱工具 |
+| [TrollSpeed](https://github.com/Hua2026-ai/TrollSpeed) | [Lessica/TrollSpeed](https://github.com/Lessica/TrollSpeed) | 852 | Objective-C++ | iOS / 侧载与越狱工具 |
 | [pi-purge](https://github.com/Hua2026-ai/pi-purge) | [ZiChuanLan/pi-purge](https://github.com/ZiChuanLan/pi-purge) | 776 | JavaScript | AI / 工具与 MCP |
-| [MarcoMovie](https://github.com/Hua2026-ai/MarcoMovie) | [Pilipala9919/MarcoMovie](https://github.com/Pilipala9919/MarcoMovie) | 745 | Java | 影音 / 下载 |
+| [MarcoMovie](https://github.com/Hua2026-ai/MarcoMovie) | [Pilipala9919/MarcoMovie](https://github.com/Pilipala9919/MarcoMovie) | 747 | Java | 影音 / 下载 |
+| [Geranium](https://github.com/Hua2026-ai/Geranium) | [c22dev/Geranium](https://github.com/c22dev/Geranium) | 746 | Swift | iOS / 侧载与越狱工具 |
 | [lipflow](https://github.com/Hua2026-ai/lipflow) | [amywork777/lipflow](https://github.com/amywork777/lipflow) | 707 | Python | AI / 语音与视频生成 |
 | [Microsoft-Rewards-Script](https://github.com/Hua2026-ai/Microsoft-Rewards-Script) | [chiihero/Microsoft-Rewards-Script](https://github.com/chiihero/Microsoft-Rewards-Script) | 662 | TypeScript | 系统工具 |
 | [Atria-Dawn-Preview](https://github.com/Hua2026-ai/Atria-Dawn-Preview) | [atria-asi/Atria-Dawn](https://github.com/atria-asi/Atria-Dawn) | 639 | - | AI / 工具与 MCP |
-| [house-plan-designer](https://github.com/Hua2026-ai/house-plan-designer) | [ZWD11/house-plan-designer](https://github.com/ZWD11/house-plan-designer) | 581 | HTML | 车机 / 3D 与设计 |
-| [DLSS5-Swapper-Chinese](https://github.com/Hua2026-ai/DLSS5-Swapper-Chinese) | [hezhixin15/DLSS5-Swapper-Chinese](https://github.com/hezhixin15/DLSS5-Swapper-Chinese) | 564 | JavaScript | 系统工具 |
+| [house-plan-designer](https://github.com/Hua2026-ai/house-plan-designer) | [ZWD11/house-plan-designer](https://github.com/ZWD11/house-plan-designer) | 582 | HTML | 车机 / 3D 与设计 |
+| [DLSS5-Swapper-Chinese](https://github.com/Hua2026-ai/DLSS5-Swapper-Chinese) | [hezhixin15/DLSS5-Swapper-Chinese](https://github.com/hezhixin15/DLSS5-Swapper-Chinese) | 563 | JavaScript | 系统工具 |
 | [KindleTool](https://github.com/Hua2026-ai/KindleTool) | [NiLuJe/KindleTool](https://github.com/NiLuJe/KindleTool) | 537 | C | Kindle / 越狱与第三方系统 |
 | [ProsperoStore](https://github.com/Hua2026-ai/ProsperoStore) | [darkxex/ProsperoStore](https://github.com/darkxex/ProsperoStore) | 524 | C++ | 系统工具 |
 | [MiAuto](https://github.com/Hua2026-ai/MiAuto) | [PiggyBackBayonet/MiAuto](https://github.com/PiggyBackBayonet/MiAuto) | 513 | Kotlin | 车机 / 3D 与设计 |
 | [kindlemodding.github.io](https://github.com/Hua2026-ai/kindlemodding.github.io) | [KindleModding/kindlemodding.github.io](https://github.com/KindleModding/kindlemodding.github.io) | 487 | HTML | Kindle / 越狱与第三方系统 |
 | [BiliMusic](https://github.com/Hua2026-ai/BiliMusic) | [HanversionOvO/BiliMusic](https://github.com/HanversionOvO/BiliMusic) | 471 | TypeScript | 影音 / 下载 |
-| [workbuddyskills](https://github.com/Hua2026-ai/workbuddyskills) | [infometa/workbuddyskills](https://github.com/infometa/workbuddyskills) | 436 | HTML | 学习 / 资源索引 |
+| [workbuddyskills](https://github.com/Hua2026-ai/workbuddyskills) | [infometa/workbuddyskills](https://github.com/infometa/workbuddyskills) | 437 | HTML | 学习 / 资源索引 |
 | [kterm](https://github.com/Hua2026-ai/kterm) | [bfabiszewski/kterm](https://github.com/bfabiszewski/kterm) | 410 | C | Kindle / 越狱与第三方系统 |
 | [YunGet](https://github.com/Hua2026-ai/YunGet) | [jiayuxuan123/YunGet](https://github.com/jiayuxuan123/YunGet) | 381 | Kotlin | 影音 / 下载 |
 | [muse-skills](https://github.com/Hua2026-ai/muse-skills) | [jasonbitsmith/muse-skills](https://github.com/jasonbitsmith/muse-skills) | 372 | - | AI / 工具与 MCP |
@@ -808,7 +867,7 @@
 | [playport](https://github.com/Hua2026-ai/playport) | [youcci/playport](https://github.com/youcci/playport) | 317 | Kotlin | 车机 / 3D 与设计 |
 | [official-swiplets](https://github.com/Hua2026-ai/official-swiplets) | [swipt-automation/official-swiplets](https://github.com/swipt-automation/official-swiplets) | 272 | TypeScript | 系统工具 |
 | [Hotfix](https://github.com/Hua2026-ai/Hotfix) | [KindleModding/Hotfix](https://github.com/KindleModding/Hotfix) | 236 | Shell | Kindle / 越狱与第三方系统 |
-| [alpine_kindle_kual](https://github.com/Hua2026-ai/alpine_kindle_kual) | [schuhumi/alpine_kindle_kual](https://github.com/schuhumi/alpine_kindle_kual) | 184 | Shell | Kindle / 越狱与第三方系统 |
+| [alpine_kindle_kual](https://github.com/Hua2026-ai/alpine_kindle_kual) | [schuhumi/alpine_kindle_kual](https://github.com/schuhumi/alpine_kindle_kual) | 185 | Shell | Kindle / 越狱与第三方系统 |
 | [yuan-shufang-formulas](https://github.com/Hua2026-ai/yuan-shufang-formulas) | [mason0510/yuan-shufang-formulas](https://github.com/mason0510/yuan-shufang-formulas) | 65 | Rust | 学习 / 资源索引 |
 | [workbuddy-toolkit](https://github.com/Hua2026-ai/workbuddy-toolkit) | [FlapPearLabs/workbuddy-toolkit](https://github.com/FlapPearLabs/workbuddy-toolkit) | 46 | Python | 系统工具 |
 | [Fastboot-Kindle](https://github.com/Hua2026-ai/Fastboot-Kindle) | [yifanlu/Fastboot-Kindle](https://github.com/yifanlu/Fastboot-Kindle) | 45 | C | Kindle / 越狱与第三方系统 |
@@ -816,7 +875,7 @@
 | [dsh-font-probe](https://github.com/Hua2026-ai/dsh-font-probe) | [lohana20061023-29/dsh-font-probe](https://github.com/lohana20061023-29/dsh-font-probe) | 26 | JavaScript | AI / 工具与 MCP |
 | [jianying-headless](https://github.com/Hua2026-ai/jianying-headless) | [GdLinkLock/jianying-headless](https://github.com/GdLinkLock/jianying-headless) | 26 | Python | AI / 语音与视频生成 |
 | [alpine_kindle](https://github.com/Hua2026-ai/alpine_kindle) | [thomaspreece/alpine_kindle](https://github.com/thomaspreece/alpine_kindle) | 22 | Shell | Kindle / 越狱与第三方系统 |
-| [CarUp](https://github.com/Hua2026-ai/CarUp) | [nobcdz/CarUp](https://github.com/nobcdz/CarUp) | 14 | - | 车机 / 3D 与设计 |
+| [CarUp](https://github.com/Hua2026-ai/CarUp) | [nobcdz/CarUp](https://github.com/nobcdz/CarUp) | 15 | - | 车机 / 3D 与设计 |
 | [kindle_modding_recovery_project](https://github.com/Hua2026-ai/kindle_modding_recovery_project) | [KindleModding/kindle_modding_recovery_project](https://github.com/KindleModding/kindle_modding_recovery_project) | 2 | C++ | Kindle / 越狱与第三方系统 |
 | [DiPlay-Legacy-Android](https://github.com/Hua2026-ai/DiPlay-Legacy-Android) | [programmerguohuajing/DiPlay-Legacy-Android](https://github.com/programmerguohuajing/DiPlay-Legacy-Android) | 0 | Kotlin | 车机 / 3D 与设计 |
 | [vibe-coding-cn](https://github.com/Hua2026-ai/vibe-coding-cn) | [tradecatlabs/vibe-coding-cn](https://github.com/tradecatlabs/vibe-coding-cn) | 0 | Python | 学习 / 资源索引 |
@@ -824,14 +883,13 @@
 
 ## 说明
 
-
 - 这些都是 fork（备份/收藏性质），不是我本人的原创项目，本账号下唯一的自建仓库是私有的 `test-ai`。
 - 本表按当前 fork 的实际状态生成，仅收录仍存在的仓库；历史清理过的不再列出。
 - 网络代理类项目仅作技术资料归档，实际使用请遵守所在地法律法规与服务商条款，请勿用于任何违法用途。
+- iOS / 侧载与越狱类工具依赖系统漏洞或非官方签名流程，可能导致设备不稳定或失去保修，仅供个人技术研究，请遵守当地法律与自己设备的授权范围。
 - 星标数取自上游仓库，会随时间变化；本表是 2026-11-11 的快照。
 
 ## 同步上游
-
 
 ```bash
 git clone <你的 fork 地址> && cd <仓库目录>
